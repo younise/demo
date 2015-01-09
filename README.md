@@ -1,4 +1,4 @@
-lowescott.github.io
+tenthirtyam.github.io
 ===================
 
-This is the GitHub repository for my weblog, which I migrated here from a self-hosted WordPress installation.
+GitHub Repository for Ryan Johnson // at tenthrityam.org.
