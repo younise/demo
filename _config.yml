@@ -1,0 +1,35 @@
+# Dependencies
+markdown:            kramdown
+highlighter:         pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           /:year/:month/:day/:title/
+relative_permalinks: true
+
+# Setup
+title:               "10:30 AM"
+tagline:             "All Things Under Analyzed"
+description:         "All Things Under Analyzed"
+baseurl:             /
+paginate:            10
+
+# About/contact
+author:
+  name:              Ryan Johnson //
+  url:               https://twitter.com/tenthirtyam
+  email:             ryan@tenthirtyam.org
+  github:            tenthirtyam
+  twitter:           tenthirtyam
+
+# Custom vars
+version:             1.0.0
+
+# Exclude Ruby gem stuff
+exclude:             ["vendor"]
+
+# Gems
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
