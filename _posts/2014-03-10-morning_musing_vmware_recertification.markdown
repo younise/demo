@@ -15,12 +15,12 @@ header-img: "img/post-bg-06.jpg"
 
 <p>To summarize the policy:</p>
 
-    <ul>
-        <li>VCP-level certification taken before 10 March 2013 will expire on 10 March 2015.</li>
+<ul>
+    <li>VCP-level certification taken before 10 March 2013 will expire on 10 March 2015.</li>
         <li>VCP-level certifications expire 2 years from the date the certification was achieved.</li>
-        <li>No course(s) are required to renew VCP certification(s).</li>
-        <li>Any VCP-level or higher exam will renew the VCP certification.</li>
-    </ul>
+    <li>No course(s) are required to renew VCP certification(s).</li>
+    <li>Any VCP-level or higher exam will renew the VCP certification.</li>
+</ul>
 
 <p>To learn more and to access the comprehensive FAQ, visit <a href="http://www.vmware.com/go/recertification" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://www.vmware.com/go/recertification', 'vmware.com/go/recertification/']);"  target="_blank">vmware.com/go/recertification/</a></p>
 
@@ -36,18 +36,18 @@ header-img: "img/post-bg-06.jpg"
 
 <p>For example:</p>
 
-    <ul>
-        <li><strong>VCP4-Datacenter Virtualization</strong> should be retired on <strong>21 May 2014</strong> with the <strong>exit of vSphere 4.x General Support</strong>.</li>
-        <li><strong>VCP5-Cloud</strong> should be retired on <strong>19 September 2017</strong> with the <strong>exit of vCloud Director 5.5 General Support</strong>.</li>
-        <li><strong>VCP5-DT</strong> should be retired on <strong>15 September 2016</strong> with the <strong>exit of Horizon View 5.x General Support</strong>.</li>
-    </ul>
+<ul>
+    <li><strong>VCP4-Datacenter Virtualization</strong> should be retired on <strong>21 May 2014</strong> with the <strong>exit of vSphere 4.x General Support</strong>.</li>
+    <li><strong>VCP5-Cloud</strong> should be retired on <strong>19 September 2017</strong> with the <strong>exit of vCloud Director 5.5 General Support</strong>.</li>
+    <li><strong>VCP5-DT</strong> should be retired on <strong>15 September 2016</strong> with the <strong>exit of Horizon View 5.x General Support</strong>.</li>
+</ul>
 
 <p>Granted, this approach may be a bit more complicated to implement; however, it serves some very specific needs.</p>
 
-    <ul>
-        <li>Changes the emotional response from &#8220;taking something away&#8221; to a career enablement and empowerment response.</li>
-        <li>Ensures individuals and businesses are prepared in advance to upgrade skills and platforms before products exit General Support.</li>
-    </ul>
+<ul>
+    <li>Changes the emotional response from &#8220;taking something away&#8221; to a career enablement and empowerment response.</li>
+    <li>Ensures individuals and businesses are prepared in advance to upgrade skills and platforms before products exit General Support.</li>
+</ul>
 
 <h4>Continuing Education</h4>
 
