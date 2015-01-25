@@ -7,7 +7,7 @@ author:     "Ryan Johnson"
 header-img: "img/post-bg-06.jpg"
 ---
 
-<<p>Have you ever wanted to quickly return some key CPU, Memory, Disk and Network metrics across hosts in a matter of seconds?</p>
+<p>Have you ever wanted to quickly return some key CPU, Memory, Disk and Network metrics across hosts in a matter of seconds?</p>
 <p>My customer and friend Vamshi Meda (<a href="http://twitter.com/medavamshi" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://twitter.com/medavamshi', '@medavamshi']);"  target="_blank">@medavamshi</a>) shared a very useful PowerCLI script that he wrote for some key near realtime (5min-interval) metrics for CPU, Memory, Disk and Network.</p>
 <p>This script will may assist help in troubleshooting a performance issue in near realtime.</p>
 <p>Download <a href="/docs/Get-Hosts_UsageStats.ps1" target="_blank">Get-Hosts_UsageStats.ps1</a> and run the following syntax:</p>
