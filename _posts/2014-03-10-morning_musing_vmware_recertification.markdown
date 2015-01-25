@@ -64,11 +64,11 @@ header-img: "img/post-bg-06.jpg"
 
 <p>If you take a look at my profile below I passed the following VCP-level exams.</p>
 
-    <ul>
-        <li>VCP5-DCV in September 2011 (Beta Exam)</li>
-        <li>VCP5-Cloud in October 2013</li>
-        <li>VCP5-DT in November 2013</li>
-    </ul>
+<ul>
+    <li>VCP5-DCV in September 2011 (Beta Exam)</li>
+    <li>VCP5-Cloud in October 2013</li>
+    <li>VCP5-DT in November 2013</li>
+</ul>
 
 <p>By virtue of the policy, I have passed<em> &#8220;any VCP&#8230;exam&#8221;</em> and my VCP5-Cloud and VCP5-DCV should have the same expiration as my VCP5-DT. This is not the case as seen below.</p>
 
