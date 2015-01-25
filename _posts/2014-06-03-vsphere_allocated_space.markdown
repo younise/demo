@@ -21,7 +21,7 @@ header-img: "img/post-bg-06.jpg"
 
 <p><img class="alignnone wp-image-2106" src="http://tenthirtyam.org/assets/DS-AllocatedSpace-vSphereClient1.jpg" alt="" width="800" height="458" /></p>
 
-<p>img class="alignnone wp-image-2107" src="http://tenthirtyam.org/assets/DS-AllocatedSpace-vSphereClient2-1024x153.jpg" alt="" width="800" height="120" /></p>
+<p><img class="alignnone wp-image-2107" src="http://tenthirtyam.org/assets/DS-AllocatedSpace-vSphereClient2-1024x153.jpg" alt="" width="800" height="120" /></p>
 
 <p><img class="alignnone wp-image-2108" src="http://tenthirtyam.org/assets/DS-AllocatedSpace-vSphereClient3.jpg" alt="" width="800" height="500" /></p>
 
