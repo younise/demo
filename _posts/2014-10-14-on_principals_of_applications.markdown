@@ -4,6 +4,8 @@ title:      "On Principes of Applications"
 subtitle:   "bFundamental Values"
 date:       2014-10-14 12:00:00
 author:     "Ryan Johnson"
+categories:
+- Enterprise Architecture
 header-img: "img/post-bg-01.jpg"
 ---
 
