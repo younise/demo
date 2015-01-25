@@ -12,10 +12,13 @@ description: All Things Under Analyzed</br> by Ryan Johnson
         <h3 class="post-subtitle">
             {{ post.subtitle }}
         </h3>
+        <h4 class="post-subtitle">
+            <a href="{{ post.url }}">Permalink</a>
+        </h4>
         {% endif %}
     </a>
     <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
-    <p>{{ post.content }} <a href="{{ post.url }}">Permalink</a>
+    <p>{{ post.content }} 
 </div>
 <hr>
 {% endfor %}
