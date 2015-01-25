@@ -3,7 +3,7 @@ title: Morning Hypertext Fragments
 header-img: img/home-bg.jpg
 email: ryan@tenthirtyam.ogg
 description: "MOrning Hypertext Fragments"
-baseurl: "/startbootstrap-clean-blog-jekyll"
+baseurl: "/"
 url: "http://tenthirtyam.org"
 twitter_username: tentirtyam
 github_username:  tenthirtyam
