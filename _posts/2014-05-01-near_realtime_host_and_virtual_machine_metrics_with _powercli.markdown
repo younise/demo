@@ -38,5 +38,13 @@ esx116.tenthirtyam.org 34.77 0.05 53.41 23.51 6.29</pre>
 </pre>
 <p>A sample output is provided below.</p>
 <pre>PowerCLI S:\&gt; .\Get-Hosts_UsageStats_VM.ps1 esx102.tenthirtyam.org
-Name CPUUsageAverage% CPUReady% MemUsageAverage% DiskUsageAverage_MBps NetUsage_MBps ---- ---------------- --------- ---------------- --------------------- ------------- vmexchcas01 76.78 0.39 30.52 0.16 6.43 vmexchmbx01 90.82 0.01 56.99 47.84 9.95 vmwwwapp01 3.39 0.03 3.25 0.04 0 vmwwwapp02 5.42 0.86 2.59 0.08 0.14 vmctxapp01 44.34 0.77 30.12 0.32 0.03 vmctxapp02 48.76 0.71 22.92 0.5 0.19 vmctxapp03 17.81 0.52 14.32 0.53 0.08</pre>
+Name CPUUsageAverage% CPUReady% MemUsageAverage% DiskUsageAverage_MBps NetUsage_MBps
+---- ---------------- --------- ---------------- --------------------- ------------- 
+vmexchcas01 76.78 0.39 30.52 0.16 6.43
+vmexchmbx01 90.82 0.01 56.99 47.84 9.95
+vmwwwapp01 3.39 0.03 3.25 0.04 0
+vmwwwapp02 5.42 0.86 2.59 0.08 0.14
+vmctxapp01 44.34 0.77 30.12 0.32 0.03
+vmctxapp02 48.76 0.71 22.92 0.5 0.19 
+vmctxapp03 17.81 0.52 14.32 0.53 0.08</pre>
 <p>Nice work, as always, Vamshi!</p>
