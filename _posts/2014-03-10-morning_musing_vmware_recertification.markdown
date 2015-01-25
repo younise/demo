@@ -49,11 +49,12 @@ header-img: "img/post-bg-06.jpg"
     <li>Ensures individuals and businesses are prepared in advance to upgrade skills and platforms before products exit General Support.</li>
 </ul>
 
+<p></p>
 <h4>Continuing Education</h4>
 
 <p>I am a believer in continuing education, and firmly believe that IT Professionals need ~10+ hours each week to maintain their  skills to stay relevant in the face of relentless change and innovation in technology. That’s a big commitment, and one that can be helped with continuing education.</p>
 
-<p>A continuing education unit (CEU) or continuing education credit (CEC) is a measure used in continuing education programs in order for the professional to maintain the license. Examples of people who need CEUs include: teachers, architects, engineers, educators, and health professionals. Generally, a CEU is defined as ten hours of participation in a recognized continuing education program, with qualified instruction and sponsorship. CEU records are widely used to provide evidence of completion of continuing education requirements mandated by certification bodies, professional societies, or governmental licensing boards.</p>
+<p>A continuing education unit (CEU) or continuing education credit (CEC) is a measure used in  continuing education programs in order for the professional to maintain the license. Examples of people who need CEUs include: teachers, architects, engineers, educators, and health professionals. Generally, a CEU is defined as ten hours of participation in a recognized continuing education program, with qualified instruction and sponsorship. CEU records are widely used to provide evidence of completion of continuing education requirements mandated by certification bodies, professional societies, or governmental licensing boards.</p>
 
 <p>As an alternative to requiring professionals to take an exam by a specific date to recertify, enable those to achieve success by completing CEU/Cs. These CEU/Cs could be credits from VMware Education Courses, VMware Partner University Courses, VMware <a href="http://vmware.com/go/topfeeecourses" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://vmware.com/go/topfeeecourses', 'free self-paced courses']);"  target="_blank">free self-paced courses</a>, presenting at VMUGs, VMworld, Partner Exchange and other events. These CEU/Cs would be counted and applied as credit towards keeping certifications relevant.</p>
 
