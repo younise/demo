@@ -9,6 +9,7 @@ url: "http://tenthirtyam.github.io"
 twitter_username: tenthirtyam
 github_username:  tenthirtyam
 facebook_username:  tenthirtyam
+disclaimer_url: /disclaimer
 # Build settings
 markdown: kramdown
 highlighter: pygments
