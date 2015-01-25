@@ -15,7 +15,7 @@ description: "by Ryan Johnson"
         {% endif %}
     </a>
     <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
-    <p>{{ post.content }} <a href="{{ post.url }}">(Read more...)</a>
+    <p>{{ post.content }} <a href="{{ post.url }}">Permalink</a>
 </div>
 <hr>
 {% endfor %}
