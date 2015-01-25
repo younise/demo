@@ -14,7 +14,7 @@ description: All Things Under Analyzed</br> by Ryan Johnson
         </h3>
         {% endif %}
     </a>
-    <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+    <p class="post-meta">{{ post.date | date: "%-d %B %Y" }}</p>
     <p>{{ post.content }} 
 </div>
 <hr>

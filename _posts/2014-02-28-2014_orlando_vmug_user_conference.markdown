@@ -34,8 +34,6 @@ header-img: "img/post-bg-06.jpg"
 <li><a href="http://blogs.vmware.com/kb/2014/02/top-20-vcenter-server-5-5-issues.html" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://blogs.vmware.com/kb/2014/02/top-20-vcenter-server-5-5-issues.html', 'Top 20 VMware vCenter Server 5.5 Issues']);"  target="_blank">Top 20 VMware vCenter Server 5.5 Issues</a></li>
 </ul>
 
-<p>&nbsp;</p>
-
 <h4>Want to Grab a Copy of the Presentations?</h4>
 
 <p>As promised, my presentations are available below:</p>
@@ -46,6 +44,6 @@ header-img: "img/post-bg-06.jpg"
 
 <h4>Special Thanks</h4>
 
-<p>Thank you to the sponsors as well as my friends and VMUG Co-Leaders, <a href="http://www.twitter.com/vHaroldGoodwin" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://www.twitter.com/vHaroldGoodwin', 'Harold Goodwin']);"  target="_blank">Harold Goodwin</a> and <a href="https://twitter.com/iamddavee" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://twitter.com/iamddavee', 'David Stamen']);"  target="_blank">David Stamen</a>, for organizing this epic event.</p>
+<p>Thank you to the sponsors as well as my friends and VMUG Co-Leaders, <a href="http://www.twitter.com/vHaroldGoodwin" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://www.twitter.com/vHaroldGoodwin', 'Harold Goodwin']);"  target="_blank">Harold Goodwin</a> and <a href="https://twitter.com/iamddavee" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://twitter.com/davidstamen', 'David Stamen']);"  target="_blank">David Stamen</a>, for organizing this epic event.</p>
 
 <p>Follow <a href="https://twitter.com/OrlandoVMUG" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://twitter.com/OrlandoVMUG', '@OrlandoVMUG']);"  target="_blank">@OrlandoVMUG</a> and join us for the next event.</p>
