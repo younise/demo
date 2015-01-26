@@ -40,7 +40,7 @@ The process by which domain teams and working groups develop Enterprise Architec
 This process ensures cross-organizatio representation, consensus, and alignment.
 
 At a high-level the process is as follows:
-<h4>I. Identify the Need for a New or Revised Standard, or Best Practice</h4>
+<h2>I. Identify the Need for a New or Revised Standard, or Best Practice</h2>
 Most of the time a stakeholder request (individual or governing body) leads to the identification of a need to establish or update a standard. However, there are other ways a need is identified. For example, the Enterprise Architecture Office may initiate an internal project that requires the organization-wide perspective that domain teams provide. Or, it is possible that the Requests for Comments (RFC) process is not able to produce a standard, in which case the Enterprise Architecture Office may decide to establish a domain team.
 
 After the need is identified, the Enterprise Architects may determine that a domain team is the most appropriate standards development process to meet the need.
@@ -52,7 +52,7 @@ After the need is identified, the Enterprise Architects may determine that a dom
 	<li>Stakeholders or Enterprise Architects determine a working group should be established.</li>
 </ul>
 
-<h4>II. Establish the Team</h4>
+<h2>II. Establish the Team</h2>
 
 Once the Enterprise Architecture Office determines that a domain team will be convened, they will define the scope of the domain team. Then, a formal request is sent to technology business unit directors and/or manager and other relevant stakeholders (as determined by the Enterprise Architecture Office) to nominate members for the domain team. The Enterprise Architecture Office then selects the team members.
 
@@ -69,7 +69,7 @@ A working group can also be convened to develop a standard or best practice. Wor
 	<li>Invitations are sent to domain team members, meetings are scheduled and rooms secured.</li>
 </ul>
 
-<h4>III. Conduct the Team</h4>
+<h2>III. Conduct the Team</h2>
 The domain team or working group begins its work with a formal orientation, or training, kickoff session, during which all members are informed of the work to be accomplished by the team and the plan to accomplish it. The domain team or working group then begins its work. The following are the basic steps each domain team or working group performs to develop their recommendations:
 
 <ul>
@@ -92,7 +92,7 @@ The domain team or working group begins its work with a formal orientation, or t
 	<li>Domain team checklist is updated.</li>
 </ul>
 
-<h4>IV. Produce Team Products</h4>
+<h2>IV. Produce Team Products</h2>
 
 After the domain team or working group completes its analysis and finalizes its recommendations, it documents its recommendations in the form of a summary presentation, which the team will present to the Enterprise Architecture Governance Committee or other governing bodies as needed.
 
@@ -103,7 +103,7 @@ After the domain team or working group completes its analysis and finalizes its 
 	<li>Draft RFC completed (working group only).</li>
 </ul>
 
-<h4>V.a Execute the Approval Process for Working Groups</h4>
+<h2>V.a Execute the Approval Process for Working Groups</h2>
 
 During this step the appropriate decision making authority(ies) review the working group's recommendations and either approve or reject the working group's proposed standard; or request further analysis. The RFC author then incorporates recommendations, if any, into the final RFC.
 
@@ -114,7 +114,7 @@ During this step the appropriate decision making authority(ies) review the worki
 	<li>An approved standard or best practice.</li>
 </ul>
 
-<h4>V.b Execute the Approval Process for Domain Teams</h4>
+<h2>V.b Execute the Approval Process for Domain Teams</h2>
 During this step the appropriate decision making authority(ies) review the domain team’s recommendations and either approve or reject the domain team’s recommendation; or request further analysis.
 
 The IT Management Committee Enterprise Architecture Subcommittee reviews the domain team reports, develops comments and recommendations on the disposition of the domain teams’ findings, and forwards the reports with their recommendations and findings to the Enterprise Architecture Governance Committee. The Enterprise Architecture Governance Committee is the approval authority for the architecture recommendations contained in the reports. The IT Governance Committee is the final authority on disputed recommendations from the domain teams’ findings and recommendations.
@@ -126,7 +126,7 @@ The IT Management Committee Enterprise Architecture Subcommittee reviews the dom
 	<li>An approved standard or best practice.</li>
 </ul>
 
-<h4>VI. Publicize the Approved Results</h4>
+<h2>VI. Publicize the Approved Results</h2>
 The Enterprise Architecture Program publishes the approved changes online to the Enterprise Architecture Program Library and notifies all Enterprise Architecture Program stakeholders.
 
 <strong>Exit Criteria</strong>:
