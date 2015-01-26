@@ -7,7 +7,7 @@ author:     "Ryan Johnson"
 header-img: "img/post-bg-06.jpg"
 ---
 
-<As an organization matures in its journey towards IT-as-a-Service, it becomes increasingly apparent that this is unachievable without increased workload virtualization.
+As an organization matures in its journey towards IT-as-a-Service, it becomes increasingly apparent that this is unachievable without increased workload virtualization.
 
 An organization must adapt its IT Governance and adopt a "<em>virtualization first"</em> policy for application workloads. Only then will they be on the path tp realize the full potential of the software-defined datacenter.
 

@@ -52,16 +52,17 @@ Should an escalation situation arise:
 	<li>Contact your TAM immediately and he/she will personally invoke the escalation process.</li>
 	<li>Speak with a Technical Support Duty Manager by calling 877-4VMWARE and request a severity increase for the SR.</li>
 </ul>
-<h3><strong>So, You Might Be Thinking...</strong></h3>
-<div><strong>1. Why I do not have an option of live support anymore</strong></div>
-<div></div>
-<div>
+<h3>So, You Might Be Thinking...</h3>
+
+<p>1. Why I do not have an option of live support anymore</p>
+
 <ul>
 	<li>Severity 1 SRs still have an option of getting live queue support.</li>
 	<li>This will eliminate the wait times if you are seeking support assistance on non-production down but urgent issues.</li>
 	<li>This will enable us to provide meaningful response towards the technical issues raised and quicker resolution times.</li>
 </ul>
-<strong>2. When I can expect contact from VMware GSS going forward for my SRs?</strong>
+
+<p>2. When I can expect contact from VMware GSS going forward for my SRs?</p>
 
 </div>
 <div>
@@ -72,25 +73,32 @@ Should an escalation situation arise:
 	<li>Production Severity 3 (S3) – 8 Business Hours</li>
 	<li>Production Severity 4 (S4) – 12 Business Hours</li>
 </ul>
-<strong>3. How do I contact VMware GSS / my TSE, if I need immediate help?</strong>
+
+<p>3. How do I contact VMware GSS / my TSE, if I need immediate help?</p>
+
 <ul>
 	<li>You can reach the TSE assigned to your SR by calling 877-4VMWARE and using our voice-recognition system. After entering your SR number your call will be routed to the assigned TSE.</li>
 	<li>Refer to support phone numbers at <a href="http://www.vmware.com/in/support/contacts/us_support.html" target="_blank">http://www.vmware.com/in/support/contacts/us_support.html</a>.</li>
 	<li>You can reach the assigned TSE by reviewing the Manager contact information available in TSEs email signature.</li>
 	<li>You can speak to a Customer Service Representative by calling 877-4VMWARE.</li>
 </ul>
-<strong>4. Does this change affect all VMware products and entitlements?</strong>
+
+<p>4. Does this change affect all VMware products and entitlements?</p>
+
 <ul>
 	<li>This change is applicable for only certain products which had live phone queue support options. (eg VMware vSphere, VMware vCenter Product Family, VMware Horizon Product Family, VMware vFabric...)</li>
 	<li>There is no change for products which were already classified as callback.</li>
 	<li>This change is applicable for only Production Support Entitlement.</li>
 </ul>
-<strong>5. If I have BCS or MCS support, do I still have an option of live phone queue support?</strong>
+
+<p>5. If I have BCS or MCS support, do I still have an option of live phone queue support?</p>
+
 <ul>
 	<li>Yes, these entitlement offerings will not change.</li>
 	<li>Learn more about <a href="http://www.vmware.com/support/services/bcs.html" target="_blank">Business Critical Support</a> and <a href="http://www.vmware.com/support/services/mission-critical.html" target="_blank">Mission Critical Support</a></li>
 </ul>
-<strong>6. How do I upgrade the severity of my SR?</strong>
+
+<p>6. How do I upgrade the severity of my SR?</p>
 
 </div>
 <div>
@@ -98,16 +106,22 @@ Should an escalation situation arise:
 	<li>Speak with a Customer Service Representative by calling 877-4VMWARE and request a severity increase for the SR, or</li>
 	<li>Reach out to the Support Manager by reviewing TSE email signature information and request severity raise for the SR.</li>
 </ul>
-<strong>7. How do I get access to live queue?</strong>
+
+<p>7. How do I get access to live queue?</p>
+
 <ul>
 	<li>If you are having a production down situations you will have access to live phone queue support provided that SR is severity 1.</li>
 	<li>Speak with a Customer Service Representatives or Duty Manager by calling 877-4VMWARE and request the severity be raised to Severity 1 for the SR if it is a production down situations. This will enable live queue access.</li>
 </ul>
-<strong>8. What are the definitions for VMware Severities?</strong>
+
+<p>8. What are the definitions for VMware Severities?</p>
+
 <ul>
 	<li>Refer to <a href="https://www.vmware.com/support/policies/severity.html" target="_blank">VMware Severity and Response Times</a> for severity definitions and VMware business hours.</li>
 </ul>
-<strong>9. What can I expect from this change? What’s in it for me?</strong>
+
+<p>9. What can I expect from this change? What’s in it for me?</p>
+
 <ul>
 	<li>Meaningful first response towards the technical issues logged with VMware GSS.</li>
 	<li>No wait times when seeking support assistance on non-production down but urgent issues.</li>
