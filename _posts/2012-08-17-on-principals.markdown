@@ -19,8 +19,6 @@ Principles consist of the principle statement, rationale, and implications. Thou
 
 Below are two example principles:
 
-<h5 style="padding-left: 30px;">Example 1</h5>
-
 <p style="padding-left: 30px;"><strong>Optimum Enterprise Benefit</strong></p>
 
 <p style="padding-left: 30px;">Architectural decisions will maximize the overall benefit by balancing the following criteria: accessibility, consistency, cost, diversity of business needs, flexibility, functionality, manageability, precision, risk, scalability, security, supportability and value.</p>
@@ -29,8 +27,6 @@ Below are two example principles:
 	<li style="padding-left: 30px;"><em>Rationale</em> - Architectures are to provide long term benefits to the enterprise. Therefore decisions must balance multiple criteria based on the business need.</li>
 	<li style="padding-left: 30px;"><em>Implications</em> - The business owner must prioritize criteria based on funding, governance and knowledge, skills and abilities of staff or available services. Criteria may receive different emphases in different situations.</li>
 </ul>
-
-<h5 style="padding-left: 30px;">Example 2</h5>
 
 <p style="padding-left: 30px;"><strong>Reusability of Components</strong></p>
 
