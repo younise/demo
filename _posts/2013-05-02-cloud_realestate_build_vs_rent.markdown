@@ -24,7 +24,7 @@ header-img: "img/post-bg-06.jpg"
 <ul>
     <li><strong>The Private Cloud</strong> ~ On Premise, Built with VMware vCloud Suite</li>
     <li><strong>The Partner Cloud</strong> ~ VMware vCloud Partner Ecosystem</li>
-<   li><a href="http://blogs.vmware.com/vcloud/2013/03/vmware-cloud-evaluation-and-vcloud-hybrid-service-whats-the-difference.html" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://blogs.vmware.com/vcloud/2013/03/vmware-cloud-evaluation-and-vcloud-hybrid-service-whats-the-difference.html', 'VMware vCloud Hybrid Service']);"  target="_blank"><strong>VMware vCloud Hybrid Service</strong></a> ~ VMware Branded and Operated Cloud Coming in 2013</li>
+    <li><a href="http://blogs.vmware.com/vcloud/2013/03/vmware-cloud-evaluation-and-vcloud-hybrid-service-whats-the-difference.html" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://blogs.vmware.com/vcloud/2013/03/vmware-cloud-evaluation-and-vcloud-hybrid-service-whats-the-difference.html', 'VMware vCloud Hybrid Service']);"  target="_blank"><strong>VMware vCloud Hybrid Service</strong></a> ~ VMware Branded and Operated Cloud Coming in 2013</li>
 </ul>
 
 <p>This model provides organizations the ability to the flexibility, security and assurance for all business workloads. Think of it way, you can <strong>Build</strong>, <strong>Rent</strong> and/or <strong>Integrate</strong> your business into the Hybrid Cloud.</p>
