@@ -2,7 +2,7 @@
 layout:     post
 title:      "Host Profile Compliance and SNMP Agent Configuration"
 subtitle:   ""
-date:       2012-02-12 12:00:00
+date:       2014-02-12 12:00:00
 author:     "Ryan Johnson"
 header-img: "img/post-bg-06.jpg"
 ---
