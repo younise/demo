@@ -1,7 +1,7 @@
 ---
 layout:         post
-title:          "VMware vCenter Server and Update Manager - Administration, Sizing and Maintenance"
-subtitle:       ""
+title:          "On VMware vCenter Server and Update Manager"
+subtitle:       "Administration, Sizing and Maintenance"
 date:           2012-06-19 12:00:00
 author:         "Ryan Johnson"
 published:      true
