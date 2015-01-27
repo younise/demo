@@ -7,6 +7,7 @@ author:         "Ryan Johnson"
 published:      true
 categories:     [Running]
 tags:           []
+permalink:      /running
 header-img:     "img/post-bg-01.jpg"
 ---
 
