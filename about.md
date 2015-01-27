@@ -6,6 +6,8 @@ description:    "Runner // Essentialist // Geek"
 header-img:     "img/about-bg.jpg"
 ---
 
+Hello.
+
 10:30 AM is an infrequently updated, chronologically ordered collection of hypertext fragments and all things under analyzed. A semi-coherent receptacle mixed with excerpts of technology, personal interests, and noteworthy items.
 
 It is written by Ryan Johnson, an avid husband, father, runner and technologist based in Orlando, Florida USA.
