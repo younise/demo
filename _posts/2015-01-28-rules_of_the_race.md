@@ -1,13 +1,13 @@
 ---
 layout:         post
 title:          "Rules of the Races"
-subtitle:       "For Newbies and Grand Masters"
+subtitle:       "Newbies through Grand Masters"
 date:           2015-01-28 12:00:00
 author:         "Ryan Johnson"
-published:      true
+published:      false
 categories:     [Running]
 tags:           []
-permalink:      /running
+permalink:      /rulesoftherace
 header-img:     "img/post-bg-01.jpg"
 ---
 
