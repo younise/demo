@@ -27,9 +27,9 @@ The day ended with the VMworld 2012 Party of course. This year’s party incorp
 	<li><strong>The Music Lab</strong> -  The VMware band, Elastic Sky opened the night up for the double-header rock concert that ended with the closing act of the party – <em>Jon Bon Jovi and The Kings of Suburbia!</em></li>
 </ul>
 
-<img class="size-full wp-image-419" title="VMworld 2012 Party" src="http://blogs.vmware.com/tam/files/2012/08/jbj2.jpg" alt="VMworld 2012 Party" width="528" height="396" /> Photo compliments of Scott Sauer, VMware Senior Systems Engineer[/caption]
+<img class="size-full wp-image-419" title="VMworld 2012 Party" src="http://blogs.vmware.com/tam/files/2012/08/jbj2.jpg" alt="VMworld 2012 Party" width="528" height="396" />
 
-<h3><span style="color: #0c8d63;">VMworld 2012 Top 10 Sessions</span></h3>
+<h3>VMworld 2012 Top 10 Sessions</h3>
 T
 he Top 10 Sessions for VMworld 2012 have been chosen by our conference attendees and this year we've made the presentations and videos publicly available to everyone!
 
@@ -95,9 +95,9 @@ Speaker: Greg Shields, Concentrated Technology
 <iframe src="http://www.youtube.com/embed/lMXxoYDu8YM?rel=0" frameborder="0" width="420" height="315"></iframe>
 
 Back for a second year, vExpert Greg Shields updates his top-rated, standing-room-only, save-your-kiester HA and DRS session for 2012. This one's not to miss. Everyone thinks HA and DRS are awesome technologies. But make a mistake in configuring either, and they'll crash your virtual infrastructure faster than you ever imagined. In his consulting travels, Greg has collected 19 of the biggest HA and DRS mistakes that'll kill your datacenter. Join him and discover how your VMware vSphere® cluster might be dangerously misconfigured and where exactly to adjust its settings for guaranteed protection. Join Greg and justify your VMworld attendance in just a single session. You’ll get the immediately-useable HA and DRS guidance that’ll have you remoting your systems from here to verify Greg’s mistakes aren’t also yours.
-<h3><span style="color: #0c8d63;">VMworld 2012 and the Women of Virtual Infrastructure</span></h3>
+<h3>VMworld 2012 and the Women of Virtual Infrastructure</h3>
 <img src="https://blogs.vmware.com/tam/wp-includes/js/tinymce/themes/advanced/img/trans.gif" alt="" width="560" height="315" data-mce-json="{'video':{},'params':{'src':'http://www.youtube.com/embed/M3dbfAjRS7M?rel=0','frameborder':'0'},'hspace':null,'vspace':null,'align':null,'bgcolor':null}" />
-<h3><span style="color: #0c8d63;">Watch the VMworldTV Day Three Recap</span></h3>
+<h3>Watch the VMworldTV Day Three Recap</h3>
 Catch a recap of the the third day and more of VMworld 2012 with VMworldTV. Check out <a href="http://www.youtube.com/vmworldtv" target="_blank">VMworldTV</a> for more awesome VMworld 2012 videos.
 
 <img src="https://blogs.vmware.com/tam/wp-includes/js/tinymce/themes/advanced/img/trans.gif" alt="" width="560" height="315" data-mce-json="{'video':{},'params':{'src':'http://www.youtube.com/embed/wVEtIWPn0as?rel=0','frameborder':'0'},'hspace':null,'vspace':null,'align':null,'bgcolor':null}" />
