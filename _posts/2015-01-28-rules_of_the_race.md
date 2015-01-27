@@ -4,7 +4,7 @@ title:          "Rules of the Races"
 subtitle:       "For Newbies and Grand Masters"
 date:           2015-01-28 12:00:00
 author:         "Ryan Johnson"
-published:      false
+published:      true
 categories:     [Running]
 tags:           []
 header-img:     "img/post-bg-01.jpg"
