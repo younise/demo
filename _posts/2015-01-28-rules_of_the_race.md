@@ -1,13 +1,13 @@
 ---
-layout:     post
-title:      "Rules of the Races"
-subtitle:   "For Newbies and Grand Masters"
-date:       2015-01-28 12:00:00
-author:     "Ryan Johnson"
-categories:
-- Running
-header-img: "img/post-bg-01.jpg"
-status:     "draft"
+layout:         post
+title:          "Rules of the Races"
+subtitle:       "For Newbies and Grand Masters"
+date:           2015-01-28 12:00:00
+author:         "Ryan Johnson"
+published:      false
+categories:     [Running]
+tags:           []
+header-img:     "img/post-bg-01.jpg"
 ---
 
 1. Be Aware And Respectful
