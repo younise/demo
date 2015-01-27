@@ -14,7 +14,7 @@ header-img: "img/post-bg-06.jpg"
 <pre>PowerCLI S:\&gt; .\Get-Hosts_UsageStats.ps1 &lt;hostname&gt;</pre>
 <p>A sample output is provided below.</p>
 
-
+<code>
 PowerCLI S:\&gt; .\Get-Hosts_UsageStats.ps1 esx1*
 Name CPUUsageAverage% CPUReady% MemUsageAverage% DiskUsageAverage_MBps NetUsage_MBps
 ---- ---------------- --------- ---------------- --------------------- -------------
@@ -34,7 +34,7 @@ esx113.tenthirtyam.org 26.43 0.14 63.19 70.49 92.22
 esx114.tenthirtyam.org 24.24 0.26 65.84 4.32 3.51
 esx115.tenthirtyam.org 20.88 0.05 54.27 7.39 4.35
 esx116.tenthirtyam.org 34.77 0.05 53.41 23.51 6.29
-
+</code>
 
 <p>After an offending host is identified, another script can be run against the same host to shows the VM with peak usage that may be causing the performance impact.</p>
 <p>Download <a href="/docs/Get-Hosts_UsageStats_VM.ps1" target="_blank">Get-Hosts_UsageStats_VM.ps1</a> and run the following syntax:</p>
