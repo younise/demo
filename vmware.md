@@ -105,7 +105,7 @@ Got a recommendation - <a href="http://twitter.com/tenthirtyam">let me know.</a>
 <ul>
 	<li><a href="http://www.vmware.com/go/hol/">vmware.com/go/hol/</a></li>
 </ul>
-<b style="line-height: 1.5em;">VMware Developer Resources </b><span style="line-height: 1.5em;">– Locate developer information to integrate with cloud computing services.</span>
+<b style="line-height: 1.5em;">VMware Developer Resources </b><span style="line-height: 1.5em;">– Locate developer information to integrate with cloud computing services.
 <ul>
 	<li><a href="http://www.vmware.com/go/sdk-api/">vmware.com/go/sdk-api/</a></li>
 	<li><a href="http://www.vmware.com/go/developer/">vmware.com/go/developer/</a></li>

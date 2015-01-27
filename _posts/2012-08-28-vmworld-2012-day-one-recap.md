@@ -16,6 +16,7 @@ The 9<sup>th</sup> annual VMworld launched with at literal bang during the VMwo
 <em><strong>But first...</strong></em>
 
 <h3>VMWORLD 2012 TAM CUSTOMER CENTRAL</h3>
+
 The first day of the inaugural <a href="http://blogs.vmware.com/tam/vmworld-2012-us-tam-customer-central.html" target="_blank">VMworld 2012 TAM Customer Central</a> which I'm a part of was a resounding success. This new and exclusive <em>TAM Customer-Only</em> room was designed to ensure that TAM Customers have the best possible experience during the conference. On Monday customers had exclusive access to VMware product managers and experts for in-depth technical deep dives and discussions, product road maps, technical previews, demos and more.
 
 Some of the topics that were covered included: <em>Trusted Cloud Controls</em>, <em>VMware vSphere 5.1 Technical Deepdive</em> and a <em>Cloud Infrastructure Roundtable</em>.

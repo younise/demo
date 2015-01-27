@@ -1,12 +1,12 @@
 ---
 layout:         post
 title:          "VMworld 2012 - Day Three Recap"
-subtitle:       "My first VMworld"
-date:           2012-09-06 12:00:00
+subtitle:       ""
+date:           2012-08-30 12:00:00
 author:         "Ryan Johnson"
 published:      true
 categories:     [Technology, VMware]
-tags:           []
+tags:           [VMworld]
 permalink:      
 header-img:     "img/post-bg-01.jpg"
 ---

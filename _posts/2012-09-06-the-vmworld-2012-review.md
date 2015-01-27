@@ -103,7 +103,7 @@ As Steve Herrod mentioned, available in three flavors of <a href="http://www.vm
 	<li><a href="http://www.vmware.com/resources/techresources/10300">Storage I/O Performance on VMware vSphere 5.1 over 16 Gigabit Fibre Channel</a> – Fibre Channel (FC) interconnect speed has increased to 16 gigabits per second (Gbps). To take full advantage of this enhancement, VMware vSphere 5.1 has added support for the 16Gb FC host bus adapter (HBA). This white paper illustrates the improvements in storage I/O throughput that vSphere gains when using a 16Gb FC HBA instead of an 8Gb FC HBA. In addition, this paper looks at the CPU efficiency of the vSphere host when handling the increased storage I/O.</li>
 </ul>
 
-On the second day of VMworld 2012 Steve Herrod, VMware’s Chief Technology Officer, discussed our vision and advancements in End-User Computing. In essence, organizations are moving away from managing physical devices and towards managing and securing a user’s corporate identity, corporate applications and business data. This has been known as the ‘post PC era‘. However, the connotation of ‘post PC’ doesn’t mean ‘<em>no PC</em>’, but instead it means ’<em><span style="text-decoration: underline;">not just a PC</span></em>’.
+On the second day of VMworld 2012 Steve Herrod, VMware’s Chief Technology Officer, discussed our vision and advancements in End-User Computing. In essence, organizations are moving away from managing physical devices and towards managing and securing a user’s corporate identity, corporate applications and business data. This has been known as the ‘post PC era‘. However, the connotation of ‘post PC’ doesn’t mean ‘<em>no PC</em>’, but instead it means ’<em><span style="text-decoration: underline;">not just a PC</em>’.
 
 In fact, people use multiple devices including desktops, laptops, tablets and mobile phones throughout their day. They seek unified, synchronize access on all their devices. This means that business apps and data are available in the most optimal and seamless way possible, safely and securely delivered to all your devices, no matter where you happen to be working from or from what device.
 
@@ -235,7 +235,7 @@ Check out the <a href="http://mylearn.vmware.com/mgrReg/plan.cfm?plan=17374&amp
 <h3>VMWARE PATCH NOTIFICATION</h3>
 These patches address several critical security issues. Detailed information regarding resolved and known issues and enhancements can be found in these Knowledge Base articles:
 
-16 August 2012 – VMware vCenter Server 5.0 Update 1b Patch: <a href="https://www.vmware.com/support/vsphere5/doc/vsp_vc50_u1b_rel_notes.html">Release Notes</a> | <span style="text-decoration: underline;"><a href="https://my.vmware.com/web/vmware/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/5_0.">Download</a></span>
+16 August 2012 – VMware vCenter Server 5.0 Update 1b Patch: <a href="https://www.vmware.com/support/vsphere5/doc/vsp_vc50_u1b_rel_notes.html">Release Notes</a> | <span style="text-decoration: underline;"><a href="https://my.vmware.com/web/vmware/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/5_0.">Download</a>
 <h3>VMWARE PRODUCT RELEASES</h3>
 <strong>VMware vCenter Operations Manager 5.0.3</strong>
 GA Date: 30 August 2012

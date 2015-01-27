@@ -119,7 +119,7 @@ header-img: "img/post-bg-06.jpg"
 
 <p><a href="http://blogs.vmware.com/tam" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://blogs.vmware.com/tam', '']);" ><img title="VMware TAM Program Blog" alt="VMware TAM Program Blog" src="/tp/.a/6a00d8341c328153ef017616f81eab970c-800wi" width="16" height="16" border="0" /></a>   <a href="http://twitter.com/vmwaretam" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://twitter.com/vmwaretam', '']);" ><img title="VMware TAM Program on Twitter - @VMwareTAM" alt="VMware TAM Program on Twitter - @VMwareTAM" src="/tp/.a/6a00d8341c328153ef016769032f77970b-800wi" width="16" height="16" border="0" /></a>   <a href="http://facebook.com/vmwaretam" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://facebook.com/vmwaretam', '']);" ><img title="VMware TAM Program on Facebook" alt="VMware TAM Program on Facebook" src="/tp/.a/6a00d8341c328153ef017743de2188970d-800wi" width="16" height="16" border="0" /></a>   <a href="http://www.vmware.com/go/tam/googleplus" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://www.vmware.com/go/tam/googleplus', '']);" ><img title="VMware TAM Program on Google+" alt="VMware TAM Program on Google+" src="/tp/.a/6a00d8341c328153ef017616f81e6a970c-800wi" width="17" height="17" border="0" /></a></p>
 
-<p><span style="color: #0c8d63;"><strong>No. 8</strong>:  Pack Smart</p>
+<p><strong>No. 8</strong>:  Pack Smart</p>
 
 <p>Business casual attire is appropriate for attending all General Sessions, Breakout Sessions and Hand-On Labs while casual attire is appropriate for the VMworld 2013 Party.</p>
 
@@ -133,11 +133,11 @@ header-img: "img/post-bg-06.jpg"
 
 <p>Start your time at the conference with good food and good conversation. Catch up with colleagues, talk to technology partners, bump into Knowledge Experts and enjoy some down time with professionals in your field at the Solutions Exchange.</p>
 
-<p><strong>Hall Crawl</strong> – <span style="color: #0c8d63;">Tuesday, August 27 | 4:30pm &#8211; 6:00pm</p>
+<p><strong>Hall Crawl</strong> – Tuesday, August 27 | 4:30pm &#8211; 6:00pm</p>
 
 <p>Enjoy a refreshing beverage while you see the latest products and services from over 250 exhibitors at the Solutions Exchange.</p>
 
-<p><strong>VMworld 2013 Party</strong> – <span style="color: #0c8d63;">Wednesday, August 28 | 7:30pm &#8211; 10:30pm</p>
+<p><strong>VMworld 2013 Party</strong> – Wednesday, August 28 | 7:30pm &#8211; 10:30pm</p>
 
 <p>This year’s VMworld party is the culmination of our 10th annual celebration!Join your VMworld community at AT&amp;T park, home of the San Francisco Giants, for an evening of fun, feasting, and fantastic entertainment. VMworld will transform the park with exciting carnival rides and interactive midway games with the stunning backdrop of the San Francisco Bay.</p>
 
@@ -161,7 +161,7 @@ header-img: "img/post-bg-06.jpg"
 
 <p>Check out the schedule of <a href="http://www.vmworld.com/community/gatherings" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://www.vmworld.com/community/gatherings', 'Gatherings, Tweetups, Parties and Activities']);" title="VMworld 2013 Gatherings, TweetUps, Parties and Activities"  target="_blank">Gatherings, Tweetups, Parties and Activities</a> are posted and being updated regularly up to VMworld.</p>
 
-<p><span style="color: #0c8d63;"><strong>No. 10.</strong> Don’t Worry, It’s Recorded</p>
+<p><strong>No. 10.</strong> Don’t Worry, It’s Recorded</p>
 
 <p>The fact is that you can’t attend everything. So remember, the General Sessions and most Breakout Sessions are being recorded. The sessions and recordings will be posted and accessible to your account on www.vmworld.com in the coming weeks after VMworld 2013. Catch the sessions that you missed or repeat those ones you want to review again in the comfort of your own home or office.</p>
 

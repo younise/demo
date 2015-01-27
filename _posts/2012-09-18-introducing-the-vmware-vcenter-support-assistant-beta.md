@@ -133,7 +133,7 @@ After selecting "View / Modify Existing SR" the user is displayed a list of Tec
 
 By selecting "Details" the user is able to view the details of the case as well as add additional comments directly from the VMware vCenter Support Assistant.
 
-<strong><span style="color: #0c8d63;">Cool Feature</span></strong> - <em>Notice that the VMware vCenter Support Assistant adds a comment to the case notes confirming the upload of the diagnostics to VMware.</em>
+<strong>Cool Feature</strong> - <em>Notice that the VMware vCenter Support Assistant adds a comment to the case notes confirming the upload of the diagnostics to VMware.</em>
 
 <a href="http://tenthirtyam.org/assets/vCenter-Support-Assistant-SR-Details.png"><img class="alignnone  wp-image-526" title="vCenter Support Assistant - SR Details" src="http://tenthirtyam.org/assets/vCenter-Support-Assistant-SR-Details-1024x535.png" alt="" width="467" height="244" />
 </a><strong>Figure 16:</strong> Support Request Details

@@ -1,6 +1,6 @@
 ---
 layout:         page
-group:          nav
+group:          
 title:          "Topics"
 description:    "All Things Under Analyzed"
 ---
