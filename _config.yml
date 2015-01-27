@@ -7,8 +7,8 @@ description: Morning Hypertext Fragments
 baseurl: ""
 url: "http://tenthirtyam.github.io"
 twitter_username: tenthirtyam
-github_username:  tenthirtyam
-linkedin_username:  tenthirtyam
+github_username: tenthirtyam
+linkedin_username: tenthirtyam
 disclaimer_url: /disclaimer
 # Build settings
 markdown: kramdown

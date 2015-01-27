@@ -1,10 +1,10 @@
 ---
-layout:     post
-title:      "On Standards"
-subtitle:   "10 Standards Selection Decision Criteria"
-date:       2012-08-16 12:00:00
-author:     "Ryan Johnson"
-header-img: "img/post-bg-06.jpg"
+layout:         post
+title:          "On Standards"
+subtitle:       "10 Standards Selection Decision Criteria"
+date:           2012-08-16 12:00:00
+author:         "Ryan Johnson"
+header-img:     "img/post-bg-06.jpg"
 ---
 
 When an individual, group or pulls the "It's a Standard" card, what's your reaction? Do you take it for face value or do you question the the "standard" and how it achieved this status?

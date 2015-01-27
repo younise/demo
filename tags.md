@@ -1,7 +1,7 @@
 ---
-layout: page
-title: Tags
-description: Content Tags
+layout:         page
+title:          "Tagged Posts"
+description:    ""
 ---
 
 {% include setup %}

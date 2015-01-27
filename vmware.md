@@ -5,13 +5,18 @@ description: "Online Resources Guide"
 header-img: "img/about-bg.jpg"
 ---
 
-<p>For a few years now I have maintained a compilation of bookmarks and a set of <strong>vmware.com/go/</strong> redirects  for my customers that I provided along with my recommendations and best practices for support. I'm transitioning this to this reference format and will continue to add VMware-hosted resources.
+For a few years now I have maintained a compilation of bookmarks and a set of <strong>vmware.com/go/</strong> redirects  for my customers that I provided along with my recommendations and best practices for support. I'm transitioning this to this reference format and will continue to add VMware-hosted resources.
 
 Got a recommendation - <a href="http://twitter.com/tenthirtyam">let me know.</a>
+
 <h2><b>Get Support</b></h2>
+
 <b>My VMware</b> – Provides you simplified management:
+
 <p style="padding-left: 30px;"><b>Simple.</b> Save time and resolve issues quickly with self-service capabilities and guided workflows.</p>
+
 <p style="padding-left: 30px;"><b>Flexible.</b> Control access to product license keys and support with user-based permissions within entitlement accounts.</p>
+
 <p style="padding-left: 30px;"><strong>Streamlined.</strong> Manage license keys and support, track support requests, evaluate products and download purchased products from a single site.</p>
 
 <ul>

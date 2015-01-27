@@ -7,9 +7,8 @@ author:     "Ryan Johnson"
 categories:
 - Running
 header-img: "img/post-bg-01.jpg"
+status:     "draft"
 ---
-
-Work in progress...
 
 1. Be Aware And Respectful
 “The number one important thing to remember is to be respectful of the other runners. If you are a walker, it is still important to pay attention to those who are racing and don’t walk four or five abreast. Give runners enough space to run their race; it is a race first and foremost.”
