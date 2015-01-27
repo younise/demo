@@ -1,18 +1,18 @@
-# Site settings
-owner: Ryan Johnson
-title: Morning Hypertext Fragments
-header-img: img/home-bg.jpg
-email: ryan@tenthirtyam.org
-description: Morning Hypertext Fragments
-baseurl: ""
-url: "http://tenthirtyam.github.io"
-twitter_username: tenthirtyam
-github_username: tenthirtyam
-linkedin_username: tenthirtyam
-disclaimer_url: /disclaimer
-# Build settings
-markdown: kramdown
-highlighter: pygments
-permalink: pretty
-paginate: 1
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+# Defaults
+title:              Morning Hypertext Fragments
+description:        All Things Under Analyzed
+owner:              Ryan Johnson
+header-img:         img/home-bg.jpg
+email:              ryan@tenthirtyam.org
+baseurl:        
+url:                http://tenthirtyam.github.io
+twitter_username:   tenthirtyam
+github_username:    tenthirtyam
+linkedin_username:  tenthirtyam
+
+# Conversion
+markdown:           kramdown
+highlighter:        pygments
+permalink:          pretty
+paginate:           1
+exclude:            ["less","node_modules","Gruntfile.js","package.json","README.md"]
