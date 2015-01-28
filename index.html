@@ -74,32 +74,14 @@ layout: default
         </article>
       {% endfor %}
     </div>
-
-    <!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
-    
-    
+        
     <nav class="pagination" role="navigation">
       {% if paginator.next_page %}
         <a class="newer-posts" href="/page{{paginator.next_page}}">&larr; Older posts</a>
       {% endif %}
-      <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
       {% if paginator.previous_page %}
         {% if paginator.page == 2 %}
-          <a class="older-posts" href="/">Newer posts &rarr;</a>
+          <a class="older-posts" href="/">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Newer posts &rarr;</a>
         {% else %}
           <a class="older-posts" href="/page{{paginator.previous_page}}">Newer posts &rarr;</a>
         {% endif %}
