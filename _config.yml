@@ -3,9 +3,9 @@ markdown: redcarpet
 highlighter: pygments
 
 # Site settings
-title: "Mediator"
+title: "Morning Hypertext Fragments"
 description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+   All Things Under Analyzed</br>by Ryan Johnson
 
 email: a-mail@mail.mail
 #blog logo
