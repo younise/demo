@@ -48,27 +48,13 @@
             <span class="post-reading-time"></span> read
           </div>
           <a name="topofpage"></a>
-          {{content}}
+         <section class="post-excerpt" itemprop="description">
+              <p>{{ post.content }}</p>
+            </section>
         </section>
           
           
           
-              <div class="cf frame">
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-          <div class="article-item">
-            <header class="post-header">
-              <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
-            </header>
-            <div class="post-meta">
-                <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-            </div>
-            <section class="post-excerpt" itemprop="description">
-              <p>{{ post.content }}</p>
-            </section>
-          </div>
-        </article>
-    </div>
-        
 
           
           
