@@ -19,11 +19,11 @@ The VMware vCenter Support Assistant is deployed as a virtual appliance and Inte
 
 <a href="http://tenthirtyam.org/assets/vCenter-Support-Assistant-How-It-Works.png"><img title="vCenter Support Assistant - How It Works" src="http://tenthirtyam.org/assets/vCenter-Support-Assistant-How-It-Works-1024x296.png" alt="" width="584" height="168" />
 </a><strong>Figure 1</strong>: VMware vCenter Support Assistant Conceptual View
-<p style="padding-left: 30px;"><strong>SUPPORTED PRODUCTS</strong></p>
+<p style="padding-left: 30px;"><strong>SUPPORTED PRODUCTS</strong>
 <p style="padding-left: 30px;"><strong>VMware vCenter Server: </strong>5.1*, 5.0* and 4.1
-<strong>VMware vSphere:</strong> 5.1, 5.0 and 4.1 (ESX/ESXi)</p>
-<p style="padding-left: 30px;">* Includes both VMware vCenter Server for Windows and the VMware vCenter Server Appliance.</p>
-<p style="padding-left: 30px;"><em><strong>NOTE</strong>: Internet access is not required for the VMware vCenter Server, but required for the VMware vCenter Support Assistant virtual appliance and vSphere Client. All files are sent using HTTPS.</em></p>
+<strong>VMware vSphere:</strong> 5.1, 5.0 and 4.1 (ESX/ESXi)
+<p style="padding-left: 30px;">* Includes both VMware vCenter Server for Windows and the VMware vCenter Server Appliance.
+<p style="padding-left: 30px;"><em><strong>NOTE</strong>: Internet access is not required for the VMware vCenter Server, but required for the VMware vCenter Support Assistant virtual appliance and vSphere Client. All files are sent using HTTPS.</em>
 Support Assistant can also help you to track and manage your existing Technical Support Requests. Easily view the status of any existing Support Request, add comments, reply to support engineer queries, and select further diagnostic information or other files to upload, such as screenshots.
 
 <strong>THE BETA PROGRAM</strong>

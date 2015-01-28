@@ -19,18 +19,18 @@ Principles consist of the principle statement, rationale, and implications. Thou
 
 Below are two example principles:
 
-<p style="padding-left: 30px;"><strong>Optimum Enterprise Benefit</strong></p>
+<p style="padding-left: 30px;"><strong>Optimum Enterprise Benefit</strong>
 
-<p style="padding-left: 30px;">Architectural decisions will maximize the overall benefit by balancing the following criteria: accessibility, consistency, cost, diversity of business needs, flexibility, functionality, manageability, precision, risk, scalability, security, supportability and value.</p>
+<p style="padding-left: 30px;">Architectural decisions will maximize the overall benefit by balancing the following criteria: accessibility, consistency, cost, diversity of business needs, flexibility, functionality, manageability, precision, risk, scalability, security, supportability and value.
 
 <ul style="padding-left: 30px;">
 	<li style="padding-left: 30px;"><em>Rationale</em> - Architectures are to provide long term benefits to the enterprise. Therefore decisions must balance multiple criteria based on the business need.</li>
 	<li style="padding-left: 30px;"><em>Implications</em> - The business owner must prioritize criteria based on funding, governance and knowledge, skills and abilities of staff or available services. Criteria may receive different emphases in different situations.</li>
 </ul>
 
-<p style="padding-left: 30px;"><strong>Reusability of Components</strong></p>
+<p style="padding-left: 30px;"><strong>Reusability of Components</strong>
 
-<p style="padding-left: 30px;">The enterprise will be built on loosely-coupled, reusable modular components that implement services.</p>
+<p style="padding-left: 30px;">The enterprise will be built on loosely-coupled, reusable modular components that implement services.
 
 <ul style="padding-left: 30px;">
 	<li style="padding-left: 30px;"><em>Rationale</em> - Reusable components provide opportunities to reduce IT development costs and development time. Reusable components leverage investments in existing IT systems. Modular components improve the ability of systems to adapt to changing requirements because the changes will be isolated to affected modules.</li>

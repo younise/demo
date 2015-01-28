@@ -15,7 +15,7 @@ Principles consist of the principle statement, rationale, and implications. Thou
 
 In my prior role as an Enterprise Architect, I used the following Principles for the foundation of the Enterprise Applications. Even with the changes in the industry since I last wrote these  - public, private and hybrid cloud computing, dev-ops, etc - these principles have been steadfast.
 
-Though, perhaps I could spend some time and update them...</p>
+Though, perhaps I could spend some time and update them...
 <h2>Application Integration</h2>
 Enterprise applications will include known, published mechanisms for integration.
 <ul>
