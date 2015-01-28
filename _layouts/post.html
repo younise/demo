@@ -59,7 +59,7 @@
                     </div>
                     {% endif %}
                     {% if page.next.url %}
-                    <div class="next">
+                    <div class="previous">
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
                     </div>
                     {% endif %}
