@@ -61,8 +61,8 @@
             <div class="post-meta">
                 <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
             </div>
-            <section class="post-excerpt" itemprop="description">
-              <p>{{ page.content }}</p>
+            <section class="post-excerpt">
+              <p>{{ content }}</p>
             </section>
           </div>
         </article>
