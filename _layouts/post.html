@@ -51,6 +51,7 @@
           {{content}}
         </section>
            
+          <center>
           <span class="pagination">
                               {% if page.previous.url %}
                     <span class="newer-posts">
@@ -60,11 +61,11 @@
         
                     {% if page.next.url %}
                     <span class="older-posts">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbspNewer &rarr;</a>
+                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; Newer &rarr;</a>
                     </span>
                     {% endif %}
       </span>
-
+        </center>
 
           
           
