@@ -7,7 +7,7 @@ author:         "Ryan Johnson"
 published:      true
 categories:     [Technology, VMware]
 tags:           [VMware]
-permalink:      [/vmware, /:year/:month/:day/:title/]
+permalink:      
 header-img:     "img/post-bg-01.jpg"
 ---
 
