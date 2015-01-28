@@ -1,6 +1,5 @@
 ---
 layout: page
-group: nav
 title: "Ask"
 description: "No Anonimity."
 header-img: "img/about-bg.jpg"
