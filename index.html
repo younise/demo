@@ -77,13 +77,13 @@ layout: default
         
     <nav class="pagination" role="navigation">
       {% if paginator.next_page %}
-        <a class="newer-posts" href="/page{{paginator.next_page}}">&larr; Older posts</a>
+        <a class="newer-posts" href="/page{{paginator.next_page}}">&larr; Previous</a>
       {% endif %}
       {% if paginator.previous_page %}
         {% if paginator.page == 2 %}
-          <a class="older-posts" href="/">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Newer posts &rarr;</a>
+          <a class="older-posts" href="/">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Newer &rarr;</a>
         {% else %}
-          <a class="older-posts" href="/page{{paginator.previous_page}}">Newer posts &rarr;</a>
+          <a class="older-posts" href="/page{{paginator.previous_page}}">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Newer &rarr;</a>
         {% endif %}
       {% endif %}
     </nav>
