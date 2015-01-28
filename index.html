@@ -23,7 +23,11 @@ layout: default
             &nbsp;&nbsp;·&nbsp;&nbsp;
         {% endif %}
       {% endfor %}
-      <a href="/about/">About</a>
+
+                {% for page in site.pages %}{% if page.group =="nav" %}
+                <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> |
+                {% endif %}{% endfor %}
+
     </div>
 </header>
 
