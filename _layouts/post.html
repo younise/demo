@@ -49,12 +49,25 @@
           </div>
           <a name="topofpage"></a>
          <section class="post-excerpt" itemprop="description">
-              <p>{{ page.content }}</p>
+              <p>{{ content }}</p>
             </section>
         </section>
           
           
           
+              <div class="cf frame">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <div class="article-item">
+            <div class="post-meta">
+                <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
+            </div>
+            <section class="post-excerpt" itemprop="description">
+              <p>{{ page.content }}</p>
+            </section>
+          </div>
+        </article>
+    </div>
+        
 
           
           
