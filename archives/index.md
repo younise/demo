@@ -4,9 +4,9 @@ group:          nav
 title:          "Dust Bin"
 description:    "Previously on..."
 
-#{% include setup %}
+{% include setup %}
 
-#{% assign posts_collate = site.posts %}
+{% assign posts_collate = site.posts %}
 
-#{% include posts_collate %}
----
+{% include posts_collate %}
+
