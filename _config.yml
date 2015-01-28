@@ -1,6 +1,7 @@
 #blog logo
 logo: "/assets/images/logo.jpg"
 home: "/assets/images/home.jpg"
+avatar: "/assets/images/avatar.jpg"
 # blog cover
 cover: "/assets/images/home-bg.jpg"
 
