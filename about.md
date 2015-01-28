@@ -1,5 +1,6 @@
 ---
 layout:         page
+group:          nav
 title:          "About"
 subtitle:       "Runner // Essentialist // Geek"
 published:      true
