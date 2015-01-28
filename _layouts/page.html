@@ -18,11 +18,6 @@
               <div class="author-image" style="background-image: url({{ site.author_image }})">Blog Logo</div>
               <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ site.author }}</h4>
             </div>
-            <div style="text-align:center">
-                 <section class="post-content">
-          <div class="post-reading">
-            <span class="post-reading-time"></span> read
-          </div>
               <a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a>
             </div>
           </div>
@@ -42,6 +37,9 @@
         <br>
         {% endif %}
         <section class="post-content">
+          <div class="post-reading">
+            <span class="post-reading-time"></span> read
+          </div>
           <a name="topofpage"></a>
           {{content}}
         </section>
