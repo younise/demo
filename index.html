@@ -17,7 +17,7 @@ layout: default
     <div class="custom-links">
       {% for social in site.social %}
         {% if social.url %}
-            &nbsp;&nbsp;&nbsp;<a class="icon-{{ social.icon }}" href="{{ social.url }}">
+            &nbsp;&nbsp;<a class="icon-{{ social.icon }}" href="{{ social.url }}">
               <i class="fa fa-{{ social.icon }}"></i>&nbsp;&nbsp;&nbsp;
             </a>
         {% endif %}
