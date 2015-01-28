@@ -30,6 +30,6 @@ relative_permalinks: true
 exclude:            ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # Gems
-gems:
-  - jekyll-redirect-from
-  - jekyll-sitemap
+#gems:
+#  - jekyll-redirect-from
+#  - jekyll-sitemap
