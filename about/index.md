@@ -6,7 +6,6 @@ subtitle:       "Runner // Essentialist // Geek"
 published:      true
 categories:     []
 tags:           []
-permalink:      /about
 header-img:     "img/about-bg.jpg"
 ---
 
