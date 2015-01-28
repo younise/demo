@@ -2,7 +2,7 @@
 layout:         page
 title:          "Ryan Johnson"
 description:    "Yeah, he's cool."
-image:     "img/about-bg.jpg"
+image:     "img/post-bg-01.jpg"
 ---
 
 <h1>60% Water. 40% Geek.</h1>
