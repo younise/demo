@@ -1,6 +1,6 @@
 ---
 layout:         post
-title:          "VMware Online Resources Guide"
+title:          "VMware Online Resource Guide"
 subtitle:       "Updated 01 January 2015"
 date:           2015-01-01 12:00:00
 author:         "Ryan Johnson"
