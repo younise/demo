@@ -38,12 +38,12 @@
         {% endif %}
         <section class="post-content">
           <div class="post-reading">
-        <p class="post-meta">
+        <span class="post-meta">
               
                           {% for page in site.pages %}{% if page.group =="nav" %}
                | <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> |
                 {% endif %}{% endfor %}
-            </p>>
+            </span>
               
               
           </div>
