@@ -1,35 +1,53 @@
-# Setup
-title:              Morning Hypertext Fragments
-description:        All Things Under Analyzed
-owner:              Ryan Johnson
-header-img:         img/home-bg.jpg
-email:              ryan@tenthirtyam.org
-baseurl:            
-url:                http://tenthirtyam.github.io
-paginate:           1
+# Build settings
+markdown: redcarpet
+highlighter: pygments
 
-# Author
-author:
-  name:             Ryan Johnson
-  url:              https://twitter.com/scott_lowe
-  email:            ryan@tenthirtyam.org
-  github:           tenthirtyam
-  twitter:          tenthirtyam
-  linkedin:         tenthirtyam
+# Site settings
+title: "Mediator"
+description: > # this means to ignore newlines until "email:"
+   A Jekyll theme - Medium inspired
 
-# Dependancies
-markdown:           kramdown
-highlighter:        pygments
+email: a-mail@mail.mail
+#blog logo
+logo: "/assets/images/df_logo.jpg"
+# blog cover
+cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
 
-# Permalinks
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           /:year/:month/:day/:title/
-#relative_permalinks: true
+name: 'Dirk Fabisch'
+author: 'Dirk Fabisch'
+author_image: "/assets/images/author.jpg"
 
-# Exclude Ruby gem stuff
-exclude:            ["less","node_modules","Gruntfile.js","package.json","README.md"]
+paginate:	5
 
-# Gems
-#gems:
-#  - jekyll-redirect-from
-#  - jekyll-sitemap
+url: "http://myblog.***.***" # the base hostname & protocol for your site
+baseurl: ""
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/dirkfabisch
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: //www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/dirkfabisch
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
