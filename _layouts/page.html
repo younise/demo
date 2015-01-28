@@ -38,7 +38,14 @@
         {% endif %}
         <section class="post-content">
           <div class="post-reading">
-            <span class="post-reading-time"></span> read
+        
+              
+                          {% for page in site.pages %}{% if page.group =="nav" %}
+               | <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> |
+                {% endif %}{% endfor %}
+        </p>
+              
+              
           </div>
           <a name="topofpage"></a>
           {{content}}
