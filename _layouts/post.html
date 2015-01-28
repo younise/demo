@@ -51,19 +51,19 @@
           {{content}}
         </section>
            
-          <div class="pagination">
+          <span class="pagination">
                               {% if page.previous.url %}
-                    <div class="newer-posts">
+                    <span class="newer-posts">
                         <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous</a>
-                    </div>
+                    </span>
                     {% endif %}
         
                     {% if page.next.url %}
-                    <div class="older-posts">
+                    <span class="older-posts">
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Newer &rarr;</a>
-                    </div>
+                    </span>
                     {% endif %}
-      </div>
+      </span
 
 
           
