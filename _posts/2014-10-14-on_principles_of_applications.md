@@ -16,7 +16,7 @@ Principles consist of the principle statement, rationale, and implications. Thou
 In my prior role as an Enterprise Architect, I used the following Principles for the foundation of the Enterprise Applications. Even with the changes in the industry since I last wrote these  - public, private and hybrid cloud computing, dev-ops, etc - these principles have been steadfast.
 
 Though, perhaps I could spend some time and update them...
-<h2>Application Integration</h2>
+<h3>Application Integration</h3>
 
 Enterprise applications will include known, published mechanisms for integration.
 
@@ -25,7 +25,7 @@ Enterprise applications will include known, published mechanisms for integratio
 	<li><em>Implications –</em></li>
 </ul>
 
-<h2>Standards Compliance</h2>
+<h3>Standards Compliance</h3>
 
 Developers of enterprise applications will comply with all enterprise  standards in effect at the time. This principle applies to internal or outsourced development and to COTS software, although to a lesser extent.
 
@@ -34,7 +34,7 @@ Developers of enterprise applications will comply with all enterprise  standard
 	<li><em>Implications –</em></li>
 </ul>
 
-<h2>Application Ownership</h2>
+<h3>Application Ownership</h3>
 
 Applications will have an identified business owner and technical owner or lead.
 
@@ -44,7 +44,7 @@ Applications will have an identified business owner and technical owner or lead.
 	<li><em>Comment – </em>Applications will have an identified business owner and technical owner or lead. The owners will share responsibility for the application, with the business owner taking the lead on business matters and the technical owner taking the lead on technical matters.</li>
 </ul>
 
-<h2>Application Documentation</h2>
+<h3>Application Documentation</h3>
 
 Enterprise applications will be documented, both internally and externally.
 
@@ -53,7 +53,7 @@ Enterprise applications will be documented, both internally and externally.
 	<li><em>Implications – </em>Documentation standards need to be developed.</li>
 </ul>
 
-<h2>Business Alignment</h2>
+<h3>Business Alignment</h3>
 
 Applications will have a stated business purpose. If there are multiple business purposes, they will be closely related.
 
@@ -63,7 +63,7 @@ Applications will have a stated business purpose. If there are multiple busines
 	<li><em>Comment – </em>This principle is a well-known tenet of information engineering.</li>
 </ul>
 
-<h2>Decision Analysis for Acquisition</h2>
+<h3>Decision Analysis for Acquisition</h3>
 
 A decision to custom build can be made only after an analysis that considers other sources such as COTS and Open Source alternatives.
 
@@ -73,7 +73,7 @@ A decision to custom build can be made only after an analysis that considers oth
 	<li><em>Comment – </em>No one alternative is favored for all cases.</li>
 </ul>
 
-<h2>Application Scope Definition</h2>
+<h3>Application Scope Definition</h3>
 
 Enterprise Applications will meet broad needs. The requirements and design will be published prior to development, and all business units will have the opportunity to comment.
 
@@ -82,7 +82,7 @@ Enterprise Applications will meet broad needs. The requirements and design will 
 	<li><em>Implications – </em>The project plan will provide for this. Adequate communication methods will be developed.</li>
 </ul>
 
-<h2>Software Configuration and Change Management (SCCM)</h2>
+<h3>Software Configuration and Change Management (SCCM)</h3>
 
 The Software Configuration and Change Management (SCCM) process will be documented and all parties will adhere to it.
 
@@ -91,7 +91,7 @@ The Software Configuration and Change Management (SCCM) process will be document
 	<li><em>Implications – </em>Developers and maintainers of enterprise applications will have a CM process.</li>
 </ul>
 
-<h2>Systems Development Lifecycle (SDLC)</h2>
+<h3>Systems Development Lifecycle (SDLC)</h3>
 
 The systems development lifecycle will be documented and repeatable.
 
@@ -101,7 +101,7 @@ The systems development lifecycle will be documented and repeatable.
 	<li><em>Comments – </em>The authors of this principle recognize that there are many well-know development methodologies. They intentionally avoided favoring one.</li>
 </ul>
 
-<h2>Reusability of Components</h2>
+<h3>Reusability of Components</h3>
 
 Applications should be assembled, in part, from reusable components or services.
 
