@@ -2,7 +2,7 @@
 layout:     post
 title:      "On Principles of Applications"
 subtitle:   "Fundamental Values"
-date:       2014-10-14 12:00:00
+date:       2012-10-14 12:00:00
 author:     "Ryan Johnson"
 categories:
 - Enterprise Architecture
