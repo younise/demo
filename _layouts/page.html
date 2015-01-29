@@ -36,16 +36,14 @@
         <br>
         <br>
         {% endif %}
-        <section class="post-content">
+        <section class="post-excerpt">
           <div class="post-reading">
         <span class="post-meta">
               
-                          {% for page in site.pages %}{% if page.group =="nav" %}
+                {% for page in site.pages %}{% if page.group =="nav" %}
                 <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>&nbsp;&nbsp;&nbsp;
                 {% endif %}{% endfor %}
             </span>
-              
-              
           </div>
           <a name="topofpage"></a>
           {{content}}
