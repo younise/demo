@@ -4,10 +4,10 @@ title:          "VMware Online Resource Guide"
 subtitle:       "Updated 01 January 2015"
 date:           2015-01-01 12:00:00
 author:         "Ryan Johnson"
-published:      false
+published:      true
 categories:     [Technology, VMware]
 tags:           [VMware]
-permalink:      
+permalink:      /vmware/
 header-img:     "img/post-bg-01.jpg"
 ---
 
