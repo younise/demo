@@ -7,6 +7,7 @@ published:      true
 categories:     []
 tags:           []
 header-img:     "img/about-bg.jpg"
+permalink:      /about/
 ---
 
 <p>This is an infrequently updated, chronologically ordered collection of hypertext fragments and all things under analyzed. A semi-coherent receptacle mixed with excerpts of technology, personal interests, and noteworthy items.</p>
