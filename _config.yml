@@ -29,7 +29,7 @@ title:              Morning Hypertext Fragments
 description:        All Things Under Analyzed</br>Ryan Johnson
 email:              ryan@tenthirtyam.org
 baseurl:            
-url:                http://tenthirtyam.github.io
+url:                http://tenthirtyam.org
 paginate:           1
 
 # Author
