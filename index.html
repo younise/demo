@@ -1,6 +1,5 @@
 ---
 layout:         page
-description:    "All Things Under Analyzed</br>by Ryan Johnson"
 ---
 
 {% for post in paginator.posts %}
@@ -14,7 +13,7 @@ description:    "All Things Under Analyzed</br>by Ryan Johnson"
         {% endif %}
     </a>
     <p class="post-meta">{{ post.date | date: "%-d %B %Y" }}
-    <p>{{ post.content }} 
+    <p>{{ post.content }}
 </div>
 <hr>
 {% endfor %}
