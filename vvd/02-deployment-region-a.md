@@ -1,3 +1,10 @@
+---
+layout:         page
+title:          "VMware Validated Designs"
+description:    "Deploymen of Region A"
+---
+
+
 <img src="media/image1.png" width="824" height="842" />
 
 Version History
@@ -124,8 +131,8 @@ Table . Installation and Configuration Procedures Document Set
 
 | Document Name                | Description                                                                                                                                                                                 |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1.  Planning and Preparation 
-                               
+| 1.  Planning and Preparation
+
  **(This Document)**           | Detailed information surrounding the requirements of software, tools and external services required to succesfully implement the VMware Validated Design for IT Automation Cloud platform.  |
 | 1.  Deployment of Region A   | Step-by-step instructions for installing and configuring all components deployed within Region A of the VMware Validated Design for IT Automation Cloud platform.                           |
 | 1.  Deployment of Region B   | Step-by-step instructions for installing and configuring all components deployed within Region B of the VMware Validated Design for IT Automation Cloud platform.                           |
@@ -4470,37 +4477,37 @@ The following two tables show the specific values that you must use during the d
 Table . **Management Application Network Edges Configuration**
 
 | Management Application      | NSX Edge Name  | Folder Name | Internal        
-                                                                               
+
                                                               Logical Switch   | Public           
-                                                                                                  
-                                                                                IP Address        | Network Exchange  
-                                                                                                                      
+
+                                                                                IP Address        | Network Exchange 
+
                                                                                                    IP Address         | Internal        
-                                                                                                                                        
-                                                                                                                       IP Address       | Edge HA Heartbeat  
-                                                                                                                                                             
+
+                                                                                                                       IP Address       | Edge HA Heartbeat 
+
                                                                                                                                          IP Addresses        |
 |-----------------------------|----------------|-------------|-----------------|------------------|-------------------|-----------------|--------------------|
 | vRealize Automation and     
-                              
+
  vRealize Orchestrator        | vRA01-Edge     | vRA01       | vRA01-VXLAN     | 10.158.130.13/24 | 192.168.0.11/24   | 192.168.11.1/24 | 10.10.11.1/30      
-                                                                                                                                                             
+
                                                                                                                                          10.10.11.2/30       |
 | vRealize Automation         
-                              
+
  (vSphere Proxy Agents)       | vRA01IAS-Edge  | vRA01IAS    | vRA01IAS-VXLAN  | N/A              | 192.168.0.12/24   | 192.168.12.1/24 | 10.10.12.1/30      
-                                                                                                                                                             
+
                                                                                                                                          10.10.12.2/30       |
 | vRealize Operations Manager | vROps01-Edge   | vROps01     | vROps01-VXLAN   | 10.158.130.14/24 | 192.168.0.21/24   | 192.168.21.1/24 | 10.10.21.1/30      
-                                                                                                                                                             
+
                                                                                                                                          10.10.21.2/30       |
-| vRealize Operations Manager 
-                              
+| vRealize Operations Manager
+
  (Remote Collectors)          | vROps01RC-Edge | vROps01RC   | vROps01RC-VXLAN | N/A              | 192.168.0.22/24   | 192.168.22.1/24 | 10.10.22.1/30      
-                                                                                                                                                             
+
                                                                                                                                          10.10.22.2/30       |
 | vRealize Log Insight        | vRLI01-Edge    | vRLI01      | vRLI01-VXLAN    | 10.158.130.15/24 | 192.168.0.31/24   | 192.168.31.1/24 | 10.10.31.1/30      
-                                                                                                                                                             
+
                                                                                                                                          10.10.31.2/30       |
 
 | Interface Name  |     | Uplink Type | Connected To            | Port Type             | Connectivity Status | MTU  |
@@ -4650,7 +4657,7 @@ Procedure
 | **Logging**                           | Enable        |
 | **vNIC**                              | Internal      |
 | **Declare Dead Time**                 | 15            |
-| **Management IPs**                    | 10.10.11.1/30 
+| **Management IPs**                    | 10.10.11.1/30
                                          10.10.11.2/30  |
 
 > <embed src="media/image194.tmp" width="403" height="377" />
@@ -5154,11 +5161,11 @@ This sequence of step-by-step instructions explains how to replace the certifica
 
 | Host                           | Files                                        |
 |--------------------------------|----------------------------------------------|
-| mgmt01psc01.sfo01.rainpole.com | mgmt01psc01.sfo01.cer  (signed certificate)  
-                                                                                
+| mgmt01psc01.sfo01.rainpole.com | mgmt01psc01.sfo01.cer  (signed certificate) 
+
                                   Root64.cer file (root certificate)            |
-| comp01psc01.sfo01.rainpole.com | comp01psc01.sfo01.cer  (signed certificate)  
-                                                                                
+| comp01psc01.sfo01.rainpole.com | comp01psc01.sfo01.cer  (signed certificate) 
+
                                   Root64.cer file (root certificate)            |
 
 1.  Start the vSphere Certificate Manager utility again on the Platform Services Controller, select **Option 1**, and select **Option 2** **(Import custom certificate(s) and key(s) to replace existing Machine SSL certificate).**
@@ -5287,9 +5294,9 @@ Procedure
 
 | Host                            | Files                                           |
 |---------------------------------|-------------------------------------------------|
-| mgmt01vc01.sfo01.rainpole.local | mgmt01vc01.sfo01.cer file (signed certificate)  
+| mgmt01vc01.sfo01.rainpole.local | mgmt01vc01.sfo01.cer file (signed certificate) 
                                    Root64.cer file (root certificate)               |
-| comp01vc01.sfo01.rainpole.local | comp01vc01.sfo01.cer file (signed certificate)  
+| comp01vc01.sfo01.rainpole.local | comp01vc01.sfo01.cer file (signed certificate) 
                                    Root64.cer file (root certificate)               |
 
 1.  Restart the vSphere Certificate Manager utility on the vCenter Server system, select **Option 1**, and select **Option 2 (Import custom certificate(s) and key(s) to replace existing Machine SSL certificate)**.
@@ -5422,9 +5429,9 @@ Procedure
 
 | Host                              | Filenames              |
 |-----------------------------------|------------------------|
-| mgmt01nsxm01.sfo01.rainpole.local | mgmt01nsxm01.sfo01.cer 
+| mgmt01nsxm01.sfo01.rainpole.local | mgmt01nsxm01.sfo01.cer
                                      Root64.cer              |
-| comp01nsxm01.sfo01.rainpole.local | comp01nsxm01.sfo01.cer 
+| comp01nsxm01.sfo01.rainpole.local | comp01nsxm01.sfo01.cer
                                      Root64.cer              |
 
 1.  Combine the certificate file with the CA's root certificate file into a single file as follows.
@@ -5521,24 +5528,24 @@ Verify that you have fulfilled the following prerequisites in addition to the ne
 | Prerequisite             | Value                                                                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | **Initial Storage**      | -   Virtual disk provisioning.                                                                                                
-                                                                                                                                                           
+
                             <!-- -->                                                                                                                       
-                                                                                                                                                           
+
                             -   Thin                                                                                                                       
-                                                                                                                                                           
+
                             <!-- -->                                                                                                                       
-                                                                                                                                                           
+
                             -   Required storage                                                                                                           
-                                                                                                                                                           
+
                             <!-- -->                                                                                                                       
-                                                                                                                                                           
+
                             -   4 TB NFS                                                                                                                   |
 | **Software Features**    | -   vSphere Management vCenter Server                                                                                         
-                                                                                                                                                           
+
                             -   Client Integration Plugin on the machine where you use the vSphere Web Client                                              
-                                                                                                                                                           
+
                             -   Management cluster with enabled DRS and HA.                                                                                
-                                                                                                                                                           
+
                             -   vSphere Distributed Switch configured for the vSphere management network                                                   |
 | **Installation Package** | Download the .ova file of the vSphere Data Protection virtual appliance on the machine where you use the vSphere Web Client.  |
 
@@ -5882,17 +5889,17 @@ Table . **IP Addresses and Host Name for the Analytics Cluster in Region A**
 | **DNS server**                         | 172.16.11.5, 172.17.11.5 | -                                    |
 | **Subnet mask**                        | 255.255.255.0            | -                                    |
 | **NTP servers**                        | 172.16.11.251            
-                                                                    
+
                                           172.16.11.252             
-                                                                    
+
                                           172.17.11.251             
-                                                                    
+
                                           172.17.11.252             | 0.ntp.sfo01.rainpole.local           
-                                                                                                           
+
                                                                      1.ntp.sfo01.rainpole.local            
-                                                                                                           
+
                                                                      0.ntp.lax01.rainpole.local            
-                                                                                                           
+
                                                                      1.ntp.lax01.rainpole.local            |
 
 <span id="_Deploy_the_Virtual" class="anchor"></span>
@@ -5902,38 +5909,38 @@ Table . **IP Addresses and Host Name for the Analytics Cluster in Region A**
 | Prerequisite                | Value                                                                                                                             |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | **Storage**                 | -   Virtual disk provisioning.                                                                                                    
-                                                                                                                                                                  
+
                                <!-- -->                                                                                                                           
-                                                                                                                                                                  
+
                                -   Thin                                                                                                                           
-                                                                                                                                                                  
+
                                <!-- -->                                                                                                                           
-                                                                                                                                                                  
+
                                -   Required storage per node                                                                                                      
-                                                                                                                                                                  
+
                                <!-- -->                                                                                                                           
-                                                                                                                                                                  
+
                                -   Initial storage for node deployment: 1.3 GB                                                                                    
-                                                                                                                                                                  
+
                                -   Storage for monitoring data for analytics cluster nodes: 1 TB                                                                  |
 | **Software Features**       | -   vSphere                                                                                                                       
-                                                                                                                                                                  
+
                                <!-- -->                                                                                                                           
-                                                                                                                                                                  
+
                                -   Management vCenter Server                                                                                                      
-                                                                                                                                                                  
+
                                -   Client Integration Plugin on the machine where you use the vSphere Web Client                                                  
-                                                                                                                                                                  
+
                                -   Management cluster with enabled DRS and HA.                                                                                    
-                                                                                                                                                                  
+
                                <!-- -->                                                                                                                           
-                                                                                                                                                                  
+
                                -   NSX for vSphere                                                                                                                
-                                                                                                                                                                  
+
                                <!-- -->                                                                                                                           
-                                                                                                                                                                  
+
                                -   Application virtual network for the 4-node analytics cluster.                                                                  
-                                                                                                                                                                  
+
                                -   Application virtual network for the 2 remote collector nodes.                                                                  |
 | **Installation Package**    | Download the .ova file of the vRealize Operations Manager virtual appliance on the machine where you use the vSphere Web Client.  |
 | **License**                 | Verify that you have obtained a license that covers the use of vRealize Operations Manager.                                       |
@@ -6029,7 +6036,7 @@ Use the vSphere Web Client to deploy each vRealize Operations Manager node as a
 |---------------------|----------------------------------|
 | Default gateway     | 192.168.21.1                     |
 | DNS server          | 172.16.11.5, 172.17.11.5         |
-| Static IPv4 address | 192.168.21.21 for vrops-mstrn-01 
+| Static IPv4 address | 192.168.21.21 for vrops-mstrn-01
                        192.168.21.22 for vrops-repln-02  
                        192.168.21.23 for vrops-datan-03  
                        192.168.21.24 for vrops-datan-04  |
@@ -6393,7 +6400,7 @@ After you deploy and enable the roles of the analytics cluster nodes, use the vS
 
 | Attribute          | Value                                  |
 |--------------------|----------------------------------------|
-| **Name**           | vrops-rmtcol-01 for remote collector 1 
+| **Name**           | vrops-rmtcol-01 for remote collector 1
                       vrops-rmtcol-02 for remote collector 2  |
 | **vCenter Server** | mgmt01vc01.sfo01.rainpole.local        |
 | **Data center**    | SFO01                                  |
@@ -6441,7 +6448,7 @@ After you deploy and enable the roles of the analytics cluster nodes, use the vS
 |-------------------------|--------------------------------------|
 | **Default gateway**     | 192.168.22.1                         |
 | **DNS server**          | 172.16.11.6                          |
-| **Static IPv4 address** | 192.168.22.25 for remote collector 1 
+| **Static IPv4 address** | 192.168.22.25 for remote collector 1
                            192.168.22.26 for remote collector 2  |
 | **Subnet mask**         | 255.255.255.0                        |
 
@@ -6812,18 +6819,18 @@ Procedure
 |---------------------|----------------------------------|
 | **Enable Member**   | Selected.                        |
 | **Name**            | vrops-mstrn-01                   
-                                                         
+
                        vrops-repln-02                    
-                                                         
+
                        vrops-datan-03                    
-                                                         
+
                        vrops-datan-04                    |
-| **IP Address**      | 192.168.21.21 for vrops-mstrn-01 
-                                                         
+| **IP Address**      | 192.168.21.21 for vrops-mstrn-01
+
                        192.168.21.22 for vrops-repln-02  
-                                                         
+
                        192.168.21.23 for vrops-datan-03  
-                                                         
+
                        192.168.21.24 for vrops-datan-04  |
 | **Port**            | 443                              |
 | **Monitor Port**    | 443                              |
@@ -6855,7 +6862,7 @@ Procedure
 | **Application Profile**   | VROPS\_HTTPS                                                                                                                     |
 | **Name**                  | VROPS\_VIRTUAL\_SERVER                                                                                                           |
 | **IP Address**            | 10.158.130.48                                                                                                                    
-                                                                                                                                                               
+
                              Click **Select IP Address**, select **Public** from the drop-down menu and then select **10.158.130.48** IP for the virtual NIC.  |
 | **Protocol**              | HTTPS                                                                                                                            |
 | **Port**                  | 443                                                                                                                              |
@@ -7244,7 +7251,7 @@ After you install the management pack, configure NSX-vSphere Adapters: one for 
 | **NSX Manager Host**                             | mgmt01nsxm01.sfo01.rainpole.local                                                            |
 | **VC Host**                                      | mgmt01vc01.sfo01.rainpole.local                                                              |
 | **Enable Log Insight integration if configured** | true                                                                                         
-                                                                                                                                                  
+
                                                     You enable automatic log forwarding to Log Insight for log data related to NSX for vSphere.   |
 
 | Compute/Edge NSX for vSphere Attribute           | Value                                                                                       |
@@ -7254,7 +7261,7 @@ After you install the management pack, configure NSX-vSphere Adapters: one for 
 | **NSX Manager Host**                             | comp01nsxm01.sfo01.rainpole.local                                                           |
 | **VC Host**                                      | comp01vc01.sfo01.rainpole.local                                                             |
 | **Enable Log Insight integration if configured** | true                                                                                        
-                                                                                                                                                 
+
                                                     You enable automatic log forwarding to Log Insight for log data related to NSX for vSphere.  |
 
 1.  Click the **Add** icon, and configure the credentials for connection to the NSX Manager and vCenter Server, and click **OK**. 
@@ -7635,12 +7642,12 @@ Procedure
 | Active Directory Setting                                             | Value                         |
 |----------------------------------------------------------------------|-------------------------------|
 | **Source Display Name**                                              | RAINPOLE.LOCAL                
-                                                                                                       
+
                                                                         SFO01.RAINPOLE.LOCAL           |
 | **Source Type**                                                      | Active Directory              |
 | **Integration Mode**                                                 | Basic                         |
 | **Domain/Subdomain**                                                 | RAINPOLE.LOCAL                
-                                                                                                       
+
                                                                         SFO01.RAINPOLE.LOCAL           |
 | **Use SSL/TLS**                                                      | Deselected                    |
 | **User Name**                                                        | svc-vrops                     |
@@ -7648,10 +7655,10 @@ Procedure
 | **Settings under the Details section**                               |
 | **Automatically synchronize user membership for configured groups ** | Selected                      |
 | **Host**                                                             | dc01rpl.rainpole.local        
-                                                                                                       
+
                                                                         dc01sfo.sfo01.rainpole.local   |
 | **Base DN**                                                          | dc=RAINPOLE,dc=LOCAL          
-                                                                                                       
+
                                                                         dc=SFO01,dc=RAINPOLE,dc=LOCAL  |
 | **Common Name**                                                      | userPrincipalName             |
 
@@ -7868,7 +7875,7 @@ Table . **IP Addresses and Host Name for the Analytics Cluster in Region A**
 | DNS server                           | 172.16.11.5    | -                                    |
 | Subnet mask                          | 255.255.255.0  | -                                    |
 | NTP servers                          | 172.16.11.251  
-                                                        
+
                                         172.16.11.252   | ntp.rainpole.local                   |
 
 Deployment Prerequisites
@@ -7876,36 +7883,36 @@ Deployment Prerequisites
 | Prerequisite            | Value                                                                                                                                                              |
 |-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Storage                 | -   Virtual disk provisioning.                                                                                                                                     
-                                                                                                                                                                                               
+
                            <!-- -->                                                                                                                                                            
-                                                                                                                                                                                               
+
                            -   Thin                                                                                                                                                            
-                                                                                                                                                                                               
+
                            <!-- -->                                                                                                                                                            
-                                                                                                                                                                                               
+
                            -   Required storage per node                                                                                                                                       
-                                                                                                                                                                                               
+
                            <!-- -->                                                                                                                                                            
-                                                                                                                                                                                               
+
                            -   Initial storage for node deployment: 270 GB                                                                                                                     
-                                                                                                                                                                                               
+
                            -   Additional storage: 190 GB                                                                                                                                      |
 | Software Features       | -   vSphere                                                                                                                                                        
-                                                                                                                                                                                               
+
                            <!-- -->                                                                                                                                                            
-                                                                                                                                                                                               
+
                            -   Management vCenter Server                                                                                                                                       
-                                                                                                                                                                                               
+
                            -   Client Integration Plugin on the machine where you use the vSphere Web Client                                                                                   
-                                                                                                                                                                                               
+
                            -   Management cluster with DRS and HA enabled.                                                                                                                     
-                                                                                                                                                                                               
+
                            <!-- -->                                                                                                                                                            
-                                                                                                                                                                                               
+
                            -   NSX for vSphere                                                                                                                                                 
-                                                                                                                                                                                               
+
                            <!-- -->                                                                                                                                                            
-                                                                                                                                                                                               
+
                            -   Application virtual network for the 3-node vRealize Log Insight cluster                                                                                         |
 | Installation Package    | Download the .ova file of the vRealize Log Insight virtual appliance on the machine where you use the vSphere Web Client.                                          |
 | License                 | Obtain a license that covers the use of vRealize Log Insight.                                                                                                      |
@@ -8000,16 +8007,16 @@ Procedure
 | Property                | Value                                                   |
 |-------------------------|---------------------------------------------------------|
 | **Host name**           | vrli-mstr-01.sfo01.rainpole.local for the master node   
-                                                                                    
+
                            vrli-wrkr-01.sfo01.rainpole.local for the worker node 1  
-                                                                                    
+
                            vrli-wrkr-02.sfo01.rainpole.local for the worker node 2  |
 | **Default gateway**     | 192.168.31.1                                            |
 | **DNS server**          | 172.16.11.5                                             |
 | **Static IPv4 address** | 192.168.31.11 for the master node                       
-                                                                                    
+
                            192.168.31.12 for the worker node 1                      
-                                                                                    
+
                            192.168.31.13 for the worker node 2                      |
 | **Subnet mask**         | 255.255.255.0                                           |
 
@@ -8073,9 +8080,9 @@ Procedure
 | **Enable rule** | Yes                       |
 | **Type**        | Separate Virtual Machines |
 | **Members**     | vrli-mstr-01              
-                                              
+
                    vrli-wrkr-01               
-                                              
+
                    vrli-wrkr-02               |
 
 <img src="media/image370.png" width="327" height="299" />
@@ -8419,7 +8426,7 @@ Procedure
 | vCenter Server Option                                | Value                            |
 |------------------------------------------------------|----------------------------------|
 | **Hostname**                                         | mgmt01vc01.sfo01.rainpole.local  
-                                                                                          
+
                                                         comp01vc01.sfo01.rainpole.local   |
 | **Username**                                         | svc-loginsight@rainpole.local    |
 | **Password**                                         | *svc-loginsight\_user\_password* |
@@ -9295,7 +9302,7 @@ Configure the NSX Edge service gateways for vRealize Operations Manager, vRealiz
 | NSX Edge Service Gateway | Application Traffic                                |
 |--------------------------|----------------------------------------------------|
 | vRA01-Edge               | vRealize Automation                                
-                                                                                
+
                             vRealize Orchestrator                               |
 | vRA01IAS-Edge            | vSphere proxy agents for vRealize Automation       |
 | vRLI01-Edge              | vRealize Log Insight nodes                         |
@@ -9795,11 +9802,11 @@ Prerequisites
 | **Enter State/Country**       | CA                                                                                                                                                           |
 | **Enter Country Code**        | US                                                                                                                                                           |
 | **Enter server hostname**     | Supply all host names for that product. For example, for the vRealize Automation Identity Appliance, provide the following host names:                       
-                                                                                                                                                                                               
+
                                  vra01ids01.rainpole.local                                                                                                                                     
-                                                                                                                                                                                               
+
                                  vra01ids01a.rainpole.local                                                                                                                                    
-                                                                                                                                                                                               
+
                                  When you run the script a second time to generate the CSR for the vRealize Automation appliance, you supply those host names, as shown in the table below.    |
 | **Enter domain name...**      | rainpole.local                                                                                                                                               |
 
@@ -9810,29 +9817,29 @@ Prerequisites
 | Product                                    | Host names specify during CSR generation |
 |--------------------------------------------|------------------------------------------|
 | **vRealize Automation Identity Appliance** | vra01ids01.rainpole.local                
-                                                                                        
+
                                               vra01ids01a.rainpole.local                |
 | **vRealize Automation**                    | vra01svr01.rainpole.local                
-                                                                                        
+
                                               vra01svr01a.rainpole.local                
-                                                                                        
+
                                               vra01svr01b.rainpole.local                
-                                                                                        
+
                                               vra01iws01.rainpole.local                 
-                                                                                        
+
                                               vra01iws01a.rainpole.local                
-                                                                                        
+
                                               vra01iws01b.rainpole.local                
-                                                                                        
+
                                               vra01ims01.rainpole.local                 
-                                                                                        
+
                                               vra01ims01a.rainpole.local                
-                                                                                        
+
                                               vra01ims01b.rainpole.local                |
 | **vRealize Orchestrator**                  | vra01vro01.rainpole.local                
-                                                                                        
+
                                               vra01vro01a.rainpole.local                
-                                                                                        
+
                                               vra01vro01b.rainpole.local                |
 
 1.  Submit the CSR file (**vrealize.csr**) to the CA and follow the steps in the "Obtain Custom Certificates" section to request a signed certificate.
@@ -9884,7 +9891,7 @@ Prerequisites
                                                                vra01svr01b   | vRA Virtual Appliance SSL   |
 |                                        | vra\\vrealize.pfx  | vra01iws01a  
                                                                vra01iws01b   | IaaS Web IIS Server SSL     |
-|                                        | vra\\vrealize.pfx  | vra01ims01a  
+|                                        | vra\\vrealize.pfx  | vra01ims01a 
                                                                vra01ims01b   | IaaS Manager IIS Server SSL |
 | vRealize Orchestrator                  | vro\\jssecacerts   | vra01vro01a  
                                                                vra01vro01b   | vRealize Orchestrator SSL   |
@@ -10209,7 +10216,7 @@ Procedure
 
 | Setting                                | Value                                                                         |
 |----------------------------------------|-------------------------------------------------------------------------------|
-| **Product Key**                        | Type the volume license key. Note: If you are using Microsoft License Server, 
+| **Product Key**                        | Type the volume license key. Note: If you are using Microsoft License Server,
                                           or have multiple single license keys, leave this text box blank.               |
 | **Include Server License Information** | Select the check box.                                                         |
 | **Server License Mode**                | Select the Per server check box.                                              |
@@ -10351,7 +10358,7 @@ Procedure
 | Options                                | Values                                                               |
 |----------------------------------------|----------------------------------------------------------------------|
 | **Product Key**                        | Type the volume license key.                                         
-                                                                                                                
+
                                           1.  If you are using Microsoft License Server,                        
                                               or have multiple single license keys, leave this text box blank.  |
 | **Include Server License Information** | Select the check box.                                                |
@@ -10585,13 +10592,13 @@ Table . Network Components Settings
 | Internal           | vRA-VXLAN           | 2                               | 192.168.11.1       | 192.168.11.43 (vRealize Orchestrator VIP)                   |
 | vSphere-Management | vDS-Mgmt-Management | 1                               | 172.20.11.111      |                                                             |
 | Public             | vDS-Mgmt-Ext-Mgmt   | 5                               | 10.158.130.13      
-                                                                                                  
+
                                                                                                   | 10.158.130.206 (vRealize Automation Server VIP)             
-                                                                                                                                                                
+
                                                                                                    10.158.130.207 (vRealize Automation IaaS Web Server VIP)     
-                                                                                                                                                                
+
                                                                                                    10.158.130.208 (vRealize Automation IaaS Manager VIP)        
-                                                                                                                                                                
+
                                                                                                    10.158.130.209 (vRealize Automation Identity Appliance VIP)  |
 
 **Procedure Overview**
@@ -10857,8 +10864,8 @@ Table . Pool Member Enablement Settings
 |                    |            |                       | **No**        | vra01iws01b | 192.168.11.55 |
 | vra-iaas-mgr-443   | Leastconn  | default\_tcp\_monitor | Yes           | vra01ims01a | 192.168.11.57 |
 |                    |            |                       | **No**        | vra01ims01b | 192.168.11.58 |
-| vra-vro-8281       | Leastconn  | default\_tcp\_monitor 
-                                                          
+| vra-vro-8281       | Leastconn  | default\_tcp\_monitor
+
                                                           | Yes           | vra01vro01a | 192.168.11.44 |
 |                    |            |                       | Yes           | vra01vro01b | 192.168.11.45 |
 | vra-identity-7444  | Leastconn  | default\_tcp\_monitor | Yes           | vra01ids01a | 192.168.11.46 |
@@ -13598,7 +13605,7 @@ Procedure
 | **Port**                                     | 1433                                                                                        |
 | **Database Name**                            | VRODB-01                                                                                    |
 | **Instance Name**                            | VRA01MSSQL01A                                                                               
-                                                                                                                                             
+
                                                 **Note:** Leave blank if the SQL Server is installed with the default server instance name.  |
 | **Domain**                                   | rainpole.local                                                                              |
 | **Use Windows authentication mode (NTLMv2)** | Yes                                                                                         |
@@ -15841,7 +15848,7 @@ Procedure
 | **Status**         | Active                                                                                                                |
 | **Business Group** | Production Business Group                                                                                             |
 | **Users & Groups** | ug-ITAC-TenantAdmin                                                                                                   
-                                                                                                                                             
+
                       Note: After you enter the name, it changes in the display, as shown in the screen shot below. This is to be expected.  |
 
 > <img src="media/image720.png" width="558" height="188" />
@@ -15965,5 +15972,3 @@ Procedure
 | Windows Server 2012 R2 With SQL2012 - SFO Dev  | windows-2012r2-64-sql2012(comp01vc01.sfo01.rainpole.local) | SFO-Development-Policy | SFO Service Catalog | Dev-SingleVM-Entitlement  |
 | Redhat Enterprise Linux 6 - SFO Prod           | redhat6-enterprise-64(comp01vc01.sfo01.rainpole.local)     | SFO-Production-Policy  | SFO Service Catalog | Prod-SingleVM-Entitlement |
 | Redhat Enterprise Linux 6 - SFO Dev            | redhat6-enterprise-64(comp01vc01.sfo01.rainpole.local)     | SFO-Development-Policy | SFO Service Catalog | Dev-SingleVM-Entitlement  |
-
-
