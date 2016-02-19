@@ -1,9 +1,13 @@
 ---
 layout:         page
-title:          "VMware Validated Designs"
-description:    "Deploymen of Region A"
+title:          "Deployment of Region A"
+description:    "VMware Validated Designs"
+published:      true
+categories:     []
+tags:           []
+header-img:     "img/about-bg.jpg"
+permalink:      /vvd-deploy-region-a/
 ---
-
 
 <img src="media/image1.png" width="824" height="842" />
 
