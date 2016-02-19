@@ -1,16 +1,12 @@
 ---
 layout:         page
-title:          "Deployment of Region A"
+title:          "ITAC 1.0 Deployment of Region A"
 description:    "VMware Validated Designs"
 published:      true
 categories:     []
 tags:           []
-header-img:     "img/about-bg.jpg"
 permalink:      /vvd-deploy-region-a/
 ---
-
-<img src="media/image1.png" width="824" height="842" />
-
 Version History
 
 | Date        | Ver. | Author     | Description                                                             | Reviewers |
