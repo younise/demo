@@ -1,3 +1,11 @@
+---
+layout:         page
+title:          "VMware Validated Designs"
+description:    "ITAC 1.0 Operational Guidance"
+published:      true
+categories:     []
+tags:           []
+---
 Version History
 
 | Date        | Ver. | Author     | Description                                                             | Reviewers |

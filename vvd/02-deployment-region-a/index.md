@@ -1,11 +1,10 @@
 ---
 layout:         page
-title:          "ITAC 1.0 Deployment of Region A"
-description:    "VMware Validated Designs"
+title:          "VMware Validated Designs"
+description:    "ITAC 1.0 Deployment of Region A"
 published:      true
 categories:     []
 tags:           []
-permalink:      /vvd-deploy-region-a/
 ---
 Version History
 

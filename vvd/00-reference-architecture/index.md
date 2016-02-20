@@ -1,11 +1,10 @@
 ---
 layout:         page
-title:          "ITAC 1.0 Reference Architecture"
-description:    "VMware Validated Designs"
+title:          "VMware Validated Designs"
+description:    "ITAC 1.0 Reference Architecture"
 published:      true
 categories:     []
 tags:           []
-permalink:      /vvd-reference-architecture/
 ---
 Version History
 

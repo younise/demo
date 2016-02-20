@@ -1,5 +1,11 @@
-<img src="media/image1.png" width="824" height="842" />
-
+---
+layout:         page
+title:          "VMware Validated Designs"
+description:    "ITAC 1.0 Planning and Preparation"
+published:      true
+categories:     []
+tags:           []
+---
 Version History
 
 | Date        | Ver. | Author     | Description                                                             | Reviewers |
@@ -88,8 +94,8 @@ Table . Installation and Configuration Procedures Document Set
 
 | Document Name                | Description                                                                                                                                                                                 |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1.  Planning and Preparation 
-                               
+| 1.  Planning and Preparation
+
  **(This Document)**           | Detailed information surrounding the requirements of software, tools and external services required to succesfully implement the VMware Validated Design for IT Automation Cloud platform.  |
 | 1.  Deployment of Region A   | Step-by-step instructions for installing and configuring all components deployed within Region A of the VMware Validated Design for IT Automation Cloud platform.                           |
 | 1.  Deployment of Region B   | Step-by-step instructions for installing and configuring all components deployed within Region B of the VMware Validated Design for IT Automation Cloud platform.                           |
@@ -113,22 +119,22 @@ Table . VMware Software Required
 
 | SDDC Layer             | Product Group                           | Product Item                                             | Product Version |
 |------------------------|-----------------------------------------|----------------------------------------------------------|-----------------|
-| Virtual Infrastructure 
-                         
+| Virtual Infrastructure
+
                          
-                         
+
                          
-                         
+
                          
-                         
+
                          
-                         
+
                          | VMware vSphere<sup>®</sup>              
-                                                                   
+
                                                                    
-                                                                   
+
                                                                    
-                                                                   
+
                                                                    | VMware ESXi™                                             | 6.0 U1b         |
 |                        |                                         | VMware vCenter<sup>®</sup> Server Appliance™ (VIMISO)    | 6.0 U1          |
 |                        |                                         | VMware Virtual SAN™                                      | 6.0 U1          |
@@ -136,56 +142,56 @@ Table . VMware Software Required
 |                        | VMware Site Recovery Manager™           | VMware Site Recovery Manager                             | 6.1             |
 |                        | VMware NSX<sup>®</sup> for vSphere      | NSX for vSphere                                          | 6.2.1           |
 | Cloud Management       
-                         
+
                          
-                         
+
                          
-                         
-                         | VMware vRealize<sup>®</sup> Automation™ 
-                                                                   
+
+                         | VMware vRealize<sup>®</sup> Automation™
+
                                                                    
-                                                                   
+
                                                                    
-                                                                   
+
                                                                    | vRealize Appliance                                       | 6.2.3           |
 |                        |                                         | vRealize Identity Appliance                              | 6.2.3           |
 |                        |                                         | vRealize Orchestrator™                                   | 6.0.3           |
 |                        |                                         | vRealize Orchestrator Plug-In for NSX                    | 1.0.2           |
 | Service Management     
-                         
+
                          
-                         
+
                          
-                         
+
                          
-                         
+
                          
-                         
+
                          
-                         
+
                          
-                         
+
                          
-                         
+
                          | VMware vRealize Operations Manager™     
-                                                                   
+
                                                                    
-                                                                   
+
                                                                    
-                                                                   
+
                                                                    
-                                                                   
+
                                                                    | vRealize Operations Manager Appliance                    | 6.1.0           |
 |                        |                                         | Management Pack for NSX for vSphere                      | 2.0             |
 |                        |                                         | Management Pack for vRealize Log Insight                 | 1.0             |
 |                        |                                         | Management Pack for vRealize Automation                  | 1.0.1           |
 |                        |                                         | Management Pack for Storage Devices                      | 6.0.2           |
 |                        | VMware vRealize Log Insight™            
-                                                                   
+
                                                                    
-                                                                   
+
                                                                    
-                                                                   
+
                                                                    | vRealize Log Insight                                     | 3.0             |
 |                        |                                         | NSX for vSphere Content Pack                             |                 |
 |                        |                                         | vRA 6.1+ and Log Insight Content Pack                    |                 |
@@ -201,10 +207,10 @@ Table . VMware Scripts and Tools Required
 
 | SDDC Layer       | Product Group       | Script/Tool                  | Download Location                  | Description                                                                                                                                         |
 |------------------|---------------------|------------------------------|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Cloud Management 
-                   
-                   | vRealize Automation 
-                                         
+| Cloud Management
+
+                   | vRealize Automation
+
                                          | certgen.sh script            | <http://kb.vmware.com/kb/2107816>  | Script for automated generation of a Certificate Signing Request (CSR) for CA-signed SSL certificates.                                              |
 |                  |                     | PostgreSQL clustering script | <http://kb.vmware.com/kb/2108923>  | Script to synchronize and replicate the PostgreSQL database on the vRealize Appliance instances to enable high availability mode of the appliances. |
 
@@ -217,21 +223,21 @@ Table . Third-Party Software Required
 
 | SDDC Layer             | Required by VMware Component                                                                    | Vendor    | Product Item                                                                   | Product Version                                                           |
 |------------------------|-------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------------------------------|---------------------------------------------------------------------------|
-| Virtual Infrastructure 
-                         
+| Virtual Infrastructure
+
                          | Windows host that is connected to the ESXi management network and has access to the data center | Microsoft | Windows OS that is supported for the vSphere Client 6.0 U1.                    
                                                                                                                                         See VMware Knowledge Base article [2100436](http://kb.vmware.com/kb/2100436).   | Version of the Windows OS that is supported for the vSphere Client 6.0 U1 |
 |                        | VMware Site Recovery Manager                                                                    | Microsoft | Windows 2012 R2 Standard                                                       | Windows Server 2012 R2 Update (x64)                                       |
 | Cloud Management       
-                         
+
                          
-                         
+
                          
-                         
+
                          
-                         
+
                          
-                         
+
                          | vRealize Automation                                                                             | Microsoft | Windows 2012 R2 Standard                                                       | Windows Server 2012 R2 Update (x64)                                       |
 |                        |                                                                                                 | Microsoft | SQL Server 2012                                                                | SQL Server 2012 Enterprise Edition with Service Pack 2 (x64)              |
 |                        |                                                                                                 | Microsoft | NTRights.exe                                                                   | Windows Server 2003 Resource Kit Tools                                    |
@@ -282,20 +288,20 @@ Table . **DNS Configuration Requirements**
 | Requirement      | Domain Instance      | Description                                                                      |
 |------------------|----------------------|----------------------------------------------------------------------------------|
 | DNS host entries | rainpole.local       | Resides in the rainpole.local domain.                                            
-                                                                                                                             
+
                                                                                                                              |
-|                  | sfo01.rainpole.local 
-                                          
+|                  | sfo01.rainpole.local
+
                     and                   
-                                          
-                    lax01.rainpole.local  | DNS servers reside in the sfo01.rainpole.local and lax01.rainpole.local domains. 
-                                                                                                                             
+
+                    lax01.rainpole.local  | DNS servers reside in the sfo01.rainpole.local and lax01.rainpole.local domains.
+
                                            Configure both DNS servers with the following settings:                           
-                                                                                                                             
+
                                            Dynamic updates for the domain set to **Nonsecure and secure**.                   
-                                                                                                                             
+
                                            Zone replication scope for the domain set to **All DNS server in this forest**.   
-                                                                                                                             
+
                                            Create all hosts listed in the *DNS Names* documentation.                         |
 
 If you configure the DNS servers properly, all nodes from the VVD are resolvable by FQDN.
@@ -310,9 +316,9 @@ Table . **NTP Server Configuration Requirements**
 | Requirement | Description                                                                                                                                                                                                                          |
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | NTP         | NTP source, for example, on a Layer 3 switch or router, must be available and accessible from all nodes of the SDDC.                                                                                                                 
-                                                                                                                                                                                                                                                     
+
                Use the ToR switches in the management pods as the NTP servers or the upstream physical router. These switches should synchronize with different upstream NTP servers and provide time synchronization capabilities within the SDDC.  
-                                                                                                                                                                                                                                                     
+
                As a best practice, make the NTP servers available under a friendly FQDN, for example, ntp.sfo01.rainpole.local for Region A, or ntp.lax01.rainpole.local for Region B.                                                               |
 
  
@@ -338,7 +344,7 @@ Table . **CA Requirements for Signing Certificates of Management Applications**
 | Requirement           | Description                                                                                                                                                                                                                                                                             |
 |-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Certificate Authority | CA must be able to ingest a Certificate Signing Request (CSR) from the SDDC components and issue a signed certificate.                                                                                                                                                                  
-                                                                                                                                                                                                                                                                                                                  
+
                          For this VVD, use the Microsoft Windows Enterprise CA that is available in the Windows Server 2012 R2 operating system of a root domain controller. The domain controller must be configured with the Certificate Authority Service and the Certificate Authority Web Enrollment roles.  |
 
  
@@ -363,8 +369,8 @@ Table . **Requirements for a Windows Host Machine**
 
 | Requirement          | Description                                                                                                                                                                                                                          |
 |----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Windows host machine | Microsoft Windows virtual machine or physical server must be available to provide connection to the data center and store software downloads. The host must be connected to the external network and to the ESXi management network. 
-                                                                                                                                                                                                                                                              
+| Windows host machine | Microsoft Windows virtual machine or physical server must be available to provide connection to the data center and store software downloads. The host must be connected to the external network and to the ESXi management network.
+
                         For information about the Windows OS requirements for the host and the software downloads for this SDDC validated design, see *Software Requirements*.                                                                                |
 
 Physical VLANs, IP Subnets and Application Virtual Networks
@@ -385,18 +391,18 @@ Table . **VLAN and IP Subnet Configuration in Region A**
 
 | POD            | VLAN Function                                   | VLAN | Subnet          | Gateway        |
 |----------------|-------------------------------------------------|------|-----------------|----------------|
-| Management Pod 
-                 
+| Management Pod
+
                  
-                 
+
                  
-                 
+
                  
-                 
+
                  
-                 
+
                  
-                 
+
                  | ESXi Management                                 | 1611 | 172.16.11.0/24  | 172.16.11.253  |
 |                | vSphere vMotion                                 | 1612 | 172.16.12.0/24  | 172.16.12.253  |
 |                | Virtual SAN                                     | 1613 | 172.16.13.0/24  | 172.16.13.253  |
@@ -405,28 +411,28 @@ Table . **VLAN and IP Subnet Configuration in Region A**
 |                | vSphere Replication and vSphere Replication NFC | 1616 | 172.16.16.0/24  | 172.16.16.253  |
 |                | External Management Connectivity                | 130  | 10.158.130.0/24 | 10.158.130.253 |
 | Compute Pod    
-                 
+
                  
-                 
+
                  
-                 
+
                  
-                 
+
                  | ESXi Management                                 | 1621 | 172.16.21.0/24  | 172.16.21.253  |
 |                | vSphere vMotion                                 | 1622 | 172.16.22.0/24  | 172.16.22.253  |
 |                | Virtual SAN                                     | 1623 | 172.16.23.0/24  | 172.16.23.253  |
 |                | VXLAN (VTEP)                                    | 1624 | 172.16.24.0/24  | 172.16.24.253  |
 |                | NFS                                             | 1625 | 172.16.25.0/24  | 172.16.25.253  |
 | Edge Pod       
-                 
+
                  
-                 
+
                  
-                 
+
                  
-                 
+
                  
-                 
+
                  | ESXi Management                                 | 1631 | 172.16.31.0/24  | 172.16.31.253  |
 |                | vSphere vMotion                                 | 1632 | 172.16.32.0/24  | 172.16.32.253  |
 |                | Virtual SAN                                     | 1633 | 172.16.33.0/24  | 172.16.33.253  |
@@ -442,18 +448,18 @@ Table . **VLAN and IP Subnet Configuration in Region B**
 
 | Region B       | VLAN Function                                   | VLAN | Subnet          | Gateway        |
 |----------------|-------------------------------------------------|------|-----------------|----------------|
-| Management Pod 
-                 
+| Management Pod
+
                  
-                 
+
                  
-                 
+
                  
-                 
+
                  
-                 
+
                  
-                 
+
                  | ESXi Management                                 | 1711 | 172.17.11.0/24  | 172.17.11.253  |
 |                | vSphere vMotion                                 | 1712 | 172.17.12.0/24  | 172.17.12.253  |
 |                | Virtual SAN                                     | 1713 | 172.17.13.0/24  | 172.17.13.253  |
@@ -462,28 +468,28 @@ Table . **VLAN and IP Subnet Configuration in Region B**
 |                | vSphere Replication and vSphere Replication NFC | 1716 | 172.17.16.0/24  | 172.17.16.253  |
 |                | External Management Connectivity                | 150  | 10.158.150.0/24 | 10.158.150.253 |
 | Compute Pod    
-                 
+
                  
-                 
+
                  
-                 
+
                  
-                 
+
                  | ESXi Management                                 | 1721 | 172.17.21.0/24  | 172.17.21.253  |
 |                | vSphere vMotion                                 | 1722 | 172.17.22.0/24  | 172.17.22.253  |
 |                | Virtual SAN                                     | 1723 | 172.17.23.0/24  | 172.17.23.253  |
 |                | VXLAN (VTEP)                                    | 1724 | 172.17.24.0/24  | 172.17.24.253  |
 |                | NFS                                             | 1725 | 172.17.25.0/24  | 172.17.25.253  |
 | Edge Pod       
-                 
+
                  
-                 
+
                  
-                 
+
                  
-                 
+
                  
-                 
+
                  | ESXi Management                                 | 1731 | 172.17.31.0/24  | 172.17.31.253  |
 |                | vSphere vMotion                                 | 1732 | 172.17.32.0/24  | 172.17.32.253  |
 |                | Virtual SAN                                     | 1733 | 172.17.33.0/24  | 172.17.33.253  |
@@ -518,15 +524,15 @@ For a multi-region deployment with domain and forest structure, you must assign 
 Table . List of Region A DNS Names
 
 | SDDC Layer             | Product Group               | Region A – DNS                       
-                                                                                              
-                                                        \[sfo01\]                             | Region A - IP Address 
-                                                                                                                      
+
+                                                        \[sfo01\]                             | Region A - IP Address
+
                                                                                                \[ sfo01 \]            | Description                                                                                                                                                                                         |
 |------------------------|-----------------------------|--------------------------------------|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | External Services      | NTP                         | ntp.sfo01.rainpole.local             | 172.16.11.251         
-                                                                                                                      
+
                                                                                                172.16.11.252          | NTP server selected via Round Robin                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                            
+
                                                                                                                        NTP server on a ToR switch in the management pod                                                                                                                                                     |
 |                        |                             | 0.ntp.sfo01.rainpole.local           | 172.16.11.251         | NTP server on a ToR switch in the management pod                                                                                                                                                    |
 |                        |                             | 1.ntp.sfo01.rainpole.local           | 172.16.11.252         | NTP server on a ToR switch in the management pod                                                                                                                                                    |
@@ -550,69 +556,69 @@ Table . List of Region A DNS Names
 |                        |                             | comp01vc01.sfo01.rainpole.local      | 172.16.11.64          | Compute vCenter Server                                                                                                                                                                              |
 |                        | NSX for vSphere             | mgmt01nsxm01.sfo01.rainpole.local    | 172.16.11.65          | NSX Manager for the management cluster                                                                                                                                                              |
 |                        |                             | mgmt01nsxc01.sfo01.rainpole.local    
-                                                                                              
+
                                                         mgmt01nsxc02.sfo01.rainpole.local     
-                                                                                              
+
                                                         mgmt01nsxc03.sfo01.rainpole.local     | 172.16.11.118         
-                                                                                                                      
+
                                                                                                172.16.11.119          
-                                                                                                                      
+
                                                                                                172.16.11.120          | Reserved.                                                                                                                                                                                           
-                                                                                                                                                                                                                                                                                                                            
+
                                                                                                                        NSX Controllers for the management cluster                                                                                                                                                           |
 |                        |                             | comp01nsxm01.sfo01.rainpole.local    | 172.16.11.66          | NSX Manager for the compute and edge clusters                                                                                                                                                       |
 |                        |                             | comp01nsxc01.sfo01.rainpole.local    
-                                                                                              
+
                                                         comp01nsxc02.sfo01.rainpole.local     
-                                                                                              
+
                                                         comp01nsxc03.sfo01.rainpole.local     | 172.16.31.118         
-                                                                                                                      
+
                                                                                                172.16.31.119          
-                                                                                                                      
+
                                                                                                172.16.31.120          | Reserved                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                                                                            
+
                                                                                                                        NSX Controllers for the compute and edge clusters                                                                                                                                                    |
 |                        |                             | comp01nsxm01.sfo01.rainpole.local    | 172.16.11.66          | NSX Manager for the compute and edge clusters                                                                                                                                                       |
 |                        |                             | comp01nsxc01.sfo01.rainpole.local    
-                                                                                              
+
                                                         comp01nsxc02.sfo01.rainpole.local     
-                                                                                              
+
                                                         comp01nsxc03.sfo01.rainpole.local     | 172.16.31.118         
-                                                                                                                      
+
                                                                                                172.16.31.119          
-                                                                                                                      
+
                                                                                                172.16.31.120          | Reserved                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                                                                            
+
                                                                                                                        NSX Controllers for the compute and edge clusters                                                                                                                                                    |
 |                        |                             | vRA01-Edge.sfo01.rainpole.local      | 10.158.130.13         
-                                                                                                                      
+
                                                                                                192.168.0.11           
-                                                                                                                      
+
                                                                                                192.168.11.1           | NSX Edge device for the application virtual network of vRealize Automation                                                                                                                          |
 |                        |                             | vRA01IAS-Edge.sfo01.rainpole.local   | 192.168.0.12          
-                                                                                                                      
+
                                                                                                192.168.12.1           | NSX Edge device for the application virtual network of the vRealize Automation vSphere Proxy Agents                                                                                                 |
 |                        |                             | vROps01-Edge.sfo01.rainpole.local    | 10.158.130.14         
-                                                                                                                      
+
                                                                                                192.168.0.21           
-                                                                                                                      
+
                                                                                                192.168.21.1           | NSX Edge device for the application virtual network of the analytics cluster of vRealize Operations Manager                                                                                         |
 |                        |                             | vROps01RC-Edge.sfo01.rainpole.local  | 192.168.0.22          
-                                                                                                                      
+
                                                                                                192.168.22.1           | NSX Edge device for the application virtual network of the remote collectors of vRealize Operations Manager                                                                                         |
 |                        |                             | vRLI01-Edge.sfo01.rainpole.local     | 10.158.130.15         
-                                                                                                                      
+
                                                                                                192.168.0.31           
-                                                                                                                      
+
                                                                                                192.168.31.1           | NSX Edge device for the application virtual network of vRealize Log Insight                                                                                                                         |
 |                        |                             | MgmtSFO01-Edge.sfo01.rainpole.local  | 10.158.130.240        
-                                                                                                                      
+
                                                                                                172.16.11.1            
-                                                                                                                      
+
                                                                                                172.16.21.1            
-                                                                                                                      
+
                                                                                                172.16.31.1            
-                                                                                                                      
+
                                                                                                192.168.0.1            | NSX Edge device for management network connectivity and VPN for inter-region connectivity                                                                                                           |
 |                        | Site Recovery Manager       | mgmt01srm01.sfo01.rainpole.local     | 172.16.11.124         | Site Recovery Manager                                                                                                                                                                               |
 |                        |                             | mgmt01vrms01.sfo01.rainpole.local    | 172.16.11.123         | vSphere Replication                                                                                                                                                                                 |
@@ -655,15 +661,15 @@ Table . List of Region A DNS Names
 Table . List of Region B DNS Names
 
 | SDDC Layer             | Product Group               | Region B – DNS                                 
-                                                                                                        
-                                                        \[lax01\]                                       | Region B - IP Address 
-                                                                                                                                
+
+                                                        \[lax01\]                                       | Region B - IP Address
+
                                                                                                          \[ lax01 \]            | Description                                                                                                                                                                                         |
 |------------------------|-----------------------------|------------------------------------------------|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | External Services      | NTP                         | ntp.lax01.rainpole.local                       | 172.17.11.251         
-                                                                                                                                
+
                                                                                                          172.17.11.252          | NTP server selected via Round Robin                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                      
+
                                                                                                                                  NTP server on a ToR switch in the management pod                                                                                                                                                     |
 |                        |                             | 0.ntp.lax01.rainpole.local                     | 172.17.11.251         | NTP server on a ToR switch in the management pod                                                                                                                                                    |
 |                        |                             | 1.ntp.lax01.rainpole.local                     | 172.17.11.252         | NTP server on a ToR switch in the management pod                                                                                                                                                    |
@@ -687,69 +693,69 @@ Table . List of Region B DNS Names
 |                        |                             | comp01vc01.lax01.rainpole.local                | 172.17.11.64          | Compute vCenter Server                                                                                                                                                                              |
 |                        | NSX for vSphere             | mgmt01nsxm01.lax01.rainpole.local              | 172.17.11.65          | NSX Manager for the management cluster                                                                                                                                                              |
 |                        |                             | mgmt01nsxc01.lax01.rainpole.local              
-                                                                                                        
+
                                                         mgmt01nsxc02.lax01.rainpole.local               
-                                                                                                        
+
                                                         mgmt01nsxc03.lax01.rainpole.local               | 172.17.11.118         
-                                                                                                                                
+
                                                                                                          172.17.11.119          
-                                                                                                                                
+
                                                                                                          172.17.11.120          | Reserved                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                                                                                      
+
                                                                                                                                  NSX Controllers for the management cluster                                                                                                                                                           |
 |                        |                             | comp01nsxm01.lax01.rainpole.local              | 172.17.11.66          | NSX Manager for the compute and edge clusters                                                                                                                                                       |
 |                        |                             | comp01nsxc01.lax01.rainpole.local              
-                                                                                                        
+
                                                         comp01nsxc02.lax01.rainpole.local               
-                                                                                                        
+
                                                         comp01nsxc03.lax01.rainpole.local               | 172.17.31.118         
-                                                                                                                                
+
                                                                                                          172.17.31.119          
-                                                                                                                                
+
                                                                                                          172.17.31.120          | Reserved                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                                                                                      
+
                                                                                                                                  NSX Controllers for the compute and edge clusters                                                                                                                                                    |
 |                        |                             | comp01nsxm01.lax01.rainpole.local              | 172.17.11.66          | NSX Manager for the compute and edge clusters                                                                                                                                                       |
 |                        |                             | comp01nsxc01.lax01.rainpole.local              
-                                                                                                        
+
                                                         comp01nsxc02.lax01.rainpole.local               
-                                                                                                        
+
                                                         comp01nsxc03.lax01.rainpole.local               | 172.17.31.118         
-                                                                                                                                
+
                                                                                                          172.17.31.119          
-                                                                                                                                
+
                                                                                                          172.17.31.120          | Reserved                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                                                                                      
+
                                                                                                                                  NSX Controllers for the compute and edge clusters                                                                                                                                                    |
 |                        |                             | vRA01-Edge.lax01.rainpole.local                | 10.158.150.13         
-                                                                                                                                
+
                                                                                                          192.168.1.11           
-                                                                                                                                
+
                                                                                                          192.168.11.1           | NSX Edge device for the application virtual network of vRealize Automation                                                                                                                          |
 |                        |                             | vRA01IAS-Edge.lax01.rainpole.local             | 192.168.1.13          
-                                                                                                                                
+
                                                                                                          192.168.13.1           | NSX Edge device for the application virtual network of the vRealize Automation vSphere Proxy Agents                                                                                                 |
 |                        |                             | vROps01-Edge.lax01.rainpole.local              | 10.158.150.14         
-                                                                                                                                
+
                                                                                                          192.168.1.21           
-                                                                                                                                
+
                                                                                                          192.168.21.1           | NSX Edge device for the application virtual network of the analytics cluster of vRealize Operations Manager                                                                                         |
 |                        |                             | vROps01RC-Edge.lax01.rainpole.local            | 192.168.1.23          
-                                                                                                                                
+
                                                                                                          192.168.23.1           | NSX Edge device for the application virtual network of the remote collectors of vRealize Operations Manager                                                                                         |
 |                        |                             | vRLI01-Edge.lax01.rainpole.local               | 10.158.150.15         
-                                                                                                                                
+
                                                                                                          192.168.1.32           
-                                                                                                                                
+
                                                                                                          192.168.32.1           | NSX Edge device for the application virtual network of vRealize Log Insight                                                                                                                         |
 |                        |                             | MgmtLAX01-Edge.lax01.rainpole.local            | 10.158.150.240        
-                                                                                                                                
+
                                                                                                          172.17.11.1            
-                                                                                                                                
+
                                                                                                          172.17.21.1            
-                                                                                                                                
+
                                                                                                          172.17.31.1            
-                                                                                                                                
+
                                                                                                          192.168.1.1            | NSX Edge device for management network connectivity and VPN for inter-region connectivity                                                                                                           |
 |                        | Site Recovery Manager       | mgmt01srm01.lax01.rainpole.local               | 172.17.11.124         | Site Recovery Manager                                                                                                                                                                               |
 |                        |                             | mgmt01vrms01.lax01.rainpole.local              | 172.17.11.123         | vSphere Replication                                                                                                                                                                                 |
@@ -814,10 +820,10 @@ Table . **NTP Server FQDN and IP Configuration **
 | NTP Server FQDN            | Mapped IP Address | Region   |
 |----------------------------|-------------------|----------|
 | ntp.sfo01.rainpole.local   | 172.16.11.251     
-                                                 
+
                               172.16.11.252      | Region A |
 | ntp.lax01.rainpole.local   | 172.17.11.251     
-                                                 
+
                               172.17.11.252      | Region B |
 | 0.ntp.sfo01.rainpole.local | 172.16.11.251     | Region A |
 | 1.ntp.sfo01.rainpole.local | 172.16.11.252     | Region A |
@@ -962,8 +968,8 @@ Table . **Service Accounts in the rainpole.local Parent Domain** 
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|----------------------------|
 | svc-loginsight | Read-only service account for using the Active Directory as an authentication source in vRealize Log Insight and for forwarding log information from vCenter Server and ESXi to vRealize Log Insight. | Yes             |                            |
 | svc-vrops      | Read-only service account for access to the Management vCenter Server and Compute vCenter Server from vRealize Operations Manager.                                                                    | Yes             | RAINPOLE\\ug-vCAdmins      |
-| svc-vra        | Service account for using the Active Directory as an authentication source and for accessing the nodes of vRealize Automation.                                                                        | Yes             | RAINPOLE\\ug-vCenterAdmins 
-                                                                                                                                                                                                                                                                        
+| svc-vra        | Service account for using the Active Directory as an authentication source and for accessing the nodes of vRealize Automation.                                                                        | Yes             | RAINPOLE\\ug-vCenterAdmins
+
                                                                                                                                                                                                                                             RAINPOLE\\ug-vROAdmins      |
 | svc-vro        | Service account for accessing the nodes of vRealize Orchestrator.                                                                                                                                     | Yes             |                            |
 | svc-nsxmanager | Service account for registering NSX Manager with vCenter Single Sign-on on the Platform Services Controller and vCenter Server for the management cluster and for the compute and edge clusters.      | Yes             | RAINPOLE\\ug-vCenterAdmins |
@@ -977,7 +983,7 @@ Table . **User Accounts in the rainpole.local Parent Domain** 
 | User Name            | Description                                                                                                                                                                                                                                                                                          | Service Account | Member of Groups                   |
 |----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|------------------------------------|
 | ITAC-TenantAdmin     | Tenant administrator role in the IT Automation Cloud for configuring <span id="GUID-01F9D264-9940-4526-BC2D-B0553F08023" class="anchor"></span>vRealize Automation for the needs of your organization including user and group management, tenant branding and notifications, and business policies. | No              | RAINPOLE\\ug-ITAC-TenantAdmins     
-                                                                                                                                                                                                                                                                                                                                                                                     
+
                                                                                                                                                                                                                                                                                                                                                  RAINPOLE\\ug-vROAdmins              |
 | ITAC-TenantArchitect | Tenant architect role in the IT Automation Cloud for creating the blueprints that tenants request from the service catalog.                                                                                                                                                                          | No              | RAINPOLE\\ug-ITAC-TenantArchitects |
 
@@ -1031,5 +1037,3 @@ Table . **Specifications for the VM Templates Required in the VMware Validated D
 | Cloud Management | vRealize Automation          | redhat6-enterprise-64     | Red Hat Enterprise Server 6.7(64-bit) | 1    | 6         | 20               | LSI Logic SAS   | VMXNET3                         |
 |                  |                              | windows-2012r2-64         | Windows Server 2012 R2 (64-bit)       | 1    | 4         | 50               | LSI Logic SAS   | VMXNET3                         |
 |                  |                              | windows-2012r2-64-sql2012 | Windows Server 2012 R2 (64-bit)       | 1    | 8         | 100              | LSI Logic SAS   | VMXNET3                         |
-
-
