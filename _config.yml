@@ -69,10 +69,9 @@ url-pretty: "tenthirtyam.org"  # eg. "deanattali.com/beautiful-jekyll"
 
 # Output options (more information on Jekyll's site)
 timezone: "America/NewYork"
-markdown: kramdown
-kramdown:
-  auto_ids: true
-  input: GFM
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
 highlighter: rouge
 permalink: /:year/:month/:day/:title/
 paginate: 1
