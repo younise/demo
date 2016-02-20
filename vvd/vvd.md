@@ -13,7 +13,7 @@ VMware Validated Designs are architectures and designs created and validated by 
 <br>GA: 15 February 2016<br>
 
 * [Reference Architecture](/vvd/00-reference-architecture/)
-* [Planning and Preparation](//vvd/01-planning-preparation/)
+* [Planning and Preparation](/vvd/01-planning-preparation/)
 * [Deployment of Region A](/vvd/02-deployment-region-a/)
 * [Deployment of Region B](/vvd/03-deployment-region-b/)
 * [Operations Guidance](/vvd/04-operational-guidance/)
