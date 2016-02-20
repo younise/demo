@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Ask"
-description: "No Anonimity."
+subtitle "No Anonimity."
 header-img: "img/about-bg.jpg"
 ---
 

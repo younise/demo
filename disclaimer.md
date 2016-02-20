@@ -2,7 +2,7 @@
 layout:         page
 group:          nav
 title:          "Disclaimer"
-description:    "The Obligatory"
+subtitle:       "The Obligatory"
 header-img:     "img/about-bg.jpg"
 permalink:      /disclaimer/
 ---

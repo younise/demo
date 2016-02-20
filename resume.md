@@ -1,8 +1,8 @@
 ---
 layout:         page
 title:          "Ryan Johnson"
-description:    "Yeah, he's cool."
-image:     "img/post-bg-01.jpg"
+subtitle:       "Yeah, he's cool."
+image:          "img/post-bg-01.jpg"
 ---
 
 <h1>60% Water. 40% Geek.</h1>
@@ -28,11 +28,14 @@ Bachelors of Science, Biological Science - May 1998
 <h4>Certifications and Accreditations</h4>
 
 VMware vExpert <a href="http://blogs.vmware.com/vmtn/2014/04/vexpert-2014-announcement.html" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://blogs.vmware.com/vmtn/2014/04/vexpert-2014-announcement.html', '2014']);"  target="_blank">2014</a>/<a href="http://blogs.vmware.com/vmtn/2013/05/vexpert-2013-awardees-announced.html" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://blogs.vmware.com/vmtn/2013/05/vexpert-2013-awardees-announced.html', '2013']);"  target="_blank">2013</a>
-VMware Certified Advanced Professional DCD 4
-VMware Certified Professional DCV 5/4/3
-VMware Certified Professional Cloud 5
-VMware Certified Professional Desktop 5
-VMware Certified Associate DCV, Cloud &amp; WM
+VMware Certified Advanced Professional 5/4 - Data Center Design
+VMware Certified Professional 6/5/4/3 - Data Center Virtualization
+VMware Certified Professional 6 - Cloud Management and Automation
+VMware Certified Professional 5 - Cloud
+VMware Certified Professional 5 - Desktop
+VMware Certified Associate 5 - Data Center Virtualization
+VMware Certified Associate 5 - Network Virtualization
+VMware Certified Associate 5 - Workforce Mobility
 VMware Technical Sales Professional 5/4
 VMware Sales Professional 5/4
 ITIL 3 Foundations

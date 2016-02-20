@@ -2,7 +2,7 @@
 layout:         page
 group:          nav
 title:          "About"
-description:       "Runner // Essentialist // Geek"
+subtitle:       "Runner // Essentialist // Geek"
 published:      true
 categories:     []
 tags:           []
