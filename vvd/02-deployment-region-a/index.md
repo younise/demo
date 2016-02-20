@@ -1,12 +1,12 @@
 ---
 layout:         page
-title:          "VMware Validated Designs"
-description:    "Deploymen of Region A"
+title:          "ITAC 1.0 Deployment of Region A"
+description:    "VMware Validated Designs"
+published:      true
+categories:     []
+tags:           []
+permalink:      /vvd-deploy-region-a/
 ---
-
-
-<img src="media/image1.png" width="824" height="842" />
-
 Version History
 
 | Date        | Ver. | Author     | Description                                                             | Reviewers |
@@ -249,21 +249,21 @@ Procedure
 
 4.  On the **Select a Disk to Install or Upgrade** screen, select the USB drive or SD card under local storage to install ESXi, and press **Enter** to continue.
 
-> <embed src="media/image2.tmp" width="415" height="210" />
+> <img src="media/image2.png" width="415" height="210" />
 
 1.  Select the keyboard layout, and press **Enter**.
 
-> <embed src="media/image3.tmp" width="287" height="177" />
+> <img src="media/image3.png" width="287" height="177" />
 
 1.  Enter the **esxi\_root\_user\_password**, confirm, and press **Enter**. 
 
-> <embed src="media/image4.tmp" width="363" height="163" />
+> <img src="media/image4.png" width="363" height="163" />
 
 1.  On the **Confirm Install** screen, press **F11** to start the installation.
 
 2.  After the installation has completed, unmount the USB drive, and press **Enter** to reboot the host.
 
-> <embed src="media/image5.tmp" width="402" height="226" />
+> <img src="media/image5.png" width="402" height="226" />
 
 1.  Repeat all steps for all hosts in the data center. Enter the respective values for each host that you configure.
 
@@ -310,7 +310,7 @@ Procedure
 | **Subnet Mask**                                       | 255.255.255.0 |
 | **Default Gateway**                                   | 172.16.11.253 |
 
-> <embed src="media/image7.tmp" width="528" height="151" />
+> <img src="media/image7.png" width="528" height="151" />
 
 1.  Select **DNS Configuration** and press **Enter**.
 
@@ -330,7 +330,7 @@ Procedure
 
 1.  After completing all host network settings, press **Escape** to exit, and press **Y** to confirm the changes. 
 
-> <embed src="media/image8.tmp" width="437" height="188" />
+> <img src="media/image8.png" width="437" height="188" />
 
 1.  Repeat all steps for all hosts in the management, compute, and edge pods. Enter the respective values from the prerequisites section for each host that you configure.  <span id="_Configure_vSphere_Standard" class="anchor"><span id="_Ref436390092" class="anchor"></span></span>
 
@@ -382,7 +382,7 @@ Procedure
 
 1.  On the **Home** page, click **Inventory**, click the **Configuration** tab, and click **Networking**.
 
-> <embed src="media/image9.tmp" width="565" height="249" />
+> <img src="media/image9.png" width="565" height="249" />
 
 1.  Click **vSphere Standard Switch**, and click **Properties** next to the **vSwitch0**.
 
@@ -434,13 +434,13 @@ Time synchronization issues can result in serious problems with your environment
 
 1.  Click **Configuration**, click **Time Configuration**, and click **Properties**.
 
-> <embed src="media/image10.tmp" width="357" height="225" />
+> <img src="media/image10.png" width="357" height="225" />
 
 1.  In the **Time Configuration** dialog box, select the **NTP Client Enabled** check box, and click **Options**.
 
 2.  In the **NTP Daemon (ntpd) Options** dialog box, select **General** on the left, and select **Start and stop with host** as the Startup Policy.
 
-> <embed src="media/image11.tmp" width="408" height="207" />
+> <img src="media/image11.png" width="408" height="207" />
 
 1.  In the **NTP Daemon (ntpd) Options** dialog box, select **NTP Settings**, and click **Add**.
 
@@ -1732,13 +1732,13 @@ Procedure
 
 1.  In the **Navigator**, click **Hosts and Clusters**.
 
-> <embed src="media/image86.tmp" width="473" height="261" />
+> <img src="media/image86.png" width="473" height="261" />
 
 1.  Expand the entire **mgmt01vc01.sfo01.rainpole.local** tree.
 
 2.  Right-click the **SFO01-Mgmt01** cluster, and click **Deploy OVF Template**.
 
-> <embed src="media/image87.tmp" width="398" height="249" />
+> <img src="media/image87.png" width="398" height="249" />
 
 1.  Complete the wizard to deploy the NSX Manager virtual appliance.
 
@@ -1757,7 +1757,7 @@ Procedure
 | **Name**                 | mgmt01nsxm01.sfo01 |
 | **Folder or Datacenter** | SFO01              |
 
-> <embed src="media/image88.tmp" width="440" height="257" />
+> <img src="media/image88.png" width="440" height="257" />
 
 1.  On the **Select storage** page, enter the following settings, and click **Next**.
 
@@ -1766,7 +1766,7 @@ Procedure
 | **VM Storage Policy** | Virtual SAN Default Storage Policy |
 | **Datastore**         | SFO01A-VSAN01-MGMT01               |
 
-> <embed src="media/image89.tmp" width="453" height="264" />
+> <img src="media/image89.png" width="453" height="264" />
 
 1.  On the **Setup networks** page, under **Destination**, select **vDS-Mgmt-Management**, and click **Next**.
 
@@ -1789,7 +1789,7 @@ Procedure
 
 1.  On the **Ready to complete** page, select the **Power on after deployment** check box, and click **Finish**.
 
-> <embed src="media/image90.tmp" width="475" height="264" />
+> <img src="media/image90.png" width="475" height="264" />
 
 1.  Connect the NSX Manager to the Management vCenter Server.
 
@@ -1862,7 +1862,7 @@ After the NSX Manager is successfully connected to the Management vCenter Server
 
 1.  Under **Inventories**, click **Networking & Security**.
 
-> <embed src="media/image86.tmp" width="478" height="264" />
+> <img src="media/image86.png" width="478" height="264" />
 
 1.  In the **Navigator**, click **NSX Managers**.
 
@@ -1881,7 +1881,7 @@ After the NSX Manager is successfully connected to the Management vCenter Server
 | **DNS Suffix**     | sfo01.rainpole.local        |
 | **Static IP Pool** | 172.16.11.118-172.16.11.120 |
 
-> <embed src="media/image91.tmp" width="275" height="238" />
+> <img src="media/image91.png" width="275" height="238" />
 
 1.  Deploy the NSX Controller cluster.
 
@@ -1891,7 +1891,7 @@ After the NSX Manager is successfully connected to the Management vCenter Server
 
 2.  Under **NSX Controller nodes**, click the **Add** icon.
 
-> <embed src="media/image92.tmp" width="352" height="241" />
+> <img src="media/image92.png" width="352" height="241" />
 
 1.  In the **Add Controller** page, enter the following settings and click **OK**.
 
@@ -1910,11 +1910,11 @@ After the NSX Manager is successfully connected to the Management vCenter Server
 | **Password**              | mngnsx\_controllers\_password |
 | **Confirm Password**      | mngnsx\_controllers\_password |
 
-> <embed src="media/image93.tmp" width="320" height="287" />
+> <img src="media/image93.png" width="320" height="287" />
 
 1.  After the **Status** of the controller node changes to **Connected**, repeat the step and deploy the remaining two NSX Controller nodes, with the same configuration, that form the controller cluster.
 
-> <embed src="media/image94.tmp" width="515" height="264" />
+> <img src="media/image94.png" width="515" height="264" />
 
 1.  Configure DRS affinity rules for the NSX Controllers.
 
@@ -1967,7 +1967,7 @@ Procedure
 
 1.  In the **Navigator**, click** Networking and Security**.
 
-> <embed src="media/image86.tmp" width="478" height="264" />
+> <img src="media/image86.png" width="478" height="264" />
 
 1.  In the **Navigator**, click **Installation**, and click the **Host Preparation **tab.
 
@@ -1979,7 +1979,7 @@ Procedure
 
 1.  Verify that the **Installation Status** column shows the NSX version for all hosts in the cluster to confirm that NSX kernel modules are successfully installed.
 
-> <embed src="media/image95.tmp" width="464" height="264" />
+> <img src="media/image95.png" width="464" height="264" />
 
 ### Configure the NSX Logical Network for the Management Cluster (Region A)
 
@@ -2014,7 +2014,7 @@ Procedure
 
 2.  Click **Installation**, click the **Logical Network Preparation** tab**,** and click **Segment ID**.
 
-> <embed src="media/image96.tmp" width="565" height="264" />
+> <img src="media/image96.png" width="565" height="264" />
 
 1.  Change the **NSX Manager** that you edit to **172.16.11.65**.
 
@@ -2026,7 +2026,7 @@ Procedure
 | **Enable Multicast addressing** | Yes (select check box)      |
 | **Multicast addresses**         | 239.255.16.0-239.255.16.255 |
 
-> <embed src="media/image97.tmp" width="550" height="300" />
+> <img src="media/image97.png" width="550" height="300" />
 
 1.  Configure the VXLAN networking.
 
@@ -2053,7 +2053,7 @@ Procedure
 
 2.  Change the **NSX Manager** that you edit to **172.16.11.65**.
 
-> <embed src="media/image98.tmp" width="557" height="264" />
+> <img src="media/image98.png" width="557" height="264" />
 
 1.  Click the **Add New Transport zone** icon, enter the following settings, and click **OK**.
 
@@ -2063,7 +2063,7 @@ Procedure
 | **Replication mode**                           | Hybrid              |
 | **Select clusters part of the Transport Zone** | SFO01-Mgmt01        |
 
-> <embed src="media/image99.tmp" width="306" height="287" />
+> <img src="media/image99.png" width="306" height="287" />
 
 ### (Optional) Test the Management Cluster NSX Configuration (Region A)
 
@@ -2092,7 +2092,7 @@ Procedure
 
 2.  Click** Logical Switches**, change the **NSX Manager** that you edit to **172.16.11.65, **and click the** New Logical Switch **icon.
 
-> <embed src="media/image100.tmp" width="439" height="264" />
+> <img src="media/image100.png" width="439" height="264" />
 >  
 
 1.  In the **New Logical Switch** dialog box, enter the following settings, and click **OK**.
@@ -2103,7 +2103,7 @@ Procedure
 | **Transport Zone**   | Mgmt Transport Zone   |
 | **Replication mode** | Hybrid                |
 
-> <embed src="media/image101.tmp" width="379" height="267" />
+> <img src="media/image101.png" width="379" height="267" />
 
 1.  Use the ping monitor to test connectivity.
 
@@ -2119,7 +2119,7 @@ Procedure
 
 5.  Under **Results** verify that no error messages appear.
 
-> <embed src="media/image102.tmp" width="384" height="340" />
+> <img src="media/image102.png" width="384" height="340" />
 
 Deploy and Configure Gateway for the Management Networks (Region A)
 -------------------------------------------------------------------
@@ -2172,7 +2172,7 @@ Deploy a Logical Switch to host the router exchange network. This network is us
 | **Enable IP Discovery** | Selected                                                       |
 | **Enable MAC Learning** | Deselected                                                     |
 
-> <embed src="media/image103.tmp" width="431" height="302" />
+> <img src="media/image103.png" width="431" height="302" />
 
 ### Deploy NSX Edge to Interconnect the Management Networks (Region A)
 
@@ -2229,7 +2229,7 @@ Procedure
 | **Enable auto rule generation** | Selected                    |
 | **Edge Control Level logging**  | INFO                        |
 
-> <embed src="media/image105.tmp" width="411" height="366" />
+> <img src="media/image105.png" width="411" height="366" />
 
 1.  On the **Configure deployment** page, enter the following settings.
 
@@ -2249,11 +2249,11 @@ Procedure
 | **Cluster/Resource Pool** | SFO01-Mgmt01         |
 | **Datastore**             | SFO01A-VSAN01-MGMT01 |
 
-> <embed src="media/image106.tmp" width="309" height="224" />
+> <img src="media/image106.png" width="309" height="224" />
 
 1.  On the **Configure deployment** page, click **Next**.
 
-> <embed src="media/image107.tmp" width="411" height="385" />
+> <img src="media/image107.png" width="411" height="385" />
 >
 >  
 
@@ -2271,7 +2271,7 @@ Procedure
 | **Connectivity Status** | Connected                                       |
 | **MTU**                 | 1500                                            |
 
-> <embed src="media/image108.tmp" width="405" height="371" />
+> <img src="media/image108.png" width="405" height="371" />
 
 1.  Click the **Add** icon.
 
@@ -2279,7 +2279,7 @@ Procedure
 
 3.  Under **Subnet Prefix length**, enter **24**, and click **OK**.
 
-> <embed src="media/image109.tmp" width="433" height="400" />
+> <img src="media/image109.png" width="433" height="400" />
 >  
 
 1.  Configure 4 more interfaces with the following settings, and click **Next**.
@@ -2291,7 +2291,7 @@ Procedure
 | Edge-Management | Internal | (Distributed Portgroup) vDS-Mgmt-Edge-Management | Connected           | 172.16.31.1     | 24                   | 1500 |
 | networkExchange | Uplink   | (Logical Switch) networkExchange-VXLAN           | Connected           | 192.168.0.1     | 24                   | 9000 |
 
-> <embed src="media/image110.tmp" width="501" height="264" />
+> <img src="media/image110.png" width="501" height="264" />
 
 1.  On the **Default gateway settings** page, enter the following settings, and click **Next**.
 
@@ -2316,7 +2316,7 @@ Procedure
 | **Management IPs**                    | 10.10.130.1/30  
                                          10.10.130.2/30   |
 
-> <embed src="media/image112.tmp" width="489" height="344" />
+> <img src="media/image112.png" width="489" height="344" />
 
 1.  On the **Ready to complete** page, review your entries, and click **Finish**.
 
@@ -2383,7 +2383,7 @@ Procedure
 | **Enabled**                    | Selected                                                 |
 | **Enable logging**             | Deselected                                               |
 
-> <embed src="media/image114.tmp" width="340" height="258" />
+> <img src="media/image114.png" width="340" height="258" />
 
 1.  Click the **Add** &gt; **Add SNAT Rule** icon to create another Source NAT rule for the management networks.
 
@@ -2398,7 +2398,7 @@ Procedure
 
 1.  Under **NAT**, click **Publish Changes**, for the new SNAT rule changes to take effect.
 
-> <embed src="media/image115.tmp" width="624" height="189" />
+> <img src="media/image115.png" width="624" height="189" />
 
 ### Configure OSPF Routing in the SDDC (Region A)
 
@@ -2429,7 +2429,7 @@ Procedure
 
 3.  Click the **Manage** tab, click **Routing**, click **Global Configuration **and under **Dynamic Routing Configuration**, click **Edit**.
 
-> <embed src="media/image116.tmp" width="552" height="302" />
+> <img src="media/image116.png" width="552" height="302" />
 >  
 
 1.  In the **Edit Dynamic Routing Configuration** dialog box, enter the following settings, and click **OK**.
@@ -2463,7 +2463,7 @@ Procedure
 | **Authentication** | MD5              |
 | **Value**          | area16\_password |
 
-> <embed src="media/image118.tmp" width="261" height="201" />
+> <img src="media/image118.png" width="261" height="201" />
 
 1.  Under **Area to Interface Mapping**, click the **New Area to Interface Mapping** icon.
 
@@ -2479,7 +2479,7 @@ Procedure
 | **Priority**                     | 128             |
 | **Cost**                         | 1               |
 
-> <embed src="media/image119.tmp" width="233" height="253" />
+> <img src="media/image119.png" width="233" height="253" />
 
 1.  Under **OSPF Configuration**, click **Edit** to enable OSPF.
 
@@ -2491,7 +2491,7 @@ Procedure
 | **Enable Graceful Restart**  | Selected   |
 | **Enable Default Originate** | Deselected |
 
-> <embed src="media/image120.tmp" width="262" height="230" />
+> <img src="media/image120.png" width="262" height="230" />
 
 1.  Click **Publish Changes**.
 
@@ -2520,13 +2520,13 @@ Procedure
 
 2.  In the **Change redistribution settings** dialog box, select **OSPF**, and click **OK**.
 
-> <embed src="media/image122.tmp" width="310" height="160" />
+> <img src="media/image122.png" width="310" height="160" />
 
  
 
 1.  Click **Publish Changes**.
 
-> <embed src="media/image123.tmp" width="510" height="293" />
+> <img src="media/image123.png" width="510" height="293" />
 
 Deploy and Configure the Compute and Edge Clusters Components (Region A)
 ------------------------------------------------------------------------
@@ -3979,7 +3979,7 @@ Procedure
 | **Name**                 | comp01nsxm01.sfo01 |
 | **Folder or Datacenter** | SFO01              |
 
-> <embed src="media/image170.tmp" width="453" height="264" />
+> <img src="media/image170.png" width="453" height="264" />
 
 1.  On the** **Select storage page, enter the following settings, and click **Next**.
 
@@ -3988,7 +3988,7 @@ Procedure
 | **VM Storage Policy** | Virtual SAN Default Storage Policy |
 | **Datastore**         | SFO01A-VSAN01-MGMT01               |
 
-> <embed src="media/image89.tmp" width="453" height="264" />
+> <img src="media/image89.png" width="453" height="264" />
 
 1.  On the **Setup networks** page, under Destination, select **vDS-Mgmt-Management**, and click **Next**.
 
@@ -4011,7 +4011,7 @@ Procedure
 
 1.  On the** Ready to complete** page, select the** Power on after deployment** check box, and click **Finish**.
 
-> <embed src="media/image171.tmp" width="523" height="283" />
+> <img src="media/image171.png" width="523" height="283" />
 
 1.  Connect the NSX Manager to the Compute vCenter Server.
 
@@ -4084,7 +4084,7 @@ After the NSX Manager is successfully connected to the Compute vCenter Server, y
 
 1.  Under **Inventories**, click **Networking & Security**.
 
-    <embed src="media/image86.tmp" width="477" height="264" />
+    <img src="media/image86.png" width="477" height="264" />
 
 2.  In the **Navigator**, click **NSX Managers**.
 
@@ -4103,7 +4103,7 @@ After the NSX Manager is successfully connected to the Compute vCenter Server, y
 | **DNS Suffix**     | sfo01.rainpole.local        |
 | **Static IP Pool** | 172.16.31.118-172.16.31.120 |
 
-> <embed src="media/image172.tmp" width="319" height="275" />
+> <img src="media/image172.png" width="319" height="275" />
 
 1.  Deploy the NSX Controller cluster.
 
@@ -4113,7 +4113,7 @@ After the NSX Manager is successfully connected to the Compute vCenter Server, y
 
 2.  Under NSX Controller nodes, click the Add icon to deploy three NSX Controller nodes with the same configuration.
 
-> <embed src="media/image173.tmp" width="558" height="252" />
+> <img src="media/image173.png" width="558" height="252" />
 
 1.  In the **Add Controller** page, enter the following settings and click **OK**.
 
@@ -4132,11 +4132,11 @@ After the NSX Manager is successfully connected to the Compute vCenter Server, y
 | **Password**              | compnsx\_controllers\_password |
 | **Confirm Password**      | compnsx\_controllers\_password |
 
-> <embed src="media/image174.tmp" width="387" height="344" />
+> <img src="media/image174.png" width="387" height="344" />
 
 1.  After the **Status** of the controller node changes to **Normal**, repeat the step and deploy the remaining two NSX Controller nodes, with the same configuration, that form the controller cluster.
 
-> <embed src="media/image175.tmp" width="426" height="302" />
+> <img src="media/image175.png" width="426" height="302" />
 
 1.  Configure DRS affinity rules for the NSX Controllers.
 
@@ -4189,7 +4189,7 @@ Procedure
 
 1.  In the **Navigator**, click** Networking & Security**.
 
-    <embed src="media/image86.tmp" width="511" height="283" />
+    <img src="media/image86.png" width="511" height="283" />
 
 2.  In the **Navigator**, click **Installation**, and click the **Host Preparation **tab.
 
@@ -4201,7 +4201,7 @@ Procedure
 
 1.  Verify that the **Installation Status** column shows the NSX version for all hosts in the cluster to confirm that NSX kernel modules are successfully installed.
 
-> <embed src="media/image176.tmp" width="549" height="226" />
+> <img src="media/image176.png" width="549" height="226" />
 
 ### Configure the NSX Logical Network for the Compute and Edge Clusters (Region A)
 
@@ -4236,7 +4236,7 @@ Procedure
 
 2.  Click **Installation**, click **Logical Network Preparation**, and click **Segment ID**.
 
-    <embed src="media/image177.tmp" width="477" height="263" />
+    <img src="media/image177.png" width="477" height="263" />
 
 3.  Change the **NSX Manager** that you edit to **172.16.11.66**
 
@@ -4248,7 +4248,7 @@ Procedure
 | **Enable Multicast addressing** | Yes (select check box)  |
 | **Multicast addresses**         | 239.1.0.0-239.1.255.255 |
 
-> <embed src="media/image177.tmp" width="523" height="288" />
+> <img src="media/image177.png" width="523" height="288" />
 
 1.  Configure the VXLAN networking.
 
@@ -4286,7 +4286,7 @@ Procedure
 
 2.  Change the **NSX Manager** that you edit to **172.16.11.66**.
 
-    <embed src="media/image178.tmp" width="535" height="283" />
+    <img src="media/image178.png" width="535" height="283" />
 
 3.  Click the **Add New Transport zone** icon, enter the following settings, and click **OK**.
 
@@ -4296,7 +4296,7 @@ Procedure
 | **Replication mode**                           | Hybrid                     |
 | **Select clusters part of the Transport Zone** | SFO01-Edge01, SFO01-Comp01 |
 
-> <embed src="media/image179.tmp" width="449" height="302" />
+> <img src="media/image179.png" width="449" height="302" />
 
 ###  (Optional) Test the Compute and Edge Clusters NSX Configuration (Region A)
 
@@ -4325,7 +4325,7 @@ Procedure
 
 2.  Click** Logical Switches**, change the **NSX Manager** that you edit to **172.16.11.66, **and click the** New Logical Switch **icon.
 
-    <embed src="media/image180.tmp" width="489" height="283" />
+    <img src="media/image180.png" width="489" height="283" />
 
 3.  In the **New Logical Switch** dialog box, enter the following settings, and click **OK**.
 
@@ -4335,7 +4335,7 @@ Procedure
 | **Transport Zone**   | Comp Transport Zone   |
 | **Replication mode** | Hybrid                |
 
-> <embed src="media/image181.tmp" width="496" height="346" />
+> <img src="media/image181.png" width="496" height="346" />
 
 1.  Use the Ping Monitor to test connectivity.
 
@@ -4351,7 +4351,7 @@ Procedure
 
 5.  Under **Results** there must be no error messages.
 
-    <embed src="media/image182.tmp" width="431" height="418" />
+    <img src="media/image182.png" width="431" height="418" />
      
 
     1.  Deploy and Configure Gateways for the Management Application Networks (Region A)
@@ -4400,21 +4400,21 @@ Procedure
 
 1.  In the **Navigator**, click **VMs and Templates**.
 
-    <embed src="media/image86.tmp" width="512" height="283" />
+    <img src="media/image86.png" width="512" height="283" />
 
 2.  Expand the **mgmt01vc01.sfo01.rainpole.local** tree.
 
 3.  Right-click the **SFO01** data center, and select **New Folder** &gt; **New VM and Template Folder**.
 
-> <embed src="media/image183.tmp" width="453" height="372" />
+> <img src="media/image183.png" width="453" height="372" />
 
 1.  In the **New Folder** dialog box, enter **vRA01** as name, and click **OK**.
 
-> <embed src="media/image184.tmp" width="361" height="141" />
+> <img src="media/image184.png" width="361" height="141" />
 
 1.  Repeat the step to create the remaining folders.
 
-    <embed src="media/image185.tmp" width="292" height="169" />
+    <img src="media/image185.png" width="292" height="169" />
 
     1.  ### Deploy Management Application Logical Switch (Region A)
 
@@ -4462,7 +4462,7 @@ Procedure**
 | **Enable IP Discovery** | Checked                                   |
 | **Enable MAC Learning** | Unchecked                                 |
 
-> <embed src="media/image186.tmp" width="407" height="284" /> 
+> <img src="media/image186.png" width="407" height="284" /> 
 
 1.  Repeat the previous step to create the remaining logical switches.
 
@@ -4554,7 +4554,7 @@ Procedure
 | **Deploy NSX Edge**          | Selected                     |
 | **Enable High Availability** | Selected                     |
 
-> <embed src="media/image187.tmp" width="387" height="363" />
+> <img src="media/image187.png" width="387" height="363" />
 
 1.   On the **Settings **page, enter the following settings, and click **Next**.
 
@@ -4589,11 +4589,11 @@ Procedure
 | **Datastore**             | SFO01A-VSAN01-MGMT01 |
 | **Folder**                | vRA01                |
 
-> <embed src="media/image189.tmp" width="289" height="209" />
+> <img src="media/image189.png" width="289" height="209" />
 
 1.  On the **Configure deployment** page, click the **Add** icon to configure another appliance identical to the previous one, and click **Next**.
 
-> <embed src="media/image190.tmp" width="401" height="377" />
+> <img src="media/image190.png" width="401" height="377" />
 
 1.  On the **Configure Interfaces** page, click the **Add** icon to configure a new interface.
 
@@ -4613,7 +4613,7 @@ Procedure
 | **Connectivity Status** | Connected                                       |
 | **MTU**                 | 1500                                            |
 
-> <embed src="media/image108.tmp" width="412" height="377" />
+> <img src="media/image108.png" width="412" height="377" />
 
 1.  Click the **Add** icon to configure the IP address for the current interface, enter the following settings, and click **OK**.
 
@@ -4622,7 +4622,7 @@ Procedure
 | **Primary IP Address**   | 10.158.130.13 |
 | **Subnet Prefix Length** | 24            |
 
-> <embed src="media/image191.tmp" width="412" height="377" />
+> <img src="media/image191.png" width="412" height="377" />
 
 1.  Configure two more interfaces with the following settings, and click **Next**.
 
@@ -4631,7 +4631,7 @@ Procedure
 | networkExchange | Uplink   | (Logical Switch) networkExchange-VXLAN | Connected           | 192.168.0.11    | 24                   | 9000 |
 | Internal        | Internal | (Logical Switch) vRA01-VXLAN           | Connected           | 192.168.11.1    | 24                   | 9000 |
 
-> <embed src="media/image192.tmp" width="568" height="283" />
+> <img src="media/image192.png" width="568" height="283" />
 
 1.  On the **Default gateway settings** page, enter the following settings, and click **Next**.
 
@@ -4660,7 +4660,7 @@ Procedure
 | **Management IPs**                    | 10.10.11.1/30
                                          10.10.11.2/30  |
 
-> <embed src="media/image194.tmp" width="403" height="377" />
+> <img src="media/image194.png" width="403" height="377" />
 
 1.  On the **Ready to complete** page, review your entries, and click **Finish**. 
 
@@ -4668,7 +4668,7 @@ Procedure
 
 1.  Repeat the procedure to deploy the remaining Management Application Network Edges.
 
-> <embed src="media/image195.tmp" width="470" height="283" />
+> <img src="media/image195.png" width="470" height="283" />
 
 **
 **
@@ -4724,11 +4724,11 @@ For each of the management application edges that have a public interface, you m
 | **Enabled**                    | Selected                                                 |
 | **Enable logging**             | Deselected                                               |
 
-> <embed src="media/image197.tmp" width="336" height="256" />
+> <img src="media/image197.png" width="336" height="256" />
 
 1.  Under **NAT**, click **Publish Changes**, for the new SNAT rule changes to take effect.
 
-> <embed src="media/image198.tmp" width="624" height="181" />
+> <img src="media/image198.png" width="624" height="181" />
 >  
 
 1.  Repeat the previous step to add SNAT rules for the remaining management application edges.
@@ -4791,7 +4791,7 @@ Configure OSPF routing on all the management application edges.
 | **Authentication** | MD5              |
 | **Value**          | area16\_password |
 
-> <embed src="media/image118.tmp" width="190" height="146" />
+> <img src="media/image118.png" width="190" height="146" />
 
 1.  Under **Area to Interface Mapping**, click the **New Area to Interface Mapping** icon.
 
@@ -4807,7 +4807,7 @@ Configure OSPF routing on all the management application edges.
 | **Priority**                     | 128             |
 | **Cost**                         | 1               |
 
-> <embed src="media/image119.tmp" width="203" height="220" />
+> <img src="media/image119.png" width="203" height="220" />
 
 1.  Under **OSPF Configuration**, click **Edit** to enable OSPF.
 
@@ -4819,7 +4819,7 @@ Configure OSPF routing on all the management application edges.
 | **Enable Graceful Restart**  | Selected   |
 | **Enable Default Originate** | Deselected |
 
-> <embed src="media/image120.tmp" width="214" height="188" />
+> <img src="media/image120.png" width="214" height="188" />
 
 1.  Click **Publish Changes**.
 
@@ -4885,7 +4885,7 @@ Enable route distribution on the edge gateways to share their connected network
 | **Connected**        | Selected   |
 | **Action**           | Deny       |
 
-> <embed src="media/image200.tmp" width="163" height="156" />
+> <img src="media/image200.png" width="163" height="156" />
 
 1.  Under **Route Redistribution table**, click the **Add** icon.
 
@@ -4901,7 +4901,7 @@ Enable route distribution on the edge gateways to share their connected network
 | **Connected**        | Selected   |
 | **Action**           | Permit     |
 
-> <embed src="media/image201.tmp" width="167" height="160" />
+> <img src="media/image201.png" width="167" height="160" />
 
 1.  Under **Route Redistribution Status**, click **Edit**.
 
@@ -5063,7 +5063,7 @@ This example illustrates how you generate the signed certificate for the mgmt01
 
 9.  From the **Certificate Template** drop down, select **VMware** and click **Submit**.
 
->  <embed src="media/image204.tmp" width="467" height="405" />
+>  <img src="media/image204.png" width="467" height="405" />
 
 1.  On the **Certificate issued** screen, click **Base 64 encoded**.
 
@@ -5973,13 +5973,13 @@ Use the vSphere Web Client to deploy each vRealize Operations Manager node as a
 
 1.  On the **Review details** page, examine the virtual appliance details, such as product, version, download and disk size, and click **Next**.
 
-> <embed src="media/image232.tmp" width="392" height="230" />
+> <img src="media/image232.png" width="392" height="230" />
 
 1.  On the **Accept License Agreements **page, accept the end user license agreements and click **Next**.
 
 2.  On the **Select name and folder** page, enter a node name, select the inventory folder for the virtual appliance, and click **Next**.
 
-> <embed src="media/image233.tmp" width="449" height="264" />
+> <img src="media/image233.png" width="449" height="264" />
 
 1.  Enter a name for the node according to its role.
 
@@ -6000,15 +6000,15 @@ Use the vSphere Web Client to deploy each vRealize Operations Manager node as a
 
 1.  On the **Select configuration** page, from the **Configuration** drop-down menu, select the **Medium** deployment configuration of the virtual appliance, and click **Next**.
 
-> <embed src="media/image234.tmp" width="454" height="264" />
+> <img src="media/image234.png" width="454" height="264" />
 
 1.  On the **Select a resource** page, select the **SFO01-Mgmt01** management cluster as the resource to run the virtual appliance, and click **Next**.
 
-> <embed src="media/image235.tmp" width="452" height="264" />
+> <img src="media/image235.png" width="452" height="264" />
 
 1.  On the **Select storage** page, select the datastore. By default, the virtual appliance disk is thin provisioned.
 
-> <embed src="media/image236.tmp" width="453" height="264" />
+> <img src="media/image236.png" width="453" height="264" />
 
 1.  From the **VM Storage Policy** drop-down menu, select **Virtual SAN Default Storage Policy**.
 
@@ -6022,11 +6022,11 @@ Use the vSphere Web Client to deploy each vRealize Operations Manager node as a
 
 > NSX for vSphere creates the distributed port group for the logical switch that connects the analytics cluster nodes and generates the port group name. The name of the port group contains the segment ID and the logical switch name vROps01-VXLAN.
 >
-> <embed src="media/image237.tmp" width="457" height="264" />
+> <img src="media/image237.png" width="457" height="264" />
 
 1.  On the **Customize template** page, select the time zone and set IPv4 settings for the virtual appliance.
 
-> <embed src="media/image238.tmp" width="449" height="264" />
+> <img src="media/image238.png" width="449" height="264" />
 
 1.  From the **Timezone** **setting** drop-down menu, select the **Etc/UTC** time zone.
 
@@ -6044,7 +6044,7 @@ Use the vSphere Web Client to deploy each vRealize Operations Manager node as a
 
 1.  Verify that the settings for deployment are correct, and click **Finish**.
 
-> <embed src="media/image239.tmp" width="402" height="283" />
+> <img src="media/image239.png" width="402" height="283" />
 
 1.  After the virtual appliance is deployed, expand the data disk of the virtual appliance to collect and store data from a large number of virtual machines.
 
@@ -6056,7 +6056,7 @@ Use the vSphere Web Client to deploy each vRealize Operations Manager node as a
 
 3.  In the **Edit Settings** dialog box, next to **Hard disk 2** increase the size of the virtual appliance disk from 250 GB to 1 TB, and click **OK**.
 
-> <embed src="media/image240.tmp" width="287" height="299" />
+> <img src="media/image240.png" width="287" height="299" />
 
 1.  Right-click the virtual appliance object and select the **Power** &gt; **Power On** menu item.
     During the power-on process, the virtual appliance expands the <span id="GUID-1AE6F375-CE19-4803-8ABD-061031DC47B" class="anchor"></span>vRealize Operations Manager data partition as well.
@@ -6153,7 +6153,7 @@ Procedure
 
 > openssl genrsa -out vrops01.key 4096
 >
-> <embed src="media/image241.tmp" width="624" height="105" />
+> <img src="media/image241.png" width="624" height="105" />
 
 1.  Use the vrops01.key private key and the vrops01.cfg configuration file to create a Certificate Signing Request (CSR) and save it as a vrops01.pem file.
 
@@ -6169,13 +6169,13 @@ Procedure
 
 1.  Copy the output from -----BEGIN CERTIFICATE REQUEST----- to -----END CERTIFICATE REQUEST----- inclusive.
 
-> <embed src="media/image242.tmp" width="339" height="380" />
+> <img src="media/image242.png" width="339" height="380" />
 
 1.  In a Web browser, log into http://dc01rpl.rainpole.local/certsrv/certrqxt.asp with the domain **administrator** user name and **domain\_admin\_password** password.
 
 2.  Paste the request in the **Saved Request** text box, select **VMware** from the **Certificate Template** drop-down menu, and click Submit.
 
-> <embed src="media/image243.tmp" width="374" height="326" />
+> <img src="media/image243.png" width="374" height="326" />
 
 1.  On the **Certificate Issued** page, download the signed server certificate as a **vrops01.cer** file in Base 64 encoding.
 
@@ -6183,7 +6183,7 @@ Procedure
 
 1.  If the save as dialog does not appear, the signed certificate is saved as **certnew.cer** in your downloads folder. Rename the file to vrops01.cer.
 
-> <embed src="media/image244.tmp" width="464" height="173" />
+> <img src="media/image244.png" width="464" height="173" />
 
 1.  Download the root CA certificate.
 
@@ -6197,7 +6197,7 @@ Procedure
 
 1.  If the save as dialog does not appear, the CA certificate is saved as certnew.cer in your downloads folder. Rename the file to rootca.cer.
 
-> <embed src="media/image245.tmp" width="483" height="332" />
+> <img src="media/image245.png" width="483" height="332" />
 
 1.  Copy the **vrops01.cer** and **rootca.cer** certificate files to the **/root/vrops01** folder on the master virtual appliance. You can use scp, FileZilla or WinSCP.
 
@@ -6225,11 +6225,11 @@ Procedure
 
 2.  In the initial setup page, click **New Installation**.
 
-> <embed src="media/image246.tmp" width="426" height="283" />
+> <img src="media/image246.png" width="426" height="283" />
 
 1.  Examine the overview of the steps for creating a cluster and click **Next**.
 
-> <embed src="media/image247.tmp" width="595" height="283" />
+> <img src="media/image247.png" width="595" height="283" />
 
 1.  On the **Set the Administrator account password** page, enter and confirm the password for **admin** user account.
 
@@ -6239,7 +6239,7 @@ Procedure
 
 > After the setup reads and validates the certificate, you see that the certificate has a common name **vrops-cluster-01.rainpole.local** and a subject alternate name that contains **vrops-mstrn-01.rainpole.local** for the master node.
 >
-> <embed src="media/image249.tmp" width="441" height="283" />
+> <img src="media/image249.png" width="441" height="283" />
 
 1.  On the **Deployment Setting** page, in the **Cluster Master Node Name**, enter the DNS short name **vrops-mstrn-01**.
 
@@ -6265,11 +6265,11 @@ Procedure
 
 1.  On the **Ready to complete** page, click **Finish**.
 
-> <embed src="media/image251.tmp" width="438" height="283" />
+> <img src="media/image251.png" width="438" height="283" />
 >
 > After the configuration process is complete, the administration UI of vRealize Operations Manager opens. On the **System Status** page, you see the virtual appliance instance as the master node.
 >
-> <embed src="media/image252.tmp" width="624" height="197" />
+> <img src="media/image252.png" width="624" height="197" />
 
 ### Configure the Master Replica Node in the Analytics Cluster
 
@@ -6281,15 +6281,15 @@ Procedure
 
 2.  In the initial setup page, click **Expand an Existing Installation**.
 
-> <embed src="media/image246.tmp" width="426" height="283" />
+> <img src="media/image246.png" width="426" height="283" />
 
 1.  On the **Getting Started** page, examine the overview of the steps for expanding the cluster and click **Next**.
 
-> <embed src="media/image253.tmp" width="401" height="319" />
+> <img src="media/image253.png" width="401" height="319" />
 
 1.  On the **Node Settings and Cluster Info** page, configure the settings of the node in the analytics cluster.
 
-> <embed src="media/image254.tmp" width="442" height="283" />
+> <img src="media/image254.png" width="442" height="283" />
 
 1.  In the **Node Name** text box, enter the DNS short name **vrops-repln-02**.
 
@@ -6312,13 +6312,13 @@ Procedure
 
 1.  On the **Username and password** page, select **Use cluster administrator user name and password**,** **enter the **vrops\_admin\_password** for the **admin** user, and click **Next**.
 
-> <embed src="media/image255.tmp" width="403" height="264" />
+> <img src="media/image255.png" width="403" height="264" />
 
 1.  On the **Ready to complete** page, click **Finish**.
 
 > After the configuration process is complete, the administration UI of vRealize Operations Manager appears. You see the virtual appliance instance as a data node on the **System Status** page.
 >
-> <embed src="media/image256.tmp" width="594" height="219" />
+> <img src="media/image256.png" width="594" height="219" />
 
 ### Configure the Data Nodes in the Analytics Cluster
 
@@ -6387,11 +6387,11 @@ After you deploy and enable the roles of the analytics cluster nodes, use the vS
 
 3.  On the **Select source** page, select **Local file**, browse to the location of the vRealize Operations Manager OVA file on your file system, and click **Next**.
 
-> <embed src="media/image258.tmp" width="432" height="253" />
+> <img src="media/image258.png" width="432" height="253" />
 
 1.  On the **Review details** page, examine the virtual appliance details, such as product, version, download and disk size, and click **Next**.
 
-> <embed src="media/image259.tmp" width="428" height="249" />
+> <img src="media/image259.png" width="428" height="249" />
 >  
 
 1.  On the **Accept License Agreements** page, accept the end user license agreements and click **Next**.
@@ -6406,15 +6406,15 @@ After you deploy and enable the roles of the analytics cluster nodes, use the vS
 | **Data center**    | SFO01                                  |
 | **Folder**         | vROps01RC                              |
 
-> <embed src="media/image260.tmp" width="428" height="249" />
+> <img src="media/image260.png" width="428" height="249" />
 
 1.  On the **Select configuration** page, from the **Configuration** drop-down menu, select **Remote Collector (Standard)**, and click **Next**.
 
-> <embed src="media/image261.tmp" width="423" height="249" />
+> <img src="media/image261.png" width="423" height="249" />
 
 1.  On the **Select a resource** page, select the **SFO01-Mgmt01** management cluster as the resource to run the virtual appliance, and click **Next**.
 
-> <embed src="media/image262.tmp" width="427" height="249" /> 
+> <img src="media/image262.png" width="427" height="249" /> 
 >  
 
 1.  On the **Select storage** page, for storage, select the Virtual SAN datastore, and click **Next**.
@@ -6428,13 +6428,13 @@ After you deploy and enable the roles of the analytics cluster nodes, use the vS
 
 3.  Click **Next**.
 
-> <embed src="media/image263.tmp" width="425" height="249" />
+> <img src="media/image263.png" width="425" height="249" />
 
 1.  On the **Setup networks** page, select the distributed port group on the **vDS-Mgmt** distributed switch that ends with **vROps01RC-VXLAN**, and click **Next**.
 
 > NSX for vSphere creates the distributed port group for the logical switch that connects the remote collector nodes. The name of the port group indicates the segment ID and the logical switch name **vROps01RC-VXLAN**.
 >
-> <embed src="media/image264.tmp" width="402" height="235" />
+> <img src="media/image264.png" width="402" height="235" />
 
 1.  On the **Customize template** page, select the time zone and set the IPv4 settings for the virtual appliance.
 
@@ -6452,11 +6452,11 @@ After you deploy and enable the roles of the analytics cluster nodes, use the vS
                            192.168.22.26 for remote collector 2  |
 | **Subnet mask**         | 255.255.255.0                        |
 
-> <embed src="media/image265.tmp" width="398" height="232" />
+> <img src="media/image265.png" width="398" height="232" />
 
 1.  On the **Ready to complete** page, verify that the settings for deployment are correct and the **Power on after deployment** check box is selected, and click **Finish**.
 
-> <embed src="media/image266.tmp" width="425" height="249" />
+> <img src="media/image266.png" width="425" height="249" />
 
 1.  Repeat the steps to deploy the second remote collector appliance.
 
@@ -6475,7 +6475,7 @@ Procedure
 
 1.  In the initial setup page, click **Expand an Existing Installation** and click **Next**.
 
-> <embed src="media/image246.tmp" width="349" height="232" />
+> <img src="media/image246.png" width="349" height="232" />
 
 1.  On the **Note Settings and Cluster Info** page, configure the settings of the node in the analytics cluster.
 
@@ -6497,7 +6497,7 @@ Procedure
 
 4.  Click **Next**.
 
-> <embed src="media/image267.tmp" width="374" height="240" />
+> <img src="media/image267.png" width="374" height="240" />
 
 1.  On the **Username and password** page, select **Use cluster administrator user name and password**,** **enter the password for the cluster admin user, and click **Next**.
 
@@ -6505,7 +6505,7 @@ Procedure
 
 > After the configuration of the second remote collector is complete, the cluster on the **System Status** page of the administration UI consists of vrops-mstrn-01, vrops-repln-02, vrops-datan-03, vrops-datan-04, and 2 remote collectors vrops-rmtcol-01 and vrops-rmtcol-02.
 >
-> <embed src="media/image268.tmp" width="561" height="155" />
+> <img src="media/image268.png" width="561" height="155" />
 
 ### Configure a DRS Anti-Affinity Rule for vRealize Operations Manager in Region A
 
@@ -6571,32 +6571,32 @@ After you deploy the virtual appliances for the analytics cluster nodes and for 
 
 > On the **System Status** page, the cluster status is **Not Started**, and the high availability of the cluster is **Disabled**.
 >
-> <embed src="media/image269.tmp" width="524" height="96" /> 
+> <img src="media/image269.png" width="524" height="96" /> 
 >  
 
 1.  On the **System Status** page, click **Enable** under** High Availability**. A list of all nodes that have the data node role appears.
 
 2.  In the **Enable High Availability** dialog box, select **vrops-repln-02**, select the **Enable High Availability for this cluster** check box, and click **OK**.
 
-> <embed src="media/image270.tmp" width="367" height="365" />
+> <img src="media/image270.png" width="367" height="365" />
 >
 > High availability becomes enabled after several minutes. **vrops-mstrn-01** is the master, **vrops-repln-02** is the master replica, and the remaining nodes are data nodes.
 >
-> <embed src="media/image271.tmp" width="593" height="273" />
+> <img src="media/image271.png" width="593" height="273" />
 
 1.  Under **Cluster Status**, click **Start vRealize Operations Manager**.
 
-> <embed src="media/image272.tmp" width="297" height="75" /> 
+> <img src="media/image272.png" width="297" height="75" /> 
 >
 > A confirmation dialog about initial startup appears.
 
 1.  Click **Yes** to confirm the first startup of vRealize Operations Manager.
 
-> <embed src="media/image273.tmp" width="517" height="203" />
+> <img src="media/image273.png" width="517" height="203" />
 
 1.  After several minutes, the nodes of the cluster are started, and the analytics cluster and remote collectors for Region A are online.
 
-> <embed src="media/image274.tmp" width="598" height="264" />
+> <img src="media/image274.png" width="598" height="264" />
 
 ### Assign a License to vRealize Operations Manager
 
@@ -6616,7 +6616,7 @@ Procedure
 
 1.  On the **Welcome** page of the configuration wizard, examine the process overview, and click **Next**.
 
-> <embed src="media/image275.tmp" width="436" height="302" />
+> <img src="media/image275.png" width="436" height="302" />
 
 1.  On the **Accept EULA** page, accept the end user license agreement, and click **Next**.
 
@@ -6628,11 +6628,11 @@ Procedure
 
 2.  Click **Validate License Key,** and click **Next**.
 
-> <embed src="media/image276.tmp" width="578" height="128" />
+> <img src="media/image276.png" width="578" height="128" />
 
 1.  (Optional) On the **Customer Experience Improvement Program** page, to send technical information for product improvement, select **Enable Customer Experience Improvement Program** and click **Next**.
 
-> <embed src="media/image277.tmp" width="616" height="142" />
+> <img src="media/image277.png" width="616" height="142" />
 
 1.  On the **Ready to Complete** page, click **Finish**.
 
@@ -6656,23 +6656,23 @@ After you start vRealize Operations Manager and assign it a license, join the re
 
 1.  From the **Home** page, click **Administration**, and click **Collector Groups**.
 
-> <embed src="media/image279.tmp" width="206" height="183" />
+> <img src="media/image279.png" width="206" height="183" />
 
-<embed src="media/image280.tmp" width="184" height="346" />
+<img src="media/image280.png" width="184" height="346" />
 
 1.  Click the **Add** icon.
 
-> <embed src="media/image281.tmp" width="491" height="88" />
+> <img src="media/image281.png" width="491" height="88" />
 
 1.  In the **Add New Collector Group** dialog, for group name enter **SFO01** and for description **Remote collector group for Region A**.
 
 2.  Select the **vrops-rmtcol-01** and **vrops-rmtcol-02** collectors, and click **Save.**
 
-> <embed src="media/image282.tmp" width="340" height="391" />
+> <img src="media/image282.png" width="340" height="391" />
 >
 > The SFO01 group appears on the **Collector Groups** page.
 >
-> <embed src="media/image283.tmp" width="584" height="190" />
+> <img src="media/image283.png" width="584" height="190" />
 
 ### Verify and Import the CA-Signed Certificate on Your Computer
 
@@ -6682,13 +6682,13 @@ Procedure
 
 1.  In a Web browser, go to **https://vrops-repln-02.rainpole.local.** A warning message that the connection is not trusted appears.
 
-> <embed src="media/image284.tmp" width="590" height="238" />
+> <img src="media/image284.png" width="590" height="238" />
 
 1.  To review the certificate, click the padlock.
 
 2.  Verify that the **Subject Alternative Name** contains the names of the cluster nodes.
 
-> <embed src="media/image285.tmp" width="259" height="318" />
+> <img src="media/image285.png" width="259" height="318" />
 
 1.  If you access vRealize Operations Manager from an external location, import the certificate. You can use Certificate Manager on Windows or Keychain Access on MAC OS X. The certificate is required for connection to the external VIP address of the load balancer.
 
@@ -6721,7 +6721,7 @@ Procedure
 
 3.  On the **NSX Edges** page, double-click the **vROps01-Edge** NSX edge.
 
-> <embed src="media/image286.tmp" width="624" height="174" />
+> <img src="media/image286.png" width="624" height="174" />
 
 1.  On the **Manage** tab, click the **Settings** tab and click **Interfaces**.
 
@@ -6729,7 +6729,7 @@ Procedure
 
 3.  In the **Edit NSX Edge Interface** dialog box, click the **Edit** icon and in the **Secondary IP Addresses** text box enter the **10.158.130.48** VIP address. You use the VIP address for vRealize Operations Manager load balancing. 
 
-> <embed src="media/image287.tmp" width="376" height="377" />
+> <img src="media/image287.png" width="376" height="377" />
 
 1.  Click on **OK** to save the configuration. 
 
@@ -6737,7 +6737,7 @@ Procedure
 
 3.  Under **Global Configuration**, click **Edit**.
 
-> <embed src="media/image288.tmp" width="624" height="126" />
+> <img src="media/image288.png" width="624" height="126" />
 
 1.  In the **Edit Load balancer global configuration** dialog box, configure the load balancer.
 
@@ -6745,7 +6745,7 @@ Procedure
 
 1.  Do not enable acceleration.
 
-> <embed src="media/image289.tmp" width="348" height="349" />
+> <img src="media/image289.png" width="348" height="349" />
 
 1.  Select the **Enable Load Balancer** check box.
 
@@ -6774,7 +6774,7 @@ Procedure
 | **Expires in (Seconds)**   | 1800         |     |
 | **Client Authentication**  | Ignore       |     |
 
-> <embed src="media/image290.tmp" width="289" height="426" />
+> <img src="media/image290.png" width="289" height="426" />
 
 1.  Create service monitoring entry.
 
@@ -6795,7 +6795,7 @@ Procedure
 | **URL**      | /ui/heartbeat.action      |
 | **Receive**  | ok (*must be lower case*) |
 
-> <embed src="media/image291.tmp" width="287" height="432" />
+> <img src="media/image291.png" width="287" height="432" />
 
 1.  Add a server pool. 
 
@@ -6811,7 +6811,7 @@ Procedure
 | Algorithm  | LEASTCONN      |
 | Monitors   | VROPS\_MONITOR |
 
-> <embed src="media/image292.tmp" width="439" height="173" />
+> <img src="media/image292.png" width="439" height="173" />
 
 1.  In the **Members** section, add one member for each node of the analytics cluster and click **OK**. 
 
@@ -6838,11 +6838,11 @@ Procedure
 | **Max Connections** | 8                                |
 | **Min Connections** | 8                                |
 
-> <embed src="media/image293.tmp" width="299" height="265" />
+> <img src="media/image293.png" width="299" height="265" />
 >
 > After you add the analytics cluster nodes to the pool, you see them in the **Members** table.
 >
-> <embed src="media/image294.tmp" width="624" height="176" />
+> <img src="media/image294.png" width="624" height="176" />
 
 1.  In the **New Pool** dialog box, click **OK**.
 
@@ -6870,7 +6870,7 @@ Procedure
 
 > You can connect to the analytics cluster at the public Virtual Server IP address over HTTPS: [**https://vrops-cluster-01.rainpole.local**](https://vrops-cluster-01.rainpole.local).
 >
-> <embed src="media/image295.tmp" width="374" height="433" /> 
+> <img src="media/image295.png" width="374" height="433" /> 
 
 1.  Configure auto redirect from HTTP to HTTPS requests.
 
@@ -6888,7 +6888,7 @@ Procedure
 | **Persistence**       | Source IP                             |
 | **Expires in**        | 1800                                  |
 
-> <embed src="media/image296.tmp" width="351" height="529" />
+> <img src="media/image296.png" width="351" height="529" />
 
 1.  On the **Load Balancer** tab of the vROps01-Edge device, select **Virtual Servers** and click **Add**.
 
@@ -6906,7 +6906,7 @@ Procedure
 
 > You can connect to the analytics cluster at the public Virtual Server IP address over HTTP at the **http://vrops-cluster-01.rainpole.local** address.
 >
-> <embed src="media/image297.tmp" width="312" height="361" /> 
+> <img src="media/image297.png" width="312" height="361" /> 
 
 1.  Verify the pool configuration by examining the pool statistics which reflects the status of the components behind the load balancer.
 
@@ -6924,9 +6924,9 @@ Procedure
 
 > You see that the load balancer pool is up.
 >
-> <embed src="media/image298.tmp" width="497" height="248" />
+> <img src="media/image298.png" width="497" height="248" />
 >
-> <embed src="media/image299.tmp" width="372" height="355" />
+> <img src="media/image299.png" width="372" height="355" />
 
 Connect vRealize Operations Manager to the vSphere Environment in Region A
 --------------------------------------------------------------------------
@@ -7633,11 +7633,11 @@ Procedure
 
 1.  In the **Authentication Sources** page, click the **Add** icon.
 
-> <embed src="media/image349.tmp" width="361" height="94" />
+> <img src="media/image349.png" width="361" height="94" />
 
 1.  In the **Add Source for User and Group Import** dialog box, enter the settings for the Active Directory.
 
-> <embed src="media/image350.tmp" width="332" height="355" />
+> <img src="media/image350.png" width="332" height="355" />
 
 | Active Directory Setting                                             | Value                         |
 |----------------------------------------------------------------------|-------------------------------|
@@ -7664,7 +7664,7 @@ Procedure
 
 1.  Click the **Test** button to test the connection to the domain controller and in the **Info** success message click **OK**.
 
-> <embed src="media/image351.tmp" width="391" height="230" />
+> <img src="media/image351.png" width="391" height="230" />
 
 1.  In the **Add Source for User and Group Import** dialog box, click **OK**.
 
@@ -7686,7 +7686,7 @@ Members of the vCAdmins group monitor the operation of the vCenter Server insta
 
 3.  On the **Access Control** page, click the **User Groups** tab.
 
-> <embed src="media/image352.tmp" width="485" height="183" />
+> <img src="media/image352.png" width="485" height="183" />
 
 1.  Click the **Import Groups** icon. 
 
@@ -7704,7 +7704,7 @@ Members of the vCAdmins group monitor the operation of the vCenter Server insta
 
 5.  Click **Next**.
 
-> <embed src="media/image353.tmp" width="410" height="253" />
+> <img src="media/image353.png" width="410" height="253" />
 
 1.  In the **Assign Groups, Roles, and Objects** page, assign the **ReadOnly** role to the **vCAdmins** user group.
 
@@ -7714,7 +7714,7 @@ Members of the vCAdmins group monitor the operation of the vCenter Server insta
 
 2.  Select the **ReadOnly** item.
 
-> <embed src="media/image354.tmp" width="439" height="275" />
+> <img src="media/image354.png" width="439" height="275" />
 
 1.  In the **Assign Groups, Roles, and Objects** page, configure read-only access of the **vCAdmins** user group on all objects.
 
@@ -7724,7 +7724,7 @@ Members of the vCAdmins group monitor the operation of the vCenter Server insta
 
 2.  Select **Allow access to all objects in the system**.
 
-> <embed src="media/image355.tmp" width="454" height="283" />
+> <img src="media/image355.png" width="454" height="283" />
 
 1.  Click **Finish**.
 
@@ -7805,7 +7805,7 @@ Procedure
 
 3.  On the **Outbound Alert Settings** page, click the **Add** icon to create an outbound alert instance.
 
-> <embed src="media/image358.tmp" width="430" height="271" />
+> <img src="media/image358.png" width="430" height="271" />
 
 1.  In the **Add/Edit Outbound Alert Instance** dialog box, configure the settings for the Standard Email Plug-in, and click **OK**. 
 
@@ -7821,7 +7821,7 @@ Procedure
 | **Sender Email Address**   | vrops@rainpole.local                                                               |
 | **Sender Name**            | vRealize Operations Admin                                                          |
 
-> <embed src="media/image359.tmp" width="411" height="356" />
+> <img src="media/image359.png" width="411" height="356" />
 
 1.  Click the **Test** button to verify the connection with the SMTP server.
 
@@ -7942,11 +7942,11 @@ Procedure
 
 3.  On the **Select source** page, select **Local file**, click **Browse** and browse to the location of the vRealize Log Insight .ova file on your local file system, and click **Next**.
 
-> <embed src="media/image360.tmp" width="487" height="283" />
+> <img src="media/image360.png" width="487" height="283" />
 
 1.  On the **Review details** page, examine the virtual appliance details, such as product, version, download size, and disk size, and click **Next**.
 
-> <embed src="media/image361.tmp" width="487" height="283" />
+> <img src="media/image361.png" width="487" height="283" />
 
 1.  On the **Accept License Agreements **page, accept the end user license agreements and click **Next**.
 
@@ -7970,15 +7970,15 @@ Procedure
 | **Data center**    | SFO01                           |
 | **Folder**         | vRLI01                          |
 
-> <embed src="media/image362.tmp" width="481" height="283" />
+> <img src="media/image362.png" width="481" height="283" />
 
 1.  On the **Select configuration** page, from the **Configuration** drop-down menu, select the **Medium** deployment configuration, and click **Next**.
 
-> <embed src="media/image363.tmp" width="480" height="283" />
+> <img src="media/image363.png" width="480" height="283" />
 
 1.  On the **Setup a resource** page, select the **SFO01-Mgmt01** management cluster as the resource to run the virtual appliance on, and click **Next**.
 
-> <embed src="media/image364.tmp" width="484" height="283" />
+> <img src="media/image364.png" width="484" height="283" />
 
  
 
@@ -7992,11 +7992,11 @@ Procedure
 
 3.  Click **Next**.
 
-> <embed src="media/image365.tmp" width="484" height="283" />
+> <img src="media/image365.png" width="484" height="283" />
 
 1.  On the **Setup networks** page, select the distributed port group on the **vDS-Mgmt** distributed switch that ends with **vRLI01-VXLAN**, and click **Next**. NSX for vSphere creates the distributed port group for the logical switch that connects the vRealize Log Insight nodes and generates the port group name. The name of the port group contains the segment ID and the logical switch name vRLI01-VXLAN.
 
-> <embed src="media/image366.tmp" width="484" height="283" />
+> <img src="media/image366.png" width="484" height="283" />
 
 1.  On the **Customize template** page, set networking settings and the **root** user credentials for the virtual appliance.
 
@@ -8024,7 +8024,7 @@ Procedure
 
 2.  Click **Next**.
 
-> <embed src="media/image367.tmp" width="425" height="283" />
+> <img src="media/image367.png" width="425" height="283" />
 
 1.  On the **Ready to complete** page, click **Finish**. The deployment of the virtual appliance is in progress.
 
@@ -8040,7 +8040,7 @@ Procedure
 
 4.  In the text box next to the **New Hard disk** label, enter **190 GB** for the size, and click **OK**.
 
-> <embed src="media/image368.tmp" width="320" height="334" /> 
+> <img src="media/image368.png" width="320" height="334" /> 
 >  
 
 1.  Right-click the virtual appliance object and select the **Power** &gt; **Power On** menu item.
@@ -8098,11 +8098,11 @@ Procedure
 
 2.  On the **Setup** page, click **Next**.
 
-> <embed src="media/image371.tmp" width="396" height="253" />
+> <img src="media/image371.png" width="396" height="253" />
 
 1.  On the **Choose Deployment Type** page, click **Start New Deployment**. 
 
-> <embed src="media/image372.tmp" width="413" height="245" />
+> <img src="media/image372.png" width="413" height="245" />
 
 1.  After the deployment is launched, on the **Admin Credentials** page, set the email address and the password of the **admin** user, and click **Save and Continue**.
     The password must contain at least 8 characters, and contain one uppercase character, one lowercase character, one number, and one special character.
@@ -8111,7 +8111,7 @@ Procedure
 
 1.  On the **License** page, enter the license key, click **Add New License Key**, and click **Continue**.
 
-> <embed src="media/image374.tmp" width="545" height="185" />
+> <img src="media/image374.png" width="545" height="185" />
 
 1.  On the **General Configuration** page, enter email addresses to receive system notifications on from <span id="GUID-950D4050-ABA2-4375-A381-47187DC8C67" class="anchor"></span>vRealize Log Insight, and click **Save and Continue**.
 
@@ -8124,7 +8124,7 @@ Procedure
 | **Sync Server Time With** | NTP Server                                                                                                 |
 | **NTP Servers**           | ntp.rainpole.local, 0.ntp.rainpole.local, 1.ntp.rainpole.local, 2.ntp.rainpole.local, 3.ntp.rainpole.local |
 
-> <embed src="media/image376.tmp" width="390" height="264" />
+> <img src="media/image376.png" width="390" height="264" />
 
 1.  On the **SMTP Configuration** page, specify the properties of an SMTP server to enable outgoing alerts and system notification emails, and to test the email notification.
 
@@ -8146,7 +8146,7 @@ Procedure
 
 1.  To verify that the SMTP configuration is correct, type a valid email address and click **Send Test Email**.
 
-> <embed src="media/image378.tmp" width="494" height="443" />
+> <img src="media/image378.png" width="494" height="443" />
 
 1.  On the **Setup Complete** page, click **Finish**.
 
@@ -8167,17 +8167,17 @@ Procedure
 
 1.  On the **Choose Deployment Type** page, click **Join Existing Deployment**.
 
-> <embed src="media/image379.tmp" width="378" height="113" />
+> <img src="media/image379.png" width="378" height="113" />
 
 1.  On the **Join Existing Deployment** page, enter the mater node FQDN **vrli-mstr-01.sfo01.rainpole.local** and click **Go**.
 
-> <embed src="media/image380.tmp" width="410" height="102" />
+> <img src="media/image380.png" width="410" height="102" />
 >
 > The worker node sends a request to the vRealize Log Insight master node to join the existing deployment. 
 
 1.  After the worker node contacts the master node, click the **Click here to access the Cluster Management page** link. 
 
-> <embed src="media/image381.tmp" width="323" height="113" />
+> <img src="media/image381.png" width="323" height="113" />
 >
 > The login page of the vRealize Log Insight user interface opens.
 
@@ -8186,7 +8186,7 @@ Procedure
 
 2.  On the right of the notification message about adding the worker node, click **Allow**.
 
-> <embed src="media/image382.tmp" width="571" height="264" />
+> <img src="media/image382.png" width="571" height="264" />
 >
 > After you join the first worker node to the cluster, the user interface displays a warning message that another worker node must be added.
 
@@ -8194,7 +8194,7 @@ Procedure
 
 2.  After you add the second worker node, the **Cluster** page of the vRealize Log Insight UI contains the master and worker nodes as components of the cluster.
 
-> <embed src="media/image383.tmp" width="583" height="328" />
+> <img src="media/image383.png" width="583" height="328" />
 
 ### Enable the Integrated Load Balancer of vRealize Log Insight in Region A
 
@@ -8212,7 +8212,7 @@ Procedure
 
 <!-- -->
 
-1.  Click the configuration drop-down menu icon <embed src="media/image384.tmp" width="28" height="24" /> and select **Administration**.
+1.  Click the configuration drop-down menu icon <img src="media/image384.png" width="28" height="24" /> and select **Administration**.
 
 2.  Under **Management**, click **Cluster**.
 
@@ -8225,7 +8225,7 @@ Procedure
 | **IP address** | 192.168.31.10                        |
 | **FQDN**       | vrli-cluster-01.sfo01.rainpole.local |
 
-<embed src="media/image385.tmp" width="624" height="400" />
+<img src="media/image385.png" width="624" height="400" />
 
 ### Configure Public Access to vRealize Log Insight
 
@@ -8273,7 +8273,7 @@ Procedure
 | **Enabled**               | Checked                                               |
 | **Enable logging**        | Unchecked                                             |
 
-> <embed src="media/image387.tmp" width="262" height="304" />
+> <img src="media/image387.png" width="262" height="304" />
 
 1.  On **NAT** tab, click **Publish Changes** to apply changes from the new DNAT rule changes.
 
@@ -8484,7 +8484,7 @@ Procedure
 
 3.  On the **vRealize Operations Manager** pane, configure the integration settings for vRealize Operations Manager.
 
-> <embed src="media/image400.tmp" width="442" height="188" />
+> <img src="media/image400.png" width="442" height="188" />
 
 1.  Enter the host name and the user credentials for the vCenter Server instances.
 
@@ -8503,7 +8503,7 @@ Procedure
 <!-- -->
 
 1.  Click **Save**. A progress dialog box appears.
-    <embed src="media/image401.tmp" width="462" height="188" />
+    <img src="media/image401.png" width="462" height="188" />
 
     1.  Install a CA-Signed Certificate on vRealize Log Insight in Region A
         -------------------------------------------------------------------
@@ -8568,7 +8568,7 @@ Procedure
 
 > openssl genrsa -out vrli.key 2048
 >
-> <embed src="media/image402.tmp" width="550" height="97" /> 
+> <img src="media/image402.png" width="550" height="97" /> 
 
 1.  Copy the vrli-sfo.cfg to the /root/vrli folder on the master node virtual appliance.You can use scp, FileZilla or WinSCP.
 
@@ -8588,19 +8588,19 @@ Procedure
 
 1.  Copy the output from -----BEGIN CERTIFICATE REQUEST----- to -----END CERTIFICATE REQUEST----- inclusive.
 
-> <embed src="media/image403.tmp" width="624" height="491" />
+> <img src="media/image403.png" width="624" height="491" />
 
 1.  In a Web browser, log in to **http://dc01rpl.rainpole.local/certsrv/certrqxt.asp** with the administrator user name and *ad\_admin\_password* password.
 
 2.  Paste the request in the **Saved Request** text box, select **VMware** from the **Certificate Template** drop-down menu, and click **Submit**.
 
-    <embed src="media/image404.tmp" width="524" height="386" />
+    <img src="media/image404.png" width="524" height="386" />
 
 <!-- -->
 
 1.  On the **Certificate Issued** page, download the signed server certificate as a vrli.cer file in Base 64 encoding.  If the save as dialog does not appear, the signed certificate is saved as certnew.cer in your downloads folder. Rename the file to vrli.cer.
 
-> <embed src="media/image405.tmp" width="565" height="159" /> 
+> <img src="media/image405.png" width="565" height="159" /> 
 >  
 
 1.  Download the root CA certificate. 
@@ -8611,7 +8611,7 @@ Procedure
 
 2.  Select **Base 64**, click **Download CA Certificate**, and save the certificate as rootca.cer on your computer. If the save as dialog does not appear, the CA certificate is saved as rootca.cer in your downloads folder.
 
-> <embed src="media/image406.tmp" width="573" height="349" />
+> <img src="media/image406.png" width="573" height="349" />
 
 1.  Copy the vrli.cer and rootca.cer certificate files to the /root/vrli folder on the master virtual appliance. You can use scp, FileZilla or WinSCP.
 
@@ -8637,22 +8637,22 @@ After you generate the vrli-chain.pem certificate chain file that contains the o
 
 <!-- -->
 
-1.  In the vRealize Log Insight UI, click the configuration drop-down menu icon <embed src="media/image384.tmp" width="28" height="24" /> and select **Administration**.
+1.  In the vRealize Log Insight UI, click the configuration drop-down menu icon <img src="media/image384.png" width="28" height="24" /> and select **Administration**.
 
 2.  Under Configuration, click SSL.
 
 3.  On the **SSL Configuration** page, next to **New Certificate File (PEM format)** click **Choose File**, browse to the location of the vrli-chain.pem file on your computer, and click Save.
-    <embed src="media/image407.tmp" width="453" height="302" /> 
+    <img src="media/image407.png" width="453" height="302" /> 
     The certificate is uploaded to vRealize Log Insight.
 
-> <embed src="media/image408.tmp" width="445" height="319" /> 
+> <img src="media/image408.png" width="445" height="319" /> 
 
 1.  In a Web browser, go to **https://vrli-cluser-01.sfo01.rainpole.local**.
     A warning message that the connection is not trusted appears.
 
-2.  To review the certificate, click the padlock <embed src="media/image409.tmp" width="20" height="20" /> in the address bar of the browser, and verify that the **Subject Alternative Name** contains the names of the vRealize Log Insight cluster nodes.
+2.  To review the certificate, click the padlock <img src="media/image409.png" width="20" height="20" /> in the address bar of the browser, and verify that the **Subject Alternative Name** contains the names of the vRealize Log Insight cluster nodes.
 
-> <embed src="media/image410.tmp" width="380" height="472" />
+> <img src="media/image410.png" width="380" height="472" />
 
 1.  Import the certificate in your Web browser. For example, in Google Chrome under the **HTTPS/TLS** settings click the **Manage certificates** button, and in the **Certificates** dialog box import vrli-chain.pem. You can also use Certificate Manager on Windows or Keychain Access on MAC OS X. 
 
@@ -8715,7 +8715,7 @@ Procedure
 1.  In the **Archive Location** text box, enter the path in the form of **nfs://*nfs-server-address*/V2D\_vRLI\_MgmtA\_1TB** to an NFS partition where logs will be archived.
 
 > .
-> <embed src="media/image413.tmp" width="552" height="180" />
+> <img src="media/image413.png" width="552" height="180" />
 >  
 
 1.  Click **Test** next to the **Archive Location** text box to verify that the share is accessible.
@@ -8757,11 +8757,11 @@ Procedure
 
 1.  In the **Install Content Pack** dialog box, click **Install**.
 
-> <embed src="media/image416.tmp" width="255" height="270" />
+> <img src="media/image416.png" width="255" height="270" />
 
 1.  After the installation is complete, the VMware - vR Ops 6.x content pack appears in the Installed Content Packs list on the left.
 
-> <embed src="media/image417.tmp" width="501" height="176" />
+> <img src="media/image417.png" width="501" height="176" />
 
 ### Configure the Log Insight Agent on vRealize Operations Manager to Forward Log Events to vRealize Log Insight in Region A
 
@@ -9069,7 +9069,7 @@ Procedure
 
 You see log information about the operation of vRealize Operations Manager on the VMware - vR Ops 6.x Log Insight dashboards.
 
-<embed src="media/image418.tmp" width="624" height="271" />
+<img src="media/image418.png" width="624" height="271" />
 
  
 
@@ -9100,21 +9100,21 @@ Install the content pack for NSX for vSphere to add the dashboards for viewing l
 
 <!-- -->
 
-1.  In the vRealize Log Insight UI, click the configuration drop-down menu icon <embed src="media/image384.tmp" width="27" height="23" /> and select Content Packs.
+1.  In the vRealize Log Insight UI, click the configuration drop-down menu icon <img src="media/image384.png" width="27" height="23" /> and select Content Packs.
 
 2.  Under **Content Pack Marketplace**, select **Marketplace**.
 
 3.  In the list of content packs, locate the **VMware - NSX-vSphere** content pack and click its icon.
 
-> <embed src="media/image419.tmp" width="374" height="259" />
+> <img src="media/image419.png" width="374" height="259" />
 
 1.  In the **Install Content Pack** dialog box, click **Install**.
 
-> <embed src="media/image420.tmp" width="248" height="264" />
+> <img src="media/image420.png" width="248" height="264" />
 
 After the installation is complete, the VMware - NSX-vSphere content pack appears in the Installed Content Packs list on the left.
 
-<embed src="media/image421.tmp" width="624" height="184" />
+<img src="media/image421.png" width="624" height="184" />
 
 ### Configure NSX Managers to Forward Log Events to vRealize Log Insight in Region A
 
@@ -9139,7 +9139,7 @@ Procedure
 
 1.  On the main page of the appliance UI, click **Manage Appliance Settings**.
 
-> <embed src="media/image422.tmp" width="563" height="169" />
+> <img src="media/image422.png" width="563" height="169" />
 
 1.  Under **Settings**, click **General**, and in the **Syslog Server** pane, click **Edit**.
 
@@ -9151,7 +9151,7 @@ Procedure
 | **Port**              | 514                                  |
 | **Protocol**          | UDP                                  |
 
-> <embed src="media/image423.tmp" width="470" height="196" />
+> <img src="media/image423.png" width="470" height="196" />
 
 ### Configure the NSX Controllers to Forward Events to vRealize Log Insight in Region A
 
@@ -9173,7 +9173,7 @@ Procedure
 
 1.  From the **Authentication** drop-down menu, select **Basic Authentication**.
 
-> <embed src="media/image424.tmp" width="186" height="206" />
+> <img src="media/image424.png" width="186" height="206" />
 
 1.  In the **Basic Authorization** dialog box, enter the following credentials, select **Remember me** and click **Okay**.
 
@@ -9183,13 +9183,13 @@ Procedure
 | **Password**             | *mngnsx\_admin\_password* for the NSX Manager for the management cluster         
                             *compnsx\_admin\_password *for the NSX Manager for the compute and edge clusters  |
 
-> <embed src="media/image425.tmp" width="390" height="188" />
+> <img src="media/image425.png" width="390" height="188" />
 >
 > The **Authorization:Basic XXX** header appears in the Headers pane.
 
 1.  From the Headers drop-down menu, select Custom Header. 
 
-> <embed src="media/image426.tmp" width="196" height="130" />
+> <img src="media/image426.png" width="196" height="130" />
 
 1.  In the **Request Header** dialog box, enter the following header details and click **Okay**.
 
@@ -9198,11 +9198,11 @@ Procedure
 | Name                     | Content-Type    |
 | Value                    | application/xml |
 
-> <embed src="media/image427.tmp" width="391" height="188" />
+> <img src="media/image427.png" width="391" height="188" />
 
 1.  The **Content-Type:application/xml** header appears in the **Headers** pane.
 
-> <embed src="media/image428.tmp" width="449" height="103" />
+> <img src="media/image428.png" width="449" height="103" />
 
 1.  Contact the NSX Manager to retrieve the IDs of the associated NSX Controllers.  
 
@@ -9225,7 +9225,7 @@ Procedure
 
 3.  Repeat the steps for the other NSX Manager.
 
-> <embed src="media/image429.tmp" width="507" height="302" />
+> <img src="media/image429.png" width="507" height="302" />
 
 1.  For each NSX Controller, send a request to configure vRealize Log Insight as a remote syslog server.
 
@@ -9253,7 +9253,7 @@ Procedure
 
 1.  Repeat the steps for the next NSX Controller.
 
-> <embed src="media/image430.tmp" width="556" height="188" />
+> <img src="media/image430.png" width="556" height="188" />
 
 1.  Verify the syslog configuration on each NSX Controller. 
 
@@ -9267,7 +9267,7 @@ Procedure
 
 4.  Repeat the steps for the next NSX Controller.
 
-> <embed src="media/image431.tmp" width="508" height="305" />
+> <img src="media/image431.png" width="508" height="305" />
 
 ### Configure the NSX Edge Instances to Foward Log Events to vRealize Log Insight in Region A
 
@@ -9291,7 +9291,7 @@ Configure the NSX Edge service gateways for vRealize Operations Manager, vRealiz
 
 3.  On the **NSX Edges** page, select the **172.16.11.65** NSX Manager instance from the **NSX Manager** drop-down menu. The edge devices in the scope of the NSX Manager appear.
 
-> <embed src="media/image432.tmp" width="588" height="117" />
+> <img src="media/image432.png" width="588" height="117" />
 
 1.  Configure the log forwarding on each edge service gateway.
 
@@ -9313,11 +9313,11 @@ Configure the NSX Edge service gateways for vRealize Operations Manager, vRealiz
 
 2.  In the **Details** panel, click **Change** next to **Syslog servers**.
 
-> <embed src="media/image433.tmp" width="444" height="226" />
+> <img src="media/image433.png" width="444" height="226" />
 
 1.  In the **Edit Syslog Servers Configuration** dialog box, in the **Syslog Server 1** text box enter **192.168.31.10** and from the **Protocol** drop-down menu, select **udp**.
 
-> <embed src="media/image434.tmp" width="271" height="156" />
+> <img src="media/image434.png" width="271" height="156" />
 
 1.  Click **OK**.
 
@@ -9325,7 +9325,7 @@ Configure the NSX Edge service gateways for vRealize Operations Manager, vRealiz
 
 The vRealize Log Insight user interface starts showing log data in the NSX-vSphere-Overview dashboard available under the VMware - NSX-vSphere group of content pack dashboards.
 
-<embed src="media/image435.tmp" width="624" height="197" />
+<img src="media/image435.png" width="624" height="197" />
 
 Connect vRealize Log Insight to vRealize Automation in Region A
 ---------------------------------------------------------------
@@ -9354,21 +9354,21 @@ Install the content pack for vRealize Automation to add the dashboards for viewi
 
 <!-- -->
 
-1.  In the vRealize Log Insight UI, click the configuration drop-down menu icon <embed src="media/image384.tmp" width="27" height="23" /> and select **Content Packs**.
+1.  In the vRealize Log Insight UI, click the configuration drop-down menu icon <img src="media/image384.png" width="27" height="23" /> and select **Content Packs**.
 
 2.  Under **Content Pack Marketplace**, select **Marketplace**.
 
 3.  In the list of content packs, locate the **VMware - vRA 6.1 +** content pack and click its icon.
 
-> <embed src="media/image419.tmp" width="516" height="357" />
+> <img src="media/image419.png" width="516" height="357" />
 
 1.  In the **Install Content Pack** dialog box, click **Install**.
 
-> <embed src="media/image436.tmp" width="317" height="336" />
+> <img src="media/image436.png" width="317" height="336" />
 
 1.  After the installation is complete, the **VMware - vRA 6.1 +** content pack appears in the **Installed Content Packs** list on the left.
 
-> <embed src="media/image437.tmp" width="189" height="344" />
+> <img src="media/image437.png" width="189" height="344" />
 
 ### Configure the Windows Components of vRealize Automation to Forward Log Events to vRealize Log Insight in Region A
 
@@ -9406,7 +9406,7 @@ Install the vRealize Log Insight agent to collect and forward events to vRealiz
 
 3.  Click the configuration drop-down menu icon <img src="media/image395.png" width="27" height="23" /> and select **Administration**.
 
-> <embed src="media/image438.tmp" width="136" height="144" />
+> <img src="media/image438.png" width="136" height="144" />
 
 1.  Under **Management**, click **Agents**.
 
@@ -9414,7 +9414,7 @@ Install the vRealize Log Insight agent to collect and forward events to vRealiz
 
 3.  In the **Download Log Insight Agent Version 3.0.0** dialog box, click **Windows MSI (32-bit/64-bit)** and save the .msi file on your computer.
 
-> <embed src="media/image439.tmp" width="371" height="132" />
+> <img src="media/image439.png" width="371" height="132" />
 
 1.  Install the Log Insight agent on the virtual machine of the vRealize Automation Windows component.
 
@@ -9424,11 +9424,11 @@ Install the vRealize Log Insight agent to collect and forward events to vRealiz
 
 2.  In the **VMware vRealize Log Insight Agent Setup** wizard, accept the license agreement and click **Next**.
 
-> <embed src="media/image440.tmp" width="381" height="302" />
+> <img src="media/image440.png" width="381" height="302" />
 
 1.  On the **Server Configuration** page, enter **vrli-cluster-01.sfo01.rainpole.local** in the **Host** text box, and click **Install**.
 
-> <embed src="media/image441.tmp" width="384" height="302" />
+> <img src="media/image441.png" width="384" height="302" />
 
 1.  After the installation is complete, click **Finish**.
 
@@ -9555,7 +9555,7 @@ Install the vRealize Log Insight agent to collect and forward events to vReal
 
 2.  Use the **admin** user and the ***vrli\_admin\_password*** password to log in.
 
-3.  In the vRealize Log Insight UI, click the configuration drop-down menu icon <embed src="media/image384.tmp" width="27" height="23" /> and select **Administration**.
+3.  In the vRealize Log Insight UI, click the configuration drop-down menu icon <img src="media/image384.png" width="27" height="23" /> and select **Administration**.
 
 4.  Under **Management**, click **Agents**.
 
@@ -9563,7 +9563,7 @@ Install the vRealize Log Insight agent to collect and forward events to vReal
 
 6.  In the **Download Log Insight Agent Version 3.0.0** dialog box, click **Linux BIN (32-bit/64-bit)** and save the .bin file on your computer.
 
-> <embed src="media/image439.tmp" width="371" height="132" />
+> <img src="media/image439.png" width="371" height="132" />
 
 1.  Install the Log Insight agent on to the appliance.
 
@@ -9592,7 +9592,7 @@ Install the vRealize Log Insight agent to collect and forward events to vReal
 
 > ./VMware-Log-Insight-Agent-3.0.0-2985111\_192.168.31.10.bin
 >
-> <embed src="media/image442.tmp" width="589" height="240" />
+> <img src="media/image442.png" width="589" height="240" />
 
 1.  Edit the /etc/liagent.ini file and save the changes.
 
@@ -9706,7 +9706,7 @@ Configure the Log4j module of vRealize Orchestrator to forward log information t
 >   --&gt;     
 > &lt;/root&gt; 
 >
-> <embed src="media/image443.tmp" width="270" height="140" /> 
+> <img src="media/image443.png" width="270" height="140" /> 
 
 1.  Save the **log4j.xml** file.
 
@@ -9714,7 +9714,7 @@ Configure the Log4j module of vRealize Orchestrator to forward log information t
 
 > /etc/init.d/vco-server restart
 >
-> <embed src="media/image444.tmp" width="595" height="283" />
+> <img src="media/image444.png" width="595" height="283" />
 
 Cloud Management Platform Implementation in Region A
 ====================================================
@@ -9810,7 +9810,7 @@ Prerequisites
                                  When you run the script a second time to generate the CSR for the vRealize Automation appliance, you supply those host names, as shown in the table below.    |
 | **Enter domain name...**      | rainpole.local                                                                                                                                               |
 
-> <embed src="media/image445.tmp" width="589" height="414" />
+> <img src="media/image445.png" width="589" height="414" />
 >
 > Provide the host names that are listed in the following table to create the CSR for each host.
 
@@ -10186,7 +10186,7 @@ Procedure
 
 3.  Click the **New** icon. The **Guest Customization** wizard displays.
 
-> <embed src="media/image462.tmp" width="482" height="276" />
+> <img src="media/image462.png" width="482" height="276" />
 
 1.  In the **Specify Properties** page, enter the following settings, and click **Next**.
 
@@ -10244,7 +10244,7 @@ Procedure
 
 1.  On the **Configure Network** page, select the **Manually select custom settings** radio button, select **NIC1** from the list of network interfaces in the virtual machine, and click **Edit**. The **Network Properties** dialog box displays.
 
-> <embed src="media/image470.tmp" width="483" height="283" />
+> <img src="media/image470.png" width="483" height="283" />
 
 1.  In the **Network** **Properties** dialog box, select **IPv4**.
 
@@ -10437,7 +10437,7 @@ Procedure
 
 1.  In the **Ready to Complete** page, review the settings you entered to confirm their validity, and click **Finish**.
 
-> <embed src="media/image489.tmp" width="451" height="264" />
+> <img src="media/image489.png" width="451" height="264" />
 
 The customization specification you created is listed in the **Customization Specification Manager,** and can be used to customize virtual machine guest operating systems.
 
@@ -10476,11 +10476,11 @@ Procedure
 
 2.  In the **Select a location for the virtual machine** pane, select the **SFO01** datacenter under **mgmt01vc01.sfo01.rainpole.local** and click **Next**. 
 
-> <embed src="media/image491.tmp" width="517" height="302" />
+> <img src="media/image491.png" width="517" height="302" />
 
 1.  In the **Select a compute resource** pane, select **SFO01-Mgmt01** and click **Next**.
 
-> <embed src="media/image492.tmp" width="518" height="302" />
+> <img src="media/image492.png" width="518" height="302" />
 
 1.  On the **Select storage** page, select the datastore.
 
@@ -10494,15 +10494,15 @@ Procedure
 
 4.  Click **Next**.
 
-> <embed src="media/image493.tmp" width="517" height="302" />
+> <img src="media/image493.png" width="517" height="302" />
 
 1.  In the **Select Clone** options pane, check **Customize the operating system**, leave the default for the other check boxes, and click **Next**.
 
-> <embed src="media/image494.tmp" width="517" height="302" />
+> <img src="media/image494.png" width="517" height="302" />
 
 1.  In the **Customize guest OS** pane, select **windows2012r2-vra** from the table and click **Next**. 
 
-> <embed src="media/image495.tmp" width="518" height="302" />
+> <img src="media/image495.png" width="518" height="302" />
 
 1.  In the **User Settings** pane, enter the follow values, leave the default for other fields, and click **Next**. 
 
@@ -10511,11 +10511,11 @@ Procedure
 | NetBIOS name: | vra01iws01a   |
 | IPv4 address: | 192.168.11.54 |
 
-> <embed src="media/image496.tmp" width="512" height="299" />
+> <img src="media/image496.png" width="512" height="299" />
 
 1.  With **Ready to Complete** selected on the left, review all settings on the right and click **Finish**. 
 
-> <embed src="media/image497.tmp" width="491" height="287" />
+> <img src="media/image497.png" width="491" height="287" />
 
 1.  When the virtual machine deployment completes, customize the virtual machine, as follows:
 
@@ -10531,7 +10531,7 @@ Procedure
 
     2.  Select **Network adapter 1** and select **vxw-dvs-xxxx-vRA01-VXLAN**.
 
-> <embed src="media/image498.tmp" width="331" height="345" />
+> <img src="media/image498.png" width="331" height="345" />
 
 1.  Right click the **vra01iws01a.rainpole.local** virtual machine again and select **Power &gt; Power on**. From the Virtual Machine Console, vra01iws01a.rainpole.local reboots on its own and processes the configuration settings. 
 
@@ -10635,13 +10635,13 @@ Procedure
 
 2.  Select the interface **Public** and click the edit icon.
 
-> <embed src="media/image500.tmp" width="537" height="302" />
+> <img src="media/image500.png" width="537" height="302" />
 
 1.  In the **Edit NSX Edge Interface** dialog, add all 4 VIP addresses that are used for vRealize Automation load balancing in the **Secondary IP Addresses** text box.
 
 2.  Click **OK** to save the configuration.
 
-> <embed src="media/image501.tmp" width="385" height="377" />
+> <img src="media/image501.png" width="385" height="377" />
 
 1.  In the **Edit NSX Edge Interface** dialog, select the interface **Internal **and click the edit icon.
 
@@ -10675,7 +10675,7 @@ Procedure
 
 4.  Click **OK** to save the configuration.
 
-> <embed src="media/image503.tmp" width="422" height="323" />
+> <img src="media/image503.png" width="422" height="323" />
 
 ### Create Application Profiles
 
@@ -10697,7 +10697,7 @@ Procedure
 
 2.  Select **Application Profiles** and click the **Add** icon.
 
-> <embed src="media/image504.tmp" width="397" height="248" />
+> <img src="media/image504.png" width="397" height="248" />
 
 1.  In the **New Profile** dialog, enter the following values (leave the defaults for everything else).
 
@@ -10709,7 +10709,7 @@ Procedure
 | **Persistence**            | Source IP           |
 | **Expires in (Seconds)**   | 120                 |
 
-> <embed src="media/image505.tmp" width="353" height="520" />
+> <img src="media/image505.png" width="353" height="520" />
 
 1.  Click **OK** to save the configuration.
 
@@ -10744,7 +10744,7 @@ Procedure
 
 2.  Select **Service Monitoring** on the left and click the **Add** icon on the right.
 
-> <embed src="media/image506.tmp" width="457" height="273" />
+> <img src="media/image506.png" width="457" height="273" />
 
 1.  In the **Edit Service Monitor** dialog, provide the following values (leave the default for other fields).
 
@@ -10796,7 +10796,7 @@ Procedure
 
 2.  Click **Pools** on the left, and click the **Add** icon on the right.
 
-> <embed src="media/image508.tmp" width="462" height="302" />
+> <img src="media/image508.png" width="462" height="302" />
 
 1.  In the **New Pool** dialog box, specify the following values and leave the defaults for all other fields.
 
@@ -10806,7 +10806,7 @@ Procedure
 | **Algorithm** | LEASTCONN             |
 | **Monitors**  | default\_tcp\_monitor |
 
-> <embed src="media/image509.tmp" width="315" height="247" />
+> <img src="media/image509.png" width="315" height="247" />
 
 1.  Still in the **New Pool** dialog, click the **Add** icon to add the first pool member.
 
@@ -10820,7 +10820,7 @@ Procedure
 | **Port**                    | 443           |
 | **Monitor Port**            | 443           |
 
-> <embed src="media/image510.tmp" width="318" height="249" />
+> <img src="media/image510.png" width="318" height="249" />
 
 1.  Still in the **New Pool** dialog, click the **Add** icon again to add the second pool member and specify the following values.
 
@@ -10832,11 +10832,11 @@ Procedure
 | **Port**                    | 443           |
 | **Monitor Port**            | 443           |
 
-> <embed src="media/image511.tmp" width="318" height="249" />
+> <img src="media/image511.png" width="318" height="249" />
 
 1.  Click **OK** to save the second pool member.
 
-> <embed src="media/image512.tmp" width="383" height="302" />
+> <img src="media/image512.png" width="383" height="302" />
 
 1.  Click **OK** to save the vRealize Automation server pool.
 
@@ -10892,7 +10892,7 @@ Procedure
 
 2.  Select **Virtual Servers** on the left and click the **Add** icon on the left.
 
-> <embed src="media/image513.tmp" width="389" height="245" />
+> <img src="media/image513.png" width="389" height="245" />
 
 1.  In the **New Virtual Server** dialog, specify the following values, leave the default for all other fields and check boxes, and click **OK**.
 
@@ -10906,7 +10906,7 @@ Procedure
 | **Port**                  | 443                                                            |
 | **Default Pool**          | vra-svr-443                                                    |
 
-> <embed src="media/image514.tmp" width="448" height="393" />
+> <img src="media/image514.png" width="448" height="393" />
 
 1.  Repeat the steps to create additional virtual servers, using the values in the following table.
 
@@ -11004,11 +11004,11 @@ Procedure
 
 4.  Click **Next**.
 
-> <embed src="media/image516.tmp" width="477" height="281" />
+> <img src="media/image516.png" width="477" height="281" />
 
 1.  On the **Setup networks** page specify the network to use with the vRealize Automation Identity Appliance. Select the destination network** vRA01-VXLAN** from the **Destination** drop-down menu, then click **Next**.
 
-> <embed src="media/image517.tmp" width="437" height="255" />
+> <img src="media/image517.png" width="437" height="255" />
 
 1.  Configure the following values on the **Customize template** page.
 
@@ -11218,7 +11218,7 @@ Procedure
 
 3.  On the **Select source** page, select **Local file**, browse to the location of the vRealize Automation Virtual Machine Template file on your file system, and click **Next**.
 
-> <embed src="media/image524.tmp" width="481" height="283" />
+> <img src="media/image524.png" width="481" height="283" />
 
 1.  On the **Review details** page, examine the virtual appliance details, such as product, version, download and disk size, and click **Next**.
 
@@ -11231,7 +11231,7 @@ Procedure
 | **Name**                          | vra01svr01a.rainpole.local | vra01svr01b.rainpole.local |
 | **Select a folder or datacenter** | vRA01                      | vRA01                      |
 
-> <embed src="media/image525.tmp" width="486" height="283" />
+> <img src="media/image525.png" width="486" height="283" />
 
 1.  On the **Select a Resource** page, select cluster **SFO01-Mgmt01**. Click **Next**
 
@@ -11247,11 +11247,11 @@ Procedure
 
 4.  Click **Next**.
 
-> <embed src="media/image516.tmp" width="481" height="283" />
+> <img src="media/image516.png" width="481" height="283" />
 
 1.  On the **Setup networks** page specify the network to use with the template. Select the destination network** vra01-VXLAN **from the** Destination **drop-down menu, then click **Next**.
 
-<embed src="media/image526.tmp" width="484" height="283" />
+<img src="media/image526.png" width="484" height="283" />
 
  
 
@@ -11275,7 +11275,7 @@ Procedure
 
 8.  Click **Next**.
 
-> <embed src="media/image527.tmp" width="420" height="279" /> 
+> <img src="media/image527.png" width="420" height="279" /> 
 
 1.  Do not select** Power on after deployment**. 
 
@@ -11291,7 +11291,7 @@ Procedure
 
 3.  Select **16384 MB** (16 GB) from the **Memory** drop down menu.
 
-> <embed src="media/image528.tmp" width="304" height="93" />
+> <img src="media/image528.png" width="304" height="93" />
 
 1.  Power on the vRealize Automation virtual machine. Wait until the Identity Appliance virtual machine is completely powered on. This may take several minutes. 
 
@@ -11684,7 +11684,7 @@ After configuring the appliance database on designated master and replica applia
 >
 > The output from the command appears as shown.
 >
-> <embed src="media/image540.tmp" width="579" height="222" />
+> <img src="media/image540.png" width="579" height="222" />
 
 1.  Exit psql using the \\q command.
 
@@ -11708,7 +11708,7 @@ Procedure
 >
 > The output from the command appears as shown.
 >
-> <embed src="media/image541.tmp" width="570" height="191" />
+> <img src="media/image541.png" width="570" height="191" />
 
 1.  Run the \\q command to exist psql.
 
@@ -11751,7 +11751,7 @@ To prepare the vRealize Appliance for use, a system administrator provides the
 
 6.  Click **Save Settings**. After a few minutes, a success message confirms that the SSO configuration has been successfully updated.
 
-> <embed src="media/image542.tmp" width="552" height="226" />
+> <img src="media/image542.png" width="552" height="226" />
 
 1.  Configure the license to enable the **Infrastructure** tab on the **vRealize Automation** console. 
 
@@ -12003,7 +12003,7 @@ Prepare file server
 | **DOMAINACCT** | RAINPOLE\\svc-vra                                                        |
 | **CERTPW**     | *Certification password and passphrase*. Be sure to leave the -p option. |
 
-<embed src="media/image544.tmp" width="624" height="120" />
+<img src="media/image544.png" width="624" height="120" />
 
 1.  Copy and paste the following into the same **Notepad**, but in a new line.
 
@@ -12095,7 +12095,7 @@ Prepare file server
 
 7.  Ensure the **vra-resolve-mgr-web-deps.cmd** script successfully completes.
 
-> <embed src="media/image545.tmp" width="519" height="262" />
+> <img src="media/image545.png" width="519" height="262" />
 
 1.  Repeat procedure steps 1-6 for the following virtual machines.
 
@@ -12135,11 +12135,11 @@ Procedure
 
 7.  Click **Next**.
 
-> <embed src="media/image546.tmp" width="353" height="264" />
+> <img src="media/image546.png" width="353" height="264" />
 
 1.  On the **End-User License Agreement** page, read the License Agreement, select **I accept the terms in the license agreement**, then click **Next**.
 
-> <embed src="media/image547.tmp" width="353" height="264" />
+> <img src="media/image547.png" width="353" height="264" />
 
 1.  Click **Next**. 
 
@@ -12151,11 +12151,11 @@ Procedure
 
 2.  Click **Next.**
 
-> <embed src="media/image548.tmp" width="351" height="264" />
+> <img src="media/image548.png" width="351" height="264" />
 
 1.  On the **Installation Type** page select the **Custom Install** and **IaaS Server** radio buttons, accept the folder path in the **Root Install Location** text box, and click **Next**. 
 
-> <embed src="media/image549.tmp" width="355" height="264" />
+> <img src="media/image549.png" width="355" height="264" />
 
 1.  On the **IaaS Server Custom Install** page. Left side on the **IaaS feature selection** panel select the Database, Website, and ModelManagerData list items.
 
@@ -12289,11 +12289,11 @@ Procedure
 
 7.  Click **Next**.
 
-> <embed src="media/image546.tmp" width="404" height="302" />
+> <img src="media/image546.png" width="404" height="302" />
 
 1.  On the **End-User License Agreement** page, read the License Agreement, select **I accept the terms in the license agreement**, then click **Next**.
 
-> <embed src="media/image547.tmp" width="404" height="302" />
+> <img src="media/image547.png" width="404" height="302" />
 
 1.  Click **Next**
 
@@ -12311,7 +12311,7 @@ Procedure
 
 1.  On the **Installation Type** page select the **Custom Install** and **IaaS Server** radio buttons, accept the folder path in the **Root Install Location** text box, and click **Next**.
 
-> <embed src="media/image549.tmp" width="406" height="302" />
+> <img src="media/image549.png" width="406" height="302" />
 
 1.  On the **IaaS Server Custom Install** page. Left side on the **IaaS feature selection** panel select the **Website** list items.
 
@@ -12462,11 +12462,11 @@ Procedure
 
 7.  Click **Next.**
 
-> <embed src="media/image546.tmp" width="353" height="264" />
+> <img src="media/image546.png" width="353" height="264" />
 
 1.  On the **End-User License Agreement** page, read the License Agreement, select **I accept the terms in the license agreement**, then click **Next**.
 
-> <embed src="media/image547.tmp" width="353" height="264" />
+> <img src="media/image547.png" width="353" height="264" />
 
 1.  Click **Next**
 
@@ -12482,11 +12482,11 @@ Procedure
 
 4.  Click **Next**.
 
-> <embed src="media/image548.tmp" width="351" height="264" />
+> <img src="media/image548.png" width="351" height="264" />
 
 1.  On the **Installation Type** page select the **Custom Install **and **IaaS Server **radio buttons, accept the folder path in the **Root Install Location **text box, and click **Next**. 
 
-> <embed src="media/image549.tmp" width="355" height="264" />
+> <img src="media/image549.png" width="355" height="264" />
 
 1.  Specify the following settings on the **IaaS Server Custom Install** page.
 
@@ -12670,11 +12670,11 @@ Procedure
 
 7.  Click **Next**.
 
-> <embed src="media/image546.tmp" width="353" height="264" />
+> <img src="media/image546.png" width="353" height="264" />
 
 1.  On the **End-User License Agreement** page, read the License Agreement, select **I accept the terms in the license agreement**, then click **Next**.
 
-> <embed src="media/image547.tmp" width="353" height="264" />
+> <img src="media/image547.png" width="353" height="264" />
 
 1.  Click **Next**
 
@@ -12690,11 +12690,11 @@ Procedure
 
 4.  Click **Next**.
 
-> <embed src="media/image548.tmp" width="351" height="264" />
+> <img src="media/image548.png" width="351" height="264" />
 
 1.  On the **Installation Type** page select the **Custom Install **and **IaaS Server **radio buttons, accept the folder path in the **Root Install Location **text box, and click **Next**. 
 
-> <embed src="media/image549.tmp" width="355" height="264" />
+> <img src="media/image549.png" width="355" height="264" />
 
 1.  Specify the following settings on the **IaaS Server Custom Install** page.
 
@@ -12985,11 +12985,11 @@ Procedure
 
 7.  Click **Next**.
 
-> <embed src="media/image546.tmp" width="353" height="264" />
+> <img src="media/image546.png" width="353" height="264" />
 
 1.  On the **End-User License Agreement** page, read the License Agreement, select **I accept the terms in the license agreement**, then click **Next**.
 
-> <embed src="media/image547.tmp" width="353" height="264" />
+> <img src="media/image547.png" width="353" height="264" />
 
 1.  In the **Log In** page, complete the following settings.
 
@@ -13244,7 +13244,7 @@ Procedure
 
 4.  Click **Next**.
 
-> <embed src="media/image516.tmp" width="449" height="264" />
+> <img src="media/image516.png" width="449" height="264" />
 
  
 
@@ -15337,7 +15337,7 @@ Procedure
 | **VM Storage Policy**          | **Virtual SAN Default Storage Policy**                                              |
 | **Datastore**                  | Select the **SFO01A-VSAN01-MGMT01** Virtual SAN datastore from the datastore table. |
 
-> <embed src="media/image493.tmp" width="455" height="266" />
+> <img src="media/image493.png" width="455" height="266" />
 
 1.  In the **Select Clone options** page, check **Customize the operating system**, leave the default for the other check boxes, and click **Next.**
 
