@@ -1,0 +1,11 @@
+# Site settings
+title: Testing
+email: no-reply@tenthrityam.org
+description: Morning Hypertext
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://tenthirtyam" # the base hostname & protocol for your site
+twitter_username: tenthirtyam
+github_username:  tenthirtyam
+
+# Build settings
+markdown: kramdown
