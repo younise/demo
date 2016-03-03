@@ -26,11 +26,10 @@ Let’s take a look at some of these just below:
 	<li><strong>Backup and Restore with External Platform Services Controller</strong>: vCenter Server deployments with an external PSC (also called MxN) have support for backup and restoration.</li>
 </ul>
 <ul>
-	<li><strong>Appliance Management User Interface</strong>: An all new HTML5-based management interface for the appliance at <em><em>https://&lt;FQDN-or-IP&gt;:5480. </em></em></li>
+	<li><strong>Appliance Management User Interface</strong>: An all new HTML5-based management interface for the appliance at <em><em>https://&lt;FQDN-or-IP&gt;:5480.</em></li>
 </ul>
 <ul>
-	<li><span style="line-height: 1.71429; font-size: 1rem;"><span style="line-height: 1.71429; font-size: 1rem;"><strong>Platform Services Controller Interface</strong>: An all new HTML5-based management interface for the Platform Services Controller at <em>https://&lt;FQDN-or-IP&gt;/psc/.  
-	</li>
+	<li><strong>Platform Services Controller Interface</strong>: An all new HTML5-based management interface for the Platform Services Controller at <em>https://&lt;FQDN-or-IP&gt;/psc/.</em></li>
 </ul>
 <ul>
 	<li><strong>Interoperability</strong>: Virtual SAN and SMP-FT are interoperable.</li>
