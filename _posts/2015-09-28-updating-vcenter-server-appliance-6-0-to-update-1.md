@@ -26,7 +26,7 @@ Let’s take a look at some of these just below:
 	<li><strong>Backup and Restore with External Platform Services Controller</strong>: vCenter Server deployments with an external PSC (also called MxN) have support for backup and restoration.</li>
 </ul>
 <ul>
-	<li><strong>Appliance Management User Interface</strong>: An all new HTML5-based management interface for the appliance at <em><em>https://&lt;FQDN-or-IP&gt;:5480.</em></li>
+	<li><strong>Appliance Management User Interface</strong>: An all new HTML5-based management interface for the appliance at <em>https://&lt;FQDN-or-IP&gt;:5480.</em></li>
 </ul>
 <ul>
 	<li><strong>Platform Services Controller Interface</strong>: An all new HTML5-based management interface for the Platform Services Controller at <em>https://&lt;FQDN-or-IP&gt;/psc/.</em></li>
