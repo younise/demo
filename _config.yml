@@ -1,55 +1,46 @@
-# Site Info
-title:              "The Plain"
-description:        "The Plain is a Minimalist Jekyll theme that focuses on writing matters."
-google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
-google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
+# Site settings
+title: Morning Hypertext
+name: Morning Hypertext
+description: by Ryan Johnson
+url: "http://tenthirtyam.org"
+baseurl: ""
+# google_analytics: 'UA-XXXXXX-X'
+disqus_shortname: 'tenthirtyam'
 
-# Author Info
-author_name:        "Heiswayi Nrird"
-author_email:       hnrird@gmail.com
-author_gravatar:    2b38b1b0e7e08b69379bd61582adf0c8 # Gravatar md5 hash
-twitter_username:   HeiswayiNrird
+author:
+  name: Ryan Johnson
+  twitter_username: tenthirtyam
+  github_username: tenthirtyam
+  linkedin_username: tenthirtyam
 
-# Site Settings
-baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
-permalink:          /notes/:title # Post permalink
-timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-# Site Build
-highlighter:        pygments
-#markdown:           redcarpet
-#redcarpet:
-#    extensions:     ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "highlight", "footnotes"]
-markdown:           kramdown
-kramdown:
-    input:          GFM
-sass:
-    style:          :compressed
-
-# Other Params
-include:            [ "robots.txt" ]
-exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
-gems:
-  - jekyll-sitemap
-
-compress_html:
-    clippings:      all
-    ingore:
-        envs:       [ "test" ]
+email:        ryan@tenthirtyam.org
+copyright: 		&copy; 1976 - 2016 Ryan Johnson.
 
 defaults:
   -
     scope:
-      path:         ""
+      path: ''
+      type: 'posts'
     values:
-      layout:       "null"
-  -
-    scope:
-      type:         "pages"
-    values:
-      layout:       "page"
-  -
-    scope:
-      type:         "posts"
-    values:
-      layout:       "post"
+        layout: 'post'
+
+# Build settings
+timezone: "America/NewYork"
+paginate: 1
+paginate_path: 	"article:num"
+permalink: /:year/:month/:day/:title/
+permalinks: pretty
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  auto_ids: true
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  use_coderay: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
