@@ -2,8 +2,8 @@
 title: Morning Hypertext
 name: Morning Hypertext
 description: by Ryan Johnson
-url: "http://tenthirtyam.org"
-baseurl: "http://tenthirtyam.org/"
+url: "https://tenthirtyam.org"
+baseurl: ""
 # google_analytics: 'UA-XXXXXX-X'
 disqus_shortname: 'tenthirtyam'
 
