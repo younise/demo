@@ -1,46 +1,21 @@
-# Site settings
-title: Morning Hypertext
-name: Morning Hypertext
-description: by Ryan Johnson
-url: "https://tenthirtyam.org"
-baseurl: ""
-# google_analytics: 'UA-XXXXXX-X'
-disqus_shortname: 'tenthirtyam'
+# Site Settings
+baseurl: 		""
+title: 			Morning Hypertext
 
-author:
-  name: Ryan Johnson
-  twitter_username: tenthirtyam
-  github_username: tenthirtyam
-  linkedin_username: tenthirtyam
+name: 			Morning Hypertext
+description:
+url: 			""
 
-email:        ryan@tenthirtyam.org
-copyright: 		Copyright 1976 - 2016 Ryan Johnson
+paginate: 		3
+paginate_path: 	"blog/page:num"
 
-defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
-    values:
-        layout: 'post'
+twitter: 		tenthirtyam
+email: 			hello@tenthirtyam.org
 
-# Build settings
-timezone: "America/NewYork"
-paginate: 1
-paginate_path: 	"article:num"
-permalink: /:year/:month/:day/:title/
-permalinks: pretty
-markdown: kramdown
-highlighter: rouge
-kramdown:
-  auto_ids: true
-  # use Github Flavored Markdown
-  input: GFM
-  # do not replace newlines by <br>s
-  hard_wrap: false
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  use_coderay: false
+disqus: 		your_disqus_shortname
+analytics: 		UA-XXXXXXX-Y
 
-gems: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+copyright: 		Copyright 2014 Ryan Johnson.
+
+# Build Settings
+permalinks: 	pretty
