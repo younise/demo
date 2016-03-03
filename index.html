@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Morning Hypertext
+title: Morning Hypertext
 subtitle: And All Things Under Analyzed
 ---
 
@@ -22,8 +22,10 @@ subtitle: And All Things Under Analyzed
     </p>
 
     <div class="post-entry">
-      {{ post.content | truncatewords: 50 | strip_html | xml_escape}}
+      {{ post.content | split:'<!--break-->' | first }}
+      {% if post.content contains '<!--break-->' %}
 	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+      {% endif %}
     </div>
 
    </article>
