@@ -7,7 +7,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
+      
+      <div id="search-container">
+  <form method="get" action="/search" data-search-form>
+    <input class="navbar-brand" type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input />
+  </form>
+</div>
+      
     </div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
