@@ -1,8 +1,8 @@
 # Site settings
 title: Morning Hypertext
 description: by Ryan Johnson
-url: "http://tenthirtyam.org"
-baseurl: "http://tenthirtyam.org"
+url: "https://tenthirtyam.org"
+baseurl: "https://tenthirtyam.org"
 # google_analytics: 'UA-XXXXXX-X'
 disqus_shortname: 'tenthirtyam'
 
