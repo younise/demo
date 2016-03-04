@@ -3,7 +3,7 @@ title: Morning Hypertext
 name: Morning Hypertext
 description: by Ryan Johnson
 url: "http://tenthirtyam.org"
-baseurl: "http://tenthirtyam.org"
+baseurl: ""
 # google_analytics: 'UA-XXXXXX-X'
 disqus_shortname: 'tenthirtyam'
 
@@ -13,8 +13,8 @@ author:
   github_username: tenthirtyam
   linkedin_username: tenthirtyam
 
-email: r      yan@tenthirtyam.org
-copyright: 		&copy; 1976 - 2016 Ryan Johnson.
+email:        ryan@tenthirtyam.org
+copyright: 		1976 - 2016 Ryan Johnson
 
 defaults:
   -
