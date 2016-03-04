@@ -36,7 +36,7 @@ Each vCenter Server process has a separate PID Watchdog process associated with 
 
 This watchdog is a shell script (/usr/bin/watchdog) found on the VCSA that is used to detect a service failure in non-Java (C) based services on the appliance form factor. A service start automatically starts the Watchdog along with the service itself. Let’s search for the running processes that match for “vmware-watchdog.”
 
-``` shell
+``` bash
 mgmt01vc01.sddc.local:~ # ps -ef | grep vmware-watchdog
  root      5767     1  0 16:20 ?        00:00:00 /bin/sh /usr/bin/vmware-watchdog -s rhttpproxy -u 30 -q 5 /usr/sbin/rhttpproxy -r /etc/vmware-rhttpproxy/config.xml -d /etc/vmware-rhttpproxy/endpoints.conf.d -f /etc/vmware-rhttpproxy/endpo
  root      7930     1  0 16:21 ?        00:00:00 /bin/sh /usr/bin/vmware-watchdog -s vws -u 30 -q 5 /usr/lib/vmware-vws/bin/vws.sh
@@ -128,24 +128,24 @@ Here we see that VMware Authentication Framework (+VECS), VMware Certificate Aut
 
 Additional commands for Likewise Service Manager daemon include:
 
-```
-list						List all known services and their status
-autostart					Start all services configured for autostart
-start-only       			Start a service
-start service            	Start a service and all dependencies
-stop-only service        	Stop a service
-stop service             	Stop a service and all running dependents
-restart service				Restart a service and all running dependents
-refresh service         	Refresh service's configuration
-proxy service            	Act as a proxy process for a service
-info service             	Get information about a service
-status service           	Get the status of a service
-gdb service              	Attach gdb to the specified running service
+``` bash
+list	List all known services and their status
+autostart	Start all services configured for autostart
+start-only	Start a service
+start service 	tart a service and all dependencies
+stop-only service	Stop a service
+stop service	Stop a service and all running dependents
+restart service	Restart a service and all running dependents
+refresh service	Refresh service's configuration
+proxy service	Act as a proxy process for a service
+info service	Get information about a service
+status service	Get the status of a service
+gdb service	Attach gdb to the specified running service
 ```
 
 Now let’s take a look at the info for the VMware Directory Service using the info command:
 
-```
+``` bash
 mgmt01vc01.sddc.local:~ # /opt/likewise/bin/lwsm info vmdir
 Service: vmdir
 Description: VMware Directory Service
