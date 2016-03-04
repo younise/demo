@@ -36,17 +36,6 @@ Each vCenter Server process has a separate PID Watchdog process associated with 
 
 This watchdog is a shell script (/usr/bin/watchdog) found on the VCSA that is used to detect a service failure in non-Java (C) based services on the appliance form factor. A service start automatically starts the Watchdog along with the service itself. Let’s search for the running processes that match for “vmware-watchdog.”
 
-{% highlight bash %}
-mgmt01vc01.sddc.local:~ # ps -ef | grep vmware-watchdog
- root      5767     1  0 16:20 ?        00:00:00 /bin/sh /usr/bin/vmware-watchdog -s rhttpproxy -u 30 -q 5 /usr/sbin/rhttpproxy -r /etc/vmware-rhttpproxy/config.xml -d /etc/vmware-rhttpproxy/endpoints.conf.d -f /etc/vmware-rhttpproxy/endpo
- root      7930     1  0 16:21 ?        00:00:00 /bin/sh /usr/bin/vmware-watchdog -s vws -u 30 -q 5 /usr/lib/vmware-vws/bin/vws.sh
- root      8109     1  0 16:21 ?        00:00:11 /bin/sh /usr/bin/vmware-watchdog -s syslog -u 30 -q 5 -b /var/run/rsyslogd.pid /sbin/rsyslogd -c 5 -f /etc/vmware-rsyslog.conf
- root      8266     1  0 16:21 ?        00:00:11 /bin/sh /usr/bin/vmware-watchdog -b /storage/db/vpostgres/postmaster.pid -u 300 -q 2 -s vmware-vpostgres su -s /bin/bash vpostgres -c 'LD_LIBRARY_PATH=/opt/vmware/vpostgres/curre
- root      9422     1  0 16:21 ?        00:00:00 /bin/sh /usr/bin/vmware-watchdog -a -s vpxd -u 3600 -q 2 /usr/sbin/vpxd
- root     13113     1  0 16:22 ?        00:00:00 /bin/sh /usr/bin/vmware-watchdog -s vsan-health -u 600 -q 10 su vsan-health -c '/opt/vmware/bin/vmware-vsan-health /usr/lib/vmware-vpx/vsan-health/VsanHealthServer.py -p 8006'
- root     28775 19850  0 20:42 pts/0    00:00:00 grep vmware-watchdog
-{% endhighlight %}
-
 ``` shell
 mgmt01vc01.sddc.local:~ # ps -ef | grep vmware-watchdog
  root      5767     1  0 16:20 ?        00:00:00 /bin/sh /usr/bin/vmware-watchdog -s rhttpproxy -u 30 -q 5 /usr/sbin/rhttpproxy -r /etc/vmware-rhttpproxy/config.xml -d /etc/vmware-rhttpproxy/endpoints.conf.d -f /etc/vmware-rhttpproxy/endpo
