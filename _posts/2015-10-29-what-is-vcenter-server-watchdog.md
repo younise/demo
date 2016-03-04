@@ -49,59 +49,14 @@ mgmt01vc01.sddc.local:~ # ps -ef | grep vmware-watchdog
  
 Let’s break that down a bit into something more readable: 
 
-<table>
-<tbody>
-<tr>
-<td>Service</td>
-<td>Process Name</td>
-<td>Virtual Machine Restart?</td>
-<td>Minimal Uptime</td>
-<td>Number of Restarts</td>
-</tr>
-<tr>
-<td>Reverse Proxy</td>
-<td>rhttpproxy</td>
-<td>No</td>
-<td>30 seconds</td>
-<td>5</td>
-</tr>
-<tr>
-<td>vCenter Management Web Service</td>
-<td>vws</td>
-<td>No</td>
-<td>30 seconds</td>
-<td>5</td>
-</tr>
-<tr>
-<td>Syslog Collector</td>
-<td>Syslog</td>
-<td>No</td>
-<td>30 seconds</td>
-<td>5</td>
-</tr>
-<tr>
-<td>vPostgres Database</td>
-<td>vmware-vpostgres</td>
-<td>No</td>
-<td>5 minutes</td>
-<td>2</td>
-</tr>
-<tr>
-<td>vCenter Server</td>
-<td>vpxd</td>
-<td>Yes</td>
-<td>1 hour</td>
-<td>2</td>
-</tr>
-<tr>
-<td>VSAN Health Check</td>
-<td>vsan-health</td>
-<td>No</td>
-<td>10 minutes</td>
-<td>10</td>
-</tr>
-</tbody>
-</table>
+| Service                        | Process Name     | Virtual Machine Restart? | Minimal Uptime | Number of Restarts |
+|--------------------------------|------------------|--------------------------|----------------|--------------------|
+| Reverse Proxy                  | rhttpproxy       | No                       | 30 seconds     | 5                  |
+| vCenter Management Web Service | vws              | No                       | 30 seconds     | 5                  |
+| Syslog Collector               | Syslog           | No                       | 30 seconds     | 5                  |
+| vPostgres Database             | vmware-vpostgres | No                       | 5 minutes      | 2                  |
+| vCenter Server                 | vpxd             | Yes                      | 1 hour         | 2                  |
+| VSAN Health Check              | vsan-health      | No                       | 10 minutes     | 10                 |
 
 As an example, here we can see that vmware-watchdog is running with a couple of parameters, which differ for each service process. Let’s dig into the VPXD process since it’s the most important service. It shows the following parameters:
 
@@ -174,8 +129,8 @@ Here we see that VMware Authentication Framework (+VECS), VMware Certificate Aut
 Additional commands for Likewise Service Manager daemon include:
 
 ```
-list                       		List all known services and their status
-autostart                  		Start all services configured for autostart
+list                       List all known services and their status
+autostart                  Start all services configured for autostart
 start-only &lt;service&gt;       Start a service
 start &lt;service&gt;            Start a service and all dependencies
 stop-only &lt;service&gt;        Stop a service
