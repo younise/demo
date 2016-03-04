@@ -36,7 +36,7 @@ Each vCenter Server process has a separate PID Watchdog process associated with 
 
 This watchdog is a shell script (/usr/bin/watchdog) found on the VCSA that is used to detect a service failure in non-Java (C) based services on the appliance form factor. A service start automatically starts the Watchdog along with the service itself. Let’s search for the running processes that match for “vmware-watchdog.”
 
-`
+``` bash
 mgmt01vc01.sddc.local:~ # ps -ef | grep vmware-watchdog
  root      5767     1  0 16:20 ?        00:00:00 /bin/sh /usr/bin/vmware-watchdog -s rhttpproxy -u 30 -q 5 /usr/sbin/rhttpproxy -r /etc/vmware-rhttpproxy/config.xml -d /etc/vmware-rhttpproxy/endpoints.conf.d -f /etc/vmware-rhttpproxy/endpo
  root      7930     1  0 16:21 ?        00:00:00 /bin/sh /usr/bin/vmware-watchdog -s vws -u 30 -q 5 /usr/lib/vmware-vws/bin/vws.sh
@@ -44,7 +44,8 @@ mgmt01vc01.sddc.local:~ # ps -ef | grep vmware-watchdog
  root      8266     1  0 16:21 ?        00:00:11 /bin/sh /usr/bin/vmware-watchdog -b /storage/db/vpostgres/postmaster.pid -u 300 -q 2 -s vmware-vpostgres su -s /bin/bash vpostgres -c 'LD_LIBRARY_PATH=/opt/vmware/vpostgres/curre
  root      9422     1  0 16:21 ?        00:00:00 /bin/sh /usr/bin/vmware-watchdog -a -s vpxd -u 3600 -q 2 /usr/sbin/vpxd
  root     13113     1  0 16:22 ?        00:00:00 /bin/sh /usr/bin/vmware-watchdog -s vsan-health -u 600 -q 10 su vsan-health -c '/opt/vmware/bin/vmware-vsan-health /usr/lib/vmware-vpx/vsan-health/VsanHealthServer.py -p 8006'
- root     28775 19850  0 20:42 pts/0    00:00:00 grep vmware-watchdog`
+ root     28775 19850  0 20:42 pts/0    00:00:00 grep vmware-watchdog
+```
  
 Let’s break that down a bit into something more readable: 
 
@@ -104,28 +105,31 @@ Let’s break that down a bit into something more readable: 
 
 As an example, here we can see that vmware-watchdog is running with a couple of parameters, which differ for each service process. Let’s dig into the VPXD process since it’s the most important service. It shows the following parameters:
 
-`
+``` bash
 -a
 -s vpxd
 -u 3600
--q 2`
+-q 2
+```
 
 What the above process parameters result in is the following: the service, named vpxd (-s vpxd) is **started**, is monitored for **failures** and will be restarted twice (-q 2) at most. If it fails for a third time within a minimal uptime of **3600** seconds/one hour (-u 3600) the virtual machine will be **restarted/rebooted** (-a).
 
 A full list of the parameters that may be used by the vmware-watchdog is provided below:
 
-> -d = DAEMONIZE
-> -n = QUIET
-> -b = BG_PROC-s = START
-> -k = STOP
-> -r = QUERY
-> -a = REBOOT_FLAG
-> -u = MIN_UPTIME
-> -q = MAX_QUICK_FAILURES
-> -t = MAX_TOTAL_FAILURES
-> -i = IMMORTAL
-> -c = CLEANUP_CMD
-> -f = EXIT_CLEANUP_CMD
+```bash
+-d = DAEMONIZE
+-n = QUIET
+-b = BG_PROC-s = START
+-k = STOP
+-r = QUERY
+-a = REBOOT_FLAG
+-u = MIN_UPTIME
+-q = MAX_QUICK_FAILURES
+-t = MAX_TOTAL_FAILURES
+-i = IMMORTAL
+-c = CLEANUP_CMD
+-f = EXIT_CLEANUP_CMD
+```
 
 * Note: The details provided above are for education purposes only. Do not make changes to service parameters or the vmware-watchdog script unless instructed to do so by VMware Global Support Services.  *
 
@@ -133,7 +137,7 @@ A full list of the parameters that may be used by the vmware-watchdog is provide
 
 The Java Service Wrapper is a watchdog used to detect service failures and restart Java based services. It is based off the Tanuki Java Service Wrapper, a 3<sup>rd</sup> party service wrapper that enables a Java Application to be run as a Windows Service or UNIX Daemon and allows for the health monitoring an application and JVM. Let’s search for the running processes that match for “tanuki.”
 
-`
+``` bash
 mgmt01vc01.sddc.local:~ # ps -ef | grep tanuki
 cm        6331  6324  0 16:20 ?        00:00:37 /usr/java/jre-vmware/bin/vmware-cm -Dorg.tanukisoftware.wrapper.WrapperSimpleApp.waitForStartMain=FALSE -XX:+ForceTimeHighResolution -Dlog4j.configuration=cm-log4j.properties -Dxml.config=ht
 root      6876  6869  0 16:20 ?        00:00:50 /usr/java/jre-vmware/bin/vmware-cis-license -Dorg.tanukisoftware.wrapper.WrapperSimpleApp.waitForStartMain=FALSE -Dorg.apache.catalina.startup.EXIT_ON_INIT_FAILURE=TRUE -XX:+ForceTimeHighRes
@@ -143,7 +147,8 @@ root      7634  7627  0 16:21 ?        00:00:29 /usr/java/jre-vmwa
 root      8453  8433  1 16:21 ?        00:02:55 /usr/java/jre-vmware/bin/vmware-invsvc -Dorg.tanukisoftware.wrapper.WrapperSimpleApp.waitForStartMain=FALSE -Dvim.logdir=/var/log/vmware/invsvc -XX:+ForceTimeHighResolution -XX:+ParallelRefP
 root     10410 10388  0 16:22 ?        00:00:54 /usr/java/jre-vmware/bin/vmware-sps -Dorg.tanukisoftware.wrapper.WrapperSimpleApp.waitForStartMain=FALSE -Dxml.config=../conf/sps-spring-config.xml -Dpbm.config=../conf/pbm-spring-config.xml
 1007     11099 11088  0 16:22 ?        00:01:27 /usr/java/jre-vmware/bin/vmware-vpx-workflow -Dorg.tanukisoftware.wrapper.WrapperSimpleApp.waitForStartMain=FALSE -XX:+ForceTimeHighResolution -ea -Dlog4j.configuration=conf/workflow.log4j.p
-root     23423 19850  0 20:41 pts/0    00:00:00 grep tanuki`
+root     23423 19850  0 20:41 pts/0    00:00:00 grep tanuki
+```
 
 When a Java-based services for vCenter Server starts, it automatically starts a wrapper process to monitor the service process and its JVM. The wrapper process restarts the JVM if it crashed and if the wrapper process crashes.
 
@@ -157,19 +162,20 @@ The command to list, start, stop and restart services managed by the Likewise Se
 
 Let’s list all the processes managed by Likewise Service Manager that match for “vm” and their status:
 
-`
+``` bash
 mgmt01vc01.sddc.local:~ # /opt/likewise/bin/lwsm list | grep vm
 vmafd       running (standalone: 5505)
 vmca        running (standalone: 5560)
-vmdir       running (standalone: 5600)`
+vmdir       running (standalone: 5600)
+```
 
 Here we see that VMware Authentication Framework (+VECS), VMware Certificate Authority and VMware Directory Services are up and running.
 
 Additional commands for Likewise Service Manager daemon include:
 
-`
-list                       List all known services and their status
-autostart                  Start all services configured for autostart
+```
+list                       		List all known services and their status
+autostart                  		Start all services configured for autostart
 start-only &lt;service&gt;       Start a service
 start &lt;service&gt;            Start a service and all dependencies
 stop-only &lt;service&gt;        Stop a service
@@ -179,11 +185,12 @@ refresh &lt;service&gt;          Refresh service's configuration
 proxy &lt;service&gt;            Act as a proxy process for a service
 info &lt;service&gt;             Get information about a service
 status &lt;service&gt;           Get the status of a service
-gdb &lt;service&gt;              Attach gdb to the specified running service`
+gdb &lt;service&gt;              Attach gdb to the specified running service
+```
 
 Now let’s take a look at the info for the VMware Directory Service using the info command:
 
-`
+```
 mgmt01vc01.sddc.local:~ # /opt/likewise/bin/lwsm info vmdir
 Service: vmdir
 Description: VMware Directory Service
@@ -192,7 +199,8 @@ Autostart: yes
 Path: /usr/lib/vmware-vmdir/sbin/vmdird
 Arguments: '/usr/lib/vmware-vmdir/sbin/vmdird' '-s' '-l' '0' '-f' '/usr/lib/vmware-vmdir/share/config/vmdirschema.ldif'
 Environment:
-Dependencies: lsass dcerpc vmafd`
+Dependencies: lsass dcerpc vmafd
+```
 
 Notice that Likewise Service Manager is also aware of any dependencies and will stop / start those as needed.
 
@@ -215,7 +223,8 @@ The API Watchdog is also referred to as “IIAD” (Interservice Interrogation a
 
 Let’s take a look at the contents of the iiad.json configuration file:
 
-`mgmt01vc01.sddc.local:/ # cat /etc/vmware/iiad.json
+``` bash
+mgmt01vc01.sddc.local:/ # cat /etc/vmware/iiad.json
 {
    "requestTimeout": 20,
    "hysteresisCount": 4,
@@ -231,7 +240,8 @@ Let’s take a look at the contents of the iiad.json configuration file:
    "automaticSystemReboot": false,
    "maxSingleRestarts": 3,
    "maxSingleFailures": 2
-}`
+}
+```
 
 So what exactly do these parameters mean? Let’s take a look at each of these below:
 
