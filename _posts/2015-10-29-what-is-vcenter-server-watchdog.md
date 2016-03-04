@@ -130,17 +130,17 @@ Additional commands for Likewise Service Manager daemon include:
 
 ``` bash
 list			List all known services and their status
-autostart				Start all services configured for autostart
-start-only			Start a service
+autostart		Start all services configured for autostart
+start-only		Start a service
 start service 		Start a service and all dependencies
 stop-only service	Stop a service
-stop service			Stop a service and all running dependents
+stop service		Stop a service and all running dependents
 restart service		Restart a service and all running dependents
 refresh service		Refresh service configuration
-proxy service			Act as a proxy process for a service
-info service			Get information about a service
+proxy service		Act as a proxy process for a service
+info service		Get information about a service
 status service		Get the status of a service
-gdb service			Attach gdb to the specified running service
+gdb service		Attach gdb to the specified running service
 ```
 
 Now let’s take a look at the info for the VMware Directory Service using the info command:
