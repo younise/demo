@@ -58,6 +58,7 @@ Let’s break that down a bit into something more readable: 
 | vCenter Server                 | vpxd             | Yes                      | 1 hour         | 2                  |
 | VSAN Health Check              | vsan-health      | No                       | 10 minutes     | 10                 |
 
+
 As an example, here we can see that vmware-watchdog is running with a couple of parameters, which differ for each service process. Let’s dig into the VPXD process since it’s the most important service. It shows the following parameters:
 
 ``` bash
