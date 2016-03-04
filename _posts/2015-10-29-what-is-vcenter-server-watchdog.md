@@ -19,7 +19,7 @@ If any services fail, the Watchdog attempts to restart them. If it cannot restar
 
 That’s sounds slick, right? Well, let’s dive in and take a look at each of these watchdogs in detail.
 
-## PID WATCHDOG<
+## PID WATCHDOG
 
 First up, is the PID Watchdog. A watchdog initializes alongside each vCenter Server service at runtime. The PID Watchdog only monitors services that are actively running. Meaning, that once a service is gracefuly stopped, the watchdog will no longer monitor or restart the service. The PID Watchdog detects only that a process with the correct executable is in the process table but it does not determine if the process is ready to service requests (e.g. vSphere Web Client.) – that is left to the API Watchdog (more on that later).
 
@@ -114,19 +114,18 @@ What the above process parameters result in is the following: the service, named
 
 A full list of the parameters that may be used by the vmware-watchdog is provided below:
 
-`
--d = DAEMONIZE
--n = QUIET
--b = BG_PROC-s = START
--k = STOP
--r = QUERY
--a = REBOOT_FLAG
--u = MIN_UPTIME
--q = MAX_QUICK_FAILURES
--t = MAX_TOTAL_FAILURES
--i = IMMORTAL
--c = CLEANUP_CMD
--f = EXIT_CLEANUP_CMD`
+> -d = DAEMONIZE
+> -n = QUIET
+> -b = BG_PROC-s = START
+> -k = STOP
+> -r = QUERY
+> -a = REBOOT_FLAG
+> -u = MIN_UPTIME
+> -q = MAX_QUICK_FAILURES
+> -t = MAX_TOTAL_FAILURES
+> -i = IMMORTAL
+> -c = CLEANUP_CMD
+> -f = EXIT_CLEANUP_CMD
 
 * Note: The details provided above are for education purposes only. Do not make changes to service parameters or the vmware-watchdog script unless instructed to do so by VMware Global Support Services.  *
 
@@ -197,7 +196,7 @@ Dependencies: lsass dcerpc vmafd`
 
 Notice that Likewise Service Manager is also aware of any dependencies and will stop / start those as needed.
 
-###API WATCHDOG
+### API WATCHDOG
 
 Next up, is the API Watchdog. This watchdog checks the status of APIs for the VPXD service. If the APIs are not running, the API Watchdog will attempt to restart the service two times. If the service restarts do not solve the issue, the API Watchdog will call for the restart of the virtual machine.
 
