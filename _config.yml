@@ -6,59 +6,7 @@ baseurl: "https://tenthirtyam.org/"
 # google_analytics: 'UA-XXXXXX-X'
 disqus_shortname: 'tenthirtyam'
 
-author:<table>
-<tbody>
-<tr>
-<td>Service</td>
-<td>Process Name</td>
-<td>Virtual Machine Restart?</td>
-<td>Minimal Uptime</td>
-<td>Number of Restarts</td>
-</tr>
-<tr>
-<td>Reverse Proxy</td>
-<td>rhttpproxy</td>
-<td>No</td>
-<td>30 seconds</td>
-<td>5</td>
-</tr>
-<tr>
-<td>vCenter Management Web Service</td>
-<td>vws</td>
-<td>No</td>
-<td>30 seconds</td>
-<td>5</td>
-</tr>
-<tr>
-<td>Syslog Collector</td>
-<td>Syslog</td>
-<td>No</td>
-<td>30 seconds</td>
-<td>5</td>
-</tr>
-<tr>
-<td>vPostgres Database</td>
-<td>vmware-vpostgres</td>
-<td>No</td>
-<td>5 minutes</td>
-<td>2</td>
-</tr>
-<tr>
-<td>vCenter Server</td>
-<td>vpxd</td>
-<td>Yes</td>
-<td>1 hour</td>
-<td>2</td>
-</tr>
-<tr>
-<td>VSAN Health Check</td>
-<td>vsan-health</td>
-<td>No</td>
-<td>10 minutes</td>
-<td>10</td>
-</tr>
-</tbody>
-</table>
+author:
   name: Ryan Johnson
   twitter_username: tenthirtyam
   github_username: tenthirtyam
