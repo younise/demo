@@ -36,7 +36,7 @@ Each vCenter Server process has a separate PID Watchdog process associated with 
 
 This watchdog is a shell script (/usr/bin/watchdog) found on the VCSA that is used to detect a service failure in non-Java (C) based services on the appliance form factor. A service start automatically starts the Watchdog along with the service itself. Let’s search for the running processes that match for “vmware-watchdog.”
 
-``` bash
+``` shell
 mgmt01vc01.sddc.local:~ # ps -ef | grep vmware-watchdog
  root      5767     1  0 16:20 ?        00:00:00 /bin/sh /usr/bin/vmware-watchdog -s rhttpproxy -u 30 -q 5 /usr/sbin/rhttpproxy -r /etc/vmware-rhttpproxy/config.xml -d /etc/vmware-rhttpproxy/endpoints.conf.d -f /etc/vmware-rhttpproxy/endpo
  root      7930     1  0 16:21 ?        00:00:00 /bin/sh /usr/bin/vmware-watchdog -s vws -u 30 -q 5 /usr/lib/vmware-vws/bin/vws.sh
@@ -57,7 +57,6 @@ Let’s break that down a bit into something more readable: 
 | vPostgres Database             | vmware-vpostgres | No                       | 5 minutes      | 2                  |
 | vCenter Server                 | vpxd             | Yes                      | 1 hour         | 2                  |
 | VSAN Health Check              | vsan-health      | No                       | 10 minutes     | 10                 |
-
 
 As an example, here we can see that vmware-watchdog is running with a couple of parameters, which differ for each service process. Let’s dig into the VPXD process since it’s the most important service. It shows the following parameters:
 
