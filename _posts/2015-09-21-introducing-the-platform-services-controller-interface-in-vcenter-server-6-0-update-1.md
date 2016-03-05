@@ -4,10 +4,11 @@ title:          "Introducing the Platform Services Controller Interface in vCent
 subtitle:       ""
 date:           2015-09-21 10:30:00
 author:         "Ryan Johnson"
-published:      true
-categories:     [vSphere, vCenter, Platform Services Controller]
 tags:           [vSphere, vCenter, Platform Services Controller]
+published:		true
 ---
+
+> Originally posted on the [VMware vSphere Blog](http://blogs.vmware.com/vsphere/) by Ryan Johnson
 
 Back in March, we introduced vSphere 6.0 and the new architecture for vCenter Server. With this new architecture you learned about the Platform Services Controller, a new functional component of vCenter that moves beyond just Single-Sign On to include additional platform services such as:
 

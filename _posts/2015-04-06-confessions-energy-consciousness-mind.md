@@ -4,12 +4,13 @@ title:          "Confessions of an Energy Consciousness Mind"
 subtitle:       ""
 date:           2015-04-06 10:30:00
 author:         "Ryan Johnson"
-published:      true
-categories:     [vSphere]
-tags:           [vSphere,]
+tags:           [vSphere, vCenter]
+published:		true
 ---
 
-]I have a confession. 
+> Originally posted on the [VMware vSphere Blog](http://blogs.vmware.com/vsphere/) by Ryan Johnson
+
+I have a confession. 
 
 My data center kit has been using too much energy.
 

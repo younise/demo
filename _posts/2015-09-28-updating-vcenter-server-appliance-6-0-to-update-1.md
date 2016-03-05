@@ -4,10 +4,11 @@ title:          "Updating vCenter Server Appliance 6.0 to Update 1"
 subtitle:       ""
 date:           2015-10-28 10:30:00
 author:         "Ryan Johnson"
-published:      true
-categories:     [vSphere, vCenter, Platform Services Controller]
 tags:           [vSphere, vCenter, Platform Services Controller]
+published:		true
 ---
+
+> Originally posted on the [VMware vSphere Blog](http://blogs.vmware.com/vsphere/) by Ryan Johnson
 
 Earlier this month, we released vSphere 6.0 Update 1. In this update we introduced some awesome new features for vCenter Server.
 

@@ -4,10 +4,11 @@ title:          "Enhancing User Experience: Customization of vRealize Automation
 subtitle:       ""
 date:           2015-03-16 10:30:00
 author:         "Ryan Johnson"
-published:      true
-categories:     [vRealize Automation]
-tags:           [vRealize Automation]
+tags:           [vRealize Automation, UX]
+published:		true
 ---
+
+> Originally posted on the [VMware vSphere Blog](http://blogs.vmware.com/vsphere/) by Ryan Johnson
 
 User Experience ("UX") focuses on the intimate understanding of your users. What is it that they need or desire, what do they value, what are their abilities, as well as their limitations?
 
