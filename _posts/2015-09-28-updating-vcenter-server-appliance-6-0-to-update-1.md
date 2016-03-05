@@ -8,7 +8,9 @@ tags:           [vSphere, vCenter, Platform Services Controller]
 published:		true
 ---
 
-> Originally posted on the [VMware vSphere Blog](http://blogs.vmware.com/vsphere/) by Ryan Johnson
+Originally posted on the [VMware vSphere Blog](http://blogs.vmware.com/vsphere/).
+
+--
 
 Earlier this month, we released vSphere 6.0 Update 1. In this update we introduced some awesome new features for vCenter Server.
 

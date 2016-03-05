@@ -8,7 +8,9 @@ tags:           [vRealize Automation, UX]
 published:		true
 ---
 
-> Originally posted on the [VMware vSphere Blog](http://blogs.vmware.com/vsphere/) by Ryan Johnson
+Originally posted on the [VMware vSphere Blog](http://blogs.vmware.com/vsphere/).
+
+--
 
 User Experience ("UX") focuses on the intimate understanding of your users. What is it that they need or desire, what do they value, what are their abilities, as well as their limitations?
 

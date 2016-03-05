@@ -8,7 +8,9 @@ tags:           [vSphere, vCenter]
 published:		true
 ---
 
-> Originally posted on the [VMware vSphere Blog](http://blogs.vmware.com/vsphere/) by Ryan Johnson
+Originally posted on the [VMware vSphere Blog](http://blogs.vmware.com/vsphere/).
+
+--
 
 I have a confession. 
 

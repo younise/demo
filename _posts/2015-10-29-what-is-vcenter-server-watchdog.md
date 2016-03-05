@@ -8,7 +8,9 @@ tags:           [vSphere, vCenter, Platform Services Controller]
 published:      true
 ---
 
-> Originally posted on the [VMware vSphere Blog](http://blogs.vmware.com/vsphere/) by Ryan Johnson
+Originally posted on the [VMware vSphere Blog](http://blogs.vmware.com/vsphere/).
+
+--
 
 If you’ve done any research into the high-availability options available for vCenter Server 6.0, hopefully you have had a chance to read the [VMware vCenter Server 6.0 Availability Guide](http://www.vmware.com/files/pdf/techpaper/VMware-vCenter-Server6-Availability-Guide.pdf) written in collaboration with Technical Marketing and Global Support Services as well as [KB 1024051](http://kb.vmware.com/kb/1024051/). And you might have noticed particular sections that refer to the vCenter Server Watchdog. But what exactly is the vCenter Server Watchdog?
 

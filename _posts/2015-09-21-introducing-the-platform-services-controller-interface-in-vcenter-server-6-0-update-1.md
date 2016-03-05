@@ -8,7 +8,9 @@ tags:           [vSphere, vCenter, Platform Services Controller]
 published:		true
 ---
 
-> Originally posted on the [VMware vSphere Blog](http://blogs.vmware.com/vsphere/) by Ryan Johnson
+Originally posted on the [VMware vSphere Blog](http://blogs.vmware.com/vsphere/).
+
+--
 
 Back in March, we introduced vSphere 6.0 and the new architecture for vCenter Server. With this new architecture you learned about the Platform Services Controller, a new functional component of vCenter that moves beyond just Single-Sign On to include additional platform services such as:
 
