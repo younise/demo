@@ -14,7 +14,7 @@ permalink:      /about/
 
 <p>It is written by Ryan Johnson, an avid husband, father, runner and technologist based in Orlando, Florida USA.</p>
 
-<p>Ryan is also a Senior Technical Marketing Manager at VMware. As an accomplished enterprise architect and technologist his focus is enabling customers and VMUG community members to accelerate and simplify their infrastructure services and organizations through VMware’s Software-Defined Data Center and Hybrid Cloud solutions.</p>
+<p>Ryan is also a Senior Technical Marketing Architect at VMware. As an accomplished enterprise architect and technologist his focus is enabling customers and VMUG community members to accelerate and simplify their infrastructure services and organizations through VMware’s Software-Defined Data Center and Hybrid Cloud solutions.</p>
 
 <h2>Elsewhere</h2>
 
