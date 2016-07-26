@@ -2,7 +2,7 @@
 layout:         post
 title:          "Announcing the VMware Validated Design for Software-Defined Data Center 2.0"
 subtitle:       ""
-date:           2015-07-21 10:30:00
+date:           2016-07-21 10:30:00
 author:         "Ryan Johnson"
 tags:           [SDDC, VVD]
 published:      true
