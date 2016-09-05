@@ -2,7 +2,7 @@
 layout: home
 ---
 # Hypertext Dispatches
-This is 1030am. An infrequently updated, ordered collection of hypertext dispatches with excerpts of technology, personal interests, and noteworthy items.
+This is 1030am. A collection of hypertext dispatches on technology, personal interests, and the noteworthy.
 
 It is written by Ryan Johnson. An avid husband, father, runner and technologist based in Orlando, Florida USA.
 
@@ -10,5 +10,5 @@ Ryan is also a Senior Technical Marketing Architect at VMware. As an accomplishe
 
 Follow him on Twitter at <a href="http://twitter.com/tenthirtyam" title="@tenthirtyam" >@tenthirtyam</a> or on the <a href="http://blogs.vmware.com/vsphere/author/ryan_johnson/" title="VMware vSphere Blog">VMware vSphere Blog</a>.
 
-Any views or opinions expressed herein are strictly those of the author. Content published here does not necessarily represent or reflect the views or opinions of VMware or any of its divisions, subsidiaries, business partners or those of the author’s mother.
+Any views or opinions expressed herein are strictly those of the author. Content does not necessarily represent or reflect the views or opinions of VMware or the author’s mother.
 {: .notice_info}
