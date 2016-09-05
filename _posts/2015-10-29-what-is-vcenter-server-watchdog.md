@@ -9,6 +9,7 @@ published:      true
 ---
 
 Originally posted on the [VMware vSphere Blog](http://blogs.vmware.com/vsphere/).
+{: .notice}
 
 --
 
@@ -50,7 +51,7 @@ mgmt01vc01.sddc.local:~ # ps -ef | grep vmware-watchdog
  root     13113     1  0 16:22 ?        00:00:00 /bin/sh /usr/bin/vmware-watchdog -s vsan-health -u 600 -q 10 su vsan-health -c '/opt/vmware/bin/vmware-vsan-health /usr/lib/vmware-vpx/vsan-health/VsanHealthServer.py -p 8006'
  root     28775 19850  0 20:42 pts/0    00:00:00 grep vmware-watchdog
 ```
- 
+
 Let’s break that down a bit into something more readable: 
 
 | Service                        | Process Name     | Virtual Machine Restart? | Minimal Uptime | Number of Restarts |
