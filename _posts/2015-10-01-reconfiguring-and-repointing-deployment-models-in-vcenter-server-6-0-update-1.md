@@ -9,8 +9,7 @@ published:		true
 ---
 
 Originally posted on the [VMware vSphere Blog](http://blogs.vmware.com/vsphere/).
-
---
+{: .notice}
 
 In my last blog post, we discussed some of the new features and capabilities found in vCenter Server 6.0 such as how you can quickly and easily <a href="https://blogs.vmware.com/vsphere/2015/09/updating-vcenter-server-appliance-6-0-to-update-1.html" >update the vCenter Server Appliance 6.0 to Update 1</a>.
 

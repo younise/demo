@@ -5,12 +5,11 @@ subtitle:       ""
 date:           2015-04-06 10:30:00
 author:         "Ryan Johnson"
 tags:           [vSphere, vCenter]
-published:		true
+published:			true
 ---
 
 Originally posted on the [VMware vSphere Blog](http://blogs.vmware.com/vsphere/).
-
---
+{: .notice}
 
 I have a confession. 
 
