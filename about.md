@@ -8,7 +8,7 @@ tags:           []
 permalink:      /about/
 ---
 
-<img src="/images/me.png" title="Yeah, this is me.">
+<img src="/images/me.jpg" title="Yeah, this is me.">
 
 This is an infrequently updated, chronologically ordered collection of hypertext fragments and all things under analyzed. A semi-coherent receptacle mixed with excerpts of technology, personal interests, and noteworthy items.
 
