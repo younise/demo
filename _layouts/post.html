@@ -31,7 +31,7 @@ layout: compress
         <span></span>
       </a>
       <div class="inner-post content">
-        <div class="date-highlight">{% if page.date %}{{ page.date | date: '%d %b %Y' }}{% else %}&#x2756;{% endif %}</div>
+        <div class="date-highlight">{% if page.date %}Dispatch on {{ page.date | date: '%d %b %Y' }}{% else %}&#x2756;{% endif %}</div>
         {{ content }}
         <br>
         {% include share.html %}
