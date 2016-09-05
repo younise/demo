@@ -593,7 +593,7 @@ canvas {
     position: relative;
     left: auto;
     bottom: auto;
-    font-size: 24px;
+    font-size: 36px;
   }
   .tags > li {
     background: none;
@@ -704,7 +704,7 @@ canvas {
 // Media queries
 @media screen and (max-height: 605px) {
   .post-title-section .section-title {
-    font-size: 24px;
+    font-size: 36px;
   }
 }
 
