@@ -1,10 +1,8 @@
 ---
 layout: home
 ---
-
 # Hypertext Dispatches
-
-![image-left](/images/me.jpg){: .align-left} This is 1030am. An infrequently updated, ordered collection of hypertext dispatches with excerpts of technology, personal interests, and noteworthy items.
+This is 1030am. An infrequently updated, ordered collection of hypertext dispatches with excerpts of technology, personal interests, and noteworthy items.
 
 It is written by Ryan Johnson. An avid husband, father, runner and technologist based in Orlando, Florida USA.
 
