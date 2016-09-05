@@ -1,16 +1,13 @@
 ---
 layout:         page
 title:          "Ryan Johnson"
-subtitle:       "Yeah, he's cool."
-image:          "img/post-bg-01.jpg"
 ---
 
-<h1>60% Water. 40% Geek.</h1>
+# 60% Water. 40% Geek.
 
-<a href="http://tenthirtyam.org/ask/" onclick="_gaq.push(['_trackEvent', 'outbound-article-int', 'http://tenthirtyam.org/ask/', 'Contact Me']);" title="Ask">Contact Me</a> | <a title="Download As PDF" href="http://resume.tenthirtyam.org" target="_blank">Download As PDF
-</a>
+<a title="Download As PDF" href="http://resume.tenthirtyam.org">Download As PDF</a>
 
-<h4>Executive Summary</h4>
+#### Executive Summary
 
 Strategic and accomplished technologist with an exceptional history analyzing and communicating business needs to develop and implement enterprise solutions that streamline systems and processes leveraging best practice frameworks and emerging technologies and standards.
 
@@ -18,18 +15,20 @@ Possesses a rare blend of hands-on technical expertise and keen business sense t
 
 Believes in individual contributions, teamwork, execution, and respect for employees, customers, partners, and community.
 
-<h4>Education</h4>
+#### Education
 
 Sacred Heart University
 Fairfield, Connecticut USA
 Bachelors of Science, Biological Science - May 1998
 
 
-<h4>Certifications and Accreditations</h4>
+#### Certifications and Accreditations
 
 VMware vExpert <a href="http://blogs.vmware.com/vmtn/2014/04/vexpert-2014-announcement.html" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://blogs.vmware.com/vmtn/2014/04/vexpert-2014-announcement.html', '2014']);"  target="_blank">2014</a>/<a href="http://blogs.vmware.com/vmtn/2013/05/vexpert-2013-awardees-announced.html" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://blogs.vmware.com/vmtn/2013/05/vexpert-2013-awardees-announced.html', '2013']);"  target="_blank">2013</a>
 VMware Certified Advanced Professional 5/4 - Data Center Design
+VMware Certified Advanced Professional 5 - Data Center Administration
 VMware Certified Professional 6/5/4/3 - Data Center Virtualization
+VMware Certified Professional 6 - Network Virtualization
 VMware Certified Professional 6 - Cloud Management and Automation
 VMware Certified Professional 5 - Cloud
 VMware Certified Professional 5 - Desktop
@@ -54,10 +53,10 @@ Veeam Sales Professional 7
 Red Hat Certified Technician
 Citrix Certified Administrator
 
-<h4>Professional Experience</h4>
+#### Professional Experience
 
 <strong>VMware, Inc.</strong>
-Senior Technical Marketing Manager
+Senior Technical Marketing Architect
 November 2014 – Future
 
 <ul>
@@ -201,7 +200,7 @@ August 1995 &#8211; April 1997
 <li>Provided software and hardware technical support to a mobile computing program and university campus customers. Logged helpdesk requests, carried out fieldwork, repaired and serviced systems. Developed and maintained an intranet website to assist mobile computing customers with information and services. Migrated customers to Microsoft Exchange from UNIX and upgraded Windows NT 4.0 servers in proof-of-concept and production environments.</li>
 </ul>
 
-<h4>Professional Presentations &amp; Writings</h4>
+#### Professional Presentations &amp; Writings
 
 <ul>
 <li>VMworld 2014 US “Top 10” Session – INF1522 vSOM: Monitoring the Health, Performance and Efficiency of vSphere with vCenter Operations Manager</li>
@@ -214,7 +213,7 @@ August 1995 &#8211; April 1997
 <li>Technical Reviewer of PACKT Publishing’s Getting Started with VMware Fusion by Michael Roy</li>
 </ul>
 
-<h4>Professional Training</h4>
+#### Professional Training
 
 <ul>
 <li>VCE – vBlock Service Delivery</li>
@@ -222,7 +221,7 @@ August 1995 &#8211; April 1997
 <li>HP Services – Control Objectives for Information Technology (COBiT) v4.1 Foundations</li>
 </ul>
 
-<h4>Professional and Technical Skills</h4>
+#### Professional and Technical Skills
 
 <ul>
 <li>Exceptional knowledge of software, hardware, applications, networking, and system engineering</li>

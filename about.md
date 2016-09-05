@@ -1,10 +1,11 @@
 ---
 layout:         page
 title:          "About"
-subtitle:       "Runner // Essentialist // Geek"
 published:      true
 permalink:      /about/
 ---
+
+# Essentialist // Geek"
 
 ![image-left](/images/me.jpg){: .align-left} This is 1030am. An infrequently updated, ordered collection of hypertext dispatches with excerpts of technology, personal interests, and noteworthy items.
 
