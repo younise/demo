@@ -27,10 +27,9 @@ sass:
   style:            compressed
 
 # Google Analytics
-#google-analytics: UA-XXXXX-Y
+google-analytics: UA-23727517-1
 
 # Social
-#email:             email
 twitter:            tenthirtyam
 github:             tenthirtyam
 linkedin:           tenthirtyam
