@@ -36,8 +36,8 @@ layout: compress
         <input type="search" name="q" id="q" placeholder="From the Archives." data-search-input />
       </form>
       <div class="inner-post content">
-        <div class="date-highlight">{% if post.date %}{{ post.date | date: '%d %b %Y' }}{% else %}&#x2756;{% endif %}</div>
         {% for post in site.posts limit:1 %}
+        <div class="date-highlight">{% if post.date %}{{ post.date | date: '%d %b %Y' }}{% else %}&#x2756;{% endif %}</div>
             <h1>
               {{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}
             </h1>
