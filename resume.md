@@ -1,11 +1,9 @@
 ---
 layout:         page
-title:          "Ryan Johnson"
+title:          "Resume"
 ---
 
-# 60% Water. 40% Geek.
-
-<a title="Download As PDF" href="http://resume.tenthirtyam.org">Download As PDF</a>
+# Ryan Johnson
 
 #### Executive Summary
 
