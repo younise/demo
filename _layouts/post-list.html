@@ -21,6 +21,9 @@ layout: compress
         <span></span>
       </a>
       <div class="content">
+        <form method="get" action="/search" data-search-form>
+          <input type="search" name="q" id="q" placeholder="From the Archives." data-search-input />
+        </form>
         <ul class="posts-list">
         {% for post in site.posts %}
           <li>
