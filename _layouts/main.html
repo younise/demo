@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 ---
 
 <!DOCTYPE html>
@@ -23,12 +23,15 @@ layout: page
     </div>
     <canvas></canvas>
   </div>
-      <div class="block-right">
-        <a href="/dispatches/" title="dispatches" class="posts-menu-icon"></a>
-        <a title="projects" class="projects-menu-icon">
-          <span></span>
-        </a>
-        <div class="inner-post content">
+
+  <div class="block-right">
+    <a href="{{ site.url }}/dispatches/" title="dispatches" class="posts-menu-icon"></a>&nbsp;&nbsp;&nbsp;
+    <span class="posts-link">DISPATCHES</span>
+    <a title="project" class="projects-menu-icon">
+      <span></span>
+    </a>
+    <span class="projects-link">PROJECTS</span>
+    <div class="content">
           <form method="get" action="/search" data-search-form>
             <input type="search" name="q" id="q" placeholder="From the Archives." data-search-input />
           </form>
