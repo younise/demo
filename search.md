@@ -7,9 +7,7 @@ search_omit:    true
 ---
 
 <div id="search-container">
-  <form method="get" action="/search" data-search-form>
-    <input type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input />
-  </form>
+
 </div>
 
   <!-- Search results placeholder -->
