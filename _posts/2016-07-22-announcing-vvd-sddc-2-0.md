@@ -8,8 +8,6 @@ tags:           [SDDC, VVD]
 published:      true
 ---
 
-<img src="https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAg1AAAAJDc0MzMwMjU4LTc3YmUtNDVlYi04YWY4LTIzMDlmNGZkYWJhYw.png">
-
 On behalf of the VMware Validated Design team, we are excited to announce the General Availability of the VMware Validated Design for Software-Defined Data Center 2.0.
 
 **What are the VMware Validated Designs?**
@@ -41,15 +39,17 @@ This release provides the following new features:
 * A streamlined vRealize Log Insight installation process.
 * Greatly simplified network architecture of the Management Infrastructure.
 
+<img src="https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAg1AAAAJDc0MzMwMjU4LTc3YmUtNDVlYi04YWY4LTIzMDlmNGZkYWJhYw.png">
+
 For more information, please visit:
 
 * Download the VMware Validated Design for Software-Defined Data Center 2.0 [http://www.vmware.com/go/vvd-sddc](http://www.vmware.com/go/vvd-sddc)
 * VMware Validated Design for Software-Defined Data Center 2.0 Release Notes: [http://pubs.vmware.com/Release_Notes/en/vvd/20/vmware-validated-design-20-release-notes.html](http://pubs.vmware.com/Release_Notes/en/vvd/20/vmware-validated-design-20-release-notes.html)
-* 
+*
 In addition, with the General Availability of this design VMware Validated Design for Software-Defined Data Center 2.0 it is my pleasure to share the [VMware Validated Design for Software-Defined Data Center 2.0 Reference Poster](https://communities.vmware.com/servlet/JiveServlet/download/2609864-159613/VVD-SDDC-20-Poster-v1.pdf) for this incredible release.
 
 This poster depicts many portions of the fundamental architecture for both quick reference and discussion.
 
 **Going to VMworld 2016 US and Europe?**
- 
+
 Be sure to register for the technical deep dives that members of the engineering and I will be presenting throughout the event or catch us in the Hands-on Labs.
