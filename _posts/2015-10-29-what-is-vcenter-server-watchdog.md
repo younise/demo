@@ -203,22 +203,22 @@ mgmt01vc01.sddc.local:/ # cat /etc/vmware/iiad.json
 
 So what exactly do these parameters mean? Let’s take a look at each of these below:
 
-* requestTimeout– is the default timeout for requests in seconds.</li>
-* hysteresisCount– allows failures to gradually age off. Every hysteresisCount runs of the API Watchdog, the failure count will be reduced by one.</li>
-* ebootShellCmd– is a user supplied command to run before rebooting the VM.</li>
-* restartShellCmd– is a user supplied command to run before restarting a service. It will be passed an argument of the service name.</li>
-* maxTotalFailures– is the number of total failures across all monitored services required before a virtual machine reboot will occur.</li>
-* needShellOnWin– determines whether to run service-control with shell=True on Windows.</li>
-* watchdogDisabled– controls whether the API Watchdog is disabled.</li>
-* watchdogDisabled– controls whether the Watchdog for VPXD is disabled.</li>
-* createSupportBundle– controls whether to create a support bundle when a service restart or VM reboot is needed.</li>
-* automaticServiceRestart – indicates whether to restart services upon failure detection, or merely to log the failure.</li>
-* automaticSystemReboot– indicates whether to reboot the virtual machine when sufficient failures are detected, or merely to log the recommendation.</li>
-* maxSingleRestarts – is the upper limit on the number of times the API Watchdog will attempt to restart a failing service.</li>
+* requestTimeout– is the default timeout for requests in seconds.
+* hysteresisCount– allows failures to gradually age off. Every hysteresisCount runs of the API Watchdog, the failure count will be reduced by one.
+* ebootShellCmd– is a user supplied command to run before rebooting the VM.
+* restartShellCmd– is a user supplied command to run before restarting a service. It will be passed an argument of the service name.
+* maxTotalFailures– is the number of total failures across all monitored services required before a virtual machine reboot will occur.
+* needShellOnWin– determines whether to run service-control with shell=True on Windows.
+* watchdogDisabled– controls whether the API Watchdog is disabled.
+* watchdogDisabled– controls whether the Watchdog for VPXD is disabled.
+* createSupportBundle– controls whether to create a support bundle when a service restart or VM reboot is needed.
+* automaticServiceRestart – indicates whether to restart services upon failure detection, or merely to log the failure.
+* automaticSystemReboot– indicates whether to reboot the virtual machine when sufficient failures are detected, or merely to log the recommendation.
+* maxSingleRestarts – is the upper limit on the number of times the API Watchdog will attempt to restart a failing service.
 * maxSingleFailures– is the number of failures required to trigger a service restart.
 
 *Note: The details provided above are for education purposes only. Do not make changes to any of the above parameters unless instructed to do so by VMware Global Support Services.*
 
-In addition to the support bundles before a service restart or a virtual machine reboot, it also logs its activities to /var/log/vmware/iiad/* on the VCSA and to %VMWARE_LOG_DIR%/iiad/* on the Windows form factor.
+In addition to the support bundles before a service restart or a virtual machine reboot, it also logs its activities to **/var/log/vmware/iiad/*** on the VCSA and to **%VMWARE_LOG_DIR%/iiad/*** on the Windows form factor.
 
 And there you have it, a little bit of a deep dive on the “out of the box” watchdog functionality for vCenter Server 6.0. By managing and periodically verifying the status of vCenter Server processes with the PID Watchdog and the vCenter Server API with the API Watchdog, we provide better availability for the services and a faster RTO.
