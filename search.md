@@ -1,11 +1,11 @@
 ---
 layout:         page
-title:          "Lost Signal"
+title:          "Lost Signals"
 published:      true
 permalink:      /search/
 search_omit:    true
 ---
-# Signal in the Noise
+# Lost Signals
 <!-- Search results placeholder -->
 <p data-search-found>
   <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
