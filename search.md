@@ -1,6 +1,6 @@
 ---
 layout:         page
-title:          "Search"
+title:          "Singal in the Noise"
 published:      true
 permalink:      /search/
 search_omit:    true
