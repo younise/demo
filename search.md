@@ -5,13 +5,6 @@ published:      true
 permalink:      /search/
 search_omit:    true
 ---
-<!-- Search form -->
-<form method="get" action="/search" data-search-form>
-  <label for="q">Search term</label>
-  <input type="search" name="q" id="q" placeholder="From the Archives" data-search-input />
-  <input type="submit" value="Search" />
-</form>
-
 <!-- Search results placeholder -->
 <p data-search-found>
   <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
