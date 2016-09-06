@@ -22,8 +22,7 @@ search_omit:    true
 <script type="text/x-template" id="search-result">
   <div>
     <p><a href="##Url##">##Title##</a></p>
-    <p><a href="##Url##">##Date##</a></p>
-    <a href="##Url##">Read &ldquo;##Title##&rdquo;</a>
+    <p##Excerpt##</p>
   </div>
 </script>
 
