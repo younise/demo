@@ -14,6 +14,7 @@ background:
 
 # Build
 permalink:          /:year/:month/:day/:title/
+paginate:           1
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
