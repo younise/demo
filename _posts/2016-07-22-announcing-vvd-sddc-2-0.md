@@ -44,8 +44,9 @@ This release provides the following new features:
 For more information, please visit:
 
 * Download the VMware Validated Design for Software-Defined Data Center 2.0 [http://www.vmware.com/go/vvd-sddc](http://www.vmware.com/go/vvd-sddc)
+
 * VMware Validated Design for Software-Defined Data Center 2.0 Release Notes: [http://pubs.vmware.com/Release_Notes/en/vvd/20/vmware-validated-design-20-release-notes.html](http://pubs.vmware.com/Release_Notes/en/vvd/20/vmware-validated-design-20-release-notes.html)
-*
+
 In addition, with the General Availability of this design VMware Validated Design for Software-Defined Data Center 2.0 it is my pleasure to share the [VMware Validated Design for Software-Defined Data Center 2.0 Reference Poster](https://communities.vmware.com/servlet/JiveServlet/download/2609864-159613/VVD-SDDC-20-Poster-v1.pdf) for this incredible release.
 
 This poster depicts many portions of the fundamental architecture for both quick reference and discussion.
