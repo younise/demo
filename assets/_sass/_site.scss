@@ -438,7 +438,29 @@ canvas {
   }
 }
 
-#posts {
+#main, {
+  .block-right {
+    display: block;
+    .content {
+      height: auto;
+      display: block;
+      max-width: 800px;
+    }
+  }
+  .logo {
+    max-width: 150px;
+    display: inline-block;
+    height: auto;
+    background-size: 100%;
+    margin: 0 auto;
+    position: relative;
+    font: 0/0 verdana;
+    color: transparent;
+    text-shadow: none;
+  }
+}
+
+#posts, {
   .block-right {
     display: block;
     .content {
