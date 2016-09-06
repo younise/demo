@@ -1,10 +1,10 @@
 ---
 layout: page
-title: The Archives
+title: Signals
 permalink: /tags.html
 ---
 
-# Dispatch Archives
+# Signals
 
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tags_list = site_tags | split:',' | sort %}
