@@ -1,11 +1,6 @@
 ---
 layout: home
 ---
-<div id="search-container">
-  <form method="get" action="/search" data-search-form>
-    <input type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input />
-  </form>
-</div>
 # Hypertext Dispatches
 This is 1030am. A collection of hypertext dispatches on technology, personal interests, and the noteworthy.
 
