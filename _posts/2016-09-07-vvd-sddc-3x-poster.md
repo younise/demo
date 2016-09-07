@@ -82,7 +82,8 @@ Also, check out the following:
 
 * [Download](http://www.vmware.com/go/vvd-sddc) the current VMware Validated Design for Software-Defined Data Center 2.0
 
-**Refer to the documentaiton for the complete software bill of materials.*
+**Refer to the documentation for the complete software bill of materials.*
+
 **Optional Component*
 
 Any views or opinions expressed herein are strictly those of the author. Content does not necessarily represent or reflect the views or opinions of VMware or the author’s mother.
