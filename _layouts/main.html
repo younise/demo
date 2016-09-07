@@ -35,23 +35,20 @@ layout: compress
             </h1>
             {{ post.content}}
         {% include share.html %}
-
-        {% if post.previous or post.next %}
-        <nav class="pagination">
-          {% if post.previous %}
-          <a href="{{ site.url }}{{ post.previous.url }}" class="pagination_pager" title="{{ post.previous.title | markdownify | strip_html }}">previous</a>
-          {% else %}
-          <a href="#" class="pagination_pager disabled">previous</a>
+          {% if post.previous or post.next %}
+          <nav class="pagination">
+            {% if post.previous %}
+            <a href="{{ site.url }}{{ post.previous.url }}" class="pagination_pager" title="{{ post.previous.title | markdownify | strip_html }}">previous</a>
+            {% else %}
+            <a href="#" class="pagination_pager disabled">previous</a>
+            {% endif %}
+            {% if post.next %}
+            <a href="{{ site.url }}{{ post.next.url }}" class="pagination_pager" title="{{ post.next.title | markdownify | strip_html }}">next</a>
+            {% else %}
+            <a href="#" class="pagination_pager disabled">next</a>
+            {% endif %}
+          </nav>
           {% endif %}
-          {% if post.next %}
-          <a href="{{ site.url }}{{ post.next.url }}" class="pagination_pager" title="{{ post.next.title | markdownify | strip_html }}">next</a>
-          {% else %}
-          <a href="#" class="pagination_pager disabled">next</a>
-          {% endif %}
-        </nav>
-        {% endif %}
-
-
         {% endfor %}
       </div>
     </div>
