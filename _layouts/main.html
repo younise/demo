@@ -27,9 +27,7 @@ layout: compress
   <div class="block-right">
     {% include nav.html %}
     <div class="content">
-      <form method="get" action="/search" data-search-form>
-        <input type="search" name="q" id="q" placeholder="Lost Signals" data-search-input />
-      </form>
+      {% include search.html %}
       <div class="inner-post content">
         {% for post in site.posts limit:1 %}
         <div class="date-highlight">{% if post.date %}{{ post.date | date: '%d %b %Y' }}{% else %}&#x2756;{% endif %}</div>
