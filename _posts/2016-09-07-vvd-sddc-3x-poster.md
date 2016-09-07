@@ -62,11 +62,11 @@ The release includes the expansion from single-region deployment and operations 
 A dual-region deployment allows an organization to implement an SDDC across two geographical locations, providing portability of applications, and enabling disaster recovery capability of SDDC management, automation and operations solutions between regions.
 Think San Francisio and Los Angeles, as an example.
 
-In addition, with the announcement of this upcoming design VMware Validated Design for Software-Defined Data Center 2.0 it is my pleasure to share the [VMware Validated Design for Software-Defined Data Center 3.x Reference Poster]() for this incredible release.
+In addition, with the announcement of this upcoming design VMware Validated Design for Software-Defined Data Center 3.0 it is my pleasure to share the [VMware Validated Design for Software-Defined Data Center 3.x Reference Poster](https://communities.vmware.com/docs/DOC-32783) for this upcoming release.
 
 This poster depicts many portions of the fundamental architecture for both quick reference and discussion
 
-[![VMware Validated Design for Software-Defined Data Center 3.x Poster](/images/poster-vvd-sddc-3x-poster.png)](https://communities.vmware.com/docs/DOC-32783)
+[![VMware Validated Design for Software-Defined Data Center 3.x Poster](/images/poster-vvd-sddc-3x.png)](https://communities.vmware.com/docs/DOC-32783)
 
 Before the 3.0 release, get a sneak peek of this design, and to stay updated on what we are cooking up, please join the VMware Validated Designs community at [vmware.com/go/vvd-community](vmware.com/go/vvd-community) where you can also get answers to your questions and provide feedback on the designs.
 
