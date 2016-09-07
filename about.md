@@ -3,6 +3,7 @@ layout:         page
 title:          "Call Signal"
 published:      true
 permalink:      /about/
+image:          /images/about.png
 ---
 
 # Hypertext Dispatches
