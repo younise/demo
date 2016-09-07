@@ -25,12 +25,7 @@ layout: compress
   </div>
 
   <div class="block-right">
-    <a href="{{ site.url }}/dispatches/" title="dispatches" class="posts-menu-icon"></a>&nbsp;&nbsp;&nbsp;
-    <span class="posts-link">DISPATCHES</span>
-    <a title="project" class="projects-menu-icon">
-      <span></span>
-    </a>
-    <span class="projects-link">PROJECTS</span>
+    {% include nav.html %}
     <div class="content">
       <form method="get" action="/search" data-search-form>
         <input type="search" name="q" id="q" placeholder="Lost Signals" data-search-input />
