@@ -27,7 +27,6 @@ layout: compress
   <div class="block-right">
     {% include nav.html %}
     <div class="content">
-      {% include search.html %}
       <div class="inner-post content">
         {% for post in site.posts limit:1 %}
         <div class="date-highlight">{% if post.date %}{{ post.date | date: '%d %b %Y' }}{% else %}&#x2756;{% endif %}</div>
@@ -35,8 +34,8 @@ layout: compress
               {{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}
             </h1>
             {{ post.content}}
-        {% endfor %}
         {% include page-pagination.html %}
+        {% endfor %}
       </div>
     </div>
   </div>
