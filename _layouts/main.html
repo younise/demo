@@ -35,7 +35,23 @@ layout: compress
             </h1>
             {{ post.content}}
         {% include share.html %}
-        {% include page-pagination.html %}
+
+        {% if post.previous or post.next %}
+        <nav class="pagination">
+          {% if page.previous %}
+          <a href="{{ site.url }}{{ page.previous.url }}" class="pagination_pager" title="{{ page.previous.title | markdownify | strip_html }}">previous</a>
+          {% else %}
+          <a href="#" class="pagination_pager disabled">previous</a>
+          {% endif %}
+          {% if page.next %}
+          <a href="{{ site.url }}{{ page.next.url }}" class="pagination_pager" title="{{ page.next.title | markdownify | strip_html }}">next</a>
+          {% else %}
+          <a href="#" class="pagination_pager disabled">next</a>
+          {% endif %}
+        </nav>
+        {% endif %}
+
+
         {% endfor %}
       </div>
     </div>
