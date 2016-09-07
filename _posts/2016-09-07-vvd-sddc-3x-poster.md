@@ -34,7 +34,7 @@ Let's take a look at some of the key improvements being incorporated into the 3.
 
 This VMware Validated Design for SDDC 3.0 simplifies the initial startup, reduces startup hardware cost, and provides flexibility for future growth by transitioning to a flexible distributed management and workload architecture. In prior versions, the functional roles of the pods were separated into: management, edge, and compute (also referred to as workload) pods. While this is a tremendously scalable architecture many customers and partners wanted to see the option to start smaller and have the ability to grow without requiring the fully distributed architecture at startup. This has been accomplished by collapsing the Edge Pod and first Compute Pod into a Shared Edge and Compute Pod.
 
-![Flexible Distributed Management and Workload](/images/post-vvd-sddc-3x-pods.png)
+[![Flexible Distributed Management and Workload](/images/post-vvd-sddc-3x-pods.png)](/images/post-vvd-sddc-3x-pods.png)
 
 In 3.0 the Management Pod instantiates all the management, automation and operations solutions for the Sotware-Defined Data Center. These include*:
 
@@ -51,9 +51,9 @@ In 3.0 the Management Pod instantiates all the management, automation and operat
 
 The Shared Edge and Compute Pod provides north-south routing and advanced networking services to workloads in the SDDC. It also provides an location to run the initial workloads in the SDDC. As an SDDC grows, additional Compute Only Pods are added to run more business workloads. And, if desired, the edge services in the SDDC can be separated and powered by a dedicated Edge Pod in the future.
 
-![3.0 Deployment Topology](/images/post-vvd-sddc-3x-deployment.png)
+[![3.0 Deployment Topology](/images/post-vvd-sddc-3x-deployment.png)](/images/post-vvd-sddc-3x-deployment.png)
 
-![3.0 Core and Pod Topology](/images/post-vvd-sddc-3x-core-pod.png)
+[![3.0 Core and Pod Topology](/images/post-vvd-sddc-3x-core-pod.png)](/images/post-vvd-sddc-3x-core-pod.png)
 
 ### Dual-Region Deployment and Operational Guidance
 
