@@ -78,9 +78,9 @@ Also, check out the following:
 
 * Videos and demos on the [VMware Validated Design YouTube Playlist](http://vmware.com/go/vvd-videos).
 
-* VMware Validated Design for Software-Defined Data Center 2.0 Release Notes: [http://pubs.vmware.com/Release_Notes/en/vvd/20/vmware-validated-design-20-release-notes.html](http://pubs.vmware.com/Release_Notes/en/vvd/20/vmware-validated-design-20-release-notes.html)
+* VMware Validated Design for Software-Defined Data Center 2.0 [Release Notes](http://pubs.vmware.com/Release_Notes/en/vvd/20/vmware-validated-design-20-release-notes.html)
 
-* Download the VMware Validated Design for Software-Defined Data Center 2.0 [http://www.vmware.com/go/vvd-sddc](http://www.vmware.com/go/vvd-sddc)
+* [Download](http://www.vmware.com/go/vvd-sddc) the current VMware Validated Design for Software-Defined Data Center 2.0
 
 **Refer to the documentaiton for the complete software bill of materials.*
 **Optional Component*
