@@ -1,6 +1,6 @@
 ---
 layout:         page
-title:          "Call Sign"
+title:          "Call Signal"
 published:      true
 permalink:      /about/
 ---
