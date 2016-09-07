@@ -20,16 +20,14 @@ layout: compress
         </h2>
         {% include social-links.html %}
       </div>
-      <div>
-        <form method="get" action="/search" data-search-form>
-          <input type="search" name="q" id="q" placeholder="Lost Signals" data-search-input />
-        </form>
-      </div>
     </div>
     <canvas></canvas>
   </div>
 
   <div class="block-right">
+    <li><a class="social-btn" href="{{ site.url }}/dispatches/" title="dispatches"><i class="fa fa-fw fa-weibo"></i></a></li>
+    <li><a class="social-btn" href="{{ site.url }}/dispatches/" title="dispatches"><i class="fa fa-fw fa-weibo"></i></a></li>
+
     <a href="{{ site.url }}/dispatches/" title="dispatches" class="posts-menu-icon"></a>&nbsp;&nbsp;&nbsp;
     <span class="posts-link">DISPATCHES</span>
     <a title="project" class="projects-menu-icon">
@@ -38,7 +36,8 @@ layout: compress
     <span class="projects-link">PROJECTS</span>
     <div class="content">
       <form method="get" action="/search" data-search-form>
-        <input type="search" name="q" id="q" placeholder="From the Archives." data-search-input />
+        <input type="search" name="q" id="q" placeholder="Lost Signals" data-search-input />
+        <input type="submit" class="fa fa-search" aria-hidden="true" /></i>
       </form>
       <div class="inner-post content">
         {% for post in site.posts limit:1 %}
