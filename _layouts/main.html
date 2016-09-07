@@ -20,6 +20,11 @@ layout: compress
         </h2>
         {% include social-links.html %}
       </div>
+      <div>
+        <form method="get" action="/search" data-search-form>
+          <input type="search" name="q" id="q" placeholder="Lost Signals" data-search-input />
+        </form>
+      </div>
     </div>
     <canvas></canvas>
   </div>
