@@ -8,11 +8,21 @@ tags:           [SDDC, VVD, Posters]
 published:      true
 ---
 
-Without a consistent and repeatable approach to building a Software-Defined Data Center (SDDC), you’ll likely suffer through the pain of combinatorics.   Combinatorics, the branch of mathematics that studies the enumeration, combination and permutations of variables, can be applied to the process of designing a data center. The more variables and permutations of those variables you create, the greater the opportunity for failure in your design. Failure may be minor or spectacular. As each new variation appears, your ability to adequately understand and account for all permutations becomes increasingly difficult.  Combinatorics are the natural enemy of scale and stability for any large scale system.  At VMware, the approach we’re taking to solve this problem is to build an SDDC that is consistent, thoroughly documented, tested from end-to-end, and continually improved.  With the VMware Validated Designs, this approach is built into the release process. It ensures a regular rhythm of extensively tested releases that include standardized and regimented validation processes applied to real world customer configurations.  The processes take into account the entire SDDC stack, ensuring product version compatibility, continual testing of product releases, upgrade testing, and validation. Not only does this enhance our product interoperability, testing, and supportability, but it streamlines the design and deployment of the SDDC and ensures that what you deploy today can be upgraded to the next version in the future.As a result, the VMware Validated Designs provide the most comprehensive and extensively-tested blueprints to build and operate a private cloud. They deliver holistic data center-level designs that span across compute, storage, networking, and management.  This defines the standard for how to deploy and configure the complete VMware SDDC stack for a wide range of use-cases. 
+Without a consistent and repeatable approach to building a Software-Defined Data Center (SDDC), you’ll likely suffer through the pain of combinatorics.   Combinatorics, the branch of mathematics that studies the enumeration, combination and permutations of variables, can be applied to the process of designing a data center. The more variables and permutations of those variables you create, the greater the opportunity for failure in your design. Failure may be minor or spectacular. As each new variation appears, your ability to adequately understand and account for all permutations becomes increasingly difficult.  
+
+Combinatorics are the natural enemy of scale and stability for any large scale system.  At VMware, the approach we’re taking to solve this problem is to build an SDDC that is consistent, thoroughly documented, tested from end-to-end, and continually improved.  
+
+With the VMware Validated Designs, this approach is built into the release process. It ensures a regular rhythm of extensively tested releases that include standardized and regimented validation processes applied to real world customer configurations.  The processes take into account the entire SDDC stack, ensuring product version compatibility, continual testing of product releases, upgrade testing, and validation. Not only does this enhance our product interoperability, testing, and supportability, but it streamlines the design and deployment of the SDDC and ensures that what you deploy today can be upgraded to the next version in the future.
+
+As a result, the VMware Validated Designs provide the most comprehensive and extensively-tested blueprints to build and operate a private cloud. They deliver holistic data center-level designs that span across compute, storage, networking, and management.  This defines the standard for how to deploy and configure the complete VMware SDDC stack for a wide range of use-cases.
 
 Organizations are shifting their focus toward use-cases. VMware Validated Designs are a critical part of that shift. VMware Validated Designs provides an agile platform to achieve a wide variety of desired outcomes delivered by the SDDC (e.g. Micro-segmentation, IT Automation.)
-Using a standardized model for the VMware SDDC stack results in a significant reduction of the time it takes an organization to deploy and begin using an SDDC. Customers can accelerate their design and implementations from months to mere weeks. 
-The designs also include detailed guidance that synthetizes best practices on how to deploy and optimally operate a VMware SDDC. Each typically includes:* Release Notes
+
+Using a standardized model for the VMware SDDC stack results in a significant reduction of the time it takes an organization to deploy and begin using an SDDC. Customers can accelerate their design and implementations from months to mere weeks.
+
+The designs also include detailed guidance that synthetizes best practices on how to deploy and optimally operate a VMware SDDC. Each typically includes:
+
+* Release Notes
 * Solution Overview – including:
 	* Release Overview
 	* Design Objectives
@@ -20,9 +30,13 @@ Organizations are shifting their focus toward use-cases. VMware Validated Design
 * Architecture Guide – including:
 	* Architecture Overview
 	* Detailed Design
-* Planning and Preparation Guide 
+* Planning and Preparation Guide
 * Deployment Guide
-* Operational Guidance ## Hello, 3.0.In the last year since VMware announced the VMware Validated Designs at VMworld 2015, they've delivered on two iterations of the VMware Validated Design for SDDC. The first release, VMware Validated Design for SDDC 1.0, became available as a special offering through VMware Professional services in the spring of 2015.  That was then followed by the first generally available release, VMware Validated Designs for SDDC 2.0, which was available in mid-Summer.  Announced at VMworld, the  the next iteration of the VMware Validated Design for Software-Defined Data Center 3.0 will be coming soon.
+* Operational Guidance
+
+## Hello, 3.0.
+
+In the last year since VMware announced the VMware Validated Designs at VMworld 2015, they've delivered on two iterations of the VMware Validated Design for SDDC. The first release, VMware Validated Design for SDDC 1.0, became available as a special offering through VMware Professional services in the spring of 2015.  That was then followed by the first generally available release, VMware Validated Designs for SDDC 2.0, which was available in mid-Summer.  Announced at VMworld, the  the next iteration of the VMware Validated Design for Software-Defined Data Center 3.0 will be coming soon.
 
 The engineering team has been doing a tremendous job incorporating feedback from early adopters to extend the applicability of the designs and add more elements and capabilities.
 
@@ -57,7 +71,7 @@ The Shared Edge and Compute Pod provides north-south routing and advanced networ
 
 ### Dual-Region Deployment and Operational Guidance
 
-The release includes the expansion from single-region deployment and operations guidance to dual-region. 
+The release includes the expansion from single-region deployment and operations guidance to dual-region.
 
 A dual-region deployment allows an organization to implement an SDDC across two geographical locations, providing portability of applications, and enabling disaster recovery capability of SDDC management, automation and operations solutions between regions.
 Think San Francisio and Los Angeles, as an example.
@@ -90,8 +104,3 @@ Also, check out the following:
 
 Any views or opinions expressed herein are strictly those of the author. Content does not necessarily represent or reflect the views or opinions of VMware or the author’s mother.
 {: .notice_info}
-
-
-
-
-
