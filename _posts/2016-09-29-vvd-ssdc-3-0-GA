@@ -5,7 +5,7 @@ subtitle:       ""
 date:           2016-09-29 10:30:00
 author:         "Ryan Johnson"
 tags:           [SDDC, VVD]
-published:      TRUE
+published:      true
 ---
 
 In the last year since VMware announced the VMware Validated Designs at VMworld 2015, we've delivered on two iterations of the VMware Validated Design for SDDC. The first release, VMware Validated Design for SDDC 1.0, became available as a special offering through VMware Professional services in the spring of 2015.  That was then followed by the first generally available release, VMware Validated Designs for SDDC 2.0, which was available in mid-Summer.
