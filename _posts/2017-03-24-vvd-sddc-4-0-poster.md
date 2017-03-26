@@ -16,7 +16,7 @@ As we talk to customers and partners on a daily basis, there are many questions 
 
 It is my pleasure to share the architecture reference poster for the VMware Validated Design for Software-Defined Data Center 4.0.
 
-![/images/post-vvd-sddc-40-poster.png](http://vmware.com/go/vvd-sddc-poster)
+[![Poster](/images/post-vvd-sddc-40-poster.png)](http://vmware.com/go/vvd-sddc-poster)
 
 This poster depicts many portions of the fundamental architecture for both quick reference and discussion.
 
