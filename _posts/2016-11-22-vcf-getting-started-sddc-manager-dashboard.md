@@ -2,7 +2,7 @@
 layout:         post
 title:          "Getting Started with VMware Cloud Foundation: SDDC Manager’s Dashboard"
 subtitle:       ""
-date:           2017-11-22 10:30:00
+date:           2016-11-22 10:30:00
 author:         "Ryan Johnson"
 tags:           [SDDC, VCF, VMware Cloud Foundation]
 published:      true
