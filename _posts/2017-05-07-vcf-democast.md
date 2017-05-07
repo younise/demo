@@ -21,6 +21,6 @@ Catch the replay of the [#DemoCast](https://twitter.com/hashtag/Democast?src=has
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-1MgGX9qi0o?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-For more information, check out the VMware Cloud Foundation Quick Reference Guide at http://vmwa.re/vcf.
+For more information, check out the VMware Cloud Foundation Quick Reference Guide at [vmwa.re/vcf](http://vmwa.re/vcf).
 
 If you have any questions or have feedback, reach out to me on Twitter as [@tenthirtyam](https://twitter.com/tenthirtyam) and be sure to follow [@vmwCF](https://twitter.com/vmwCF) for updates.
