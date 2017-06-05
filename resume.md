@@ -22,7 +22,22 @@ Bachelors of Science, Biological Science - May 1998
 
 #### Certifications and Accreditations
 
-VMware vExpert <a href="http://blogs.vmware.com/vmtn/2014/04/vexpert-2014-announcement.html" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://blogs.vmware.com/vmtn/2014/04/vexpert-2014-announcement.html', '2014']);"  target="_blank">2014</a>/<a href="http://blogs.vmware.com/vmtn/2013/05/vexpert-2013-awardees-announced.html" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://blogs.vmware.com/vmtn/2013/05/vexpert-2013-awardees-announced.html', '2013']);"  target="_blank">2013</a>
+|       VMware vExpert 2013 - 2017       |
+| -------------------------------------- |
+| VMware Certified Implementaiton Expert |
+|                                        |
+VMware Certified Implementaiton Expert
+VMware Certified Advanced Professional
+* Data Center Virtualization
+VMware Certified Professinal
+VMware Certitied Associate
+
+|                                        |        |
+| -------------------------------------- | ------ |
+| VMware Certified Advanced Professional | VMware |
+| Data Center Virtualization             | VMware |
+|                                        |        |
+
 VMware Certified Advanced Professional 5/4 - Data Center Design
 VMware Certified Advanced Professional 5 - Data Center Administration
 VMware Certified Professional 6/5/4/3 - Data Center Virtualization
