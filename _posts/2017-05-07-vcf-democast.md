@@ -2,7 +2,7 @@
 layout:         post
 title:          "VMware Cloud Foundation on the ActualTech Media DemoCast"
 subtitle:       ""
-date:           2017-05-07 10:30:00
+date:           2017-05-07 10:30:01
 author:         "Ryan Johnson"
 tags:           [SDDC, VCF, VMware Cloud Foundation]
 published:      true
