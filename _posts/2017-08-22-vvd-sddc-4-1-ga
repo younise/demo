@@ -1,0 +1,128 @@
+---
+layout:         post
+title:          "VMware Validated Design for SDDC 4.1 Now Generally Available"
+subtitle:       ""
+date:           2017-08-22 00:00:00
+author:         "Ryan Johnson"
+tags:           [SDDC, VVD]
+published:      true
+---
+As we prepare to head VMworld 2017 in both Las Vegas and Barcleona, we're excited to announce that today, we've released the [VMware Validated Deisign for Software-Defined Data Center 4.1](http://pubs.vmware.com/Release_Notes/en/vvd/41/vmware-validated-design-41-release-notes.html) - continuing VMware commitment to delivering standardized, proven, and robust data-center level designs for the Software-Defined Data Center.
+
+The VMware Validated Designs provide our customers and partners comprehensive, prescriptive guidance to plan, build, and operate a Software-Defined Data Center. The designs are extensively tested to ensure all components and their specific versions are validated to work in unison, to scale to predetermined design objectives, and operate as our customers expect.
+
+As with any release, let's jump in a cover what's new in this release.
+
+## What's New in 4.1?
+
+### Bill of Materials
+
+Following up on the major wave of vSphere 6.5 products an adjacencies that were incorporated in the prior VMware Validated Design for SDDC release, the 4.1 release continues to uplift the plaform to take full advantage of performance enhancements, scalability, and robustness included in these latest versions for a complete Software-Defined Data Center.
+
+These include:
+
+* vSphere 6.5 Update 1
+* vSAN 6.6.1
+* NSX for vSphere 6.3.3
+* vRealize Operations 6.6.1
+* vRealize Log Insight 4.5
+* vRealize Automation 7.3
+* vRealize Business for Cloud 7.3
+* Site Recovery Manager 6.5.1
+
+A rundown of all the product, management pack, and content pack versions in this release are available in the [release notes](http://pubs.vmware.com/Release_Notes/en/vvd/41/vmware-validated-design-41-release-notes.html).
+
+A quick note on management packs and content packs, too. While there have been some minor version updates to these, it's worth mentioning that vRealize Operations 6.6.1 now includes the management packs for vSAN, vRealize Automation, and vRealize Business for Cloud in the product deployment and they not longer have to be installed post-deployment. Similarly, vRealize Log Insight now includes the content pack for vSAN in the product deployment. Lastly, we've added the Content Pack for Linux to the BOM.
+
+### Design Updates
+
+Now let’s turn our attention to the design and do a rundown of some of the design updates for the 4,1 release:
+
+####Management Pod vSAN Now Optional
+
+First up, we’ve made vSAN optional as the primary storage in the management pod. While previous releases of the design required vSAN as the management pods's primary storage, in 4,1 we’ve relaxed this requirement. And while we highly recommend the use of vSAN, any supported storage solution may be used when using the design. 
+
+However, note that all functional testing and validation of the design is performed using vSAN as the primary storage. Subsequently, all design documentation is provided under the context of vSAN. When using an alternative, supported storage platform, you'll need to appropriately adjust the design deployment and any day-two operations guidance and the storage design must match or exceed the capacity and performance capabilities of the vSAN configuration of the design.
+
+All in all, while we encourage the use of vSAN, we want to ensure that you can used any supported storage platform you may have invested in.
+
+####L3 or L2 Network Transport
+
+The VMware Validated Designs now supports both L3 and L2 network transport options in 4.1, whereas, in previous releases required L3. And similar to vSAN in the management pod, all design documentation is provided for an L3 transport. You’ll need to	 appropriately adjust the design deployment and day-two operations guidance under the context of an L2 transport.
+
+When deciding between L3 or L2, consider the following:
+
+- The N/S NSX ECMP Edge devices establish their L3 routing adjacency with the first upstream L3 device to provide equal cost routing for management and workload virtual machine traffic.
+- The investment you have today in your current physical network infrastructure.
+
+For the most scalable and vendor-neutral data center network, we recommend using an L3 transport.
+
+####Embedded vRealize Orchestrator
+
+![Embedded vRealize orchestrator](https://blogs.vmware.com/cloud-foundation/files/2017/08/vvd-sddc-41-vro-150x150.png
+)
+
+Previous design versions established the vRealize Orchestrator deployment with two dedicated appliances behind the HA-pair of NSX Edges that provided load-balancing for the cloud management portal (CMP.) While this worked fantastic, we've now moved to using the embedded vRealize Orchestrator instances on the vRealize Automation appliances behind the load-balancer. This not only helps to reduce the number of appliances and consumed physical resources, but actually improves the performance the CMP.
+
+####Two-Layer Certificate Authority and Certificate Replacement
+
+The design has always used VMCA in the Hybrid Certificate Mode. That is, all user-facing certificates (e.g. vCenter, PSC, vRealize Automation, etc) are signed by a certificate authority and all virtual infrastructure management components (e.g. ESXi hosts, Solution Users, etc.) use TLS/SSL certificates that are signed by the VMware Certificate Authority (VMCA.)
+ 
+In this release, we now support the use of a Two-Layer CA environment for the certificate authority. In addition, when there comes a time to replace the certificates in your SDDC, the design has the entire process defined for certificate replacement.
+
+You may also recall that the VMware Validated Design for SDDC comes with the SSL certificate generator - CertGenVVD.  You can use this tool to generate Certificate Signing Request (CSR), OpenSSL CA signed certificates, and Microsoft CA signed certificates for all VMware products that are involved in the design. Using the CertGenVVD tool saves you tons of time when creating ***and replacing*** signed certificates.  See [VMware Knowledge Base article 2146215](http://kb.vmware.com/kb/2146215).
+
+If the CertGenVVD tool is not an option for your environment, the design also includes a validated procedure to create your certificates.
+
+####Consolidated Management and Workload
+
+Last year, at VMworld 2016, we heard some great feedback from you on the VMware Validated Designs in our sessions, group discussions, and one-on-ones. One popular request was the for a design that consolidated management, edge, workloads into a single pod for a full, scalable Software-Defined Data Center. 
+
+We're excited to share that in 4.1, we've now include a new option for as SDDC with consolidated management and workload. 
+
+![Consolidated Management and Workload](https://blogs.vmware.com/cloud-foundation/files/2017/08/vvd-sddc-41-consolidated.png
+)
+
+Let's take a look at some highlights of the this option:
+
+- Full use of the capabilities in the SDDC stack.
+- Start with a minimum of 4 ESXi hosts.
+- Expandable to a 32 ESXi host pod.
+- Any supported storage may be used. (All functional testing and validation of the design is done using vSAN.)
+- Supports both L3 and L2 network transport. 
+- Scalable Deployment of SDDC stack deployed w/ native or NSX load balancing in place. (Scale the nodes used for vRealize Log Insight, vRealize Operations, and vRealize Automation.) 
+- Transitions to Two-Pod Distributed Management and Workload architecture.
+- Single Region and Single Availability Zone
+- License Flexibility for NSX (No Universal Objects - Single Region and AZ)
+ 
+And there you have it, a rundown of the what’s new in the VMware Validated Design for SDDC 4.1.
+
+##Going to VMworld?
+
+Join us for several sessions and group discussions on the VMware Validated Designs at VMworld 2017 in Las Vegas.
+
+**Sessions**
+
+- VMware Validated Design for SDDC Architecture Deep Dive [PBO1721BU]
+- VMware Validated Design for Remote/Branch Office Technical Overview [PBO1295BU]
+- A Base Design for Everyone’s Data Center: The Consolidated VMware Validated Design [PBO2631BU]
+- Best Data Center Practices: How VMware Validated Designs Can Simplify Your Life [PBO2686BU]
+
+**Group Discussions**
+
+- VMware Validated Designs and Reference Architectures for the Software-Defined Data Center with Ryan Johnson [PBO1780GUR]
+- VMware Validated Design for SDDC Consolidated Pod Architecture with Forbes Guthrie [PBO3162GUR]
+
+**Meet the Experts**
+
+- VMware Validated Designs for ROBO with Michael Brown [MTE4706U]
+- VMware Validated Designs Consolidated (One Pod) Architecture with Forbes Guthrie [MTE4705U]
+- Real World Use Cases Addressed by VMware Validated Designs with Joshua Lory [MTE4708U]
+- Learn How Validated Designs are Accelerating Deployments and Making the SDDC More Reliable to Operate with Edward Dinel [MTE4707U]
+
+###For more information, and to get started:
+
+* Read the Documentation in [PDF or HTML](href="https://www.vmware.com/support/pubs/vmware-validated-design-pubs.html).  
+* Get the [Digital Reference Poster](http://vmware.com/go/vvd-sddc-poster)
+* Read the [Release Notes](href="http://pubs.vmware.com/Release_Notes/en/vvd/41/vmware-validated-design-41-release-notes.html).
+* Follow me on Twitter as [@tenthirtyam](https://twitter.com/tenthirtyam)
