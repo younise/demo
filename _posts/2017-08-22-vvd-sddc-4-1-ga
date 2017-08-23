@@ -2,11 +2,12 @@
 layout:         post
 title:          "VMware Validated Design for SDDC 4.1 Now Generally Available"
 subtitle:       ""
-date:           2017-08-22 00:00:00
+date:           2017-08-22 10:30:00
 author:         "Ryan Johnson"
 tags:           [SDDC, VVD]
 published:      true
 ---
+
 As we prepare to head VMworld 2017 in both Las Vegas and Barcleona, we're excited to announce that today, we've released the [VMware Validated Deisign for Software-Defined Data Center 4.1](http://pubs.vmware.com/Release_Notes/en/vvd/41/vmware-validated-design-41-release-notes.html) - continuing VMware commitment to delivering standardized, proven, and robust data-center level designs for the Software-Defined Data Center.
 
 The VMware Validated Designs provide our customers and partners comprehensive, prescriptive guidance to plan, build, and operate a Software-Defined Data Center. The designs are extensively tested to ensure all components and their specific versions are validated to work in unison, to scale to predetermined design objectives, and operate as our customers expect.
