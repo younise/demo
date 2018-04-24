@@ -1,6 +1,6 @@
 ---
 layout:         post
-title:          "vRealize Suite Lifecycle Manager 1.2 Ports and Protocols"
+title:          "vRealize Suite Lifecycle Manager 1.2 Ports and Protocols, Feature URLs, and Service Account Privledges"
 subtitle:       ""
 date:           2018-04-24 10:30:00
 author:         "Ryan Johnson"
@@ -8,12 +8,12 @@ tags:           [SDDC, vRSLCM]
 published:      true
 ---
 
-Behind the sceene in VMware R&D I have been working closely with the product management and engineering team for vRealize Suite Lifecycle Manager to improve the experience and workflows. 
+Behind the scenes in VMware R&D I have been working closely with the product management and engineering team for vRealize Suite Lifecycle Manager to improve the experience and workflows. 
 
 Three questions that I'm often asked are:
 
 1. What ports and protocols does vRealize Suite Lifecycle Manager use for communications?
-2. What URLs must be accessible by my organization to use some vRealize Suite Lifecycle Manager Features (e.g. My VMware, Marketplace, Product Updates, and the inproduct Compatibility Guide?
+2. What URLs must be accessible by my organization to use some vRealize Suite Lifecycle Manager Features (e.g. My VMware, Marketplace, Product Updates, and the in-product Compatibility Guide?
 3. What permissions are required for a custom role that can be used as a service account for vRealize Suite Lifecycle Manager to vSphere communications.
 
 Well, you're in luck. I can answer this where the documentation currently falls short (I'm working on this...) 
