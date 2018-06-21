@@ -62,9 +62,22 @@ The following are defined in /opt/vmware/vrlcm/config/lcm.properties config:
 
 Note, however, that Akamai is accessed as the CDN when downloading products and AWS Cloudfront accessed for the marketplace downloads. 
 
+The Akamai URL is provided in runtime by My VMware and depends on your region. Hence you can use the patterns, as follows:
+
+- apigw.vmware.com
+- download2.vmware.com
+- *.akamaiedge.net
+
+The Marketplace patterns are as follows:
+
+- marketplace.vmware.com
+- drd6c1w7be.execute-api.us-west-1.amazonaws.com
+
+The Marketplace intermediate URLs are region specific and may be different at runtime.
+
 ## Service Account Role and Privledges Permissions
 
-Simply define a role on labeled "vRealize Suite Lifecycle Manager User" with the following privileges and assight a user to the role on your managment vCenter Server instance. For example, svc-vrslcm-vsphere@tenthirtyam.local.
+Simply define a role on labeled "vRealize Suite Lifecycle Manager User" with the following privileges and assight a user to the role on your management vCenter Server instance. For example, svc-vrslcm-vsphere@tenthirtyam.local.
 
 - Datastore.Allocate Space
 - Datastore.Browse Datastore
