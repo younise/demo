@@ -87,9 +87,6 @@ Got a recommendation - <a href="http://twitter.com/tenthirtyam">let me know.</a>
 <ul>
 	<li><a href="http://www.vmware.com/go/vmtools/" target="_blank">vmware.com/go/vmtools/</a></li>
 </ul>
-<b>VMware Resolution Paths</b> – Learn and solve technical issues using the collections of modular troubleshooting steps for many VMware products and solution.
-<ul>
-	<li><a href="http://www.vmware.com/go/resolution-paths/">vmware.com/go/resolution-paths/</a></li>
 </ul>
 <b>VMware Training and Certification</b> – Log in to VMware Education Services to access your enrollments, transcript information, course and certification offerings and registration options.
 <ul>
