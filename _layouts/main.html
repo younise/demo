@@ -34,7 +34,6 @@ layout: compress
               {{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}
             </h1>
             {{ post.content}}
-        {% include share.html %}
           {% if post.previous or post.next %}
           <nav class="pagination">
             {% if post.previous %}
