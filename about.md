@@ -12,7 +12,7 @@ This is 1030am. A collection of hypertext dispatches on technology, personal int
 
 It is written by Ryan Johnson. An avid runner and technologist based in Tallahassee, Florida USA. Somewhat of a snarky guy, too.
 
-Ryan is also a Staff Architect and Product Owner at VMware. As an accomplished solutions architect his focus is enabling customers and the community to accelerate and simplify their infrastructure services and organizations through the Software-Defined Data Center. He is a co-author of the Sybex/Wiley <strong>[Mastering vSphere 6.7](https://www.amazon.com/Mastering-VMware-vSphere-Nick-Marshall/dp/1119512948)</strong> in which he collaborated with his fellow Solution Architects on the [VMware Validated Designs](http://vmware.com/go/vvd-docs) team.
+Ryan is also a Staff Architect and Product Owner at VMware. As an accomplished solutions architect his focus is enabling customers and the community to accelerate and simplify their infrastructure services and organizations through the Software-Defined Data Center. He is a co-author of the Sybex/Wiley [Mastering vSphere 6.7](https://www.amazon.com/Mastering-VMware-vSphere-Nick-Marshall/dp/1119512948) in which he collaborated with his fellow Solution Architects on the [VMware Validated Designs](http://vmware.com/go/vvd-docs) team.
 
 Any views or opinions expressed herein are strictly those of the author. Content does not necessarily represent or reflect the views or opinions of VMware or the author’s mother.
 
