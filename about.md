@@ -17,5 +17,3 @@ Ryan is also a Staff Architect and Product Owner at VMware. As an accomplished s
 Any views or opinions expressed herein are strictly those of the author. Content does not necessarily represent or reflect the views or opinions of VMware or the author’s mother.
 
 [![Mastering vSphere 6.7](/images/book-mastering-vsphere-6-7.jpg)](https://www.amazon.com/Mastering-VMware-vSphere-Nick-Marshall/dp/1119512948)
- 
-{: .notice_info}
