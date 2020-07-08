@@ -14,11 +14,11 @@ Table: Users and Password Expirations
 
 | **Appliance** | **Version** | **Application User** | **Default Expiration** | **Interactive User** | **Default Expiration** | **SSH User** | **Default Expiration** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| vRA | 8.1 | N/A | N/A | root | Never | root | Never |
-| vROPS | 8.1 | admin | Never | admin | 365 days | root | 365 days |
-| vRLI | 8.1 | Admin | Never | root | 365 days | root | 365 days |
-| vRNI | 5.2 | admin@local | Never | admin@local | Never | supportconsoleuser | Never |
 | vRSLCM | 8.1 | admin@local | Never | root | 365 days | root | 365 days |
+| vRLI | 8.1 | Admin | Never | root | 365 days | root | 365 days |
+| vROPS | 8.1 | admin | Never | admin | 365 days | root | 365 days |
+| vRA | 8.1 | N/A | N/A | root | Never | root | Never |
+| vRNI | 5.2 | admin@local | Never | admin@local | Never | support and consoleuser | Never |
 
 ## vRealzie Suite Lifecycle Manager 8.1
 
