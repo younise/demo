@@ -1,32 +1,17 @@
 {
-    "hostname": "photonos-$((RANDOM%4096))",
+    "hostname": "vghetto-photonos",
     "password":
         {
-            "crypted": true,
-            "text": "$6$i3mNhqKGx$IS9I.RGx9/4pBNbN7l/vXnEgHPHmre5.UOkpCMD9cpJFVhLU3fmvY0t8OszDyT8d7.Z55.KZ8M0daw04Vhrxn0"
+            "crypted": false,
+            "text": "VMware1!"
         },
     "disk": "/dev/sda",
     "packagelist_file": "packages_minimal.json",
-    "additional_packages": [
-        "go",
-        "git",
-        "wget",
-        "sudo"
-    ],
-    "install_linux_esx": true,
-    "bootmode": "bios",
-    "eject_cdrom": false,
-    "network": {
-        "type": "dhcp"
-    },
     "postinstall": [
                     "#!/bin/sh",
                     "sed -i 's/PermitRootLogin no/PermitRootLogin yes/g' /etc/ssh/sshd_config",
                     "sed -i 's/MaxAuthTries.*/MaxAuthTries 10/g' /etc/ssh/sshd_config",
                     "systemctl restart sshd.service",
-                    "chage -I -1 -m 0 -M 99999 -E -1 root",
-                    "tdnf update -y",
-                    "tdnf install unzip -y",
-                    "tdnf clean -y"
+                    "chage -I -1 -m 0 -M 99999 -E -1 root"
                     ]
 }
