@@ -3,7 +3,7 @@ autoinstall:
   version: 1
   identity:
     hostname: ubuntu-server
-    password: '$6$i3mNhqKGx$IS9I.RGx9/4pBNbN7l/vXnEgHPHmre5.UOkpCMD9cpJFVhLU3fmvY0t8OszDyT8d7.Z55.KZ8M0daw04Vhrxn0'
+    password: '$6$jqoxlQyW2ROxsLK4$P3gGp2Bf0FCSLAZTNaE/LZBqSsvVAYZNPNwTehXZbMAhRJdKOjNqqyUWVUTwql9CnhHUlpiluWzHlR2DpUKD4/'
     username: rainpole
   network:
     network:
