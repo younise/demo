@@ -4,7 +4,6 @@ title:          "On Standards. Disputes, Process Failure and Issues."
 subtitle:       ""
 date:           2014-09-14 12:00:00
 author:         "Ryan Johnson"
-header-img:     "img/post-bg-06.jpg"
 ---
 
 Disputes are possible at various stages during the standards process in an Enterprise Architecture Community. To achieve the goals of openness and fairness, such conflicts should be resolved by a process of open review and discussion.

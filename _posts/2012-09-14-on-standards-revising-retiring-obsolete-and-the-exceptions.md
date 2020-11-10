@@ -4,7 +4,6 @@ title:      "On Standards. Revising, Retiring, Obsolete and the Exceptions."
 subtitle:   ""
 date:       2012-09-14 12:00:00
 author:     "Ryan Johnson"
-header-img: "img/post-bg-06.jpg"
 ---
 
 Obviously, there comes times when an organization's standards need to be revised, retired and make obsolete. And, there's always going o be that case (or many) when there needs to be an exception. Always.

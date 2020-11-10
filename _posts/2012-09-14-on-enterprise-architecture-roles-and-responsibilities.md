@@ -4,7 +4,6 @@ title:      "On Enterprise Architecture Roles and Responsibilities"
 subtitle:   ""
 date:       2012-09-14 12:00:00
 author:     "Ryan Johnson"
-header-img: "img/post-bg-06.jpg"
 ---
 
 The following groups are used throughout this the Enterprise Architecture concepts I present on this site..More full descriptions will be provided in an example Enterprise Architecture Charter.

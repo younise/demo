@@ -1,6 +1,6 @@
 ---
 layout:         post
-title:          "vRealize Suite Lifecycle Manager 1.2 Ports and Protocols, Feature URLs, and Service Account Privledges"
+title:          "vRealize Suite Lifecycle Manager 1.2 Ports and Protocols, Feature URLs, and Service Account Privileges"
 subtitle:       ""
 date:           2018-04-24 10:30:00
 author:         "Ryan Johnson"

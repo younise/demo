@@ -4,7 +4,6 @@ title:      "On an Organization's Cultural DNA"
 subtitle:   ""
 date:       2013-09-25 12:00:00
 author:     "Ryan Johnson"
-header-img: "img/post-bg-06.jpg"
 ---
 
 Have you ever stopped to think about what makes working for your organization appealing?

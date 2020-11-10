@@ -4,7 +4,6 @@ title:      "On Standards. Domain Teams and Working Groups."
 subtitle:   ""
 date:       2012-09-14 12:00:00
 author:     "Ryan Johnson"
-header-img: "img/post-bg-06.jpg"
 ---
 
 The goals of an Enterprise Architecture Program standards process should be:

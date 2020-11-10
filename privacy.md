@@ -18,4 +18,3 @@ If you choose to share personal information with us — by sending us a message,
 If we are required to disclose information about you by law, we will make every effort to notify you of the disclosure in advance.
 
 This site uses <a href="http://www.google.com/analytics/" target="_blank">Google Analytics</a> (<a href="http://www.google.com/intl/en_ALL/privacypolicy.html" target="_blank">Google Privacy Policy</a>).
-{: .notice_info}

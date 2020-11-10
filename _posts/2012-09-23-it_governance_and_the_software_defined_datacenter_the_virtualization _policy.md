@@ -4,7 +4,6 @@ title:      "IT Governance and the Software-Defined Datacenter: The Virtualizati
 subtitle:   ""
 date:       2012-09-21 12:00:00
 author:     "Ryan Johnson"
-header-img: "img/post-bg-06.jpg"
 ---
 
 As an organization matures in its journey towards IT-as-a-Service, it becomes increasingly apparent that this is unachievable without increased workload virtualization.

@@ -4,7 +4,6 @@ title:      "More On Standards. Alignment, Process and Community."
 subtitle:   ""
 date:       2012-09-10 12:00:00
 author:     "Ryan Johnson"
-header-img: "img/post-bg-06.jpg"
 ---
 
 In a prior post I discussed "10 Standards Selection Decision Criteria" - 9n this post I discuss  how a standard can be defined and the need for a community process.

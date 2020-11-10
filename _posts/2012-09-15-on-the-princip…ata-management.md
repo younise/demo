@@ -4,7 +4,6 @@ title:          "On the Principals of Data Management"
 subtitle:       ""
 date:           2012-09-15 12:00:00
 author:         "Ryan Johnson"
-header-img:     "img/post-bg-06.jpg"
 ---
 
 To be clear, this is not an article about <em>technology</em>. Rather, it is about the organizational, cultural and strategic factors that must be considered to improve the management of data, or information, within organisations.

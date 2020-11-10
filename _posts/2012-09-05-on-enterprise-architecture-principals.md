@@ -4,7 +4,6 @@ title:      "On Enterprise Architecture Principals"
 subtitle:   ""
 date:       2012-09-05 12:00:00
 author:     "Ryan Johnson"
-header-img: "img/post-bg-06.jpg"
 ---
 
 As discussed previously, principles are high level statements of the fundamental values that guide business and technology decision-making and activities and are the foundation for architecture, standards, and policy development. Principles are stable enough to withstand technological and process changes but timely enough to maintain a clear relevancy with markets, policy, program, and management changes.

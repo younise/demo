@@ -4,7 +4,6 @@ title:      "On Principals"
 subtitle:   "Laying the Foundation"
 date:       2012-08-17 12:00:00
 author:     "Ryan Johnson"
-header-img: "img/post-bg-06.jpg"
 ---
 
 Principles are high level statements of the fundamental values that guide business and technology decision-making and activities and are the foundation for architecture, standards, and policy development.
