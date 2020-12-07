@@ -5,7 +5,7 @@ subtitle:       "A Reference Design"
 date:           2020-12-06 10:30:00
 author:         "Ryan Johnson"
 tags:           [SDDC, vRNI, VVD, VCF]
-published:      true
+published:      false
 ---
 
  []()  | []() 
