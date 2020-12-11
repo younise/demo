@@ -1,14 +1,14 @@
 ---
 layout:         post
-title:          "vRealize Network Insight on Cloud Foundation"
-subtitle:       ""
+title:          "Enabling Active Directory Federation Services for Cloud Foundation"
+subtitle:       "Yes, the entire stack."
 date:           2020-12-10 10:30:00
 author:         "Ryan Johnson"
 tags:           [SDDC, ADFS, VVD, VCF, vCenter Server, NSX-T, IDP]
 published:      true
 ---
 
-![ADFS Banner](adfs-banner.png)
+![ADFS Banner]"(../images/adfs-banner.png)
 
 Ever wanted to have a true single sign-on experience with your on-premises VMware Cloud Foundation-based private cloud?
 
@@ -50,39 +50,39 @@ This blog post provides the provides high-level implementation guidance for inte
 
   Below are screenshots from a simple installation in a lab. 
 
-    ![ADFS - Connect Active Directory](adfs-connect-ad.png)
+    ![ADFS - Connect Active Directory]"(../images/adfs-connect-ad.png)
     
     <br/>
 
-    ![ADFS - Service Properties](adfs-service-properties.png)
+    ![ADFS - Service Properties]"(../images/adfs-service-properties.png)
 
     <br/>
 
-    ![ADFS - Add KDSRootKey](adfs-add-kdsrootkey.png)
+    ![ADFS - Add KDSRootKey]"(../images/adfs-add-kdsrootkey.png)
 
     <br/>
 
-    ![ADFS - Service Account](adfs-service-account.png)
+    ![ADFS - Service Account]"(../images/adfs-service-account.png)
 
     <br/>
 
-    ![ADFS - Database](adfs-database.png)
+    ![ADFS - Database]"(../images/adfs-database.png)
 
     <br/>
 
-    ![ADFS - Database](adfs-review-options.png)
+    ![ADFS - Database]"(../images/adfs-review-options.png)
 
     <br/>
 
-    ![ADFS - Checks Passed](adfs-checks-passed.png)
+    ![ADFS - Checks Passed]"(../images/adfs-checks-passed.png)
 
     <br/>
 
-    ![ADFS - Configured](adfs-configured.png)
+    ![ADFS - Configured]"(../images/adfs-configured.png)
 
     <br/>
 
-    ![ADFS - Properties](adfs-properties.png)
+    ![ADFS - Properties]"(../images/adfs-properties.png)
 
     <br/>
 
@@ -90,7 +90,7 @@ This blog post provides the provides high-level implementation guidance for inte
 
   <br/>
 
-  ![ADFS - Login](adfs-login.png)
+  ![ADFS - Login]"(../images/adfs-login.png)
 
   <br/>
 
@@ -119,7 +119,7 @@ This blog post provides the provides high-level implementation guidance for inte
 
   <br/>
 
-  ![ADFS - Login](adfs-pretty.png)
+  ![ADFS - Login]"(../images/adfs-pretty.png)
 
   <br/>
 
