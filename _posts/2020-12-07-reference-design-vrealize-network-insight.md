@@ -1,22 +1,14 @@
 ---
-layout:         post
-title:          "vRealize Network Insight on Cloud Foundation"
-subtitle:       "A Reference Design"
+layout:         compress
+title:          "A Reference Design for vRealize Network Insight on Cloud Foundation"
+subtitle:       ""
 date:           2020-12-06 10:30:00
 author:         "Ryan Johnson"
 tags:           [SDDC, vRNI, VVD, VCF]
-published:      false
+published:      true
 ---
 
- []()  | []() 
-------|------
-**Author** | Ryan Johnson
-**Status** | Reference Design
-**Placement** | Cloud Operations Design
-
-<br/>
-
-In the Summer of 2020 (_yeah_...) I spent quite a bit of my spare time digging in and learning adjacent product and cloud technologies. One of the products that landed in my view was vRealize Network Insight. At the same time, my intent was to eventually include this in a VMware Validated Design / VMware Cloud Foundation general release. While the content that I authored during my exploration was not prioritized for an official release, the design was in an `Early Access` format for a Reference Design.
+In the Summer of 2020 I spent quite a bit of my spare time digging in and learning adjacent product and cloud technologies. One of the products that landed in my view was vRealize Network Insight. At the same time, my intent was to eventually include this in a VMware Validated Design / VMware Cloud Foundation general release. While the content that I authored during my exploration was not prioritized for an official release, the design was in an `Early Access` format for a Reference Design.
 
 As a result, I'm happy to share the reference design that follows the same detailed design approach we use in the VMware Validated Design. The design is author with the default design objective to support up to 10K virtual machines and 2M flows but can be scaled up, as needed. In addition, the design can support single-region and future expansion to multi-region (or multi-instance) Cloud Foundation.
 
