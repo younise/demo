@@ -8,7 +8,7 @@ tags:           [SDDC, ADFS, VVD, VCF, vCenter Server, NSX-T, IDP]
 published:      true
 ---
 
-![ADFS Banner]"(../images/adfs-banner.png)
+<img src="../images/adfs-banner.png">
 
 Ever wanted to have a true single sign-on experience with your on-premises VMware Cloud Foundation-based private cloud?
 
@@ -50,39 +50,39 @@ This blog post provides the provides high-level implementation guidance for inte
 
   Below are screenshots from a simple installation in a lab. 
 
-    ![ADFS - Connect Active Directory]"(../images/adfs-connect-ad.png)
+    <img src="../images/adfs-connect-ad.png">
     
     <br/>
 
-    ![ADFS - Service Properties]"(../images/adfs-service-properties.png)
+    <img src="../images/adfs-service-properties.png">
 
     <br/>
 
-    ![ADFS - Add KDSRootKey]"(../images/adfs-add-kdsrootkey.png)
+    <img src="../images/adfs-add-kdsrootkey.png">
 
     <br/>
 
-    ![ADFS - Service Account]"(../images/adfs-service-account.png)
+    <img src="../images/adfs-service-account.png">
 
     <br/>
 
-    ![ADFS - Database]"(../images/adfs-database.png)
+    <img src="../images/adfs-database.png">
 
     <br/>
 
-    ![ADFS - Database]"(../images/adfs-review-options.png)
+    <img src="../images/adfs-review-options.png">
 
     <br/>
 
-    ![ADFS - Checks Passed]"(../images/adfs-checks-passed.png)
+    <img src="../images/adfs-checks-passed.png">
 
     <br/>
 
-    ![ADFS - Configured]"(../images/adfs-configured.png)
+    <img src="../images/adfs-configured.png">
 
     <br/>
 
-    ![ADFS - Properties]"(../images/adfs-properties.png)
+    <img src="../images/adfs-properties.png">
 
     <br/>
 
@@ -90,8 +90,8 @@ This blog post provides the provides high-level implementation guidance for inte
 
   <br/>
 
-  ![ADFS - Login]"(../images/adfs-login.png)
-
+  <img src="../images/adfs-login.png">
+   
   <br/>
 
 **Configuring Microsoft Active Directory Federations Services on Microsoft Windows Server 2019**
