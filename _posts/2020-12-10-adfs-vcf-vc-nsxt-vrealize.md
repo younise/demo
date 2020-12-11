@@ -107,21 +107,30 @@ This blog post provides the provides high-level implementation guidance for inte
 3. Upload a custom Illustration of 1480px x 1080px  (e.g. `C:\Rainpole\ADFS\illustration.jpg`).
 4. Upload a custom icon of 250px x 35px   (e.g. `C:\Rainpole\ADFS\logo.png`).
 5. Set the parameters for the Active Directory Federation Services UX:
-  1. `Set-AdfsGlobalWebContent –CompanyName "Rainpole"`
-  2. `Set-AdfsGlobalWebContent -HelpDeskLink https://support.rainpole.io -HelpDeskLinkText Support`
-  3. `Set-AdfsGlobalWebContent -HomeLink https://rainpole.io -HomeLinkText Home`
-  4. `Set-AdfsGlobalWebContent -PrivacyLink https://rainpole.io/privacy/ -PrivacyLinkText Privacy`
-  5. `Set-AdfsGlobalWebContent -SignInPageDescriptionText "Welcome to Rainpole."`
-  6. `Set-AdfsWebTheme -TargetName custom-centeredui -AdditionalFileResource @{Uri=/adfs/portal/script/paginatedOnload.js;;path="C:\Rainpole\ADFS\Azure-CenteredUI\paginatedOnload.js"}`
-  7. `Set-AdfsWebConfig -ActiveThemeName custom-centeredui`
-  8. `Set-AdfsWebTheme -TargetName custom-centeredui -Illustration @{path="C:\Rainpole\ADFS\illustration.jpg"}`
-  9. `Set-AdfsWebTheme -TargetName custom-centeredui -Logo @{path="C:\Rainpole\ADFS\logo.png"}`
+  
+    `Set-AdfsGlobalWebContent –CompanyName "Rainpole"`
+    
+    `Set-AdfsGlobalWebContent -HelpDeskLink https://support.rainpole.io -HelpDeskLinkText Support`
+    
+    `Set-AdfsGlobalWebContent -HomeLink https://rainpole.io -HomeLinkText Home`
+    
+    `Set-AdfsGlobalWebContent -PrivacyLink https://rainpole.io/privacy/ -PrivacyLinkText Privacy`
+    
+    `Set-AdfsGlobalWebContent -SignInPageDescriptionText "Welcome to Rainpole."`
+    
+    `Set-AdfsWebTheme -TargetName custom-centeredui -AdditionalFileResource @{Uri=/adfs/portal/script/paginatedOnload.js;;path="C:\Rainpole\ADFS\Azure-CenteredUI\paginatedOnload.js"}`
+    
+    `Set-AdfsWebConfig -ActiveThemeName custom-centeredui`
+    
+    `Set-AdfsWebTheme -TargetName custom-centeredui -Illustration @{path="C:\Rainpole\ADFS\illustration.jpg"}`
+    
+    `Set-AdfsWebTheme -TargetName custom-centeredui -Logo @{path="C:\Rainpole\ADFS\logo.png"}`
 
-  <br/>
+    <br/>
 
-  ![ADFS - Login]"(../images/adfs-pretty.png)
+    ![ADFS - Login]"(../images/adfs-pretty.png)
 
-  <br/>
+    <br/>
 
   Now, that is pretty! :)
 
