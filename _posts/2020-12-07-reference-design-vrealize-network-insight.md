@@ -12,8 +12,6 @@ In the Summer of 2020 I spent quite a bit of my spare time digging in and learni
 
 As a result, I'm happy to share the reference design that follows the same detailed design approach we use in the VMware Validated Design. The design is author with the default design objective to support up to 10K virtual machines and 2M flows but can be scaled up, as needed. In addition, the design can support single-region and future expansion to multi-region (or multi-instance) Cloud Foundation.
 
-<br/>
-
 **Applicability**
 
 Product | Interoperability
@@ -21,8 +19,6 @@ Product | Interoperability
 vRealize Network Insight 5.3 | Cloud Foundation 4.0.x _(vRealize Suite Lifecycle Manager 8.1 externally managed)_
 vRealize Network Insight 5.3 | Cloud Foundation 4.1.x _(vRealize Suite Lifecycle Manager 8.1 in integrated Cloud Foundation-mode)_
 vRealize Network Insight 6.0 | Cloud Foundation 4.1.x _(vRealize Suite Lifecycle Manager 8.2 externally managed)_
-
-<br/>
 
 ## **vRealize Network Insight Design**
 
