@@ -128,7 +128,7 @@ This blog post provides the provides high-level implementation guidance for inte
 
     <br/>
 
-    ![ADFS - Login]"(../images/adfs-pretty.png)
+    <img src="../images/adfs-pretty.png">
 
     <br/>
 
