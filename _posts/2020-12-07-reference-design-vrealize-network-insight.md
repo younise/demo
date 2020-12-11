@@ -34,9 +34,9 @@ vRealize Network Insight integrates with NSX Data Center to deliver intelligent 
 
 Figure: Logical Design of a Multi-Region Deployment of vRealize Network Insight
 
-    <img src="https://tenthirtyam.org/images/vrni-logical-design.png">
+<img src="https://tenthirtyam.org/images/vrni-logical-design.png">
     
-    <br/>
+<br/>
 
 The vRealize Network Insight logical components include the following:
 
@@ -355,9 +355,9 @@ This network design has the following features:
 
 Figure: Network Design of the vRealize Network Insight Deployment
 
-    <img src="https://tenthirtyam.org/images/vrni-network-dual-region.png">
+<img src="https://tenthirtyam.org/images/vrni-network-dual-region.png">
     
-    <br/>
+<br/>
 
 vRealize Network Insight does not require an external load-balancer to distribute requests. User access (UI and API) for vRealize Network Insight should be accessed only from the first platform node in a vRealize Network Insight cluster.
 
