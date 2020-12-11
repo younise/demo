@@ -16,7 +16,8 @@ In the Summer of 2020 (_yeah_...) I spent quite a bit of my spare time digging i
 
 This blog post provides the provides high-level implementation guidance for integrating the following with Active Directory Federation Services (AD FS) for Single Sign-On based on VMware Cloud Foundation 4.x and VMware Validated Design 6.x.
 
-- VMware Center Server 7.0 or later via native Active Directory Federation Services integration.
+- VMWare Cloud Foundation 4.1 or later.
+- VMware Center Server 7.0 Update 1 or later via native Active Directory Federation Services integration.
 - VMware NSX-T 3.0 and later via Workspace ONE Access and Active Directory Federation Services as a third-party identity provider integration.
 - VMware vRealize Suite 2019 (8.x) via Workspace ONE Access and Active Directory Federation Services as a third-party identity provider integration.
 
@@ -274,53 +275,21 @@ To obtain the OpenID Address for your Active Directory Federation Services:
 
 #### Import the Certificate for Microsoft Active Directory Federation Services to the vCenter Server
 
-This procedure must be done for the management domain and each workload domain that will integrate with Microsoft Active Directory Federation Services for authentication.
+Starting in vSphere 7.0 Update 1, you can register the certificate to the Trusted Root Certificates Store (also called the VMware Endpoint Certificate Store, or VECS) instead of importing to the Java Keystore required for vSphere 7.0. The Jave Keystore will continue to function, however, vCenter Server is standardizing on using the Trusted Root Certificates Store.
 
-> Note:  In vSphere 7.0 Update 1 there is an ability to import the certificate into VECS.
-
-1. Upload the certificate to vCenter Server using an SFTP client, such as, WinSCP.
-2. Log in to the vCenter Server using an SSH.
+1. Log in with the vSphere Client to the vCenter Server.
 
     **Setting** | **Value**
     ----|----
     FQDN |`sfo-m01-vc01.sfo.rainpole.io`
-    User name | `root`
-    Password |`vcenter_root_password`
+    User name | `administrator@vsphere.local`
+    Password |`sso_admim_password`
 
+2. Navigate to **Administration** > **Certificates** > **Certificate Management**.
+3. Next to **Trusted Root Certificates**, click **Add**.
+Browse for the Microsoft Active Directory Federation Services root certificate and click **Add**.
 
-3. Switch to the shell.
-
-    `Command> shell`
-
-4. Change to the `/usr/java/jre-vmware/bin/` directory.
-
-    `cd /usr/java/jre-vmware/bin/`
-
-5. To import the certificate, run the `keytool` command.
-
-    `keytool -import -trustcacerts -file _certificate_ -alias alias -keystore $VMWARE\_JAVA\_HOME/lib/security/cacerts -storepass changeit`
-
-    Where certificate is the relative path to the uploaded certificate file (e.g. `/tmp/adfs-2.chain.pem`).
-
-    `keytool -import -trustcacerts -file /tmp/adfs-2.chain.pem -alias alias -keystore $VMWARE\_JAVA\_HOME/lib/security/cacerts -storepass changeit`
-
-6. View the certificate in the Java keystore.
-
-    `keytool -list -v -keystore $VMWARE\_JAVA\_HOME/lib/security/cacerts`
-
-7. Restart the **vsphere-ui** service.
-
-    `service-control --stop vsphere-ui`
-
-    `service-control --start vsphere-ui`
-
-8. Restart the **vmware-trustmanagement** service.
-
-    `service-control --start vmware-trustmanagement`
-
-9. Restart the **vmware-stsd** service.
-
-    `service-control --start vmware-stsd`
+    The certificate is added in a panel under Trusted Root Certificates.
 
 #### Configure the Active Directory Federation Services as an Identity Provider
 
