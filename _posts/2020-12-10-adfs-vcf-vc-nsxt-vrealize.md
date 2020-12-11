@@ -29,6 +29,7 @@ This blog post provides the provides high-level implementation guidance for inte
     * There are **NO ISSUES** with vRealize Suite and NSX-T authentication via ADFS.
     * There are **NO ISSUES** with vRealize to vRealize integrations.
     * SDDC Manager does not directly integrate with Active Directory Federations Services. A fresh login will use the SDDC Manager login UI; however, if already logged into vCenter Server only the user name must be provided.
+    * Please, fully test this yourself before deploying into production. :)
 
 ## Microsoft Active Directory Federation Services on Microsoft Windows Server 2019 (AD FS 4.0)
 
