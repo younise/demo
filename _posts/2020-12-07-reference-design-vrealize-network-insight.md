@@ -1,5 +1,5 @@
 ---
-layout:         compress
+layout:         post
 title:          "A Reference Design for vRealize Network Insight on Cloud Foundation"
 subtitle:       ""
 date:           2020-12-06 10:30:00
