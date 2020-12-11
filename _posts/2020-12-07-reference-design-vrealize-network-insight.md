@@ -40,8 +40,6 @@ Figure: Logical Design of a Multi-Region Deployment of vRealize Network Insight
 
 The vRealize Network Insight logical components include the following:
 
-<br/>
-
 Table: vRealize Network Insight Logical Components
 
 **Component** | **Single Availability Zone** | **Multiple Availability Zones**
@@ -54,8 +52,6 @@ Data Sources | - vCenter Server <br/> - NSX-T Data Center <br/> - vRealize Log I
 
 vRealize Network Insight communicates with the vCenter Server, NSX-T Manager instances, and vRealize Log Insight clusters in all regions of the SDDC to collect data, events, and flows that are presented through various views._
 
-<br/>
-
 #### **Logical Design**
 
 In a multi-region SDDC, you deploy a vRealize Network Insight configuration that consists of the following entities.
@@ -66,8 +62,6 @@ In a multi-region SDDC, you deploy a vRealize Network Insight configuration that
 Each region contains its own vRealize Network Insight collector node whose role is to collect data in each region and send the data to the vRealize Network Insight platform node or cluster.
 
 This configuration supports the failover of the vRealize Network Insight platform topology using Site Recovery Manager and vSphere Replication. In the event of a disaster, Site Recovery Manager migrates initialized the recovery of the vRealize Network Insight platform topology in the failover region.
-
-<br/>
 
 ### Deployment Specification of vRealize Network Insight
 
@@ -112,7 +106,6 @@ You size resources for vRealize Network Insight to provide enough resources to a
 
 Deploying one extra-large size vRealize Network Insight platform node satisfies the requirement for monitoring the expected number of objects based on the following assumptions.
 
-<br/>
 
 Table: Design Objectives
 
@@ -125,8 +118,6 @@ Table: Design Objectives
 This design uses an extra-large size for the vRealize Network Insight Platform nodes and a large size for the vRealize Network Insight Collector nodes.
 
 vRealize Network Insight requires and deploys with a 100% CPU and memory reservation according to the following tables.
-
-<br/>
 
 Table: vRealize Network Insight Platform Node CPU, Memory, and Storage Resources
 
@@ -166,8 +157,6 @@ Scale-out the vRealize Network Insight platform node to a cluster with a minimum
 Deploy each vRealize Network Insight collector node as a large-size appliance. | Provides enough capacity to support up to the number of virtual machines and flows per day in the design objectives. |Requires a 100% vCPU and Memory reservation for each vRealize Network Insight collector node -- you must ensure that the first cluster in the management domain is sufficiently sized to support vRealize Network Insight. <br/><br/> When you exceed 10,000 virtual machines and 5,000,000 million flows per day, you must scale-up the collector nodes or add additional collectors and distribute the data sources.
 Scale-up the vRealize Network Insight collector node to extra-large If the number of SDDC objects will exceed the number of virtual machines and flows per day in the design objectives; add additional collector nodes as required. | Ensures that vRealize Network Insight has enough capacity to meet the SDDC growth. | None.
 
-<br/>
-
 #### Data Sources Design in vRealize Network Insight
 
 vRealize Network Insight uses data sources to collect events, metrics, flows, etc. These data sources allow for monitoring specific VMware Software-defined Data Center components and supported physical network solutions.
@@ -203,8 +192,6 @@ For each NSX-T Data Center data source, enable NetFlow for the distributed firew
 For each NSX-T Data Center data source, enable latency metric collection. | Provides the collection of latency metrics from NSX Transport Nodes. | Any firewall rule sets from all ESXi hosts to the vRealize Network Insight collector must allow traffic on TCP 1991.
 On each vRealize Network Insight collector node, configure a vRealize Log Insight data source for each vRealize Log Insight cluster. | Provides the ability to create, modify, update, or delete operations on an NSX-T security group to be quickly discovered by vRealize Log Insight and forwarded to vRealize Network Insight as events where they will are inspected for security group changes. | The vRealize Log Insight content pack for vRealize Network Insight must be installed on each vRealize Log Insight cluster.
 
-<br/>
-
 **Data Retention for vRealize Network Insight**
 
 Configure retention parameters of vRealize Network Insight according to the company policy for compliance and governance.
@@ -231,15 +218,11 @@ Table: Design Decision on Data Retention for vRealize Network Insight
 ---------|----------|----------|----------
 Use the default retention period of 1 month for vRealize Network Insight | Uses the default data retention for vRealize Network Insight. | If you must retain data for an extended period for compliance, audit, or a customer-specific reason, you configure vRealize Network Insight you must use the Enterprise edition of vRealize Network Insight
 
-<br/>
-
 #### Notifications Design for vRealize Network Insight
 
 You configure notifications in vRealize Network Insight to send event messages.
 
 You configure a mail server to deliver outbound SMTP messages to users about system events.
-
-<br/>
 
 Table: Design Decisions on Notifications for vRealize Network Insight
 
@@ -273,8 +256,6 @@ Enable integration from vRealize Operation Manager to vRealize Network Insight a
 <br/>
 
 For information about the design decisions on the service account for the integration of vRealize Network Insight with vRealize Operations Manager, see Service Accounts for vRealize Network Insight.
-
-<br/>
 
 #### Lifecycle Management for vRealize Network Insight
 
@@ -322,8 +303,6 @@ Configure vRealize Network Insight to use the vRealize Log Insight cluster in Re
 Set the vRealize Network Insight platform nodes to use the vRealize Log Insight cluster within the primary region, Region A, or instance. | Allows logs from vRealize Network Insight platform nodes and system events to be forwarded to a local vRealize Log Insight cluster. | During a planned failover or planned failover of vRealize Network Insight, you must update the logging endpoint to the vRealize Log Insight cluster in the recovery region or update the DNS record for the endpoint. |
 Set each vRealize Network collector node to use the vRealize Log Insight cluster within its local region or instance. | Allows logs from vRealize Network Insight collector nodes to be forwarded to a vRealize Log Insight cluster within its region or instance. | None.
 
-<br/>
-
 #### Data Protection Design for vRealize Network Insight
 
 _To preserve the services and functionality when data or system loss occurs, the design supports the use of data protection._
@@ -350,8 +329,6 @@ This network design has the following features:
 - The vRealize Network Insight collector nodes are deployed on the region-specific network in each region. Using the region-specific virtual network segment co-locates collection with the region-specific data sources.
 - vRealize Network Insight has routed access to the VLAN-backed management network through the NSX-T Data Center Tier-0 Gateway.
 - Routing to the VLAN-management network, virtual network segments, and external networks are dynamic and are based on the Border Gateway Protocol (BGP).
-
-<br/>
 
 Figure: Network Design of the vRealize Network Insight Deployment
 
@@ -438,8 +415,6 @@ Configure forward and reverse DNS records for all vRealize Network Insight nodes
 
 **Note** : The design uses an Active Directory forest with two regional Active Directory child domains, so the examples use a hierarchical DNS namespace. However, the design supports the use of a flat DNS namespace.
 
-<br/>
-
 **Time Synchronization**
 
 Time synchronization provided by the Network Time Protocol (NTP) is important to ensure that all components within the SDDC are synchronized to the same time source. Configure the vRealize Network Insight nodes with time synchronization using an internal NTP time source.
@@ -451,8 +426,6 @@ Table: Design Decisions on Time Synchronization for vRealize Network Insight
 **Design Decision** | **Design Justification** | **Design Implication**
 ---------|----------|----------|----------
 Configure NTP on each vRealize Network Insight appliance. | vRealize Network Insight depends on time synchronization. | None
-
-<br/>
 
 ### Information Security and Access Control of vRealize Network Insight
 
@@ -492,8 +465,6 @@ Assign the enterprise group for vRealize Network Insight read-only users (e.g. `
 Create a security group in your corporate directory services for the vRealize Network Insight Auditor role (e.g. `rainpole.io\ug-vrni-auditors`) and synchronize the group in the Workspace ONE Access configuration for vRealize Network Insight. | Streamlines the management of vRealize Network Insight roles for users. | You must create the security group outside of the SDDC stack.
 Assign the enterprise group for vRealize Network Insight read-only users (e.g. `rainpole.io\ug-vrni-auditors`) the **Auditor** role. | Provides the following access control features: <br/> - Access to the vRealize Network Insight user interface is granted to a managed set of individuals that are members of the security group. <br/> - You can introduce improved accountability and tracking organization owner access to vRealize Network Insight. | You must maintain the life cycle and availability of the security group outside of the SDDC stack. |
 
-<br/>
-
 #### Service Accounts Design for vRealize Network Insight
 
 _You add and configure accounts associated with other solutions for activating the vRealize Network Insight cloud accounts and integrations._
@@ -514,8 +485,6 @@ Assign the  **Security Engineer**  role to the vRealize Network Insight-to-NSX-T
 Create a service account (e.g. `svc-vrops-vrni@rainpole.io`) in the directory services, and ensure it is synchronized in the cross-region Workspace ONE Access. | The service account is used for application-to-application communication from vRealize Operations Manager to vRealize Network Insight. | You must maintain the life cycle and availability of the service account outside of the SDDC stack. <br/><br/> You must maintain the synchronization and availability of the service account in Workspace ONE Access.
 Configure a service account (e.g. `svc-vrops-vrni@rainpole.io`) in vRealize Network Insight with the **Member** role, and assign the for application-to-application communication from vRealize Operations Manager-to-vRealize Network Insight. | Provides the following access control features: <br/> - vRealize Operations accesses vRealize Network Insight with the minimum set of required permissions. <br/> - If there is a compromised account, the accessibility in the destination application remains restricted. <br/> - You can introduce improved accountability in tracking request-response interactions between the vRealize Network Insight and the SDDC cloud account. <br/><br/> For information about the required minimum permissions, see the [vRealize Network Insight documentation](https://docs.vmware.com/en/VMware-vRealize-Network-Insight/6.0/com.vmware.vrni.using.doc/GUID-0594CA91-231F-48D6-A5F9-0B1CD63DC71F.html?hWord=N4IghgNiBcIG4CcCmkCWAvJACA9gByQTABdUcA7AZwB1qQBfIA). | You must maintain the life cycle and availability of the service account outside of the SDDC stack.
 
-<br/>
-
 #### Password Management Design for vRealize Network Insight
 
 To ensure continued access to the vRealize Network Insight appliances you must rotate the post-deployment.
@@ -529,8 +498,6 @@ Table: Design Decisions on Password Management for vRealize Network Insight
 Rotate the appliance `support` user password on a schedule post-deployment. | The password for the appliance `support` user account does not expire after the initial deployment. | You must manage the password rotation schedule for the `support` user account following your corporate policies and regulatory standards, as applicable. <br/><br/> You must manage the password rotation schedule on the vRealize Network Insight nodes.
 Rotate the appliance `consoleuser` user password on a schedule post-deployment. | The password for the appliance `consoleuser` user account does not expire after the initial deployment. | You must manage the password rotation schedule for the appliance `consoleuser` account following your corporate policies and regulatory standards, as applicable. <br/><br/> You must manage the password rotation schedule on the vRealize Network Insight nodes.
 Rotate the `admin@local` application user password on a schedule post-deployment. | The password for the default `admin@local` application user account does not expire after the initial deployment. | You must manage the password rotation schedule for the `admin@local application user account following your corporate policies and regulatory standards, as applicable. <br/><br/> You must manage the password rotation schedule on the vRealize Network Insight nodes.
-
-<br/>
 
 #### Certificate Management Design for vRealize Network Insight
 
