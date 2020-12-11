@@ -128,11 +128,7 @@ This blog post provides the provides high-level implementation guidance for inte
     
     `Set-AdfsWebTheme -TargetName custom-centeredui -Logo @{path="C:\Rainpole\ADFS\logo.png"}`
 
-    <br/>
-
-    <img src="https://tenthirtyam.org/images/adfs-pretty.png
-
-    <br/>
+    <img src="https://tenthirtyam.org/images/adfs-pretty.png">
 
   Now, that is pretty! :)
 
@@ -164,11 +160,7 @@ In order to establish a relying party trust between your vCenter Server and your
     
     b. Save the two **Redirect URIs**. The Redirect URIs will be required in a later stage during the configuration of the Application Group in Active Directory Federation Services.
 
-    <br/>
-
     <img src="https://tenthirtyam.org/images/adfs-vc-change-idp.png">
-
-    <br/>
 
 4. Close the pop-up banner.
 5. Repeat the procedure to save the two **Redirect URIs** for each workload domain vCenter Server instance.
