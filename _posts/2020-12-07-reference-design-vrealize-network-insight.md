@@ -5,7 +5,7 @@ subtitle:       ""
 date:           2020-12-06 10:30:00
 author:         "Ryan Johnson"
 tags:           [SDDC, vRNI, VVD, VCF]
-published:      true
+published:      false
 ---
 
 In the Summer of 2020 I spent quite a bit of my spare time digging in and learning adjacent product and cloud technologies. One of the products that landed in my view was vRealize Network Insight. At the same time, my intent was to eventually include this in a VMware Validated Design / VMware Cloud Foundation general release. While the content that I authored during my exploration was not prioritized for an official release, the design was in an `Early Access` format for a Reference Design.
