@@ -16,10 +16,10 @@ In the Summer of 2020 (_yeah_...) I spent quite a bit of my spare time digging i
 
 This blog post provides the provides high-level implementation guidance for integrating the following with Active Directory Federation Services (AD FS) for Single Sign-On based on VMware Cloud Foundation 4.x and VMware Validated Design 6.x.
 
-- VMware Cloud Foundation 4.1 and later.
-- VMware Center Server 7.0 Update 1 and later via native Active Directory Federation Services integration.
-- VMware NSX-T 3.0 and later via Workspace ONE Access and Active Directory Federation Services as a third-party identity provider integration.
-- VMware vRealize Suite 2019 (8.x) and later via Workspace ONE Access and Active Directory Federation Services as a third-party identity provider integration.
+* VMware Cloud Foundation 4.1 and later.
+* VMware Center Server 7.0 Update 1 and later via native Active Directory Federation Services integration.
+* VMware NSX-T 3.0 and later via Workspace ONE Access and Active Directory Federation Services as a third-party identity provider integration.
+* VMware vRealize Suite 2019 (8.x) and later via Workspace ONE Access and Active Directory Federation Services as a third-party identity provider integration.
 
     **IMPORTANT**
 
@@ -43,7 +43,7 @@ This blog post provides the provides high-level implementation guidance for inte
 * A certificate authority-signed certificate for Microsoft Active Directory Federation Services in the `.pfx` format. This is provided by CertGenVVD in the `name.4.p7b` certificate `name.4.pfx`.
 * A Microsoft Windows Server 2019 virtual machine with a static IP address, along with forward-reverse DNS entries for the desired FQDN(s) (e.g. `adfs.rainpole.io == 172.16.1.100`).
 
-#### Implementation
+#### A Simple Example Implementation
 
 > **Note:** This is a simple example of the deployment of Microsoft Active Directory Services (v4.0) on Microsoft Windows Server 2019. A customer production deployment may be more distributed and highly-available.
 
@@ -271,7 +271,7 @@ To obtain the OpenID Address for your Active Directory Federation Services:
 
 #### Import the Certificate for Microsoft Active Directory Federation Services to the vCenter Server
 
-Starting in vSphere 7.0 Update 1, you can register the certificate to the Trusted Root Certificates Store (also called the VMware Endpoint Certificate Store, or VECS) instead of importing to the Java Keystore required for vSphere 7.0. The Jave Keystore will continue to function, however, vCenter Server is standardizing on using the Trusted Root Certificates Store.
+Starting in vSphere 7.0 Update 1, you can register the certificate to the Trusted Root Certificates Store (also called the VMware Endpoint Certificate Store, or VECS) instead of importing to the Java Keystore required for vSphere 7.0. The Java Keystore will continue to function, however, vCenter Server is standardizing on using the Trusted Root Certificates Store.
 
 1. Log in with the vSphere Client to the vCenter Server.
 
@@ -283,7 +283,7 @@ Starting in vSphere 7.0 Update 1, you can register the certificate to the Truste
 
 2. Navigate to **Administration** > **Certificates** > **Certificate Management**.
 3. Next to **Trusted Root Certificates**, click **Add**.
-Browse for the Microsoft Active Directory Federation Services root certificate and click **Add**.
+4. Browse for the Microsoft Active Directory Federation Services root certificate and click **Add**.
 
     The certificate is added in a panel under Trusted Root Certificates.
 
@@ -301,7 +301,9 @@ Browse for the Microsoft Active Directory Federation Services root certificate a
     a. From the **Home** menu, select **Administration**.
     b. Under **Single Sign On**, click **Configuration**.
 3. Select the **Change Identity Provider.**
-The **Configure Main Identity Provider** wizard opens.
+
+    The **Configure Main Identity Provider** wizard opens.
+
 4. Select  **Microsoft ADFS**  and click  **Next**.
 5. Enter the saved information for the following and click **Next**.
 
@@ -337,7 +339,6 @@ Assign global permissions to an Active Directory group in vCenter Server via Mic
     URL | `https://sfo-m01-vc01.sfo.rainpole.io/ui`
     User name | `administrator@vsphere.local`
     Password | `vsphere_admin_password`
-
 
 2. Select **Menu** > **Administration**.
 3. Under **Access Control**, select **Global Permissions**.
@@ -451,8 +452,8 @@ You add you Active Directory with the requisite Workspace ONE Access and configu
     ---|---
     Specify the user DN | `OU=Security Users,DC=rainpole,DC=io`
 
-2. On the **Review** page, click **Edit**, from the **Sync frequency** drop-down menu, select **Every 15 minutes**, and click **Save**.
-3. To initialize the directory import, click **Sync directory**.
+5. On the **Review** page, click **Edit**, from the **Sync frequency** drop-down menu, select **Every 15 minutes**, and click **Save**.
+6. To initialize the directory import, click **Sync directory**.
 
 #### Obtain the VMware Workspace ONE Access SP Metadata
 
@@ -536,6 +537,7 @@ To add VMware Workspace ONE Access to the Active Directory Federation Services f
     * Select the  **Configure claims issuance policy for this application****   **check box and then click ** Close**.
 
     The **Edit Claim Issuance Policy** window appears.
+
 12. Add each of the following two rules:
      
     **E-mail Address Claim Rule**
@@ -551,6 +553,7 @@ To add VMware Workspace ONE Access to the Active Directory Federation Services f
  Next, you add a second rule that transforms the email address attribute in the outgoing claim to the SAML-based format expected by VMware Workspace ONE Access.
 
 **Transform Email Address Claim Rule**
+
   1. Click **Add Rule**.
 
         The Add Transform Claim Rule Wizard appears.
@@ -599,6 +602,7 @@ This concludes the integration of Active Directory Federation Services as a fede
     b. Click **Save**.
     
     The new policy rule appears as **ADFS - SAML Password** in the rules list.
+    
 6. Click **Next**.
 7. Review your changes and then click **Save**.
 
