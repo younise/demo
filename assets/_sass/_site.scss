@@ -19,7 +19,7 @@
   display: table;
   > div {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: text-top;
   }
   .content {
     height: 100%;
@@ -231,7 +231,7 @@ canvas {
         color: $white;
         padding-right: 10px;
         white-space: nowrap;
-        text-align: center;
+        text-align: left;
         strong {
           color: rgba($white, 0.7);
         }
