@@ -268,7 +268,7 @@ To obtain the OpenID Address for your Active Directory Federation Services:
 
 3. Copy and save the results of the returned URL value. Select only the URL portion of the return value. The URL will be required in a later stage during the configuration of the vCenter Server Identity Provider configuration.
 
-### Configuring VMware vCenter Server 7.0 with Microsoft Active Directory Federation Services
+### Configuring VMware vCenter Server 7.0 Update 1 (or later) with Microsoft Active Directory Federation Services
 
 **Prerequisites**
 
