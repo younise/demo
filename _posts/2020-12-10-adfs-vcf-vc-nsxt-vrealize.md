@@ -144,8 +144,6 @@ In order to establish a relying party trust between your vCenter Server and your
 
 #### Obtain the vCenter Server Redirect URIs
 
-<br/>
-
 1. In a Web browser, log in to vCenter Server by using the vSphere Client with an administrator-level account.
 
     **Setting** | **Value**
@@ -165,6 +163,12 @@ In order to establish a relying party trust between your vCenter Server and your
     a. Click the informational icon next to the "Change identity provider" link. Two Redirect URIs are displayed in the pop-up banner.
     
     b. Save the two **Redirect URIs**. The Redirect URIs will be required in a later stage during the configuration of the Application Group in Active Directory Federation Services.
+
+    <br/>
+
+    <img src="https://tenthirtyam.org/images/adfs-vc-change-idp.png
+
+    <br/>
 
 4. Close the pop-up banner.
 5. Repeat the procedure to save the two **Redirect URIs** for each workload domain vCenter Server instance.
