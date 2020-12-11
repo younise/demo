@@ -166,7 +166,7 @@ In order to establish a relying party trust between your vCenter Server and your
 
     <br/>
 
-    <img src="https://tenthirtyam.org/images/adfs-vc-change-idp.png
+    <img src="https://tenthirtyam.org/images/adfs-vc-change-idp.png">
 
     <br/>
 
