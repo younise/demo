@@ -591,17 +591,17 @@ This concludes the integration of Active Directory Federation Services as a fede
 
     The Edit Policy wizard appears.
 
-4. Click  **Next**.
+4. Click **Next**.
 5. On the Configuration page, click the vertical elapse to edit the Web Browser policy rule and create.
 
     a. Specify **ADFS - SAML Password** as the first authentication method and **Password (Local Directory**) as the fallback method. Leave the and user belongs to group(s): option blank to apply the rule to all users.
     
-    b. Click  **Save**.
+    b. Click **Save**.
     
     The new policy rule appears as **ADFS - SAML Password** in the rules list.
 6. Click **Next**.
 7. Review your changes and then click **Save**.
 
-Congratulations, you should now be able to login to all components of the stack using Microsfot Active Directory Federations Services as the Identity Provider!
+Congratulations, you should now be able to login to all components of the stack using Microsoft Active Directory Federations Services as the Identity Provider!
 
 Rock on.
