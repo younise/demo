@@ -16,7 +16,7 @@ In the Summer of 2020 (_yeah_...) I spent quite a bit of my spare time digging i
 
 This blog post provides the provides high-level implementation guidance for integrating the following with Active Directory Federation Services (AD FS) for Single Sign-On based on VMware Cloud Foundation 4.x and VMware Validated Design 6.x.
 
-- VMWare Cloud Foundation 4.1 and later.
+- VMware Cloud Foundation 4.1 and later.
 - VMware Center Server 7.0 Update 1 and later via native Active Directory Federation Services integration.
 - VMware NSX-T 3.0 and later via Workspace ONE Access and Active Directory Federation Services as a third-party identity provider integration.
 - VMware vRealize Suite 2019 (8.x) and later via Workspace ONE Access and Active Directory Federation Services as a third-party identity provider integration.
