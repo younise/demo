@@ -14,7 +14,7 @@ Ever wanted to have a true single sign-on experience with your on-premises VMwar
 
 In the Summer of 2020 (_yeah_...) I spent quite a bit of my spare time digging in and learning adjacent product and cloud technologies. One of the products that landed in my view was Active Directory Federation Services with VMware products.
 
-This blog post provides the provides high-level implementation guidance for integrating the following with Active Directory Federation Services (AD FS) for Single Sign-On based on VMware Cloud Foundation 4.x and VMware Validated Design 6.x.
+This blog post provides implementation guidance for integrating the following with Active Directory Federation Services (AD FS) for Single Sign-On based on VMware Cloud Foundation 4.x and VMware Validated Design 6.x.
 
 * VMware Cloud Foundation 4.1 and later.
 * VMware Center Server 7.0 Update 1 and later via native Active Directory Federation Services integration.
