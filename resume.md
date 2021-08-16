@@ -1,3 +1,9 @@
+---
+layout:         page
+title:          "Resume / CV"
+subtitle:       ""
+permalink:      /resume/
+---
 # RYAN JOHNSON
 
 7609 Refuge Road
