@@ -10,13 +10,17 @@ permalink:      /resume/
 
 Tallahassee, Florida 32312 USA
 
-[ryan@tenthirtyam.org](mailto:ryan@tenthrirtyam.org?subject=Resume%20/%20CV) | +1.407.902.5419 | [tenthirtyam.org](https://tnthirtyam.org/)
+[ryan@tenthirtyam.org](mailto:ryan@tenthrirtyam.org?subject=Resume%20/%20CV
++1.407.902.5419
+[tenthirtyam.org](https://tnthirtyam.org/)
 
 ## EDUCATION
 
 ### Bachelor of Science, Biological Sciences
 
-Sacred Heart University, College of Arts and Sciences | Fairfield, Connecticut
+Sacred Heart University, College of Arts and Sciences
+
+Fairfield, Connecticut
 
 August 1995 - May 1998
 
@@ -34,7 +38,9 @@ Contributing Author, Chapters 11, 12, and 14
 
 Cloud Infrastructure Business Group, Engineering
 
-VMware Inc. | Remote
+VMware Inc.
+
+Remote
 
 November 2016 – Present
 
@@ -69,7 +75,9 @@ Notable contributions:
 
 Cloud Infrastructure Business Group, Technical Marketing
 
-VMware Inc. | Remote
+VMware Inc.
+
+Remote
 
 November 2016 – November 2017 (Staff Architect-level)
 
@@ -92,7 +100,9 @@ November 2014 – July 2016 (Senior Manager-level)
 
 Customer Success, Professional Services
 
-VMware Inc. | Remote
+VMware Inc.
+
+Remote
 
 July 2012 - November 2014 (Staff-level)
 
@@ -112,7 +122,9 @@ April 2010 - July 2012 (Senior-level)
 
 ### Enterprise Architect
 
-Citizens Property Insurance Corporation | Tallahassee, Florida
+Citizens Property Insurance Corporation
+
+Tallahassee, Florida
 
 July 2008 - April 2010
 
@@ -131,7 +143,9 @@ July 2008 - April 2010
 
 ### Senior Systems Architect
 
-Citizens Property Insurance Corporation | Tallahassee, Florida
+Citizens Property Insurance Corporation
+
+Tallahassee, Florida
 
 January 2008 - July 2008 (Employee)
 
@@ -154,7 +168,9 @@ Notable project and accomplishments:
 
 ### Senior Enterprise Consulting Architect
 
-Infinity Software Development | Tallahassee, Florida
+Infinity Software Development
+
+Tallahassee, Florida
 
 May 2005 - December 2007
 
@@ -170,7 +186,9 @@ Notable engagements:
 
 ### Senior Systems Engineer
 
-Aderant | Tallahassee, Florida
+Aderant
+
+Tallahassee, Florida
 
 June 2000 - May 2005
 
@@ -184,7 +202,9 @@ June 2000 - May 2005
 
 ### Senior Systems Engineer
 
-Datamaxx | Tallahassee, Florida
+Datamaxx
+
+Tallahassee, Florida
 
 May 1999 - June 2000
 
@@ -196,7 +216,9 @@ May 1999 - June 2000
 Notable clients: Florida State University, St. Joe Company, Citrix Systems Inc., Frito-Lay, and Tropicana
 
 ### Senior Network Engineer
-The University of Georgia, College of Agricultural &amp; Environmental Sciences | Tifton, Georgia
+The University of Georgia, College of Agricultural &amp; Environmental Sciences
+
+Tifton, Georgia
 
 National Environmentally Sound Production Agriculture Laboratory (NESPAL)
 
@@ -210,7 +232,9 @@ September 1998 - May 1999
 
 ### Forest Ecology Researcher
 
-The Jones Center at Ichauway | Newton, Georgia
+The Jones Center at Ichauway
+
+Newton, Georgia
 
 June 1998 – September 1998
 
@@ -219,7 +243,9 @@ June 1998 – September 1998
 
 ### Network Engineer
 
-Sacred Heart University | Fairfield, Connecticut
+Sacred Heart University
+
+Fairfield, Connecticut
 
 April 1997 - May 1998
 
@@ -230,7 +256,9 @@ April 1997 - May 1998
 
 ### Systems Analyst
 
-Sacred Heart University | Fairfield, Connecticut
+Sacred Heart University
+
+Fairfield, Connecticut
 
 August 1995 - April 1997
 
@@ -291,7 +319,9 @@ Available upon request.
 
 ### Assistant Scoutmaster
 
-Scouts BSA Troop 114 | Tallahassee, Florida
+Scouts BSA Troop 114
+
+Tallahassee, Florida
 
 January 2019 - Present
 
@@ -299,12 +329,16 @@ January 2019 - Present
 
 ### Masters Rowing
 
-Tallahassee Rowing Club | Tallahassee, Florida
+Tallahassee Rowing Club
+
+Tallahassee, Florida
 
 Men&#39;s 4+ and Mixed 8+, 2006 – 2008
 
 ### Varsity Rowing
 
-Sacred Heart University | Fairfield, Connecticut
+Sacred Heart University
+
+Fairfield, Connecticut
 
 Men&#39;s 4+ and 8+, 1995 - 1997
