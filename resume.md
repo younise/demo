@@ -6,42 +6,33 @@ permalink:      /resume/
 ---
 # RYAN JOHNSON
 
-7609 Refuge Road
-
-Tallahassee, Florida 32312 USA
-
-[ryan@tenthirtyam.org](mailto:ryan@tenthrirtyam.org?subject=Resume%20/%20CV
-+1.407.902.5419
+7609 Refuge Road<br/>
+Tallahassee, Florida 32312 USA<br/>
+[ryan@tenthirtyam.org](mailto:ryan@tenthrirtyam.org?subject=Resume%20/%20CV)<br/>
++1.407.902.5419<br/>
 [tenthirtyam.org](https://tnthirtyam.org/)
 
 ## EDUCATION
 
 ### Bachelor of Science, Biological Sciences
 
-Sacred Heart University, College of Arts and Sciences
-
-Fairfield, Connecticut
-
+Sacred Heart University, College of Arts and Sciences<br/>
+Fairfield, Connecticut<br/>
 August 1995 - May 1998
 
 ## PUBLICATIONS
 
-[Mastering vSphere 6.7](https://www.amazon.com/Mastering-VMware-vSphere-Nick-Marshall/dp/1119512948), Wiley Sybex, 2018
-
-Contributing Author, Chapters 11, 12, and 14
-
+[Mastering vSphere 6.7](https://www.amazon.com/Mastering-VMware-vSphere-Nick-Marshall/dp/1119512948), Wiley Sybex, 2018<br/>
+Contributing Author, Chapters 11, 12, and 14<br/>
 [Amazon Author Profile](http://amazon.com/Ryan-Johnson/e/B07D7G52CG/)
 
 ## PROFESSIONAL EXPERIENCE
 
 ### Staff II Solutions Architect
 
-Cloud Infrastructure Business Group, Engineering
-
-VMware Inc.
-
-Remote
-
+Cloud Infrastructure Business Group, Engineering<br/>
+VMware Inc.<br/>
+Remote<br/>
 November 2016 – Present
 
 - Co-author and architect of the detailed designs and prescriptive implementation guidance published as the VMware Validated Designs and VMware Validated Solutions enabling adoption of private and hybrid cloud solutions.
@@ -73,16 +64,11 @@ Notable contributions:
 
 ### Staff Architect
 
-Cloud Infrastructure Business Group, Technical Marketing
-
-VMware Inc.
-
-Remote
-
-November 2016 – November 2017 (Staff Architect-level)
-
-July 2016 – November 2016 (Senior Architect-level)
-
+Cloud Infrastructure Business Group, Technical Marketing<br/>
+VMware Inc.<br/>
+Remote<br/>
+November 2016 – November 2017 (Staff Architect-level)<br/>
+July 2016 – November 2016 (Senior Architect-level)<br/>
 November 2014 – July 2016 (Senior Manager-level)
 
 - Expert and evangelist responsible for in-depth technical enablement, product launch, demonstrations, and conference sessions.
@@ -98,14 +84,10 @@ November 2014 – July 2016 (Senior Manager-level)
 
 ### Staff Technical Account Manager
 
-Customer Success, Professional Services
-
-VMware Inc.
-
-Remote
-
-July 2012 - November 2014 (Staff-level)
-
+Customer Success, Professional Services<br/>
+VMware Inc.<br/>
+Remote<br/>
+July 2012 - November 2014 (Staff-level)<br/>
 April 2010 - July 2012 (Senior-level)
 
 - Customer success advocate providing the expertise, access, and commitment to maximize technology investments and accelerate adoption of cloud technologies.
@@ -122,10 +104,8 @@ April 2010 - July 2012 (Senior-level)
 
 ### Enterprise Architect
 
-Citizens Property Insurance Corporation
-
-Tallahassee, Florida
-
+Citizens Property Insurance Corporation<br/>
+Tallahassee, Florida<br/>
 July 2008 - April 2010
 
 - Established the charter, strategy, services, and governance models for an Enterprise Architecture Program encompassing information, applications, and technology architecture domains.
@@ -143,12 +123,9 @@ July 2008 - April 2010
 
 ### Senior Systems Architect
 
-Citizens Property Insurance Corporation
-
-Tallahassee, Florida
-
-January 2008 - July 2008 (Employee)
-
+Citizens Property Insurance Corporation<br/>
+Tallahassee, Florida<br/>
+January 2008 - July 2008 (Employee)<br/>
 January 2006 - January 2008 (Contractor)
 
 - Responsible for the architecture, engineering, and project management for enterprise technology projects.
@@ -168,10 +145,8 @@ Notable project and accomplishments:
 
 ### Senior Enterprise Consulting Architect
 
-Infinity Software Development
-
-Tallahassee, Florida
-
+Infinity Software Development<br/>
+Tallahassee, Florida<br/>
 May 2005 - December 2007
 
 - Provided technology consulting services for delivery of software solutions and datacenter technology infrastructure.
@@ -186,10 +161,8 @@ Notable engagements:
 
 ### Senior Systems Engineer
 
-Aderant
-
-Tallahassee, Florida
-
+Aderant<br/>
+Tallahassee, Florida<br/>
 June 2000 - May 2005
 
 - Managed projects and delivered enterprise technology solutions for software development company.
@@ -202,10 +175,8 @@ June 2000 - May 2005
 
 ### Senior Systems Engineer
 
-Datamaxx
-
-Tallahassee, Florida
-
+Datamaxx<br/>
+Tallahassee, Florida<br/>
 May 1999 - June 2000
 
 - Designed and implemented enterprise document and image management software solutions.
@@ -216,12 +187,10 @@ May 1999 - June 2000
 Notable clients: Florida State University, St. Joe Company, Citrix Systems Inc., Frito-Lay, and Tropicana
 
 ### Senior Network Engineer
-The University of Georgia, College of Agricultural &amp; Environmental Sciences
 
-Tifton, Georgia
-
-National Environmentally Sound Production Agriculture Laboratory (NESPAL)
-
+The University of Georgia, College of Agricultural &amp; Environmental Sciences<br/>
+Tifton, Georgia<br/>
+National Environmentally Sound Production Agriculture Laboratory (NESPAL)<br/>
 September 1998 - May 1999
 
 - Deployed and managed a Microsoft Windows NT domain and workstation environment for precision agriculture research.
@@ -232,10 +201,8 @@ September 1998 - May 1999
 
 ### Forest Ecology Researcher
 
-The Jones Center at Ichauway
-
-Newton, Georgia
-
+The Jones Center at Ichauway<br/>
+Newton, Georgia<br/>
 June 1998 – September 1998
 
 - Field sampling of Longleaf pine forest controlled-burn and canopy growth, data collection, and lab analysis preparation.
@@ -243,10 +210,8 @@ June 1998 – September 1998
 
 ### Network Engineer
 
-Sacred Heart University
-
-Fairfield, Connecticut
-
+Sacred Heart University<br/>
+Fairfield, Connecticut<br/>
 April 1997 - May 1998
 
 - Managed and monitored university campus LAN/WAN network infrastructure comprising of Windows NT servers/workstations, remote access, file, print and Microsoft Exchange mail servers for 5,000+ students, faculty and staff.
@@ -256,10 +221,8 @@ April 1997 - May 1998
 
 ### Systems Analyst
 
-Sacred Heart University
-
-Fairfield, Connecticut
-
+Sacred Heart University<br/>
+Fairfield, Connecticut<br/>
 August 1995 - April 1997
 
 - Provided software and hardware technical support to a mobile computing program and university campus customers.
@@ -319,26 +282,20 @@ Available upon request.
 
 ### Assistant Scoutmaster
 
-Scouts BSA Troop 114
-
-Tallahassee, Florida
-
+Scouts BSA Troop 114<br/>
+Tallahassee, Florida<br/>
 January 2019 - Present
 
 ## OTHER EXPERIENCE
 
 ### Masters Rowing
 
-Tallahassee Rowing Club
-
-Tallahassee, Florida
-
+Tallahassee Rowing Club<br/>
+Tallahassee, Florida<br/>
 Men&#39;s 4+ and Mixed 8+, 2006 – 2008
 
 ### Varsity Rowing
 
-Sacred Heart University
-
-Fairfield, Connecticut
-
+Sacred Heart University<br/>
+Fairfield, Connecticut<br/>
 Men&#39;s 4+ and 8+, 1995 - 1997
