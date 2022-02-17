@@ -251,7 +251,7 @@ Additional certifications and accreditations available at [credly.com/users/tent
 
 ## AWARDS
 
-- VMware vExpert 2012 – 2021, [VMware vExpert Profile](https://vexpert.vmware.com/directory/1250)
+- VMware vExpert 2012 – 2022, [VMware vExpert Profile](https://vexpert.vmware.com/directory/1250)
 - Certification Subject Matter Expert - Data Center Virtualization 2021 [[Verify](https://www.credly.com/badges/00869f9a-019e-4463-a6b3-fe95e7d4aae4)]
 - Certification Subject Matter Expert - VMware Cloud Foundation 2021 [[Verify](https://www.credly.com/badges/5187f63f-e817-4328-9769-9ae854f3d963)]
 - Certification Subject Matter Expert - Cloud Management and Automation 2019 [[Verify](https://www.credly.com/badges/69befeda-cb83-4726-bbdc-d332236bf159)]
