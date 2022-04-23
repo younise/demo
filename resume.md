@@ -8,7 +8,7 @@ permalink:      /resume/
 Tallahassee, Florida USA<br/>
 [ryan@tenthirtyam.org](mailto:ryan@tenthrirtyam.org?subject=Resume)<br/>
 +1.407.902.5419<br/>
-ghithub/tenthirtyam](https://github.com/tenthirtyam)
+[github/tenthirtyam](https://github.com/tenthirtyam)
 
 ## EDUCATION
 
