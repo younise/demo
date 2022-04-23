@@ -1,10 +1,8 @@
 # RYAN JOHNSON
-
-7609 Refuge Road<br/>
-Tallahassee, Florida 32312 USA<br/>
-[ryan@tenthirtyam.org](mailto:ryan@tenthrirtyam.org?subject=Resume%20/%20CV)<br/>
+Tallahassee, Florida USA<br/>
+[ryan@tenthirtyam.org](mailto:ryan@tenthrirtyam.org?subject=Resume)<br/>
 +1.407.902.5419<br/>
-[tenthirtyam.org](https://tnthirtyam.org/)
+ghithub/tenthirtyam](https://github.com/tenthirtyam)
 
 ## EDUCATION
 
@@ -13,12 +11,6 @@ Tallahassee, Florida 32312 USA<br/>
 Sacred Heart University, College of Arts and Sciences<br/>
 Fairfield, Connecticut<br/>
 August 1995 - May 1998
-
-## PUBLICATIONS
-
-[Mastering vSphere 6.7](https://www.amazon.com/Mastering-VMware-vSphere-Nick-Marshall/dp/1119512948), Wiley Sybex, 2018<br/>
-Contributing Author, Chapters 11, 12, and 14<br/>
-[Amazon Author Profile](http://amazon.com/Ryan-Johnson/e/B07D7G52CG/)
 
 ## PROFESSIONAL EXPERIENCE
 
@@ -223,8 +215,40 @@ August 1995 - April 1997
 - Logged helpdesk requests, carried out fieldwork, repaired and serviced systems.
 - Developed and maintained an intranet website to assist mobile computing customers with information and services.
 
+## PUBLICATIONS
+
+[Mastering vSphere 6.7](https://www.amazon.com/Mastering-VMware-vSphere-Nick-Marshall/dp/1119512948), Wiley Sybex, 2018<br/>
+Contributing Author, Chapters 11, 12, and 14<br/>
+[Amazon Author Profile](http://amazon.com/Ryan-Johnson/e/B07D7G52CG/)
+
+## PUBLICATIONS
+
+Managing L4 Ports<br/>
+VMware Inc. | Palo Alto, California<br/>
+USPTO Applications Filed July 2021<br/>
+17/377,377, 17/377,379, and 17/377,381<br/>
+
+## OPENSOURCE PROJECTS
+
+PowerShell Module for VMware Validated Solutions<br/>
+Co-maintainer | [github.com/vmware-samples](https://github.com/vmware-samples/power-validated-solutions-for-cloud-foundation)<br/>
+August 2021 – Present<br/><br/>
+
+Packer Examples for VMware vSphere<br/>
+Creator and Maintainer | [github.com/vmware-samples](https://github.com/vmware-samples/packer-examples-for-vsphere)<br/>
+November 2020 – Present<br/><br/>
+
+Terraform Provider for VMware vSphere<br/>
+Collaborator and Co-maintainer | [github.com/hashicorp](https://github.com/hashicorp/terraform-provider-vsphere)<br/>
+November 2021 – Present<br/><br/>
+
+Photon OS Packer Templates<br/>
+Co-maintainer | [github.com/vmware/photon-packer-templates](https://github.com/vmware)<br/>
+November 2021 – Present<br/><br/>
+
 ## CERTIFICATIONS &amp; ACCREDITATIONS
 
+- HashiCorp Core Contributor 2022 [[Verify](https://www.credly.com/badges/882f5f6d-7b30-47e4-b119-6d6b11b05eaf)]
 - VMware Certified Implementation Expert, Data Center Virtualization 2021 [[Verify](https://www.credly.com/badges/f3d8c3ba-aee6-459b-b5ef-b48f30210a73)]
 - VMware Certified Implementation Expert, Network Virtualization 2020 [[Verify](https://www.credly.com/badges/e07a82fb-3ec3-4387-8c6d-67e5338d28da)]
 - VMware Certified Advanced Professional, Data Center Virtualization Design 2020 [[Verify](https://www.credly.com/badges/9a5f33df-13ba-46f0-9255-ad169385849c)]
@@ -268,17 +292,18 @@ Additional certifications and accreditations available at [credly.com/users/tent
 - VMworld 2015 US &quot;Top 10&quot; Session, [INF4529](https://www.youtube.com/watch?v=SDaL9Rj32BQ): vSphere Certificate Management for Mere Mortals (vmware.com/go/inf4529)
 - VMworld 2014 US &quot;Top 10&quot; Session, [INF1522](https://www.youtube.com/watch?v=xVvBfqNdMSE): Monitoring the Health, Performance and Efficiency of vSphere
 
-## PROFESSIONAL REFERENCES
-
-Available upon request.
-
 ## VOLUNTEER EXPERIENCE
 
-### Assistant Scoutmaster
+### Assistant Scoutmaster and Advancement Coordinator
 
 Scouts BSA Troop 114<br/>
 Tallahassee, Florida<br/>
 January 2019 - Present
+
+### Set Builder
+
+Young Actors Theatre | Tallahassee, Florida<br/>
+August 2021 – Present
 
 ## OTHER EXPERIENCE
 
@@ -287,9 +312,3 @@ January 2019 - Present
 Tallahassee Rowing Club<br/>
 Tallahassee, Florida<br/>
 Men&#39;s 4+ and Mixed 8+, 2006 – 2008
-
-### Varsity Rowing
-
-Sacred Heart University<br/>
-Fairfield, Connecticut<br/>
-Men&#39;s 4+ and 8+, 1995 - 1997
