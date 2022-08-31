@@ -12,7 +12,7 @@ This is 1030am. A collection of hypertext dispatches on technology, personal int
 
 It is written by Ryan Johnson. An avid technologist based in Tallahassee, Florida USA. Somewhat of a snarky guy, too.
 
-Ryan is a Staff II Solution Architect in the Cloud Platform Business Unit at VMware. He contributes to the engineering of VMware Cloud Foundation, VMware Validated Solutions, the former the VMware Validated Designs, and other engineering initatives. His primary focus is on private and public cloud platforms, cloud automation, and identity and access management. As an accomplished solutions architect his focus is enabling customers and the community to accelerate and simplify their private cloud and multi-cloud infrastructure and automation services.
+Ryan is a Senior Staff Solution Architect in Product Engineering at VMware. He contributes to the engineering of VMware Cloud Foundation, VMware Validated Solutions, the former the VMware Validated Designs, and other engineering initatives. His primary focus is on private and public cloud platforms, cloud automation, and identity and access management. As an accomplished solutions architect his focus is enabling customers and the community to accelerate and simplify their private cloud and multi-cloud infrastructure and automation services.
 
 Ryan is a co-author of the Sybex/Wiley <strong>[Mastering vSphere 6.7](https://www.amazon.com/Mastering-VMware-vSphere-Nick-Marshall/dp/1119512948)</strong> in which he collaborated with his fellow Solution Architects on the [VMware Validated Designs](http://vmware.com/go/vvd-docs) team.
 

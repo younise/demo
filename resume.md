@@ -4,11 +4,10 @@ title:          "Resume / CV"
 subtitle:       ""
 permalink:      /resume/
 ---
-# RYAN JOHNSON
+# RYAN JOHNSON# RYAN JOHNSON
 Tallahassee, Florida USA<br/>
-[ryan@tenthirtyam.org](mailto:ryan@tenthrirtyam.org?subject=Resume)<br/>
-+1.407.902.5419<br/>
-[github/tenthirtyam](https://github.com/tenthirtyam)
+[ryan@tenthirtyam.org](mailto:ryan@tenthrirtyam.org?subject=Resume) | [github/tenthirtyam](https://github.com/tenthirtyam)<br/>
++1.407.902.5419
 
 ## EDUCATION
 
@@ -20,15 +19,16 @@ August 1995 - May 1998
 
 ## PROFESSIONAL EXPERIENCE
 
-### Staff II Solutions Architect
+### Senior Staff Solutions Architect, Product Engineering
 
-Cloud Infrastructure Business Group, Engineering<br/>
 VMware Inc.<br/>
 Remote - Home Office<br/>
-November 2016 – Present
+Auguest 2022 – Present (Senior Staff Architect-level)<br/>
+November 2017 – Auguest 2022 (Staff II Architect-level)<br/>
 
 - Co-author and architect of the detailed designs and prescriptive implementation guidance published as the VMware Validated Designs and VMware Validated Solutions enabling adoption of private and hybrid cloud solutions.
 - Develops infrastructure-as-code examples using Terraform and PowerShell to accelerate the time-to-deploy for solutions.
+- Maintainer of the Terraform provider for VMware vSphere.
 - Identifies opportunities to address gaps in integration, user experience, and feature capabilities for VMware cloud products.
 - Creates enablement in multiple mediums, including technical presentations, blog articles, demo videos, and conceptual graphics.
 - Collaborates with Information Experience technical writers to ensure the highest quality documentation and experience.
@@ -54,9 +54,8 @@ Notable contributions:
 - Key influencer on features and capabilities for lifecycle management of the vRealize Suite.
 - Concept and introduction of the Workspace ONE Access Broker to the private cloud solution stack, solutions architect (ongoing).
 
-### Staff Architect
+### Staff Architect, Technical Marketing
 
-Cloud Infrastructure Business Group, Technical Marketing<br/>
 VMware Inc.<br/>
 Remote - Home Office<br/>
 November 2016 – November 2017 (Staff Architect-level)<br/>
@@ -74,9 +73,8 @@ November 2014 – July 2016 (Senior Manager-level)
 - Collaborated with the product management and engineering teams on technical feedback from partners, customers, field on product features and prioritization.
 - Co-host of the VMware Communities Roundtable Podcast 2015 – 2016
 
-### Staff Technical Account Manager
+### Staff Technical Account Manager, Customer Success
 
-Customer Success, Professional Services<br/>
 VMware Inc.<br/>
 Remote - Home Office<br/>
 July 2012 - November 2014 (Staff-level)<br/>
@@ -238,23 +236,30 @@ USPTO Applications Filed July 2021<br/>
 
 PowerShell Module for VMware Validated Solutions<br/>
 Co-maintainer | [github.com/vmware-samples](https://github.com/vmware-samples/power-validated-solutions-for-cloud-foundation)<br/>
-August 2021 – Present<br/><br/>
+August 2021 – Present<br/>
+
+PowerShell Module for VMware Cloud Foundation<br/>
+Co-maintainer | [github.com/vmware](https://github.com/vmware/powershell-module-for-vmware-cloud-foundation)<br/>
+August 2021 – Present<br/>
 
 Packer Examples for VMware vSphere<br/>
 Creator and Maintainer | [github.com/vmware-samples](https://github.com/vmware-samples/packer-examples-for-vsphere)<br/>
-November 2020 – Present<br/><br/>
+November 2020 – Present<br/>
 
 Terraform Provider for VMware vSphere<br/>
-Collaborator and Co-maintainer | [github.com/hashicorp](https://github.com/hashicorp/terraform-provider-vsphere)<br/>
-November 2021 – Present<br/><br/>
+Maintainer in collaboaration with HashiCorp | [github.com/hashicorp](https://github.com/hashicorp/terraform-provider-vsphere)<br/>
+November 2021 – Present<br/>
+
+Packer Plugin for VMware vSphere<br/>
+External Collaborator with Hashicorp | [github.com/hashicorp](https://github.com/hashicorp/packer-plugin-vsphere)<br/>
 
 Photon OS Packer Templates<br/>
-Co-maintainer | [github.com/vmware/photon-packer-templates](https://github.com/vmware)<br/>
+Maintainer | [github.com/vmware/photon-packer-templates](https://github.com/vmware)<br/>
 November 2021 – Present<br/><br/>
 
 ## CERTIFICATIONS &amp; ACCREDITATIONS
 
-- HashiCorp Core Contributor 2022 [[Verify](https://www.credly.com/badges/882f5f6d-7b30-47e4-b119-6d6b11b05eaf)]
+- HashiCorp Core Contributor 2022 [[Verify](https://www.credly.com/badges/882f5f6d-7b30-47e4-b119-6d6b11b05eaf)] for Terraform and Packer
 - VMware Certified Implementation Expert, Data Center Virtualization 2021 [[Verify](https://www.credly.com/badges/f3d8c3ba-aee6-459b-b5ef-b48f30210a73)]
 - VMware Certified Implementation Expert, Network Virtualization 2020 [[Verify](https://www.credly.com/badges/e07a82fb-3ec3-4387-8c6d-67e5338d28da)]
 - VMware Certified Advanced Professional, Data Center Virtualization Design 2020 [[Verify](https://www.credly.com/badges/9a5f33df-13ba-46f0-9255-ad169385849c)]
@@ -269,7 +274,7 @@ November 2021 – Present<br/><br/>
 - Microsoft Certified, Azure Fundamentals [[Verify](https://www.credly.com/badges/62b31a5a-b37e-4890-960a-8bc91d813891)]
 - Amazon Web Services Certified Solutions Architect Associate [[Verify](https://www.credly.com/badges/b8dfa8e3-5b6a-4adb-9bf8-f91100889817)]
 - Dell Technologies Cloud Architect Cloud Services Expert [[Verify](https://www.credly.com/badges/edf8d717-a354-45d3-9ce7-9afe1cc25114)]
-- American Red Cross Adult and Pediatric First Aid/CPR/AED [[Verify](https://www.redcross.org/take-a-class/qrCode?certnumber=003H043)]
+- American Red Cross Adult and Pediatric First Aid/CPR/AED
 
 Additional certifications and accreditations available at [credly.com/users/tenthirtyam](https://credly.com/users/tenthirtyam).
 
